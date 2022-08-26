@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game name="adobe_bridge">
+  <language name="ar_AE" translation="">
+    <setting name="Display Mode" translation="وضع العرض">
+      <value name="Full-screen" translation="شاشة كاملة" />
+    </setting>
+    <setting name="Resolution" translation="الدقة" />
+    <setting name="Use Software Rendering" translation="استخدام عرض البرنامج">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+  </language>
+  <language name="cs_CZ" translation="">
+    <setting name="Display Mode" translation="Režim zobrazení">
+      <value name="Full-screen" translation="Celá obrazovka" />
+    </setting>
+    <setting name="Resolution" translation="Rozlišení" />
+    <setting name="Use Software Rendering" translation="Použít softwarové renderování">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+  </language>
+  <language name="da_DK" translation="">
+    <setting name="Display Mode" translation="Skærmtilstand">
+      <value name="Full-screen" translation="Fuld skærm" />
+    </setting>
+    <setting name="Resolution" translation="Opløsning" />
+    <setting name="Use Software Rendering" translation="Benyt softwaregengivelse">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+  </language>
+  <language name="de_DE" translation="">
+    <setting name="Display Mode" translation="Anzeigemodus">
+      <value name="Full-screen" translation="Ganzer Bildschirm" />
+    </setting>
+    <setting name="Resolution" translation="Auflösung" />
+    <setting name="Use Software Rendering" translation="Software-Rendering nutzen">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+  </language>
+  <language name="el_GR" translation="">
+    <setting name="Display Mode" translation="Λειτουργία οθόνης">
+      <value name="Full-screen" translation="Πλήρης οθόνη" />
+    </setting>
+    <setting name="Resolution" translation="Ανάλυση" />
+    <setting name="Use Software Rendering" translation="Χρήση φωτοαπόδοσης λογισμικού">
+      <value name="Off" translation="Ανενεργή" />
+      <value name="On" translation="Ενεργή" />
+    </setting>
+  </language>
+  <language name="en_GB" translation="">
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Full-screen" translation="Full-screen" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Use Software Rendering" translation="Use Software Rendering">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+  </language>
+  <language name="en_US" translation="">
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Full-screen" translation="Full-screen" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Use Software Rendering" translation="Use Software Rendering">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+  </language>
+  <language name="es_ES" translation="">
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Use Software Rendering" translation="Utilizar representación de software">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+  </language>
+  <language name="es_MX" translation="">
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Use Software Rendering" translation="Uso de renderizado de software ">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+  </language>
+  <language name="fi_FI" translation="">
+    <setting name="Display Mode" translation="Näyttötila">
+      <value name="Full-screen" translation="Kokonäyttö" />
+    </setting>
+    <setting name="Resolution" translation="Tarkkuus" />
+    <setting name="Use Software Rendering" translation="Käytä ohjelmistopiirtoa">
+      <value name="Off" translation="Pois" />
+      <value name="On" translation="Päällä" />
+    </setting>
+  </language>
+  <language name="fr_FR" translation="">
+    <setting name="Display Mode" translation="Mode d'affichage">
+      <value name="Full-screen" translation="Plein écran" />
+    </setting>
+    <setting name="Resolution" translation="Résolution" />
+    <setting name="Use Software Rendering" translation="Utiliser le rendu logiciel">
+      <value name="Off" translation="Désactivé" />
+      <value name="On" translation="Activé" />
+    </setting>
+  </language>
+  <language name="he_IL" translation="">
+    <setting name="Display Mode" translation="מצב תצוגה">
+      <value name="Full-screen" translation="במלוא שטח הצג" />
+    </setting>
+    <setting name="Resolution" translation="רזולוציה" />
+    <setting name="Use Software Rendering" translation="שימוש בהפקה באמצעות תוכנה">
+      <value name="Off" translation="כבוי" />
+      <value name="On" translation="פועל" />
+    </setting>
+  </language>
+  <language name="hu_HU" translation="">
+    <setting name="Display Mode" translation="Megjelenítési mód">
+      <value name="Full-screen" translation="Teljes képernyős" />
+    </setting>
+    <setting name="Resolution" translation="Felbontás" />
+    <setting name="Use Software Rendering" translation="Szoftveres megjelenítés használata">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+  </language>
+  <language name="it_IT" translation="">
+    <setting name="Display Mode" translation="Modalità di visualizzazione">
+      <value name="Full-screen" translation="Schermo intero" />
+    </setting>
+    <setting name="Resolution" translation="Risoluzione" />
+    <setting name="Use Software Rendering" translation="Utilizza rendering software">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+  </language>
+  <language name="ja_JP" translation="">
+    <setting name="Display Mode" translation="ディスプレイ モード">
+      <value name="Full-screen" translation="フルスクリーン" />
+    </setting>
+    <setting name="Resolution" translation="解像度" />
+    <setting name="Use Software Rendering" translation="ソフトウェア レンダリングの使用">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+  </language>
+  <language name="ko_KR" translation="">
+    <setting name="Display Mode" translation="디스플레이 모드">
+      <value name="Full-screen" translation="전체 화면" />
+    </setting>
+    <setting name="Resolution" translation="해상도" />
+    <setting name="Use Software Rendering" translation="소프트웨어 렌더링 사용">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+  </language>
+  <language name="nb_NO" translation="">
+    <setting name="Display Mode" translation="Skjermmodus">
+      <value name="Full-screen" translation="Full skjerm" />
+    </setting>
+    <setting name="Resolution" translation="Oppløsning" />
+    <setting name="Use Software Rendering" translation="Bruk programvaregjengivelse">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+  </language>
+  <language name="nl_NL" translation="">
+    <setting name="Display Mode" translation="Beeldschermmodus">
+      <value name="Full-screen" translation="Volledig scherm" />
+    </setting>
+    <setting name="Resolution" translation="Resolutie" />
+    <setting name="Use Software Rendering" translation="Softwarerendering gebruiken">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+  </language>
+  <language name="pl_PL" translation="">
+    <setting name="Display Mode" translation="Tryb wyświetlania">
+      <value name="Full-screen" translation="Pełny ekran" />
+    </setting>
+    <setting name="Resolution" translation="Rozdzielczość" />
+    <setting name="Use Software Rendering" translation="Użycie renderowania softwarowego">
+      <value name="Off" translation="Wył." />
+      <value name="On" translation="Wł." />
+    </setting>
+  </language>
+  <language name="pt_BR" translation="">
+    <setting name="Display Mode" translation="Modo de video">
+      <value name="Full-screen" translation="Tela inteira" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+    <setting name="Use Software Rendering" translation="Usar renderização de software">
+      <value name="Off" translation="Desligada" />
+      <value name="On" translation="Ligada" />
+    </setting>
+  </language>
+  <language name="pt_PT" translation="">
+    <setting name="Display Mode" translation="Modo de visualização">
+      <value name="Full-screen" translation="Ecrã inteiro" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+    <setting name="Use Software Rendering" translation="Utilizar apresentação de software">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+  </language>
+  <language name="ru_RU" translation="">
+    <setting name="Display Mode" translation="Экранный режим">
+      <value name="Full-screen" translation="Полный экран" />
+    </setting>
+    <setting name="Resolution" translation="Разрешение" />
+    <setting name="Use Software Rendering" translation="Использовать программный рендеринг">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+  </language>
+  <language name="sk_SK" translation="">
+    <setting name="Display Mode" translation="Režim zobrazenia">
+      <value name="Full-screen" translation="Na celú obrazovku" />
+    </setting>
+    <setting name="Resolution" translation="Rozlíšenie" />
+    <setting name="Use Software Rendering" translation="Používať vykresľovanie snímky">
+      <value name="Off" translation="Vypnuté" />
+      <value name="On" translation="Zapnuté" />
+    </setting>
+  </language>
+  <language name="sl_SI" translation="">
+    <setting name="Display Mode" translation="Zaslonski način">
+      <value name="Full-screen" translation="Celoten zaslon" />
+    </setting>
+    <setting name="Resolution" translation="Ločljivost" />
+    <setting name="Use Software Rendering" translation="Uporabi programski prikaz">
+      <value name="Off" translation="Izklopljen" />
+      <value name="On" translation="Vklopljen" />
+    </setting>
+  </language>
+  <language name="sv_SE" translation="">
+    <setting name="Display Mode" translation="Visningsläge">
+      <value name="Full-screen" translation="Helskärm" />
+    </setting>
+    <setting name="Resolution" translation="Upplösning" />
+    <setting name="Use Software Rendering" translation="Använd programvarurendering">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+  </language>
+  <language name="th_TH" translation="">
+    <setting name="Display Mode" translation="โหมดการแสดงผล">
+      <value name="Full-screen" translation="เต็มหน้าจอ" />
+    </setting>
+    <setting name="Resolution" translation="ความละเอียด" />
+    <setting name="Use Software Rendering" translation="ใช้การแสดงภาพโดยซอฟต์แวร์">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+  </language>
+  <language name="tr_TR" translation="">
+    <setting name="Display Mode" translation="Ekran Modu">
+      <value name="Full-screen" translation="Tam Ekran" />
+    </setting>
+    <setting name="Resolution" translation="Çözünürlük" />
+    <setting name="Use Software Rendering" translation="Yazılımı Kullanarak Görüntü Oluştur">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+  </language>
+  <language name="zh_CHS" translation="">
+    <setting name="Display Mode" translation="显示模式">
+      <value name="Full-screen" translation="全屏幕" />
+    </setting>
+    <setting name="Resolution" translation="分辨率" />
+    <setting name="Use Software Rendering" translation="使用软件渲染">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+  </language>
+  <language name="zh_CHT" translation="">
+    <setting name="Display Mode" translation="顯示模式">
+      <value name="Full-screen" translation="全螢幕" />
+    </setting>
+    <setting name="Resolution" translation="解析度" />
+    <setting name="Use Software Rendering" translation="使用軟體呈現">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+  </language>
+</game>

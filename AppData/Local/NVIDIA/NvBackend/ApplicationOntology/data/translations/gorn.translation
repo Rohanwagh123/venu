@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game name="gorn">
+  <language name="ar_AE" translation="">
+    <setting name="Armor Shatters" translation="تحطم الدروع">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Blur" translation="يصبح غير واضح">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Display Mode" translation="وضع العرض">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="الدقة" />
+  </language>
+  <language name="cs_CZ" translation="">
+    <setting name="Armor Shatters" translation="Roztříštění pancíře">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+    <setting name="Blur" translation="Rozostření">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+    <setting name="Display Mode" translation="Režim zobrazení">
+      <value name="HMD" translation="Náhlavní displej" />
+    </setting>
+    <setting name="Resolution" translation="Rozlišení" />
+  </language>
+  <language name="da_DK" translation="">
+    <setting name="Armor Shatters" translation="Knusning af panser">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="Blur" translation="Slør">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="Display Mode" translation="Skærmtilstand">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Opløsning" />
+  </language>
+  <language name="de_DE" translation="">
+    <setting name="Armor Shatters" translation="Rüstung zerschmettern">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Blur" translation="Unschärfe">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Display Mode" translation="Anzeigemodus">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Auflösung" />
+  </language>
+  <language name="el_GR" translation="">
+    <setting name="Armor Shatters" translation="Θρυμματισμός θωράκισης">
+      <value name="Off" translation="Ανενεργές" />
+      <value name="On" translation="Ενεργές" />
+    </setting>
+    <setting name="Blur" translation="Θόλωμα">
+      <value name="Off" translation="Ανενεργό" />
+      <value name="On" translation="Ενεργό" />
+    </setting>
+    <setting name="Display Mode" translation="Λειτουργία οθόνης">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Ανάλυση" />
+  </language>
+  <language name="en_GB" translation="">
+    <setting name="Armor Shatters" translation="Armour Shatters">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Blur" translation="Blur">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+  </language>
+  <language name="en_US" translation="">
+    <setting name="Armor Shatters" translation="Armor Shatters">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Blur" translation="Blur">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+  </language>
+  <language name="es_ES" translation="">
+    <setting name="Armor Shatters" translation="Destrucción de armadura">
+      <value name="Off" translation="Desactivada" />
+      <value name="On" translation="Activada" />
+    </setting>
+    <setting name="Blur" translation="Desenfoque">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+  </language>
+  <language name="es_MX" translation="">
+    <setting name="Armor Shatters" translation="Destructores de armaduras">
+      <value name="Off" translation="Desactivados" />
+      <value name="On" translation="Activados" />
+    </setting>
+    <setting name="Blur" translation="Desenfoque">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+  </language>
+  <language name="fi_FI" translation="">
+    <setting name="Armor Shatters" translation="Panssarin sirpaleet">
+      <value name="Off" translation="Pois" />
+      <value name="On" translation="Päällä" />
+    </setting>
+    <setting name="Blur" translation="Sumennus">
+      <value name="Off" translation="Pois" />
+      <value name="On" translation="Päällä" />
+    </setting>
+    <setting name="Display Mode" translation="Näyttötila">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Tarkkuus" />
+  </language>
+  <language name="fr_FR" translation="">
+    <setting name="Armor Shatters" translation="Éclats d'armure">
+      <value name="Off" translation="Désactivés" />
+      <value name="On" translation="Activés" />
+    </setting>
+    <setting name="Blur" translation="Flou">
+      <value name="Off" translation="Désactivé" />
+      <value name="On" translation="Activé" />
+    </setting>
+    <setting name="Display Mode" translation="Mode d'affichage">
+      <value name="HMD" translation="Casque" />
+    </setting>
+    <setting name="Resolution" translation="Résolution" />
+  </language>
+  <language name="he_IL" translation="">
+    <setting name="Armor Shatters" translation="שריון מתנפץ">
+      <value name="Off" translation="כבוי" />
+      <value name="On" translation="דלוק" />
+    </setting>
+    <setting name="Blur" translation="טשטוש">
+      <value name="Off" translation="מושבתת" />
+      <value name="On" translation="פועלת" />
+    </setting>
+    <setting name="Display Mode" translation="מצב תצוגה">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="רזולוציה" />
+  </language>
+  <language name="hu_HU" translation="">
+    <setting name="Armor Shatters" translation="Páncéltörés">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Blur" translation="Elmosódás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Display Mode" translation="Megjelenítési mód">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Felbontás" />
+  </language>
+  <language name="it_IT" translation="">
+    <setting name="Armor Shatters" translation="Frantumazione armatura">
+      <value name="Off" translation="Disattivata" />
+      <value name="On" translation="Attivata" />
+    </setting>
+    <setting name="Blur" translation="Sfocatura">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="Display Mode" translation="Modalità di visualizzazione">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Risoluzione" />
+  </language>
+  <language name="ja_JP" translation="">
+    <setting name="Armor Shatters" translation="甲冑の粉砕">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Blur" translation="ぼかし">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Display Mode" translation="ディスプレイ モード">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="解像度" />
+  </language>
+  <language name="ko_KR" translation="">
+    <setting name="Armor Shatters" translation="갑옷 부서짐">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Blur" translation="블러">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Display Mode" translation="디스플레이 모드">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="해상도" />
+  </language>
+  <language name="nb_NO" translation="">
+    <setting name="Armor Shatters" translation="Rustningknuser">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Blur" translation="Uskarphet">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Display Mode" translation="Skjermmodus">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Oppløsning" />
+  </language>
+  <language name="nl_NL" translation="">
+    <setting name="Armor Shatters" translation="Pantser verbrijzelt">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Blur" translation="Vervaging">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Display Mode" translation="Beeldschermmodus">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Resolutie" />
+  </language>
+  <language name="pl_PL" translation="">
+    <setting name="Armor Shatters" translation="Rozbijanie pancerza">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Blur" translation="Rozmycie">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Display Mode" translation="Tryb wyświetlania">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Rozdzielczość" />
+  </language>
+  <language name="pt_BR" translation="">
+    <setting name="Armor Shatters" translation="Estilhaçamento da armadura">
+      <value name="Off" translation="Desligado" />
+      <value name="On" translation="Ligado" />
+    </setting>
+    <setting name="Blur" translation="Desfoque">
+      <value name="Off" translation="Desligado" />
+      <value name="On" translation="Ligado" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de video">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+  </language>
+  <language name="pt_PT" translation="">
+    <setting name="Armor Shatters" translation="Despedaçar armadura">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Blur" translation="Desfocagem">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de visualização">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+  </language>
+  <language name="ru_RU" translation="">
+    <setting name="Armor Shatters" translation="Разрушение брони">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Blur" translation="Размытие">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Display Mode" translation="Экранный режим">
+      <value name="HMD" translation="Шлем виртуальной реальности" />
+    </setting>
+    <setting name="Resolution" translation="Разрешение" />
+  </language>
+  <language name="sk_SK" translation="">
+    <setting name="Armor Shatters" translation="Trieštenie brnenia">
+      <value name="Off" translation="Vypnuté" />
+      <value name="On" translation="Zapnuté" />
+    </setting>
+    <setting name="Blur" translation="Rozostrenie">
+      <value name="Off" translation="Vypnuté" />
+      <value name="On" translation="Zapnuté" />
+    </setting>
+    <setting name="Display Mode" translation="Režim zobrazenia">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Rozlíšenie" />
+  </language>
+  <language name="sl_SI" translation="">
+    <setting name="Armor Shatters" translation="Oklep se raztrešči">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Blur" translation="Zameglitev">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Display Mode" translation="Zaslonski način">
+      <value name="HMD" translation="Naglavna naprava" />
+    </setting>
+    <setting name="Resolution" translation="Ločljivost" />
+  </language>
+  <language name="sv_SE" translation="">
+    <setting name="Armor Shatters" translation="Förstörelse av pansar">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Blur" translation="Oskärpa">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Display Mode" translation="Visningsläge">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Upplösning" />
+  </language>
+  <language name="th_TH" translation="">
+    <setting name="Armor Shatters" translation="เกราะแตก">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+    <setting name="Blur" translation="ภาพมัว">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+    <setting name="Display Mode" translation="โหมดการแสดงผล">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="ความละเอียด" />
+  </language>
+  <language name="tr_TR" translation="">
+    <setting name="Armor Shatters" translation="Zırh Parçaları">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="Blur" translation="Bulanıklaştırma">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="Display Mode" translation="Ekran Modu">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="Çözünürlük" />
+  </language>
+  <language name="zh_CHS" translation="">
+    <setting name="Armor Shatters" translation="装甲粉碎">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="Blur" translation="模糊">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="Display Mode" translation="显示模式">
+      <value name="HMD" translation="HMD" />
+    </setting>
+    <setting name="Resolution" translation="分辨率" />
+  </language>
+  <language name="zh_CHT" translation="">
+    <setting name="Armor Shatters" translation="盔甲碎片">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+    <setting name="Blur" translation="柔邊">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+    <setting name="Display Mode" translation="顯示模式">
+      <value name="HMD" translation="頭戴式顯示器" />
+    </setting>
+    <setting name="Resolution" translation="解析度" />
+  </language>
+</game>

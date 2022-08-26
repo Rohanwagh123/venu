@@ -1,0 +1,42 @@
+ProviderId : bb41bb15-b497-51a2-b61d-63c7570f0afd
+EventId : 0
+Keywords : None
+Level : LogAlways
+Message : 
+Opcode : Info
+Task : 65534
+Version : 0
+Payload : [message : ERROR: Exception in Command Processing for EventSource AnalyticsEventSource: An instance of EventSource with Guid bb41bb15-b497-51a2-b61d-63c7570f0afd already exists.] 
+EventName : EventSourceMessageInfo
+Timestamp : 2022-05-29T01:55:51.1679388Z
+ProcessId : 16000
+ThreadId : 2332
+
+ProviderId : bb41bb15-b497-51a2-b61d-63c7570f0afd
+EventId : 0
+Keywords : None
+Level : LogAlways
+Message : 
+Opcode : Info
+Task : 65534
+Version : 0
+Payload : [message : ERROR: Exception in Command Processing for EventSource AnalyticsEventSource: An instance of EventSource with Guid bb41bb15-b497-51a2-b61d-63c7570f0afd already exists.] 
+EventName : EventSourceMessageInfo
+Timestamp : 2022-05-29T02:41:05.6012193Z
+ProcessId : 8128
+ThreadId : 2108
+
+ProviderId : bb41bb15-b497-51a2-b61d-63c7570f0afd
+EventId : 0
+Keywords : None
+Level : LogAlways
+Message : 
+Opcode : Info
+Task : 65534
+Version : 0
+Payload : [message : ERROR: Exception in Command Processing for EventSource AnalyticsEventSource: An instance of EventSource with Guid bb41bb15-b497-51a2-b61d-63c7570f0afd already exists.] 
+EventName : EventSourceMessageInfo
+Timestamp : 2022-05-29T11:31:50.7860314Z
+ProcessId : 14456
+ThreadId : 18416
+

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game name="adobe_substance_designer">
+  <language name="ar_AE" translation="">
+    <setting name="Display Mode" translation="وضع العرض">
+      <value name="Full-screen" translation="شاشة كاملة" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="تمكين تتبع الأشعة وحدة معالجة الرسوم">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="تسريع وحدة معالجة الرسوم IRay">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Resolution" translation="الدقة" />
+  </language>
+  <language name="cs_CZ" translation="">
+    <setting name="Display Mode" translation="Režim zobrazení">
+      <value name="Full-screen" translation="Celá obrazovka" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Zapnout sledování paprsku GPU">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="Akcelerace IRay GPU">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+    <setting name="Resolution" translation="Rozlišení" />
+  </language>
+  <language name="da_DK" translation="">
+    <setting name="Display Mode" translation="Skærmtilstand">
+      <value name="Full-screen" translation="Fuld skærm" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Aktivér GPU ray tracing">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU-acceleration">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="Resolution" translation="Opløsning" />
+  </language>
+  <language name="de_DE" translation="">
+    <setting name="Display Mode" translation="Anzeigemodus">
+      <value name="Full-screen" translation="Ganzer Bildschirm" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="GPU-Raytracing aktivieren">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU-Beschleunigung">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Resolution" translation="Auflösung" />
+  </language>
+  <language name="el_GR" translation="">
+    <setting name="Display Mode" translation="Λειτουργία οθόνης">
+      <value name="Full-screen" translation="Πλήρης οθόνη" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Ενεργοποίηση ιχνηλάτησης ακτινών GPU">
+      <value name="Off" translation="Ανενεργή" />
+      <value name="On" translation="Ενεργή" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="Επιτάχυνση IRay GPU">
+      <value name="Off" translation="Ανενεργή" />
+      <value name="On" translation="Ενεργή" />
+    </setting>
+    <setting name="Resolution" translation="Ανάλυση" />
+  </language>
+  <language name="en_GB" translation="">
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Full-screen" translation="Full-screen" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Enable GPU raytracing">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU Acceleration">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+  </language>
+  <language name="en_US" translation="">
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Full-screen" translation="Full-screen" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Enable GPU Raytracing">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU Acceleration">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+  </language>
+  <language name="es_ES" translation="">
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Activar trazado de rayos por GPU">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="Aceleración por GPU de IRay">
+      <value name="Off" translation="Desactivada" />
+      <value name="On" translation="Activada" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+  </language>
+  <language name="es_MX" translation="">
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Activar el trazado de rayos de GPU">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="Aceleración de la GPU IRay">
+      <value name="Off" translation="Desactivada" />
+      <value name="On" translation="Activada" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+  </language>
+  <language name="fi_FI" translation="">
+    <setting name="Display Mode" translation="Näyttötila">
+      <value name="Full-screen" translation="Kokonäyttö" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Ota käyttöön grafiikkasuoritin-säteenseuranta">
+      <value name="Off" translation="Pois käytöstä" />
+      <value name="On" translation="Käytössä" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay-grafiikkasuorittimen kiihdytys">
+      <value name="Off" translation="Pois käytöstä" />
+      <value name="On" translation="Käytössä" />
+    </setting>
+    <setting name="Resolution" translation="Tarkkuus" />
+  </language>
+  <language name="fr_FR" translation="">
+    <setting name="Display Mode" translation="Mode d'affichage">
+      <value name="Full-screen" translation="Plein écran" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Activer le ray-tracing via processeur graphique">
+      <value name="Off" translation="Désactivé" />
+      <value name="On" translation="Activé" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="Accélération du processeur graphique IRay">
+      <value name="Off" translation="Désactivée" />
+      <value name="On" translation="Activée" />
+    </setting>
+    <setting name="Resolution" translation="Résolution" />
+  </language>
+  <language name="he_IL" translation="">
+    <setting name="Display Mode" translation="מצב תצוגה">
+      <value name="Full-screen" translation="במלוא שטח הצג" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="מפעילה מעקב קרניים באמצעות GPU">
+      <value name="Off" translation="כבויה" />
+      <value name="On" translation="פועלת" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="האצת IRay GPU">
+      <value name="Off" translation="כבויה" />
+      <value name="On" translation="פועלת" />
+    </setting>
+    <setting name="Resolution" translation="רזולוציה" />
+  </language>
+  <language name="hu_HU" translation="">
+    <setting name="Display Mode" translation="Megjelenítési mód">
+      <value name="Full-screen" translation="Teljes képernyős" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="GPU sugárkövetés engedélyezése">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU-gyorsítás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Resolution" translation="Felbontás" />
+  </language>
+  <language name="it_IT" translation="">
+    <setting name="Display Mode" translation="Modalità di visualizzazione">
+      <value name="Full-screen" translation="Schermo intero" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Abilita ray tracing GPU">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="Accelerazione GPU IRay">
+      <value name="Off" translation="Disattivata" />
+      <value name="On" translation="Attivata" />
+    </setting>
+    <setting name="Resolution" translation="Risoluzione" />
+  </language>
+  <language name="ja_JP" translation="">
+    <setting name="Display Mode" translation="ディスプレイ モード">
+      <value name="Full-screen" translation="フルスクリーン" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="GPU レイトレーシングを有効にする">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU アクセラレーション">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Resolution" translation="解像度" />
+  </language>
+  <language name="ko_KR" translation="">
+    <setting name="Display Mode" translation="디스플레이 모드">
+      <value name="Full-screen" translation="전체 화면" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="GPU 레이 트레이싱 활성화">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU 가속">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Resolution" translation="해상도" />
+  </language>
+  <language name="nb_NO" translation="">
+    <setting name="Display Mode" translation="Skjermmodus">
+      <value name="Full-screen" translation="Full skjerm" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Aktiver GPU-strålesporing">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU-akselerasjon">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Resolution" translation="Oppløsning" />
+  </language>
+  <language name="nl_NL" translation="">
+    <setting name="Display Mode" translation="Beeldschermmodus">
+      <value name="Full-screen" translation="Volledig scherm" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="GPU-raytracing inschakelen">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU-versnelling">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Resolution" translation="Resolutie" />
+  </language>
+  <language name="pl_PL" translation="">
+    <setting name="Display Mode" translation="Tryb wyświetlania">
+      <value name="Full-screen" translation="Pełny ekran" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Włącz śledzenie promieni przez kartę graficzną">
+      <value name="Off" translation="Wył." />
+      <value name="On" translation="Wł." />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="Przyspieszenie efektów IRay przez kartę graficzną">
+      <value name="Off" translation="Wył." />
+      <value name="On" translation="Wł." />
+    </setting>
+    <setting name="Resolution" translation="Rozdzielczość" />
+  </language>
+  <language name="pt_BR" translation="">
+    <setting name="Display Mode" translation="Modo de video">
+      <value name="Full-screen" translation="Tela inteira" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Ativar ray tracing de GPU">
+      <value name="Off" translation="Desligadas" />
+      <value name="On" translation="Ligadas" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="Aceleração por GPU do IRay">
+      <value name="Off" translation="Desligadas" />
+      <value name="On" translation="Ligadas" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+  </language>
+  <language name="pt_PT" translation="">
+    <setting name="Display Mode" translation="Modo de visualização">
+      <value name="Full-screen" translation="Ecrã inteiro" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Activar trajectografia da GPU">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="Aceleração IRay por GPU">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+  </language>
+  <language name="ru_RU" translation="">
+    <setting name="Display Mode" translation="Экранный режим">
+      <value name="Full-screen" translation="Полный экран" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Включить трассировку лучей с помощью ГП">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="Ускорение IRay для ГП">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Resolution" translation="Разрешение" />
+  </language>
+  <language name="sk_SK" translation="">
+    <setting name="Display Mode" translation="Režim zobrazenia">
+      <value name="Full-screen" translation="Na celú obrazovku" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Zapnúť sledovanie lúčov procesora GPU">
+      <value name="Off" translation="Vypnuté" />
+      <value name="On" translation="Zapnuté" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="Urýchľovanie IRay jednotky GPU">
+      <value name="Off" translation="Vypnuté" />
+      <value name="On" translation="Zapnuté" />
+    </setting>
+    <setting name="Resolution" translation="Rozlíšenie" />
+  </language>
+  <language name="sl_SI" translation="">
+    <setting name="Display Mode" translation="Zaslonski način">
+      <value name="Full-screen" translation="Celoten zaslon" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Omogoči sledenje žarkov grafičnega procesorja">
+      <value name="Off" translation="Izklopljeno" />
+      <value name="On" translation="Vklopljeno" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="Pospeševanje grafičnega procesorja IRay">
+      <value name="Off" translation="Izklopljeno" />
+      <value name="On" translation="Vklopljeno" />
+    </setting>
+    <setting name="Resolution" translation="Ločljivost" />
+  </language>
+  <language name="sv_SE" translation="">
+    <setting name="Display Mode" translation="Visningsläge">
+      <value name="Full-screen" translation="Helskärm" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="Aktivera GPU-strålspårning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU-acceleration">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Resolution" translation="Upplösning" />
+  </language>
+  <language name="th_TH" translation="">
+    <setting name="Display Mode" translation="โหมดการแสดงผล">
+      <value name="Full-screen" translation="เต็มหน้าจอ" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="เปิดใช้งานการติดตามลำแสงของหน่วยประมวลผลกราฟิก">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="การเร่งความเร็วหน่วยประมวลผลกราฟิก IRay">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+    <setting name="Resolution" translation="ความละเอียด" />
+  </language>
+  <language name="tr_TR" translation="">
+    <setting name="Display Mode" translation="Ekran Modu">
+      <value name="Full-screen" translation="Tam Ekran" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="GPU ışın izlemesini etkinleştirir">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU Hızlandırma">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="Resolution" translation="Çözünürlük" />
+  </language>
+  <language name="zh_CHS" translation="">
+    <setting name="Display Mode" translation="显示模式">
+      <value name="Full-screen" translation="全屏幕" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="启用GPU光线跟踪">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU加速">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="Resolution" translation="分辨率" />
+  </language>
+  <language name="zh_CHT" translation="">
+    <setting name="Display Mode" translation="顯示模式">
+      <value name="Full-screen" translation="全螢幕" />
+    </setting>
+    <setting name="Enable GPU Raytracing" translation="啟用 GPU 光線追蹤法">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+    <setting name="IRay GPU Acceleration" translation="IRay GPU 加速">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+    <setting name="Resolution" translation="解析度" />
+  </language>
+</game>

@@ -1,0 +1,2468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game name="battlefield_4">
+  <language name="ar_AE" translation="">
+    <setting name="Ambient Occlusion" translation="إطباق محيطي">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="تأجيل منع الترادف">
+      <value name="2x MSAA" translation="2× MSAA" />
+      <value name="4x MSAA" translation="4× MSAA" />
+      <value name="Off" translation="إيقاف تشغيل" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="نشر منع الترادف">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Off" translation="إيقاف تشغيل" />
+    </setting>
+    <setting name="Display Mode" translation="وضع العرض">
+      <value name="Full-screen" translation="شاشة كاملة" />
+      <value name="Windowed" translation="مزود بإطارات" />
+      <value name="Windowed Borderless" translation="نافذة بلا حدود" />
+    </setting>
+    <setting name="Effects Quality" translation="جودة التأثيرات">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Ultra" translation="فائق" />
+    </setting>
+    <setting name="Graphics Quality" translation="جودة الرسومات">
+      <value name="Auto" translation="تلقائي" />
+      <value name="Custom" translation="مخصص" />
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Ultra" translation="فائق" />
+    </setting>
+    <setting name="Lighting Quality" translation="جودة الإضاءة">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Ultra" translation="ألترا" />
+    </setting>
+    <setting name="Mesh Quality" translation="جودة الشبكة">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Ultra" translation="فائق" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="منع الترادف للعينات متعددة الإطارات لـ NVIDIA">
+      <value name="Off" translation="إيقاف" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Post-process Quality" translation="جودة المعالجة اللاحقة">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Ultra" translation="ألترا" />
+    </setting>
+    <setting name="Resolution" translation="الدقة" />
+    <setting name="Resolution Scale" translation="معيار الدقة" />
+    <setting name="Terrain Decoration" translation="زخرفة الحقل">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Ultra" translation="فائق" />
+    </setting>
+    <setting name="Terrain Quality" translation="جودة الحقل">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Ultra" translation="فائق" />
+    </setting>
+    <setting name="Texture Filtering" translation="تصفية مواد الصور">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Ultra" translation="ألترا" />
+    </setting>
+    <setting name="Texture Quality" translation="جودة مواد الصور">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Ultra" translation="فائق" />
+    </setting>
+  </language>
+  <language name="cs_CZ" translation="">
+    <setting name="Ambient Occlusion" translation="Okolní prostředí">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Vypnuto" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Vyhlazování hran odloženo">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Vypnuto" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Post-processing vyhlazování hran">
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízké" />
+      <value name="Medium" translation="Střední" />
+      <value name="Off" translation="Vypnuto" />
+    </setting>
+    <setting name="Display Mode" translation="Režim zobrazení">
+      <value name="Full-screen" translation="Celá obrazovka" />
+      <value name="Windowed" translation="V okně" />
+      <value name="Windowed Borderless" translation="V okně bez okrajů" />
+    </setting>
+    <setting name="Effects Quality" translation="Kvalita efektů">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Kvalita grafiky">
+      <value name="Auto" translation="Auto" />
+      <value name="Custom" translation="Vlastní" />
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Kvalita osvětlení">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Kvalita sítě">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Technologie vyhlazování hran NVIDIA Multi-Frame Sampled Anti-aliasing">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+    <setting name="Post-process Quality" translation="Kvalita post-processingu">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Rozlišení" />
+    <setting name="Resolution Scale" translation="Měřítko rozlišení" />
+    <setting name="Terrain Decoration" translation="Dekorace terénu">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Kvalita terénu">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtrování textur">
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízké" />
+      <value name="Medium" translation="Střední" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Kvalita textury">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="da_DK" translation="">
+    <setting name="Ambient Occlusion" translation="Omgivende tillukning">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Fra" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Anti-aliasing udskudt">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Fra" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Anti-aliasing efter">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Off" translation="Fra" />
+    </setting>
+    <setting name="Display Mode" translation="Skærmtilstand">
+      <value name="Full-screen" translation="Fuld skærm" />
+      <value name="Windowed" translation="Vinduesopdelt" />
+      <value name="Windowed Borderless" translation="Vinduesopdelt rammeløst" />
+    </setting>
+    <setting name="Effects Quality" translation="Effektkvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Grafikkvalitet">
+      <value name="Auto" translation="Automatisk" />
+      <value name="Custom" translation="Brugerdefineret" />
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Belysningskvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Netkvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA udjævning med prøvetagning fra flere billeder">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="Post-process Quality" translation="Efterbehandlingskvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Opløsning" />
+    <setting name="Resolution Scale" translation="Opløsningsskala" />
+    <setting name="Terrain Decoration" translation="Terrændekoration">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Terrænkvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Teksturfiltrering">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Teksturkvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="de_DE" translation="">
+    <setting name="Ambient Occlusion" translation="Umgebungsverdeckung">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Aus" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Antialiasing zurückgestellt">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Aus" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Antialiasing – Nachbearbeitung">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Off" translation="Aus" />
+    </setting>
+    <setting name="Display Mode" translation="Anzeigemodus">
+      <value name="Full-screen" translation="Ganzer Bildschirm" />
+      <value name="Windowed" translation="Fenster" />
+      <value name="Windowed Borderless" translation="In Fenster ohne Rand" />
+    </setting>
+    <setting name="Effects Quality" translation="Effektqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Grafikqualität">
+      <value name="Auto" translation="Automatisch" />
+      <value name="Custom" translation="Benutzerdefiniert" />
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Beleuchtungsqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Netzqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Multi-Frame-Sample Anti-aliasing">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Post-process Quality" translation="Nachbearbeitungsqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Auflösung" />
+    <setting name="Resolution Scale" translation="Auslösungsskalierung" />
+    <setting name="Terrain Decoration" translation="Gelände-Gestaltung">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Gelände-Qualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Texturfilterung">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Texturqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="el_GR" translation="">
+    <setting name="Ambient Occlusion" translation="Περιβαλλοντική έμφραξη">
+      <value name="HBAO" translation="Περιβαλλοντική έμφραξη με βάση τον ορίζοντα" />
+      <value name="Off" translation="Ανενεργή" />
+      <value name="SSAO" translation="Περιβαλλοντική έμφραξη χώρου οθόνης" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Μετατεθημένη εξομάλυνση ορίων">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Ανενεργή" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Μεταγενέστερη εξομάλυνση ορίων">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Off" translation="Ανενεργή" />
+    </setting>
+    <setting name="Display Mode" translation="Λειτουργία οθόνης">
+      <value name="Full-screen" translation="Πλήρης οθόνη" />
+      <value name="Windowed" translation="Με παράθυρα" />
+      <value name="Windowed Borderless" translation="Παράθυρο χωρίς όρια" />
+    </setting>
+    <setting name="Effects Quality" translation="Ποιότητα εφέ">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Ultra" translation="Εξαιρετική" />
+    </setting>
+    <setting name="Graphics Quality" translation="Ποιότητα γραφικών">
+      <value name="Auto" translation="Αυτόματη" />
+      <value name="Custom" translation="Προσαρμοσμένη" />
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Ultra" translation="Εξαιρετική" />
+    </setting>
+    <setting name="Lighting Quality" translation="Ποιότητα φωτισμού">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Ultra" translation="Εξαιρετική" />
+    </setting>
+    <setting name="Mesh Quality" translation="Ποιότητα δίχτυ">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Ultra" translation="Εξαιρετική" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Εξομάλυνση ορίων πολλαπλών καρέ με δειγματοληψία NVIDIA">
+      <value name="Off" translation="Ανενεργή" />
+      <value name="On" translation="Ενεργή" />
+    </setting>
+    <setting name="Post-process Quality" translation="Μετεπεξεργαστική ποιότητα">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Ultra" translation="Εξαιρετική" />
+    </setting>
+    <setting name="Resolution" translation="Ανάλυση" />
+    <setting name="Resolution Scale" translation="Κλιμάκωση ανάλυσης" />
+    <setting name="Terrain Decoration" translation="Διακόσμηση εδάφους">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Ultra" translation="Εξαιρετική" />
+    </setting>
+    <setting name="Terrain Quality" translation="Ποιότητα εδάφους">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Ultra" translation="Εξαιρετική" />
+    </setting>
+    <setting name="Texture Filtering" translation="Φιλτράρισμα υφής">
+      <value name="High" translation="Υψηλό" />
+      <value name="Low" translation="Χαμηλό" />
+      <value name="Medium" translation="Μεσαίο" />
+      <value name="Ultra" translation="Εξαιρετικό" />
+    </setting>
+    <setting name="Texture Quality" translation="Ποιότητα υφής">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Ultra" translation="Εξαιρετική" />
+    </setting>
+  </language>
+  <language name="en_GB" translation="">
+    <setting name="Ambient Occlusion" translation="Ambient Occlusion">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Off" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Antialiasing Deferred">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Antialiasing Post">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Full-screen" translation="Full-screen" />
+      <value name="Windowed" translation="Windowed" />
+      <value name="Windowed Borderless" translation="Windowed Borderless" />
+    </setting>
+    <setting name="Effects Quality" translation="Effects Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Graphics Quality">
+      <value name="Auto" translation="Auto" />
+      <value name="Custom" translation="Custom" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Lighting Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Mesh Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Multi-Frame Sampled Anti-aliasing">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Post-process Quality" translation="Post-process Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Resolution Scale" translation="Resolution Scale" />
+    <setting name="Terrain Decoration" translation="Terrain Decoration">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Terrain Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Texture Filtering">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Texture Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="en_US" translation="">
+    <setting name="Ambient Occlusion" translation="Ambient Occlusion">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Off" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Anti-aliasing Deferred">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Anti-aliasing Post">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Full-screen" translation="Full-screen" />
+      <value name="Windowed" translation="Windowed" />
+      <value name="Windowed Borderless" translation="Windowed Borderless" />
+    </setting>
+    <setting name="Effects Quality" translation="Effects Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Graphics Quality">
+      <value name="Auto" translation="Auto" />
+      <value name="Custom" translation="Custom" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Lighting Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Mesh Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Multi-Frame Sampled Anti-aliasing">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Post-process Quality" translation="Post-process Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Resolution Scale" translation="Resolution Scale" />
+    <setting name="Terrain Decoration" translation="Terrain Decoration">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Terrain Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Texture Filtering">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Texture Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="es_ES" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusión ambiental">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Desactivado" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Antialiasing diferido">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Desactivado" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Postprocesamiento de antialiasing">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Medio" />
+      <value name="Off" translation="Desactivado" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+      <value name="Windowed" translation="En ventana" />
+      <value name="Windowed Borderless" translation="Sin bordes en ventana" />
+    </setting>
+    <setting name="Effects Quality" translation="Calidad de efectos">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Calidad de gráficos">
+      <value name="Auto" translation="Automática" />
+      <value name="Custom" translation="Personalizado" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Calidad de iluminación">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Media" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Calidad de malla">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Antialiasing de muestras de trama múltiple de NVIDIA">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Post-process Quality" translation="Calidad de posprocesamiento">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Media" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Resolution Scale" translation="Escala de resolución" />
+    <setting name="Terrain Decoration" translation="Decoración del terreno">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Calidad del terreno">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtrado de textura">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Calidad de textura">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="es_MX" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusión ambiental">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Desactivado" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Suavizado (anti-aliasing) diferido">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Desactivado" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Suavizado (anti-aliasing) posprocesamiento">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Off" translation="Desactivado" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+      <value name="Windowed" translation="En ventana" />
+      <value name="Windowed Borderless" translation="En ventana sin borde" />
+    </setting>
+    <setting name="Effects Quality" translation="Calidad de los efectos">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Media" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Calidad de gráficos">
+      <value name="Auto" translation="Automático" />
+      <value name="Custom" translation="Personalizado" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Calidad de la iluminación">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Calidad de la malla">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Suavizado de líneas muestreado por múltiples tramas de NVIDIA">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Post-process Quality" translation="Calidad de posprocesamiento">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Media" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Resolution Scale" translation="Escala de resolución" />
+    <setting name="Terrain Decoration" translation="Decoración del terreno">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Calidad del terreno">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtrado de textura">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Calidad de la textura">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Media" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="fi_FI" translation="">
+    <setting name="Ambient Occlusion" translation="Ympäristön sulkeminen">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Pois" />
+      <value name="SSAO" translation="Näytön tilan ympäristön sulkeminen (SSAO)" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Reunanpehmennys lykätty">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Pois" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Jälkikäsittelyn reunanpehmennys">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Off" translation="Pois" />
+    </setting>
+    <setting name="Display Mode" translation="Näyttötila">
+      <value name="Full-screen" translation="Kokonäyttö" />
+      <value name="Windowed" translation="Ikkuna" />
+      <value name="Windowed Borderless" translation="Kehyksetön ikkuna" />
+    </setting>
+    <setting name="Effects Quality" translation="Tehosteiden laatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Grafiikan laatu">
+      <value name="Auto" translation="Automaattinen" />
+      <value name="Custom" translation="Mukautettu" />
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Valaistuksen laatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Verkon laatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIAn MFAA-reunanpehmennys (moniruutuinen näytteen reunanpehmennys)">
+      <value name="Off" translation="Pois" />
+      <value name="On" translation="Päällä" />
+    </setting>
+    <setting name="Post-process Quality" translation="Jälkikäsittelylaatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Normaali" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Tarkkuus" />
+    <setting name="Resolution Scale" translation="Tarkkuusasteikko" />
+    <setting name="Terrain Decoration" translation="Maaston koristelu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Maaston laatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Kuviosuodatus">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Pintakuvion laatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="fr_FR" translation="">
+    <setting name="Ambient Occlusion" translation="Occlusion ambiante">
+      <value name="HBAO" translation="Occlusion sur l’horizon" />
+      <value name="Off" translation="Désactivée" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Anticrénelage différé">
+      <value name="2x MSAA" translation="2x Anticrénelage multi-échantillons" />
+      <value name="4x MSAA" translation="4x Anticrénelage multi-échantillons" />
+      <value name="Off" translation="Désactivé" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Anticrénelage post-traitement">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Off" translation="Désactivé" />
+    </setting>
+    <setting name="Display Mode" translation="Mode d'affichage">
+      <value name="Full-screen" translation="Plein écran" />
+      <value name="Windowed" translation="Fenêtré" />
+      <value name="Windowed Borderless" translation="Fenêtré sans bordure" />
+    </setting>
+    <setting name="Effects Quality" translation="Qualité des effets">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyen" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Qualité des graphiques">
+      <value name="Auto" translation="Auto" />
+      <value name="Custom" translation="Personnalisé" />
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Qualité de l'éclairage">
+      <value name="High" translation="Élevée" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Qualité du maillage">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Anti-crénelage à échantillonnage sur plusieurs frames (MFAA)">
+      <value name="Off" translation="Désactivé" />
+      <value name="On" translation="Activé" />
+    </setting>
+    <setting name="Post-process Quality" translation="Qualité de post-traitement">
+      <value name="High" translation="Élevée" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Résolution" />
+    <setting name="Resolution Scale" translation="Échelle de résolution" />
+    <setting name="Terrain Decoration" translation="Décoration du terrain">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Qualité du terrain">
+      <value name="High" translation="Élevée" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtrage de texture">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyen" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualité des textures">
+      <value name="High" translation="Élevée" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="he_IL" translation="">
+    <setting name="Ambient Occlusion" translation="הצללה בשיטה 'הסתרה סביבתית'">
+      <value name="HBAO" translation="ביחס לאופק" />
+      <value name="Off" translation="מושבתת" />
+      <value name="SSAO" translation="הסתרה סביבתית של שטח תצוגה" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="החלקת שינון באמצעות מולטיסמפלינג">
+      <value name="2x MSAA" translation="מולטיסמפלינג 2x" />
+      <value name="4x MSAA" translation="מולטיסמפלינג 4x" />
+      <value name="Off" translation="מושבת" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="החלקת שינון באמצעות עיבוד נוסף">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Off" translation="מושבתת" />
+    </setting>
+    <setting name="Display Mode" translation="מצב תצוגה">
+      <value name="Full-screen" translation="במלוא שטח הצג" />
+      <value name="Windowed" translation="תצוגה בחלון" />
+      <value name="Windowed Borderless" translation="חלונות ללא מסגרת" />
+    </setting>
+    <setting name="Effects Quality" translation="איכות אפקטים">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Graphics Quality" translation="איכות הגרפיקה">
+      <value name="Auto" translation="אוטומטית" />
+      <value name="Custom" translation="התאמה אישית" />
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Lighting Quality" translation="איכות תאורה">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Mesh Quality" translation="איכות הרשת">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="החלקת שינון באמצעות דגימה מרובת מסגרות של NVIDIA">
+      <value name="Off" translation="כבוי" />
+      <value name="On" translation="מופעל" />
+    </setting>
+    <setting name="Post-process Quality" translation="איכות עיבוד נוסף">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוך" />
+      <value name="Medium" translation="איכות בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Resolution" translation="רזולוציה" />
+    <setting name="Resolution Scale" translation="סקלת רזולוציה" />
+    <setting name="Terrain Decoration" translation="עיטור פני הקרקע">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Terrain Quality" translation="איכות פני הקרקע">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Texture Filtering" translation="סינון מרקמים">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+    <setting name="Texture Quality" translation="סינון מרקמים - איכות">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra" translation="אולטרה" />
+    </setting>
+  </language>
+  <language name="hu_HU" translation="">
+    <setting name="Ambient Occlusion" translation="Környezeti kitakarás">
+      <value name="HBAO" translation="Horizont alapú környezetkitakarás" />
+      <value name="Off" translation="Ki" />
+      <value name="SSAO" translation="Képernyõtéri környezeti kitakarás" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Késleltetett élsimítás">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Ki" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Utófeldolgozott élsimítás">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Off" translation="Ki" />
+    </setting>
+    <setting name="Display Mode" translation="Megjelenítési mód">
+      <value name="Full-screen" translation="Teljes képernyős" />
+      <value name="Windowed" translation="Ablakos" />
+      <value name="Windowed Borderless" translation="Keret nélküli ablakos" />
+    </setting>
+    <setting name="Effects Quality" translation="Effektusminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Graphics Quality" translation="Grafikus minőség">
+      <value name="Auto" translation="Automatikus" />
+      <value name="Custom" translation="Egyedi" />
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Lighting Quality" translation="Megvilágítás minősége">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Mesh Quality" translation="Hálóminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA többképkockás mintavételes élsimítás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Post-process Quality" translation="Utófeldolgozás minősége">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Resolution" translation="Felbontás" />
+    <setting name="Resolution Scale" translation="Felbontásskálázás" />
+    <setting name="Terrain Decoration" translation="Terepdekoráció">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Terrain Quality" translation="Terepminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Texture Filtering" translation="Textúraszűrés">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+    <setting name="Texture Quality" translation="Textúraminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra" translation="Ultramagas" />
+    </setting>
+  </language>
+  <language name="it_IT" translation="">
+    <setting name="Ambient Occlusion" translation="Occlusione ambientale">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Disattivato" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Antialias rinviato">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Disattivato" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Antialias post-elaborazione">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Off" translation="Disattivato" />
+    </setting>
+    <setting name="Display Mode" translation="Modalità di visualizzazione">
+      <value name="Full-screen" translation="Schermo intero" />
+      <value name="Windowed" translation="A finestra" />
+      <value name="Windowed Borderless" translation="Con finestre senza bordi" />
+    </setting>
+    <setting name="Effects Quality" translation="Qualità effetti">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Qualità grafica">
+      <value name="Auto" translation="Automatica" />
+      <value name="Custom" translation="Personalizzato" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Qualità luci">
+      <value name="High" translation="Alte" />
+      <value name="Low" translation="Basse" />
+      <value name="Medium" translation="Media" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Qualità maglia">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Antialias con campionamento multi-frame NVIDIA">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivo" />
+    </setting>
+    <setting name="Post-process Quality" translation="Qualità post-elaborazione">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Bassa" />
+      <value name="Medium" translation="Media" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Risoluzione" />
+    <setting name="Resolution Scale" translation="Proporzionamento risoluzione" />
+    <setting name="Terrain Decoration" translation="Decorazione terreno">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Qualità terreno">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtro texture">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualità texture">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="ja_JP" translation="">
+    <setting name="Ambient Occlusion" translation="アンビエント オクルージョン">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="オフ" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="アンチエイリアシング ディファード">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="オフ" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="アンチエイリアシング ポスト">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Off" translation="オフ" />
+    </setting>
+    <setting name="Display Mode" translation="ディスプレイ モード">
+      <value name="Full-screen" translation="フルスクリーン" />
+      <value name="Windowed" translation="ウィンドウ表示" />
+      <value name="Windowed Borderless" translation="ボーダーなしウィンドウ" />
+    </setting>
+    <setting name="Effects Quality" translation="エフェクトのクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+    </setting>
+    <setting name="Graphics Quality" translation="グラフィックスのクオリティ">
+      <value name="Auto" translation="自動" />
+      <value name="Custom" translation="カスタム" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+    </setting>
+    <setting name="Lighting Quality" translation="ライティングのクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+    </setting>
+    <setting name="Mesh Quality" translation="メッシュのクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA マルチフレーム サンプリング アンチエリアシング">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Post-process Quality" translation="ポストプロセスの質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+    </setting>
+    <setting name="Resolution" translation="解像度" />
+    <setting name="Resolution Scale" translation="解像度スケール" />
+    <setting name="Terrain Decoration" translation="地形のデコレーション">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+    </setting>
+    <setting name="Terrain Quality" translation="地形のクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+    </setting>
+    <setting name="Texture Filtering" translation="テクスチャフィルタリング">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+    </setting>
+    <setting name="Texture Quality" translation="テクスチャのクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="ウルトラ" />
+    </setting>
+  </language>
+  <language name="ko_KR" translation="">
+    <setting name="Ambient Occlusion" translation="앰비언트 오클루젼">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="끄기" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="앤티엘리어싱 지연">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="끄기" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="앤티엘리어싱 후처리">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Off" translation="끄기" />
+    </setting>
+    <setting name="Display Mode" translation="디스플레이 모드">
+      <value name="Full-screen" translation="전체 화면" />
+      <value name="Windowed" translation="창" />
+      <value name="Windowed Borderless" translation="테두리 없는 경계" />
+    </setting>
+    <setting name="Effects Quality" translation="효과 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="최고" />
+    </setting>
+    <setting name="Graphics Quality" translation="그래픽 품질">
+      <value name="Auto" translation="자동" />
+      <value name="Custom" translation="사용자 정의" />
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="초" />
+    </setting>
+    <setting name="Lighting Quality" translation="조명 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="울트라" />
+    </setting>
+    <setting name="Mesh Quality" translation="메쉬 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="초" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA 멀티프레임 샘플드 앤티엘리어싱(MFAA)">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Post-process Quality" translation="후처리 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="보통" />
+      <value name="Ultra" translation="울트라" />
+    </setting>
+    <setting name="Resolution" translation="해상도" />
+    <setting name="Resolution Scale" translation="해상도 스케일" />
+    <setting name="Terrain Decoration" translation="지형 꾸미기">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="초" />
+    </setting>
+    <setting name="Terrain Quality" translation="지형 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="최고" />
+    </setting>
+    <setting name="Texture Filtering" translation="텍스처 필터링">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="울트라" />
+    </setting>
+    <setting name="Texture Quality" translation="텍스처 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra" translation="최고" />
+    </setting>
+  </language>
+  <language name="nb_NO" translation="">
+    <setting name="Ambient Occlusion" translation="Omgivelsesbetinget lys">
+      <value name="HBAO" translation="Horisontbasert omgivelsesbetinget lys (HBAO)" />
+      <value name="Off" translation="Av" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Anti-aliasing med multisampling">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Skyggebasert anti-aliasing">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Display Mode" translation="Skjermmodus">
+      <value name="Full-screen" translation="Full skjerm" />
+      <value name="Windowed" translation="Vindusmodus" />
+      <value name="Windowed Borderless" translation="Vinduer uten ramme" />
+    </setting>
+    <setting name="Effects Quality" translation="Effektkvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Grafikkvalitet">
+      <value name="Auto" translation="Auto" />
+      <value name="Custom" translation="Tilpasset" />
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Belysningskvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Kvalitet på trådramme">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Avsøkt flerramme-kantutjevning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Post-process Quality" translation="Etterbehandlingskvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Oppløsning" />
+    <setting name="Resolution Scale" translation="Oppløsningsskala" />
+    <setting name="Terrain Decoration" translation="Terrengdekorasjon">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Terrengkvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Teksturfiltrering">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Teksturkvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="nl_NL" translation="">
+    <setting name="Ambient Occlusion" translation="Omgevingsocclusie">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Uit" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Anti-aliasing uitgesteld">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Uit" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Anti-aliasing na-">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Off" translation="Uit" />
+    </setting>
+    <setting name="Display Mode" translation="Beeldschermmodus">
+      <value name="Full-screen" translation="Volledig scherm" />
+      <value name="Windowed" translation="In venster" />
+      <value name="Windowed Borderless" translation="Randloos zonder vensters" />
+    </setting>
+    <setting name="Effects Quality" translation="Effectenkwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Grafische kwaliteit">
+      <value name="Auto" translation="Automatisch" />
+      <value name="Custom" translation="Aangepast" />
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Verlichtingskwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Mesh-kwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Multi-Frame Sampled Anti-Aliasing">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Post-process Quality" translation="Naverwerkingskwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Resolutie" />
+    <setting name="Resolution Scale" translation="Resolutieschaal" />
+    <setting name="Terrain Decoration" translation="Terreindecoratie">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Terreinkwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Patroonfiltering">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Patroonkwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="pl_PL" translation="">
+    <setting name="Ambient Occlusion" translation="Przesłanianie środowiska">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Wyłącz" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Wygładzanie krawędzi — opóźnione">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Wyłącz" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Wygładzanie krawędzi — post">
+      <value name="High" translation="Wysokie" />
+      <value name="Low" translation="Niskie" />
+      <value name="Medium" translation="Średnie" />
+      <value name="Off" translation="Wyłącz" />
+    </setting>
+    <setting name="Display Mode" translation="Tryb wyświetlania">
+      <value name="Full-screen" translation="Pełny ekran" />
+      <value name="Windowed" translation="Okienkowy" />
+      <value name="Windowed Borderless" translation="Okienkowy bez ramki" />
+    </setting>
+    <setting name="Effects Quality" translation="Jakość efektów">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra" translation="Ultra wysoka" />
+    </setting>
+    <setting name="Graphics Quality" translation="Jakość grafiki">
+      <value name="Auto" translation="Automatyczne" />
+      <value name="Custom" translation="Dostosowana" />
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Jakość oświetlenia">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Jakość siatki">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Wygładzanie krawędzi z próbkowaniem wielu klatek NVIDIA">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Post-process Quality" translation="Jakość przetwarzania końcowego">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Rozdzielczość" />
+    <setting name="Resolution Scale" translation="Skala rozdzielczości" />
+    <setting name="Terrain Decoration" translation="Dekoracja terenu">
+      <value name="High" translation="Wysoki" />
+      <value name="Low" translation="Niski" />
+      <value name="Medium" translation="Średni" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Jakość terenu">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra" translation="Bardzo wysoka" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtrowanie tekstur">
+      <value name="High" translation="Wysoki" />
+      <value name="Low" translation="Niski" />
+      <value name="Medium" translation="Średni" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Jakość tekstur">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra" translation="Bardzo wysoka" />
+    </setting>
+  </language>
+  <language name="pt_BR" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusão ambiental">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Desligada" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Anti-aliasing Diferido">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Desligado" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Anti-aliasing Pós">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+      <value name="Medium" translation="Médio" />
+      <value name="Off" translation="Desligado" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de video">
+      <value name="Full-screen" translation="Tela inteira" />
+      <value name="Windowed" translation="Em Janelas" />
+      <value name="Windowed Borderless" translation="Janela sem Borda" />
+    </setting>
+    <setting name="Effects Quality" translation="Qualidade dos Efeitos">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Qualidade Gráfica">
+      <value name="Auto" translation="Auto" />
+      <value name="Custom" translation="Personalizado" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+      <value name="Medium" translation="Médio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Qualidade da iluminação">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Qualidade da Malha">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+      <value name="Medium" translation="Médio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Antisserrilhamento de amostragem multiquadros NVIDIA ">
+      <value name="Off" translation="Desligado" />
+      <value name="On" translation="Ligado" />
+    </setting>
+    <setting name="Post-process Quality" translation="Qualidade de pós-processamento">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+    <setting name="Resolution Scale" translation="Escala de Resolução" />
+    <setting name="Terrain Decoration" translation="Decoração do Terreno">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+      <value name="Medium" translation="Médio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Qualidade do Terreno">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtragem da Textura">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualidade da Textura">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="pt_PT" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusão ambiental">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Desactivar" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Antialiasing diferido">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Desactivar" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Pós-antialiasing">
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Nível baixo" />
+      <value name="Medium" translation="Nível médio" />
+      <value name="Off" translation="Desactivar" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de visualização">
+      <value name="Full-screen" translation="Ecrã inteiro" />
+      <value name="Windowed" translation="Modo de janela" />
+      <value name="Windowed Borderless" translation="Modo de janela sem margem" />
+    </setting>
+    <setting name="Effects Quality" translation="Qualidade dos efeitos">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Qualidade dos gráficos">
+      <value name="Auto" translation="Automática" />
+      <value name="Custom" translation="Personalizado" />
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Nível baixo" />
+      <value name="Medium" translation="Nível médio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Qualidade da iluminação">
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Nível baixo" />
+      <value name="Medium" translation="Nível médio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Qualidade das malhas">
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Nível baixo" />
+      <value name="Medium" translation="Nível médio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Antialiasing de Amostragem de Multi-Videograma da NVIDIA">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Post-process Quality" translation="Qualidade de pós-processamento">
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Nível baixo" />
+      <value name="Medium" translation="Nível médio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+    <setting name="Resolution Scale" translation="Escala da resolução" />
+    <setting name="Terrain Decoration" translation="Decoração do terreno">
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Nível baixo" />
+      <value name="Medium" translation="Nível médio" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Qualidade do terreno">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtração de texturas">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualidade das texturas">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="ru_RU" translation="">
+    <setting name="Ambient Occlusion" translation="Затенение фонового освещения">
+      <value name="HBAO" translation="Затенение фонового освещения до горизонта" />
+      <value name="Off" translation="Выкл." />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Отложенное сглаживание">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Выкл." />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Пост-сглаживание">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Off" translation="Выкл." />
+    </setting>
+    <setting name="Display Mode" translation="Экранный режим">
+      <value name="Full-screen" translation="Полный экран" />
+      <value name="Windowed" translation="В окне" />
+      <value name="Windowed Borderless" translation="В окне без рамки" />
+    </setting>
+    <setting name="Effects Quality" translation="Качество эффектов">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Ultra" translation="Самое высокое" />
+    </setting>
+    <setting name="Graphics Quality" translation="Качество графики">
+      <value name="Auto" translation="Авто" />
+      <value name="Custom" translation="Пользовательские настройки" />
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Ultra" translation="Самые высокие" />
+    </setting>
+    <setting name="Lighting Quality" translation="Качество освещения">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Ultra" translation="Ультра" />
+    </setting>
+    <setting name="Mesh Quality" translation="Качество сетки">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Ultra" translation="Ультра" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Многокадровое сглаживание NVIDIA">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Post-process Quality" translation="Качество постобработки">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Ultra" translation="Ультра" />
+    </setting>
+    <setting name="Resolution" translation="Разрешение" />
+    <setting name="Resolution Scale" translation="Масштабирование разрешения" />
+    <setting name="Terrain Decoration" translation="Имитация рельефа">
+      <value name="High" translation="Высоко" />
+      <value name="Low" translation="Низко" />
+      <value name="Medium" translation="Средне" />
+      <value name="Ultra" translation="Очень высоко" />
+    </setting>
+    <setting name="Terrain Quality" translation="Качество рельефа">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Ultra" translation="Очень высокое" />
+    </setting>
+    <setting name="Texture Filtering" translation="Фильтрация текстур">
+      <value name="High" translation="Высокая" />
+      <value name="Low" translation="Низкая" />
+      <value name="Medium" translation="Средняя" />
+      <value name="Ultra" translation="Ультра" />
+    </setting>
+    <setting name="Texture Quality" translation="Качество текстуры">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Ultra" translation="Самое высокое" />
+    </setting>
+  </language>
+  <language name="sk_SK" translation="">
+    <setting name="Ambient Occlusion" translation="Zatienenie okolím">
+      <value name="HBAO" translation="HBAO (Zatienenie okolím podľa horizontu)" />
+      <value name="Off" translation="Vypnuté" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Dereferencované vyhladzovanie">
+      <value name="2x MSAA" translation="Dereferencované vyhladzovanie MSAA 2x" />
+      <value name="4x MSAA" translation="Dereferencované vyhladzovanie MSAA 4x" />
+      <value name="Off" translation="Vypnuté" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Dodatočné vyhladzovanie">
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+      <value name="Medium" translation="Stredné" />
+      <value name="Off" translation="Vypnuté" />
+    </setting>
+    <setting name="Display Mode" translation="Režim zobrazenia">
+      <value name="Full-screen" translation="Na celú obrazovku" />
+      <value name="Windowed" translation="V okne" />
+      <value name="Windowed Borderless" translation="V okne bez orámovania" />
+    </setting>
+    <setting name="Effects Quality" translation="Kvalita efektov">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Medium" translation="Stredná" />
+      <value name="Ultra" translation="Extrémne vysoká" />
+    </setting>
+    <setting name="Graphics Quality" translation="Kvalita grafiky">
+      <value name="Auto" translation="Automaticky" />
+      <value name="Custom" translation="Vlastná" />
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Medium" translation="Stredná" />
+      <value name="Ultra" translation="Extrémne vysoká" />
+    </setting>
+    <setting name="Lighting Quality" translation="Kvalita osvetlenia">
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+      <value name="Medium" translation="Stredné" />
+      <value name="Ultra" translation="Extrémne vysoká" />
+    </setting>
+    <setting name="Mesh Quality" translation="Kvalita siete">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Medium" translation="Stredná" />
+      <value name="Ultra" translation="Extrémne vysoká" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Viacsnímkové vyhladzovanie NVIDIA">
+      <value name="Off" translation="Vypnuté" />
+      <value name="On" translation="Zapnuté" />
+    </setting>
+    <setting name="Post-process Quality" translation="Kvalita dodatočného spracovania">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Medium" translation="Stredná" />
+      <value name="Ultra" translation="Ultravysoká" />
+    </setting>
+    <setting name="Resolution" translation="Rozlíšenie" />
+    <setting name="Resolution Scale" translation="Mierka rozlíšenia" />
+    <setting name="Terrain Decoration" translation="Dekorácie v teréne">
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+      <value name="Medium" translation="Stredné" />
+      <value name="Ultra" translation="Extrémne vysoké" />
+    </setting>
+    <setting name="Terrain Quality" translation="Kvalita terénu">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Medium" translation="Stredná" />
+      <value name="Ultra" translation="Extrémne vysoká" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtrovanie textúr">
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+      <value name="Medium" translation="Stredné" />
+      <value name="Ultra" translation="Extrémne vysoké" />
+    </setting>
+    <setting name="Texture Quality" translation="Kvalita textúry">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Medium" translation="Stredná" />
+      <value name="Ultra" translation="Extrémne vysoká" />
+    </setting>
+  </language>
+  <language name="sl_SI" translation="">
+    <setting name="Ambient Occlusion" translation="Zapiranje okolice">
+      <value name="HBAO" translation="Zapiranje okolice na osnovi obzorja" />
+      <value name="Off" translation="Izklop" />
+      <value name="SSAO" translation="Zapiranje okolice zaslonskega prostora" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Odloženo glajenje robov">
+      <value name="2x MSAA" translation="Večvzorčno glajenje robov 2 x" />
+      <value name="4x MSAA" translation="Večvzorčno glajenje robov 4 x" />
+      <value name="Off" translation="Izklop" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Naknadno glajenje robov">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Off" translation="Izklop" />
+    </setting>
+    <setting name="Display Mode" translation="Zaslonski način">
+      <value name="Full-screen" translation="Celoten zaslon" />
+      <value name="Windowed" translation="V oknu" />
+      <value name="Windowed Borderless" translation="Način brezrobega okna" />
+    </setting>
+    <setting name="Effects Quality" translation="Kakovost učinkov">
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Kakovost grafike">
+      <value name="Auto" translation="Samodejno" />
+      <value name="Custom" translation="Po meri" />
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Kakovost osvetlitve">
+      <value name="High" translation="Visoka" />
+      <value name="Low" translation="Nizka" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Kakovost mreže">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA vzorčno glajenje robov z več okviri">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Post-process Quality" translation="Kakovost naknadne obdelave">
+      <value name="High" translation="Visoka" />
+      <value name="Low" translation="Nizka" />
+      <value name="Medium" translation="Srednja" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Ločljivost" />
+    <setting name="Resolution Scale" translation="Skala ločljivosti" />
+    <setting name="Terrain Decoration" translation="Dekoracija terena">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Kakovost terena">
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtriranje tekstur">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Kakovost teksture">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="sv_SE" translation="">
+    <setting name="Ambient Occlusion" translation="Omgivande inneslutning">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Av" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Kantutjämning uppskjuten">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Kantutjämning efter">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Display Mode" translation="Visningsläge">
+      <value name="Full-screen" translation="Helskärm" />
+      <value name="Windowed" translation="I fönster" />
+      <value name="Windowed Borderless" translation="Kantlöst i fönster" />
+    </setting>
+    <setting name="Effects Quality" translation="Effektkvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Graphics Quality" translation="Grafik, kvalitet">
+      <value name="Auto" translation="Automatiskt" />
+      <value name="Custom" translation="Anpassad" />
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Lighting Quality" translation="Blixtkvalitet">
+      <value name="High" translation="Högt" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Nätkvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA flerbildssamplad kantutjämning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Post-process Quality" translation="Efterbehandlingskvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Upplösning" />
+    <setting name="Resolution Scale" translation="Upplösningsskala" />
+    <setting name="Terrain Decoration" translation="Terrängdekoration">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Terrain Quality" translation="Terrängkvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Filtering" translation="Texturfiltrering">
+      <value name="High" translation="Högt" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Texturkvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+  </language>
+  <language name="th_TH" translation="">
+    <setting name="Ambient Occlusion" translation="การบดบังแสงแวดล้อม">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="ปิด" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="ยืดเวลาป้องกันการแฝง">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="ปิด" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="โพสต์ป้องกันการแฝง">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Off" translation="ปิด" />
+    </setting>
+    <setting name="Display Mode" translation="โหมดการแสดงผล">
+      <value name="Full-screen" translation="เต็มหน้าจอ" />
+      <value name="Windowed" translation="แบบหน้าต่าง" />
+      <value name="Windowed Borderless" translation="หน้าต่างแบบไม่มีขอบ" />
+    </setting>
+    <setting name="Effects Quality" translation="คุณภาพของเอฟเฟกต์">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Ultra" translation="ดีเยี่ยม" />
+    </setting>
+    <setting name="Graphics Quality" translation="คุณภาพกราฟิก">
+      <value name="Auto" translation="อัตโนมัติ" />
+      <value name="Custom" translation="กำหนดเอง" />
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Ultra" translation="พิเศษ" />
+    </setting>
+    <setting name="Lighting Quality" translation="คุณภาพของแสง">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Ultra" translation="พิเศษ" />
+    </setting>
+    <setting name="Mesh Quality" translation="คุณภาพของตาข่าย">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Ultra" translation="พิเศษ" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="การลบรอยหยักแบบ Multi-Frame Sampled ของ NVIDIA ">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+    <setting name="Post-process Quality" translation="คุณภาพหลังการประมวลผล">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Ultra" translation="พิเศษ" />
+    </setting>
+    <setting name="Resolution" translation="ความละเอียด" />
+    <setting name="Resolution Scale" translation="สัดส่วนความละเอียด" />
+    <setting name="Terrain Decoration" translation="การตกแต่งภูมิประเทศ">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Ultra" translation="พิเศษ" />
+    </setting>
+    <setting name="Terrain Quality" translation="คุณภาพของภูมิประเทศ">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Ultra" translation="ดีเยี่ยม" />
+    </setting>
+    <setting name="Texture Filtering" translation="การกรองพื้นผิว">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Ultra" translation="พิเศษ" />
+    </setting>
+    <setting name="Texture Quality" translation="คุณภาพของพื้นผิว">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Ultra" translation="ดีเยี่ยม" />
+    </setting>
+  </language>
+  <language name="tr_TR" translation="">
+    <setting name="Ambient Occlusion" translation="Ortam Kapatma">
+      <value name="HBAO" translation="HBAO" />
+      <value name="Off" translation="Kapalı" />
+      <value name="SSAO" translation="SSAO" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="Ertelenmiş Kenar Yumuşatma">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="Kapalı" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="Kenar Yumuşatma Son İşleme">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Off" translation="Kapalı" />
+    </setting>
+    <setting name="Display Mode" translation="Ekran Modu">
+      <value name="Full-screen" translation="Tam Ekran" />
+      <value name="Windowed" translation="Pencere içinde" />
+      <value name="Windowed Borderless" translation="Pencere İçinde Kenarlıksız" />
+    </setting>
+    <setting name="Effects Quality" translation="Efekt Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="En Yüksek" />
+    </setting>
+    <setting name="Graphics Quality" translation="Grafik Kalitesi">
+      <value name="Auto" translation="Otomatik" />
+      <value name="Custom" translation="Özel" />
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="En Yüksek" />
+    </setting>
+    <setting name="Lighting Quality" translation="Aydınlatma Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Mesh Quality" translation="Izgara Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="En Yüksek" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Birden Çok Çerçeveli Örneklemeli Kenar Yumuşatma">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="Post-process Quality" translation="Son İşlem Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Resolution" translation="Çözünürlük" />
+    <setting name="Resolution Scale" translation="Çözünürlük Ölçeği" />
+    <setting name="Terrain Decoration" translation="Arazi Dekorasyonu">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="En Yüksek" />
+    </setting>
+    <setting name="Terrain Quality" translation="Arazi Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="En Yüksek" />
+    </setting>
+    <setting name="Texture Filtering" translation="Doku Filtreleme">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="Ultra" />
+    </setting>
+    <setting name="Texture Quality" translation="Doku Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra" translation="En Yüksek" />
+    </setting>
+  </language>
+  <language name="zh_CHS" translation="">
+    <setting name="Ambient Occlusion" translation="环境光吸收">
+      <value name="HBAO" translation="水平环境光吸收" />
+      <value name="Off" translation="关" />
+      <value name="SSAO" translation="屏幕空间环境光吸收" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="反失真延迟">
+      <value name="2x MSAA" translation="2x MSAA" />
+      <value name="4x MSAA" translation="4x MSAA" />
+      <value name="Off" translation="关" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="反失真后处理">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Off" translation="关" />
+    </setting>
+    <setting name="Display Mode" translation="显示模式">
+      <value name="Full-screen" translation="全屏幕" />
+      <value name="Windowed" translation="窗口化" />
+      <value name="Windowed Borderless" translation="无边框窗口化" />
+    </setting>
+    <setting name="Effects Quality" translation="效果质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超高" />
+    </setting>
+    <setting name="Graphics Quality" translation="图形质量">
+      <value name="Auto" translation="自动" />
+      <value name="Custom" translation="自定义" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超高" />
+    </setting>
+    <setting name="Lighting Quality" translation="光照质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超高" />
+    </setting>
+    <setting name="Mesh Quality" translation="网格质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超高" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA 多帧取样反失真">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="Post-process Quality" translation="后处理质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超高" />
+    </setting>
+    <setting name="Resolution" translation="分辨率" />
+    <setting name="Resolution Scale" translation="分辨率调整" />
+    <setting name="Terrain Decoration" translation="地形装饰">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超高" />
+    </setting>
+    <setting name="Terrain Quality" translation="地形质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超高" />
+    </setting>
+    <setting name="Texture Filtering" translation="纹理过滤">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超级" />
+    </setting>
+    <setting name="Texture Quality" translation="纹理质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超高" />
+    </setting>
+  </language>
+  <language name="zh_CHT" translation="">
+    <setting name="Ambient Occlusion" translation="漫射陰影環場遮擋">
+      <value name="HBAO" translation="水平環境閉塞" />
+      <value name="Off" translation="關閉" />
+      <value name="SSAO" translation="螢幕空間環境閉塞" />
+    </setting>
+    <setting name="Anti-aliasing Deferred" translation="消除鋸齒已順延">
+      <value name="2x MSAA" translation="2x 多重採樣消除鋸齒" />
+      <value name="4x MSAA" translation="4x 多重採樣消除鋸齒" />
+      <value name="Off" translation="關閉" />
+    </setting>
+    <setting name="Anti-aliasing Post" translation="消除鋸齒後">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Off" translation="關閉" />
+    </setting>
+    <setting name="Display Mode" translation="顯示模式">
+      <value name="Full-screen" translation="全螢幕" />
+      <value name="Windowed" translation="視窗型" />
+      <value name="Windowed Borderless" translation="無框視窗" />
+    </setting>
+    <setting name="Effects Quality" translation="效果品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超級" />
+    </setting>
+    <setting name="Graphics Quality" translation="圖形品質">
+      <value name="Auto" translation="自動" />
+      <value name="Custom" translation="自訂" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超級" />
+    </setting>
+    <setting name="Lighting Quality" translation="光源品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超級" />
+    </setting>
+    <setting name="Mesh Quality" translation="網狀品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超級" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA 多畫面採樣消除鋸齒">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+    <setting name="Post-process Quality" translation="後續處理品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超級" />
+    </setting>
+    <setting name="Resolution" translation="解析度" />
+    <setting name="Resolution Scale" translation="解析度縮放" />
+    <setting name="Terrain Decoration" translation="地形裝飾">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超級" />
+    </setting>
+    <setting name="Terrain Quality" translation="地形品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超級" />
+    </setting>
+    <setting name="Texture Filtering" translation="紋理篩選">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超級" />
+    </setting>
+    <setting name="Texture Quality" translation="材質品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra" translation="超級" />
+    </setting>
+  </language>
+</game>

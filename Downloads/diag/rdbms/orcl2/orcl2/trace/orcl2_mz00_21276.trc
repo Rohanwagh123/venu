@@ -1,0 +1,37 @@
+Trace file C:\USERS\WAGHR\DOWNLOADS\diag\rdbms\orcl2\orcl2\trace\orcl2_mz00_21276.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_WINDOWS.X64_190528
+Windows NT Version V6.2  
+ORACLE_HOME = C:\Users\waghr\Downloads\WINDOWS.X64_193000_db_home
+Node name           : LAPTOP-ECPD48UU
+CPU                 : 16 - type 86648 physical cores
+Process Affinity    : 0x0000000000000000
+Memory (Avail/Total): Ph:7927M/15732M, Ph+PgF:4971M/21820M 
+Instance name: orcl2
+Redo thread mounted by this instance: 1
+Oracle process number: 0
+Windows thread id: 21276, image: 
+
+
+*** 2022-06-10T22:57:34.548283+05:30 (CDB$ROOT(1))
+Required IPC RDMAV_FORK_SAFE environment not set
+Required IPC RDMAV_HUGEPAGES_SAFE environment not set
+klcslod->lxlfopn: lx10002
+klcslod err=9989
+*** SESSION ID:(978.2530) 2022-06-10T22:57:34.548283+05:30
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-06-10T22:57:34.548283+05:30
+*** MODULE NAME:(MMON_SLAVE) 2022-06-10T22:57:34.548283+05:30
+*** ACTION NAME:(Flush KSXM hash table action) 2022-06-10T22:57:34.548283+05:30
+*** CONTAINER ID:(1) 2022-06-10T22:57:34.548283+05:30
+ 
+DDE rules only execution for: ORA 1110
+----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+----- START DDE Actions Dump -----
+Executing SYNC actions
+----- START DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (Async) -----
+Successfully dispatched
+----- END DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (SUCCESS, 0 csec) -----
+Executing ASYNC actions
+----- END DDE Actions Dump (total 0 csec) -----

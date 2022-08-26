@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Messages [<!ELEMENT Messages (Package*)>
+
+<!ELEMENT Package (Error*)>
+<!ATTLIST Package ID CDATA #REQUIRED>
+<!ATTLIST Package DefaultComponent CDATA #REQUIRED>
+
+<!ELEMENT Error (#PCDATA)>
+<!ATTLIST Error Key CDATA #REQUIRED>
+<!ATTLIST Error _locID CDATA "0">
+<!ATTLIST Error Component CDATA #IMPLIED>
+<!ATTLIST Error NativeErrorCode CDATA #REQUIRED>
+<!ATTLIST Error Params CDATA "0">]>
+<Messages>
+      <Package ID="22" DefaultComponent="Network">
+
+      <!-- Error thrown when communication link error. --> 
+      <Error Key="NetworkCommLinkErr" NativeErrorCode="17" _locID="22.NetworkCommLinkErr">Pogreška tijekom komunikacije s poslužiteljem.</Error>
+      
+      <!-- Error thrown when the client has an internal error. -->
+      <Error Key="NetworkInternalError" NativeErrorCode="42" _locID="22.NetworkInternalError">Interna pogreška klijenta.</Error>
+      
+      <!-- Error thrown execution is cancelled on the client. -->
+      <Error Key="ExecutionCanceled" NativeErrorCode="61" _locID="22.ExecutionCanceled">Izvršavanje otkazano.</Error>
+      
+      <!-- Error thrown when the connection timeout has been reached. -->
+      <Error Key="ConnectionTimeout" NativeErrorCode="50" _locID="22.ConnectionTimeout">Dosegnut je istek vremena prije nego što je dobiven odgovor s poslužitelja.</Error>
+      
+      <!-- Called when there is an SSL verification error. -->
+      <Error Key="SslVerifyIdentity" NativeErrorCode="73" _locID="22.SslVerifyIdentity">SSL nije uspio potvrditi identitet poslužitelja.</Error>
+      
+      <!--  Failed to start up SSL. -->
+      <Error Key="SslStartupFailed" NativeErrorCode="74" _locID="22.SslStartupFailed">Pokretanje SSL-a nije uspjelo.</Error>
+      
+      <!-- Failed to disconnect SSL. -->
+      <Error Key="SslDisconnectFailed" NativeErrorCode="75" _locID="22.SslDisconnectFailed">Nije uspio prekid veze SSL-a</Error>
+      
+      <!-- Error thrown when the client has an internal error. -->
+      <Error Key="NetworkInternalErrorWParam" NativeErrorCode="76" Params="1" _locID="22.NetworkInternalErrorWParam">Interna pogreška klijenta: %1%</Error>
+      
+       <!-- Failed to encrypt. -->
+      <Error Key="EncryptionFailure" NativeErrorCode="77" Params="1" _locID="22.EncryptionFailure">Šifriranje nije uspjelo: %1%</Error>
+      
+      <!-- Failed to sign. -->
+      <Error Key="SSLSignFailure" NativeErrorCode="78" Params="0" _locID="22.SSLSignFailure">Potpis SSL-a nije uspio.</Error>
+      
+       <!-- Failed to create the SSL context. -->
+      <Error Key="SSLContextCreationFailure" NativeErrorCode="79" Params="0" _locID="22.SSLContextCreationFailure">Nije uspjelo stvaranje konteksta SSL-a.</Error>
+      
+      <!-- SSL Error. -->
+      <Error Key="SSLError" NativeErrorCode="80" Params="1" _locID="22.SSLError">Pogreška SSL-a: %1%</Error>
+      
+      <!-- OpenSSL Error. -->
+      <Error Key="OpenSSLError" NativeErrorCode="81" Params="2" _locID="22.OpenSSLError">Pogreška OpenSSL-a: (%1%) %2%</Error>
+     
+       <!-- Certification Error. -->
+      <Error Key="CertificationError" NativeErrorCode="82" Params="1" _locID="22.CertificationError">Pogreška usluge TrustStore: %1%</Error>
+      
+      <!-- SSL Certificate file is self signed. -->
+      <Error Key="CertSelfSigned" NativeErrorCode="83" _locID="22.CertSelfSigned">Prihvaćanje SSL certifikata koji je samopotpisan</Error>
+      
+      <!-- Certification file is expired or not yet valid. -->
+      <Error Key="CertExpiredOrNotValidYet" NativeErrorCode="84" _locID="22.CertExpiredOrNotValidYet">Prihvaćanje SSL certifikata koji još uvijek nije valjan ili je već istekao</Error>
+      
+    </Package>
+</Messages>

@@ -1,0 +1,2497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game name="monster_hunter_world">
+  <language name="ar_AE" translation="">
+    <setting name="Ambient Occlusion" translation="إطباق محيطي">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Mid" translation="متوسط" />
+      <value name="Off" translation="إيقاف تشغيل" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="تصفية الخصائص متباينة القياس">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Mid" translation="متوسط" />
+    </setting>
+    <setting name="Anti-aliasing" translation="منع الترادف">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="وضع العرض">
+      <value name="Full-screen" translation="شاشة كاملة" />
+      <value name="Full-screen Borderless" translation="ملء الشاشة بلا حواف" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="مزود بإطارات" />
+    </setting>
+    <setting name="Foliage Sway" translation="تمايل أوراق النباتات">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Image Quality" translation="جودة الصور">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Mid" translation="متوسطة" />
+      <value name="Variable(Prioritize Framerate)" translation="متغير (ترتيب معدل الإطارات)" />
+      <value name="Variable(Prioritize Resolution)" translation="متغير (ترتيب الدقة)" />
+    </setting>
+    <setting name="LOD Bias" translation="توجه LOD">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Mid" translation="متوسط" />
+      <value name="Variable" translation="متغير" />
+    </setting>
+    <setting name="Max LOD Level" translation="أقصى مستوى LOD">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="بلا حد" />
+    </setting>
+    <setting name="Resolution" translation="الدقة" />
+    <setting name="Screen Space Reflection" translation="انعكاس مساحة الشاشة">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="جودة انتشار SH">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Mid" translation="متوسط" />
+    </setting>
+    <setting name="Shadow Quality" translation="جودة الظل">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Mid" translation="متوسط" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="تشتت السطح الفرعي">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Texture Quality" translation="جودة مواد الصور">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="تلقائي" />
+      <value name="Full" translation="كامل" />
+      <value name="High Resolution Texture Pack" translation="حزمة مواد صور الدقة العالية" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="جودة عرض الحجم">
+      <value name="High" translation="مرتفع" />
+      <value name="Highest" translation="الأعلى" />
+      <value name="Low" translation="منخفض" />
+      <value name="Mid" translation="متوسط" />
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="Variable" translation="متغير" />
+    </setting>
+    <setting name="Water Reflection" translation="انعكاس الماء">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+  </language>
+  <language name="cs_CZ" translation="">
+    <setting name="Ambient Occlusion" translation="Okolní prostředí">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Mid" translation="Střední úroveň" />
+      <value name="Off" translation="Vypnuto" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anizotropní filtrování">
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízké" />
+      <value name="Mid" translation="Střední úroveň" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Vyhlazování hran">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Vypnuto" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Režim zobrazení">
+      <value name="Full-screen" translation="Celá obrazovka" />
+      <value name="Full-screen Borderless" translation="Na celou obrazovku bez okrajů" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="V okně" />
+    </setting>
+    <setting name="Foliage Sway" translation="Pohyb zeleně">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+    <setting name="Image Quality" translation="Kvalita obrazu">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Mid" translation="Střední" />
+      <value name="Variable(Prioritize Framerate)" translation="Proměnlivá (upřednostnit snímkovou frekvenci)" />
+      <value name="Variable(Prioritize Resolution)" translation="Proměnlivá (upřednostnit rozlišení)" />
+    </setting>
+    <setting name="LOD Bias" translation="Zkreslení úrovně detailů">
+      <value name="High" translation="Vysoká úroveň" />
+      <value name="Low" translation="Nízká úroveň" />
+      <value name="Mid" translation="Střední úroveň" />
+      <value name="Variable" translation="Variabilní" />
+    </setting>
+    <setting name="Max LOD Level" translation="Max. úroveň detailů">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Bez omezení" />
+    </setting>
+    <setting name="Resolution" translation="Rozlišení" />
+    <setting name="Screen Space Reflection" translation="Odraz na obrazovce">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Kvalita rozptylu SH">
+      <value name="High" translation="Vysoká úroveň" />
+      <value name="Low" translation="Nízká úroveň" />
+      <value name="Mid" translation="Střední úroveň" />
+    </setting>
+    <setting name="Shadow Quality" translation="Kvalita stínu">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Mid" translation="Střední" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Podpovrchový rozptyl světla">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+    <setting name="Texture Quality" translation="Kvalita textury">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automatická" />
+      <value name="Full" translation="Plná" />
+      <value name="High Resolution Texture Pack" translation="Balíček textury ve vysokém rozlišení" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Kvalita objemového renderování">
+      <value name="High" translation="Vysoká úroveň" />
+      <value name="Highest" translation="Nejvyšší úroveň" />
+      <value name="Low" translation="Nízká úroveň" />
+      <value name="Mid" translation="Střední úroveň" />
+      <value name="Off" translation="Vypnuto" />
+      <value name="Variable" translation="Variabilní" />
+    </setting>
+    <setting name="Water Reflection" translation="Odraz vody">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+  </language>
+  <language name="da_DK" translation="">
+    <setting name="Ambient Occlusion" translation="Omgivende tillukning">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Midt" />
+      <value name="Off" translation="Fra" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anisotropisk filtrering">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Midt" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Udjævning">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Fra" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Skærmtilstand">
+      <value name="Full-screen" translation="Fuld skærm" />
+      <value name="Full-screen Borderless" translation="Fuld skærm uden kant" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="Vinduesopdelt" />
+    </setting>
+    <setting name="Foliage Sway" translation="Svaj i løv">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="Image Quality" translation="Billedkvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Mellem" />
+      <value name="Variable(Prioritize Framerate)" translation="Variabel (Prioritér billedhastighed)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variabel (Prioritér opløsning)" />
+    </setting>
+    <setting name="LOD Bias" translation="Detaljeniveau bias">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Midt" />
+      <value name="Variable" translation="Variabel" />
+    </setting>
+    <setting name="Max LOD Level" translation="Maksimalt detaljeniveau">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Ingen grænse" />
+    </setting>
+    <setting name="Resolution" translation="Opløsning" />
+    <setting name="Screen Space Reflection" translation="Reflektion i skærmområde">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="SH spredningskvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Midt" />
+    </setting>
+    <setting name="Shadow Quality" translation="Skyggekvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Mellem" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Spredning af underoverflade">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="Texture Quality" translation="Teksturkvalitet">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automatisk" />
+      <value name="Full" translation="Fuld" />
+      <value name="High Resolution Texture Pack" translation="Teksturpakke i højopløsning" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Gengivelseskvalitet på lyd">
+      <value name="High" translation="Høj" />
+      <value name="Highest" translation="Højest" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Midt" />
+      <value name="Off" translation="Fra" />
+      <value name="Variable" translation="Variabel" />
+    </setting>
+    <setting name="Water Reflection" translation="Vandreflektion">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+  </language>
+  <language name="de_DE" translation="">
+    <setting name="Ambient Occlusion" translation="Umgebungsverdeckung">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Mid" translation="Mittel" />
+      <value name="Off" translation="Aus" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anisotrope Filterung">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Mid" translation="Mittel" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Antialiasing">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Aus" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Anzeigemodus">
+      <value name="Full-screen" translation="Ganzer Bildschirm" />
+      <value name="Full-screen Borderless" translation="Vollbild randlos" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="Fenster" />
+    </setting>
+    <setting name="Foliage Sway" translation="Blattwerkbewegung">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Image Quality" translation="Bildqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Mid" translation="Mittel" />
+      <value name="Variable(Prioritize Framerate)" translation="Variabel (Priorität auf Bildrate)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variabel (Priorität auf Auflösung)" />
+    </setting>
+    <setting name="LOD Bias" translation="Detailstufenverschiebung">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Mid" translation="Mittel" />
+      <value name="Variable" translation="Variabel" />
+    </setting>
+    <setting name="Max LOD Level" translation="Max. Detailstufe">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Kein Limit" />
+    </setting>
+    <setting name="Resolution" translation="Auflösung" />
+    <setting name="Screen Space Reflection" translation="Reflexionen im Bildschirmbereich">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Qualität diffuse SH-Beleuchtung">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Mid" translation="Mittel" />
+    </setting>
+    <setting name="Shadow Quality" translation="Schattenqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Mid" translation="Mittel" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Volumenstreuung">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Texture Quality" translation="Texturqualität">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Auto" />
+      <value name="Full" translation="Voll" />
+      <value name="High Resolution Texture Pack" translation="Hochauflösendes Texturpaket" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Qualität Volumen-Rendering">
+      <value name="High" translation="Hoch" />
+      <value name="Highest" translation="Am höchsten" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Mid" translation="Mittel" />
+      <value name="Off" translation="Aus" />
+      <value name="Variable" translation="Variabel" />
+    </setting>
+    <setting name="Water Reflection" translation="Wasserreflexionen">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+  </language>
+  <language name="el_GR" translation="">
+    <setting name="Ambient Occlusion" translation="Περιβαλλοντική έμφραξη">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Mid" translation="Μεσαία" />
+      <value name="Off" translation="Ανενεργή" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Ανισοτροπικό φιλτράρισμα">
+      <value name="High" translation="Υψηλό" />
+      <value name="Low" translation="Χαμηλό" />
+      <value name="Mid" translation="Μεσαία" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Εξομάλυνση ορίων">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Ανενεργή" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Λειτουργία οθόνης">
+      <value name="Full-screen" translation="Πλήρης οθόνη" />
+      <value name="Full-screen Borderless" translation="Πλήρης οθόνης χωρίς περιθώρια" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="Με παράθυρα" />
+    </setting>
+    <setting name="Foliage Sway" translation="Κίνηση φυλλωμάτων">
+      <value name="Off" translation="Ανενεργή" />
+      <value name="On" translation="Ενεργή" />
+    </setting>
+    <setting name="Image Quality" translation="Ποιότητα εικόνας">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Mid" translation="Μεσαία" />
+      <value name="Variable(Prioritize Framerate)" translation="Μεταβλητή (προτεραιότητα ρυθμού καρέ)" />
+      <value name="Variable(Prioritize Resolution)" translation="Μεταβλητή (προτεραιότητα ανάλυσης)" />
+    </setting>
+    <setting name="LOD Bias" translation="Απόκλιση επιπέδου λεπτομέρειας">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Mid" translation="Μεσαία" />
+      <value name="Variable" translation="Μεταβλητή" />
+    </setting>
+    <setting name="Max LOD Level" translation="Μέγιστο επίπεδο LOD">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Χωρίς όριο" />
+    </setting>
+    <setting name="Resolution" translation="Ανάλυση" />
+    <setting name="Screen Space Reflection" translation="Αντανάκλαση χώρου οθόνης">
+      <value name="Off" translation="Ανενεργό" />
+      <value name="On" translation="Ενεργό" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Ποιότητα διάχυσης SH">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Mid" translation="Μεσαία" />
+    </setting>
+    <setting name="Shadow Quality" translation="Ποιότητα σκιάς">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Mid" translation="Μεσαία" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Διασκόρπιση υποεπιφάνειας">
+      <value name="Off" translation="Ανενεργή" />
+      <value name="On" translation="Ενεργή" />
+    </setting>
+    <setting name="Texture Quality" translation="Ποιότητα υφής">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Αυτόματη" />
+      <value name="Full" translation="Πλήρης" />
+      <value name="High Resolution Texture Pack" translation="Πακέτο υφών υψηλής ανάλυσης" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Ποιότητα φωτοαπόδοσης όγκου">
+      <value name="High" translation="Υψηλή" />
+      <value name="Highest" translation="Υψηλότερη" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Mid" translation="Μεσαία" />
+      <value name="Off" translation="Ανενεργή" />
+      <value name="Variable" translation="Μεταβλητή" />
+    </setting>
+    <setting name="Water Reflection" translation="Αντανάκλαση νερού">
+      <value name="Off" translation="Ανενεργό" />
+      <value name="On" translation="Ενεργό" />
+    </setting>
+  </language>
+  <language name="en_GB" translation="">
+    <setting name="Ambient Occlusion" translation="Ambient Occlusion">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anisotropic Filtering">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Off" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Full-screen" translation="Full-screen" />
+      <value name="Full-screen Borderless" translation="Full-screen Borderless" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="Windowed" />
+    </setting>
+    <setting name="Foliage Sway" translation="Foliage Sway">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Image Quality" translation="Image Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+      <value name="Variable(Prioritize Framerate)" translation="Variable (Prioritise Framerate)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variable (Prioritise Resolution)" />
+    </setting>
+    <setting name="LOD Bias" translation="LOD Bias">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+      <value name="Variable" translation="Variable" />
+    </setting>
+    <setting name="Max LOD Level" translation="Max LOD Level">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="No Limit" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Screen Space Reflection" translation="Screen Space Reflection">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="SH Diffuse Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+    </setting>
+    <setting name="Shadow Quality" translation="Shadow Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Subsurface Scattering">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Texture Quality" translation="Texture Quality">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Auto" />
+      <value name="Full" translation="Full" />
+      <value name="High Resolution Texture Pack" translation="High Resolution Texture Pack" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Volume Rendering Quality">
+      <value name="High" translation="High" />
+      <value name="Highest" translation="Highest" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+      <value name="Off" translation="Off" />
+      <value name="Variable" translation="Variable" />
+    </setting>
+    <setting name="Water Reflection" translation="Water Reflection">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+  </language>
+  <language name="en_US" translation="">
+    <setting name="Ambient Occlusion" translation="Ambient Occlusion">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anisotropic Filtering">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Off" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Full-screen" translation="Full-screen" />
+      <value name="Full-screen Borderless" translation="Full-screen Borderless" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="Windowed" />
+    </setting>
+    <setting name="Foliage Sway" translation="Foliage Sway">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Image Quality" translation="Image Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+      <value name="Variable(Prioritize Framerate)" translation="Variable(Prioritize Framerate)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variable(Prioritize Resolution)" />
+    </setting>
+    <setting name="LOD Bias" translation="LOD Bias">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+      <value name="Variable" translation="Variable" />
+    </setting>
+    <setting name="Max LOD Level" translation="Max LOD Level">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="No Limit" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Screen Space Reflection" translation="Screen Space Reflection">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="SH Diffuse Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+    </setting>
+    <setting name="Shadow Quality" translation="Shadow Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Subsurface Scattering">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Texture Quality" translation="Texture Quality">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Auto" />
+      <value name="Full" translation="Full" />
+      <value name="High Resolution Texture Pack" translation="High Resolution Texture Pack" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Volume Rendering Quality">
+      <value name="High" translation="High" />
+      <value name="Highest" translation="Highest" />
+      <value name="Low" translation="Low" />
+      <value name="Mid" translation="Mid" />
+      <value name="Off" translation="Off" />
+      <value name="Variable" translation="Variable" />
+    </setting>
+    <setting name="Water Reflection" translation="Water Reflection">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+  </language>
+  <language name="es_ES" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusión ambiental">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Mid" translation="Media" />
+      <value name="Off" translation="Desactivado" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Filtrado anisotrópico">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Mid" translation="Medio" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Antialiasing">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Desactivado" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+      <value name="Full-screen Borderless" translation="Pantalla completa sin bordes" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="En ventana" />
+    </setting>
+    <setting name="Foliage Sway" translation="Follaje en movimiento">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Image Quality" translation="Calidad de imagen">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baja" />
+      <value name="Mid" translation="Media" />
+      <value name="Variable(Prioritize Framerate)" translation="Variable (prioriza velocidad de fotogramas)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variable (prioriza resolución)" />
+    </setting>
+    <setting name="LOD Bias" translation="Diferencia de LOD">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Mid" translation="Media" />
+      <value name="Variable" translation="Variable" />
+    </setting>
+    <setting name="Max LOD Level" translation="Nivel LOD máximo">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Sin límite" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Screen Space Reflection" translation="Reflejo de espacio de pantalla">
+      <value name="Off" translation="Desactivada" />
+      <value name="On" translation="Activada" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Calidad difusa de armónicos esféricos">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Mid" translation="Media" />
+    </setting>
+    <setting name="Shadow Quality" translation="Calidad de sombras">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Mid" translation="Media" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Dispersión subsuperficial">
+      <value name="Off" translation="Desactivada" />
+      <value name="On" translation="Activada" />
+    </setting>
+    <setting name="Texture Quality" translation="Calidad de textura">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automática" />
+      <value name="Full" translation="Completa" />
+      <value name="High Resolution Texture Pack" translation="Paquete de texturas de alta resolución" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Calidad de renderizado volumétrico">
+      <value name="High" translation="Alta" />
+      <value name="Highest" translation="La más alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Mid" translation="Media" />
+      <value name="Off" translation="Desactivada" />
+      <value name="Variable" translation="Variable" />
+    </setting>
+    <setting name="Water Reflection" translation="Reflejo de agua">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+  </language>
+  <language name="es_MX" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusión ambiental">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Mid" translation="Media" />
+      <value name="Off" translation="Desactivado" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Filtrado anisotrópico">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Mid" translation="Medio" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Suavizado de líneas">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Desactivado" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+      <value name="Full-screen Borderless" translation="Pantalla completa sin borde" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="En ventana" />
+    </setting>
+    <setting name="Foliage Sway" translation="Follaje Sway">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Image Quality" translation="Calidad de imagen">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Mid" translation="Media" />
+      <value name="Variable(Prioritize Framerate)" translation="Variable (priorizar frecuencia de fotogramas)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variable (priorizar resolución)" />
+    </setting>
+    <setting name="LOD Bias" translation="Diferencia del nivel de detalles (LOD)">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Mid" translation="Media" />
+      <value name="Variable" translation="Variable" />
+    </setting>
+    <setting name="Max LOD Level" translation="Nivel de detalles máximo">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Sin límite" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Screen Space Reflection" translation="Reflejo del espacio de pantalla">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Calidad difusa de SH">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Mid" translation="Media" />
+    </setting>
+    <setting name="Shadow Quality" translation="Calidad de sombras">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Mid" translation="Media" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Dispersión subsuperficial">
+      <value name="Off" translation="Desactivada" />
+      <value name="On" translation="Activada" />
+    </setting>
+    <setting name="Texture Quality" translation="Calidad de la textura">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automática" />
+      <value name="Full" translation="Completa" />
+      <value name="High Resolution Texture Pack" translation="Paquete de textura de alta resolución" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Calidad de renderizado de volumen">
+      <value name="High" translation="Alta" />
+      <value name="Highest" translation="La más alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Mid" translation="Media" />
+      <value name="Off" translation="Desactivada" />
+      <value name="Variable" translation="Variable" />
+    </setting>
+    <setting name="Water Reflection" translation="Reflejo del agua">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+  </language>
+  <language name="fi_FI" translation="">
+    <setting name="Ambient Occlusion" translation="Ympäristön sulkeminen">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Mid" translation="Keski" />
+      <value name="Off" translation="Pois" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anisotrooppinen suodatus">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Mid" translation="Keski" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Reunanpehmennys">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Pois" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Näyttötila">
+      <value name="Full-screen" translation="Kokonäyttö" />
+      <value name="Full-screen Borderless" translation="Kokonäytön kehyksetön" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="Ikkuna" />
+    </setting>
+    <setting name="Foliage Sway" translation="Lehvästön huojunta">
+      <value name="Off" translation="Pois" />
+      <value name="On" translation="Päällä" />
+    </setting>
+    <setting name="Image Quality" translation="Kuvanlaatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Mid" translation="Normaali" />
+      <value name="Variable(Prioritize Framerate)" translation="Vaihteleva (kehystaajuusprioriteetti)" />
+      <value name="Variable(Prioritize Resolution)" translation="Vaihteleva (tarkkuusprioriteetti)" />
+    </setting>
+    <setting name="LOD Bias" translation="Yksityiskohtatason vinouma">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Matala" />
+      <value name="Mid" translation="Keski" />
+      <value name="Variable" translation="Vaihteleva" />
+    </setting>
+    <setting name="Max LOD Level" translation="Enimmäisyksityiskohtataso">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Ei rajoitusta" />
+    </setting>
+    <setting name="Resolution" translation="Tarkkuus" />
+    <setting name="Screen Space Reflection" translation="Näyttötilan heijastuma">
+      <value name="Off" translation="Pois" />
+      <value name="On" translation="Päällä" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="SH-diffuusiolaatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Matala" />
+      <value name="Mid" translation="Keski" />
+    </setting>
+    <setting name="Shadow Quality" translation="Varjon laatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Mid" translation="Normaali" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Jakautuminen pinnan alla">
+      <value name="Off" translation="Pois" />
+      <value name="On" translation="Päällä" />
+    </setting>
+    <setting name="Texture Quality" translation="Pintakuvion laatu">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automaattinen" />
+      <value name="Full" translation="100 %" />
+      <value name="High Resolution Texture Pack" translation="Erittäin tarkkojen pintakuvioiden pakkaus" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Volumetrinen piirtolaatu">
+      <value name="High" translation="Korkea" />
+      <value name="Highest" translation="Korkein" />
+      <value name="Low" translation="Matala" />
+      <value name="Mid" translation="Keski" />
+      <value name="Off" translation="Pois" />
+      <value name="Variable" translation="Vaihteleva" />
+    </setting>
+    <setting name="Water Reflection" translation="Veden heijastus">
+      <value name="Off" translation="Pois" />
+      <value name="On" translation="Päällä" />
+    </setting>
+  </language>
+  <language name="fr_FR" translation="">
+    <setting name="Ambient Occlusion" translation="Occlusion ambiante">
+      <value name="High" translation="Élevée" />
+      <value name="Low" translation="Faible" />
+      <value name="Mid" translation="Moyenne" />
+      <value name="Off" translation="Désactivée" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Filtrage anisotrope">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Mid" translation="Moyen" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anticrénelage">
+      <value name="FXAA" translation="Anticrénelage rapide approximatif (FXAA)" />
+      <value name="Off" translation="Désactivé" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Mode d'affichage">
+      <value name="Full-screen" translation="Plein écran" />
+      <value name="Full-screen Borderless" translation="Plein écran sans bordures" />
+      <value name="HDR" translation="Effets d'éclairage très dynamiques (HDR)" />
+      <value name="Windowed" translation="Fenêtré" />
+    </setting>
+    <setting name="Foliage Sway" translation="Balancement du feuillage">
+      <value name="Off" translation="Désactivé" />
+      <value name="On" translation="Activé" />
+    </setting>
+    <setting name="Image Quality" translation="Qualité de l'image">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Mid" translation="Moyenne" />
+      <value name="Variable(Prioritize Framerate)" translation="Variable (priorité à la fluidité)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variable (priorité à la résolution)" />
+    </setting>
+    <setting name="LOD Bias" translation="Biais de niveau de détail">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Mid" translation="Moyen" />
+      <value name="Variable" translation="Variable" />
+    </setting>
+    <setting name="Max LOD Level" translation="Niveau de détail max">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Pas de limite" />
+    </setting>
+    <setting name="Resolution" translation="Résolution" />
+    <setting name="Screen Space Reflection" translation="Réflexion de l'espace de l'écran">
+      <value name="Off" translation="Désactivé" />
+      <value name="On" translation="Activé" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Qualité de la diffusion (harmoniques sphériques)">
+      <value name="High" translation="Élevée" />
+      <value name="Low" translation="Faible" />
+      <value name="Mid" translation="Moyenne" />
+    </setting>
+    <setting name="Shadow Quality" translation="Qualité de l’ombre">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Mid" translation="Moyenne" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Diffusion en profondeur">
+      <value name="Off" translation="Désactivée" />
+      <value name="On" translation="Activée" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualité des textures">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Auto" />
+      <value name="Full" translation="Complète" />
+      <value name="High Resolution Texture Pack" translation="Pack de textures haute résolution" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Qualité du rendu des volumes">
+      <value name="High" translation="Élevée" />
+      <value name="Highest" translation="Maximale" />
+      <value name="Low" translation="Faible" />
+      <value name="Mid" translation="Moyenne" />
+      <value name="Off" translation="Désactivée" />
+      <value name="Variable" translation="Variable" />
+    </setting>
+    <setting name="Water Reflection" translation="Reflets de l’eau">
+      <value name="Off" translation="Désactivé" />
+      <value name="On" translation="Activé" />
+    </setting>
+  </language>
+  <language name="he_IL" translation="">
+    <setting name="Ambient Occlusion" translation="הצללה בשיטה 'הסתרה סביבתית'">
+      <value name="High" translation="חזקה" />
+      <value name="Low" translation="חלשה" />
+      <value name="Mid" translation="אמצע" />
+      <value name="Off" translation="מושבתת" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="סינון אנאיזוטרופי">
+      <value name="High" translation="איכות גבוהה" />
+      <value name="Low" translation="איכות נמוכה" />
+      <value name="Mid" translation="אמצע" />
+    </setting>
+    <setting name="Anti-aliasing" translation="החלקת שינון">
+      <value name="FXAA" translation="החלקת שינון באמצעות קירוב מהיר" />
+      <value name="Off" translation="מושבתת" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="מצב תצוגה">
+      <value name="Full-screen" translation="במלוא שטח הצג" />
+      <value name="Full-screen Borderless" translation="מסך מלא ללא גבולות" />
+      <value name="HDR" translation="HDR (תחום דינמי גבוה)" />
+      <value name="Windowed" translation="תצוגה בחלון" />
+    </setting>
+    <setting name="Foliage Sway" translation="תנועת העלווה">
+      <value name="Off" translation="כבויה" />
+      <value name="On" translation="פועלת" />
+    </setting>
+    <setting name="Image Quality" translation="איכות הדמות">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Mid" translation="אמצע" />
+      <value name="Variable(Prioritize Framerate)" translation="משתנה (עדיפות ראשונה לתדירות רענון המסגרות)" />
+      <value name="Variable(Prioritize Resolution)" translation="משתנה (עדיפות ראשונה לרזולוציה)" />
+    </setting>
+    <setting name="LOD Bias" translation="מקדם LOD">
+      <value name="High" translation="גבוה" />
+      <value name="Low" translation="נמוך" />
+      <value name="Mid" translation="אמצע" />
+      <value name="Variable" translation="משתנה" />
+    </setting>
+    <setting name="Max LOD Level" translation="רמת LOD מירבית">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="ללא הגבלה" />
+    </setting>
+    <setting name="Resolution" translation="רזולוציה" />
+    <setting name="Screen Space Reflection" translation="השתקפות מרחב מסך">
+      <value name="Off" translation="מושבת" />
+      <value name="On" translation="פעיל" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="איכות פיזור SH">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Mid" translation="אמצע" />
+    </setting>
+    <setting name="Shadow Quality" translation="איכות ההצללה">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Mid" translation="אמצע" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="פיזור משטחי משנה">
+      <value name="Off" translation="מושבת" />
+      <value name="On" translation="פעיל" />
+    </setting>
+    <setting name="Texture Quality" translation="סינון מרקמים - איכות">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="אוטומטית" />
+      <value name="Full" translation="מלאה" />
+      <value name="High Resolution Texture Pack" translation="חבילת מרקמים ברזולוציה גבוהה" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="איכות הפקת עוצמה">
+      <value name="High" translation="גבוהה" />
+      <value name="Highest" translation="מרבית" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Mid" translation="אמצע" />
+      <value name="Off" translation="כבויה" />
+      <value name="Variable" translation="משתנה" />
+    </setting>
+    <setting name="Water Reflection" translation="השתקפות מים">
+      <value name="Off" translation="מושבת" />
+      <value name="On" translation="פעיל" />
+    </setting>
+  </language>
+  <language name="hu_HU" translation="">
+    <setting name="Ambient Occlusion" translation="Környezeti kitakarás">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Mid" translation="Közepes" />
+      <value name="Off" translation="Ki" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anizotróp szűrés">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Mid" translation="Közepes" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Élsimítás">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Ki" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Megjelenítési mód">
+      <value name="Full-screen" translation="Teljes képernyős" />
+      <value name="Full-screen Borderless" translation="Teljes képernyős keret nélküli" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="Ablakos" />
+    </setting>
+    <setting name="Foliage Sway" translation="Lombozat minősége">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Image Quality" translation="Képminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Mid" translation="Közepes" />
+      <value name="Variable(Prioritize Framerate)" translation="Változó (Képkockasebesség előnyben részesítése)" />
+      <value name="Variable(Prioritize Resolution)" translation="Változó (Felbontás előnyben részesítése)" />
+    </setting>
+    <setting name="LOD Bias" translation="Részletességi szint eltolás">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Mid" translation="Közepes" />
+      <value name="Variable" translation="Változó" />
+    </setting>
+    <setting name="Max LOD Level" translation="Maximális részletességi szint">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Korlátlan" />
+    </setting>
+    <setting name="Resolution" translation="Felbontás" />
+    <setting name="Screen Space Reflection" translation="Képernyőtéri tükröződés">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="SH szórás minősége">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Mid" translation="Közepes" />
+    </setting>
+    <setting name="Shadow Quality" translation="Árnyékminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Mid" translation="Közepes" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Felszín alatti szórás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Texture Quality" translation="Textúraminőség">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automatikus" />
+      <value name="Full" translation="Teljes" />
+      <value name="High Resolution Texture Pack" translation="Nagy felbontású textúracsomag" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Térfogat megjelenítési minősége">
+      <value name="High" translation="Magas" />
+      <value name="Highest" translation="Legmagasabb" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Mid" translation="Közepes" />
+      <value name="Off" translation="Ki" />
+      <value name="Variable" translation="Változó" />
+    </setting>
+    <setting name="Water Reflection" translation="Visszatükröződés vízen">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+  </language>
+  <language name="it_IT" translation="">
+    <setting name="Ambient Occlusion" translation="Occlusione ambientale">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Mid" translation="Media" />
+      <value name="Off" translation="Disattivato" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Filtro anisotropico">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Mid" translation="Medio" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Antialias">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Disattivato" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Modalità di visualizzazione">
+      <value name="Full-screen" translation="Schermo intero" />
+      <value name="Full-screen Borderless" translation="Schermo intero senza bordi" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="A finestra" />
+    </setting>
+    <setting name="Foliage Sway" translation="Ondeggiamento fogliame">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="Image Quality" translation="Qualità immagine">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Mid" translation="Media" />
+      <value name="Variable(Prioritize Framerate)" translation="Variabile (priorità frequenza di aggiornamento)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variabile (priorità risoluzione)" />
+    </setting>
+    <setting name="LOD Bias" translation="Bias liv. dettaglio">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Mid" translation="Medio" />
+      <value name="Variable" translation="Variabile" />
+    </setting>
+    <setting name="Max LOD Level" translation="Livello di dettaglio massimo">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Nessun limite" />
+    </setting>
+    <setting name="Resolution" translation="Risoluzione" />
+    <setting name="Screen Space Reflection" translation="Riflesso spaziale dello schermo">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Qualità diffusione armoniche sferiche">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Bassa" />
+      <value name="Mid" translation="Media" />
+    </setting>
+    <setting name="Shadow Quality" translation="Qualità ombre">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Mid" translation="Media" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Dispersione luminosa in profondità">
+      <value name="Off" translation="Disattivata" />
+      <value name="On" translation="Attivata" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualità texture">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automatica" />
+      <value name="Full" translation="Completa" />
+      <value name="High Resolution Texture Pack" translation="Pacchetto texture ad alta risoluzione" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Qualità rendering volumetrico">
+      <value name="High" translation="Alta" />
+      <value name="Highest" translation="Massima" />
+      <value name="Low" translation="Bassa" />
+      <value name="Mid" translation="Media" />
+      <value name="Off" translation="Disattivata" />
+      <value name="Variable" translation="Variabile" />
+    </setting>
+    <setting name="Water Reflection" translation="Riflessione acqua">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+  </language>
+  <language name="ja_JP" translation="">
+    <setting name="Ambient Occlusion" translation="アンビエント オクルージョン">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+      <value name="Off" translation="オフ" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="異方性フィルタリング">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+    </setting>
+    <setting name="Anti-aliasing" translation="アンチエイリアシング">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="オフ" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="ディスプレイ モード">
+      <value name="Full-screen" translation="フルスクリーン" />
+      <value name="Full-screen Borderless" translation="フル スクリーン ボーダーなし" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="ウィンドウ表示" />
+    </setting>
+    <setting name="Foliage Sway" translation="群葉スウェイ">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Image Quality" translation="画質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+      <value name="Variable(Prioritize Framerate)" translation="可変 (フレームレートを優先)" />
+      <value name="Variable(Prioritize Resolution)" translation="可変 (解像度を優先)" />
+    </setting>
+    <setting name="LOD Bias" translation="LOD バイアス">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+      <value name="Variable" translation="可変" />
+    </setting>
+    <setting name="Max LOD Level" translation="最大 LOD レベル">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="制限なし" />
+    </setting>
+    <setting name="Resolution" translation="解像度" />
+    <setting name="Screen Space Reflection" translation="スクリーン スペースの反射">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="SH 拡散クオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+    </setting>
+    <setting name="Shadow Quality" translation="シャドウのクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="サブサーフェイス・スキャッタリング">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Texture Quality" translation="テクスチャのクオリティ">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="自動" />
+      <value name="Full" translation="フル" />
+      <value name="High Resolution Texture Pack" translation="高解像度テクスチャ パック" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="ボリューム レンダリング クオリティ">
+      <value name="High" translation="高" />
+      <value name="Highest" translation="最高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+      <value name="Off" translation="オフ" />
+      <value name="Variable" translation="可変" />
+    </setting>
+    <setting name="Water Reflection" translation="水面反射">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+  </language>
+  <language name="ko_KR" translation="">
+    <setting name="Ambient Occlusion" translation="앰비언트 오클루젼">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Mid" translation="보통" />
+      <value name="Off" translation="끄기" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="이방성 필터링">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Mid" translation="보통" />
+    </setting>
+    <setting name="Anti-aliasing" translation="앤티엘리어싱">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="끄기" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="디스플레이 모드">
+      <value name="Full-screen" translation="전체 화면" />
+      <value name="Full-screen Borderless" translation="전체 화면 테두리 없음" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="창" />
+    </setting>
+    <setting name="Foliage Sway" translation="포울리지 흔들림">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Image Quality" translation="이미지 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Mid" translation="중간" />
+      <value name="Variable(Prioritize Framerate)" translation="변수(프레임 속도 우선순위 지정)" />
+      <value name="Variable(Prioritize Resolution)" translation="변수(해상도 우선순위 지정)" />
+    </setting>
+    <setting name="LOD Bias" translation="LOD 바이어스">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Mid" translation="보통" />
+      <value name="Variable" translation="변수" />
+    </setting>
+    <setting name="Max LOD Level" translation="최대 LOD 레벨">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="제한 없음" />
+    </setting>
+    <setting name="Resolution" translation="해상도" />
+    <setting name="Screen Space Reflection" translation="화면 공간 반사">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="SH 확산 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Mid" translation="보통" />
+    </setting>
+    <setting name="Shadow Quality" translation="그림자 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Mid" translation="보통" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="표면 밑 분사">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Texture Quality" translation="텍스처 품질">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="자동" />
+      <value name="Full" translation="전체" />
+      <value name="High Resolution Texture Pack" translation="고해상도 텍스처 팩" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="볼륨 렌더링 품질">
+      <value name="High" translation="높음" />
+      <value name="Highest" translation="가장 높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Mid" translation="보통" />
+      <value name="Off" translation="끄기" />
+      <value name="Variable" translation="변수" />
+    </setting>
+    <setting name="Water Reflection" translation="물 반사">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+  </language>
+  <language name="nb_NO" translation="">
+    <setting name="Ambient Occlusion" translation="Omgivelsesbetinget lys">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Middels" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anisotropisk filtrering">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Middels" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="FXAA" translation="Skyggebasert anti-aliasing" />
+      <value name="Off" translation="Av" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Skjermmodus">
+      <value name="Full-screen" translation="Full skjerm" />
+      <value name="Full-screen Borderless" translation="Fullskjerm rammeløs" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="Vindusmodus" />
+    </setting>
+    <setting name="Foliage Sway" translation="Bladverksvaing">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Image Quality" translation="Bildekvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Middels" />
+      <value name="Variable(Prioritize Framerate)" translation="Variabel (prioriter bildefrekvens)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variabel (prioriter oppløsning)" />
+    </setting>
+    <setting name="LOD Bias" translation="LOD Bias">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Middels" />
+      <value name="Variable" translation="Variabel" />
+    </setting>
+    <setting name="Max LOD Level" translation="Maks. LOD-nivå">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Ingen grense" />
+    </setting>
+    <setting name="Resolution" translation="Oppløsning" />
+    <setting name="Screen Space Reflection" translation="Skjermområderefleks">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="SH diffus kvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Middels" />
+    </setting>
+    <setting name="Shadow Quality" translation="Skyggekvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Middels" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Underspredning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Texture Quality" translation="Teksturkvalitet">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Auto" />
+      <value name="Full" translation="Fullstendig" />
+      <value name="High Resolution Texture Pack" translation="Pakke med høyoppløselige teksturer" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Volumgjengivelseskvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Highest" translation="Høyest" />
+      <value name="Low" translation="Lav" />
+      <value name="Mid" translation="Middels" />
+      <value name="Off" translation="Av" />
+      <value name="Variable" translation="Variabel" />
+    </setting>
+    <setting name="Water Reflection" translation="Gjenspeiling i vann">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+  </language>
+  <language name="nl_NL" translation="">
+    <setting name="Ambient Occlusion" translation="Omgevingsocclusie">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Mid" translation="Gemiddeld" />
+      <value name="Off" translation="Uit" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anisotropische filtering">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Mid" translation="Gemiddeld" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Uit" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Beeldschermmodus">
+      <value name="Full-screen" translation="Volledig scherm" />
+      <value name="Full-screen Borderless" translation="Volledig scherm randloos" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="In venster" />
+    </setting>
+    <setting name="Foliage Sway" translation="Wiegende begroeiing">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Image Quality" translation="Beeldkwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Mid" translation="Gemiddeld" />
+      <value name="Variable(Prioritize Framerate)" translation="Variabel (framesnelheid heeft prioriteit)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variabel (resolutie heeft prioriteit)" />
+    </setting>
+    <setting name="LOD Bias" translation="Compensatie detailniveau">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Mid" translation="Gemiddeld" />
+      <value name="Variable" translation="Variabel" />
+    </setting>
+    <setting name="Max LOD Level" translation="Maximaal detailniveau">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Geen limiet" />
+    </setting>
+    <setting name="Resolution" translation="Resolutie" />
+    <setting name="Screen Space Reflection" translation="Schermruimtereflectie">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="SH-diffuuskwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Mid" translation="Gemiddeld" />
+    </setting>
+    <setting name="Shadow Quality" translation="Schaduwkwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Mid" translation="Midden" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Verspreiding onder oppervlakte">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Texture Quality" translation="Patroonkwaliteit">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automatisch" />
+      <value name="Full" translation="Volledig" />
+      <value name="High Resolution Texture Pack" translation="Texturepakket met hoge resolutie" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Renderingkwaliteit volume">
+      <value name="High" translation="Hoog" />
+      <value name="Highest" translation="Maximaal" />
+      <value name="Low" translation="Laag" />
+      <value name="Mid" translation="Gemiddeld" />
+      <value name="Off" translation="Uit" />
+      <value name="Variable" translation="Variabel" />
+    </setting>
+    <setting name="Water Reflection" translation="Waterreflectie">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+  </language>
+  <language name="pl_PL" translation="">
+    <setting name="Ambient Occlusion" translation="Przesłanianie środowiska">
+      <value name="High" translation="Wysokie" />
+      <value name="Low" translation="Niskie" />
+      <value name="Mid" translation="Średnie" />
+      <value name="Off" translation="Wyłącz" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Filtrowanie anizotropowe">
+      <value name="High" translation="Wysokie" />
+      <value name="Low" translation="Niskie" />
+      <value name="Mid" translation="Średnie" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Wygładzanie krawędzi">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Wyłącz" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Tryb wyświetlania">
+      <value name="Full-screen" translation="Pełny ekran" />
+      <value name="Full-screen Borderless" translation="Pełny ekran, bez ramki" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="Okienkowy" />
+    </setting>
+    <setting name="Foliage Sway" translation="Kołysanie roślinności">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Image Quality" translation="Jakość obrazu">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Mid" translation="Średnia" />
+      <value name="Variable(Prioritize Framerate)" translation="Zmienna (priorytet częstości wyświetlania klatek)" />
+      <value name="Variable(Prioritize Resolution)" translation="Zmienna (priorytet rozdzielczości)" />
+    </setting>
+    <setting name="LOD Bias" translation="Kompensacja poziomu szczegółowości">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Mid" translation="Średnia" />
+      <value name="Variable" translation="Zmienna" />
+    </setting>
+    <setting name="Max LOD Level" translation="Maksymalny poziom szczegółowości">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Bez ograniczeń" />
+    </setting>
+    <setting name="Resolution" translation="Rozdzielczość" />
+    <setting name="Screen Space Reflection" translation="Odbicie przestrzeni ekranu">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Jakość rozpraszania SH">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Mid" translation="Średnia" />
+    </setting>
+    <setting name="Shadow Quality" translation="Jakość cieni">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Mid" translation="Średnia" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Rozpraszanie podpowierzchniowe">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Texture Quality" translation="Jakość tekstur">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automatyczna" />
+      <value name="Full" translation="Pełna" />
+      <value name="High Resolution Texture Pack" translation="Pakiet tekstur w wysokiej rozdzielczości" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Jakość renderingu objętościowego">
+      <value name="High" translation="Wysoka" />
+      <value name="Highest" translation="Najwyższa" />
+      <value name="Low" translation="Niska" />
+      <value name="Mid" translation="Średnia" />
+      <value name="Off" translation="Wyłącz" />
+      <value name="Variable" translation="Zmienna" />
+    </setting>
+    <setting name="Water Reflection" translation="Odbicia w wodzie">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+  </language>
+  <language name="pt_BR" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusão ambiental">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Mid" translation="Média" />
+      <value name="Off" translation="Desligada" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Filtragem Anisotrópica">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+      <value name="Mid" translation="Média" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Desligado" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de video">
+      <value name="Full-screen" translation="Tela inteira" />
+      <value name="Full-screen Borderless" translation="Tela cheia sem borda" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="Em Janelas" />
+    </setting>
+    <setting name="Foliage Sway" translation="Balançar da folhagem">
+      <value name="Off" translation="Desligado" />
+      <value name="On" translation="Ligado" />
+    </setting>
+    <setting name="Image Quality" translation="Qualidade da Imagem">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+      <value name="Mid" translation="Média" />
+      <value name="Variable(Prioritize Framerate)" translation="Variável (Prioritiza a Taxa de Quadros)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variável (Prioriza a resolução)" />
+    </setting>
+    <setting name="LOD Bias" translation="Diferencial de LOD (Nível de detalhe)">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+      <value name="Mid" translation="Médio" />
+      <value name="Variable" translation="Variável" />
+    </setting>
+    <setting name="Max LOD Level" translation="Nível máximo de LOD">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Sem limite" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+    <setting name="Screen Space Reflection" translation="Reflexão de espaço de tela">
+      <value name="Off" translation="Desligado" />
+      <value name="On" translation="Ligado" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Qualidade de difusão de SH">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Mid" translation="Média" />
+    </setting>
+    <setting name="Shadow Quality" translation="Qualidade da sombra">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixa" />
+      <value name="Mid" translation="Média" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Dispersão de superfície">
+      <value name="Off" translation="Desligado" />
+      <value name="On" translation="Ligado" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualidade da Textura">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automática" />
+      <value name="Full" translation="Total" />
+      <value name="High Resolution Texture Pack" translation="Pacote de Textura de alta resolução" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Qualidade de renderização do volume">
+      <value name="High" translation="Alta" />
+      <value name="Highest" translation="Mais alta possível" />
+      <value name="Low" translation="Baixa" />
+      <value name="Mid" translation="Média" />
+      <value name="Off" translation="Desligado" />
+      <value name="Variable" translation="Variável" />
+    </setting>
+    <setting name="Water Reflection" translation="Reflexo da Água">
+      <value name="Off" translation="Desligado" />
+      <value name="On" translation="Ligado" />
+    </setting>
+  </language>
+  <language name="pt_PT" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusão ambiental">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Mid" translation="Nível médio" />
+      <value name="Off" translation="Desactivar" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Filtração anisotrópica">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Mid" translation="Nível médio" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Antialiasing">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Desactivar" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de visualização">
+      <value name="Full-screen" translation="Ecrã inteiro" />
+      <value name="Full-screen Borderless" translation="Ecrã inteiro sem margem" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="Modo de janela" />
+    </setting>
+    <setting name="Foliage Sway" translation="Movimento da folhagem">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Image Quality" translation="Qualidade da imagem">
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Nível baixo" />
+      <value name="Mid" translation="Nível médio" />
+      <value name="Variable(Prioritize Framerate)" translation="Variável (dar prioridade à taxa de videogramas)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variável (dar prioridade à resolução)" />
+    </setting>
+    <setting name="LOD Bias" translation="Tendência do nível de detalhe">
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Nível baixo" />
+      <value name="Mid" translation="Nível médio" />
+      <value name="Variable" translation="Variável" />
+    </setting>
+    <setting name="Max LOD Level" translation="Nível de detalhe máximo">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Sem limite" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+    <setting name="Screen Space Reflection" translation="Reflexos do espaço de ecrã">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Qualidade difusa dos harmónicos esféricos">
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Nível baixo" />
+      <value name="Mid" translation="Nível médio" />
+    </setting>
+    <setting name="Shadow Quality" translation="Qualidade da sombra">
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Baixa" />
+      <value name="Mid" translation="Nível médio" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Dispersão da luz">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualidade das texturas">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automática" />
+      <value name="Full" translation="Completa" />
+      <value name="High Resolution Texture Pack" translation="Pacote de textura de alta resolução" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Qualidade de apresentação do volume">
+      <value name="High" translation="Nível alto" />
+      <value name="Highest" translation="Nível mais alto" />
+      <value name="Low" translation="Nível baixo" />
+      <value name="Mid" translation="Nível médio" />
+      <value name="Off" translation="Desactivar" />
+      <value name="Variable" translation="Variável" />
+    </setting>
+    <setting name="Water Reflection" translation="Reflexo da água">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+  </language>
+  <language name="ru_RU" translation="">
+    <setting name="Ambient Occlusion" translation="Затенение фонового освещения">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Mid" translation="Среднее" />
+      <value name="Off" translation="Выкл." />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Анизотропная фильтрация">
+      <value name="High" translation="Высокая" />
+      <value name="Low" translation="Низкая" />
+      <value name="Mid" translation="Средняя" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Сглаживание">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Выкл." />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Экранный режим">
+      <value name="Full-screen" translation="Полный экран" />
+      <value name="Full-screen Borderless" translation="Полноэкранный без рамки" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="В окне" />
+    </setting>
+    <setting name="Foliage Sway" translation="Колыхание растительности">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Image Quality" translation="Качество изображения">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Mid" translation="Среднее" />
+      <value name="Variable(Prioritize Framerate)" translation="Переменное (главное — частота кадров)" />
+      <value name="Variable(Prioritize Resolution)" translation="Переменное (главное — разрешение)" />
+    </setting>
+    <setting name="LOD Bias" translation="Отклонение уровня детализации">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Mid" translation="Среднее" />
+      <value name="Variable" translation="Переменное" />
+    </setting>
+    <setting name="Max LOD Level" translation="Максимальный уровень детализации">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Без ограничения" />
+    </setting>
+    <setting name="Resolution" translation="Разрешение" />
+    <setting name="Screen Space Reflection" translation="Отражения в пространстве">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Качество рассеивания СГ">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Mid" translation="Среднее" />
+    </setting>
+    <setting name="Shadow Quality" translation="Качество теней">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Mid" translation="Среднее" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Подповерхностное рассеивание">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Texture Quality" translation="Качество текстуры">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Авто" />
+      <value name="Full" translation="Полное" />
+      <value name="High Resolution Texture Pack" translation="Пакет текстур высокого разрешения" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Качество объемного рендеринга">
+      <value name="High" translation="Высокое" />
+      <value name="Highest" translation="Максимальное" />
+      <value name="Low" translation="Низкое" />
+      <value name="Mid" translation="Среднее" />
+      <value name="Off" translation="Выкл." />
+      <value name="Variable" translation="Переменное" />
+    </setting>
+    <setting name="Water Reflection" translation="Отражения в воде">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+  </language>
+  <language name="sk_SK" translation="">
+    <setting name="Ambient Occlusion" translation="Zatienenie okolím">
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+      <value name="Mid" translation="Stredné" />
+      <value name="Off" translation="Vypnuté" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anizotropné filtrovanie">
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+      <value name="Mid" translation="Stredné" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Vyhladzovanie">
+      <value name="FXAA" translation="Vyhladzovanie FXAA" />
+      <value name="Off" translation="Vypnuté" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Režim zobrazenia">
+      <value name="Full-screen" translation="Na celú obrazovku" />
+      <value name="Full-screen Borderless" translation="Na celú obrazovku bez orámovania" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="V okne" />
+    </setting>
+    <setting name="Foliage Sway" translation="Pohyb vegetácie">
+      <value name="Off" translation="Vypnutý" />
+      <value name="On" translation="Zapnutý" />
+    </setting>
+    <setting name="Image Quality" translation="Kvalita obrazu">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Mid" translation="Stredná" />
+      <value name="Variable(Prioritize Framerate)" translation="Premenlivá (uprednostniť snímkovú frekvenciu)" />
+      <value name="Variable(Prioritize Resolution)" translation="Premenlivá (uprednostniť rozlíšenie)" />
+    </setting>
+    <setting name="LOD Bias" translation="Skreslenie úrovne detailov">
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+      <value name="Mid" translation="Stredné" />
+      <value name="Variable" translation="Premenlivé" />
+    </setting>
+    <setting name="Max LOD Level" translation="Maximálna hodnota úrovne detailov">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Žiadne obmedzenie" />
+    </setting>
+    <setting name="Resolution" translation="Rozlíšenie" />
+    <setting name="Screen Space Reflection" translation="Odraz v priestore obrazovky">
+      <value name="Off" translation="Vypnutý" />
+      <value name="On" translation="Zapnutý" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Kvalita rozptylu tieňovačov">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Mid" translation="Stredná" />
+    </setting>
+    <setting name="Shadow Quality" translation="Kvalita tieňa">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Mid" translation="Stredná" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Rozptýlenie svetla na pokožke">
+      <value name="Off" translation="Vypnuté" />
+      <value name="On" translation="Zapnuté" />
+    </setting>
+    <setting name="Texture Quality" translation="Kvalita textúry">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automatická" />
+      <value name="Full" translation="Úplná" />
+      <value name="High Resolution Texture Pack" translation="Balík textúr s vysokým rozlíšením" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Kvalita objemového zobrazovania">
+      <value name="High" translation="Vysoká" />
+      <value name="Highest" translation="Najvyššia" />
+      <value name="Low" translation="Nízka" />
+      <value name="Mid" translation="Stredná" />
+      <value name="Off" translation="Vypnutá" />
+      <value name="Variable" translation="Premenlivá" />
+    </setting>
+    <setting name="Water Reflection" translation="Odraz vo vode">
+      <value name="Off" translation="Vypnutý" />
+      <value name="On" translation="Zapnutý" />
+    </setting>
+  </language>
+  <language name="sl_SI" translation="">
+    <setting name="Ambient Occlusion" translation="Zapiranje okolice">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Mid" translation="Srednje" />
+      <value name="Off" translation="Izklop" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Neizotropno filtriranje">
+      <value name="High" translation="Visoka" />
+      <value name="Low" translation="Nizka" />
+      <value name="Mid" translation="Srednje" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Glajenje robov">
+      <value name="FXAA" translation="Naknadno glajenje robov" />
+      <value name="Off" translation="Izklop" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Zaslonski način">
+      <value name="Full-screen" translation="Celoten zaslon" />
+      <value name="Full-screen Borderless" translation="Celozaslonski brez robu" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="V oknu" />
+    </setting>
+    <setting name="Foliage Sway" translation="Nihanje zelenja">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Image Quality" translation="Kakovost slike">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Mid" translation="Srednja" />
+      <value name="Variable(Prioritize Framerate)" translation="Spremenljiva (določi prednost številu okvirov na sekundo)" />
+      <value name="Variable(Prioritize Resolution)" translation="Spremenljiva (določi prednost ločljivosti)" />
+    </setting>
+    <setting name="LOD Bias" translation="Odmik ravni podrobnosti">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Mid" translation="Srednje" />
+      <value name="Variable" translation="Spremenljivo" />
+    </setting>
+    <setting name="Max LOD Level" translation="Maksimalna raven podrobnosti">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Ni omejitve" />
+    </setting>
+    <setting name="Resolution" translation="Ločljivost" />
+    <setting name="Screen Space Reflection" translation="Odsev v zaslonu">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Kakovost razpršitve krogelnega nihanja">
+      <value name="High" translation="Visoka" />
+      <value name="Low" translation="Nizka" />
+      <value name="Mid" translation="Srednja" />
+    </setting>
+    <setting name="Shadow Quality" translation="Kakovost sence">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Mid" translation="Srednja" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Podrazpršitev">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Texture Quality" translation="Kakovost teksture">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Samodejna" />
+      <value name="Full" translation="Polno" />
+      <value name="High Resolution Texture Pack" translation="Paket tekstur visoke ločljivosti" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Kakovost prikaza obsega">
+      <value name="High" translation="Visoka" />
+      <value name="Highest" translation="Najvišja" />
+      <value name="Low" translation="Nizka" />
+      <value name="Mid" translation="Srednja" />
+      <value name="Off" translation="Izklop" />
+      <value name="Variable" translation="Spremenljiva" />
+    </setting>
+    <setting name="Water Reflection" translation="Odsev vode">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+  </language>
+  <language name="sv_SE" translation="">
+    <setting name="Ambient Occlusion" translation="Omgivande inneslutning">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Mid" translation="Medel" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Anisotropisk filtrering">
+      <value name="High" translation="Högt" />
+      <value name="Low" translation="Låg" />
+      <value name="Mid" translation="Medel" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Kantutjämning">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Av" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Visningsläge">
+      <value name="Full-screen" translation="Helskärm" />
+      <value name="Full-screen Borderless" translation="Helskärm kantlöst" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="I fönster" />
+    </setting>
+    <setting name="Foliage Sway" translation="Lövverkets rörelse">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Image Quality" translation="Bildkvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Mid" translation="Medel" />
+      <value name="Variable(Prioritize Framerate)" translation="Variabel (prioritera bildrutefrekvens)" />
+      <value name="Variable(Prioritize Resolution)" translation="Variabel (prioritera upplösning)" />
+    </setting>
+    <setting name="LOD Bias" translation="LOD-bias">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Mid" translation="Medel" />
+      <value name="Variable" translation="Variabel" />
+    </setting>
+    <setting name="Max LOD Level" translation="Max LOD-nivå">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Ingen gräns" />
+    </setting>
+    <setting name="Resolution" translation="Upplösning" />
+    <setting name="Screen Space Reflection" translation="Skärmområdesspegling">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="SH-utspridningskvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Mid" translation="Medel" />
+    </setting>
+    <setting name="Shadow Quality" translation="Skuggkvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Mid" translation="Medel" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Spridning under ytan">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Texture Quality" translation="Texturkvalitet">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Automatisk" />
+      <value name="Full" translation="Fullständig" />
+      <value name="High Resolution Texture Pack" translation="Högupplösande strukturpaket" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Volymrenderingskvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Highest" translation="Högsta" />
+      <value name="Low" translation="Låg" />
+      <value name="Mid" translation="Medel" />
+      <value name="Off" translation="Av" />
+      <value name="Variable" translation="Variabel" />
+    </setting>
+    <setting name="Water Reflection" translation="Vattenspegling">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+  </language>
+  <language name="th_TH" translation="">
+    <setting name="Ambient Occlusion" translation="การบดบังแสงแวดล้อม">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Mid" translation="กลาง" />
+      <value name="Off" translation="ปิด" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="การกรองแบบแอนไอโซทรอปิก">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Mid" translation="กลาง" />
+    </setting>
+    <setting name="Anti-aliasing" translation="การลดรอยหยัก">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="ปิด" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="โหมดการแสดงผล">
+      <value name="Full-screen" translation="เต็มหน้าจอ" />
+      <value name="Full-screen Borderless" translation="เต็มหน้าจอไร้ขอบ" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="แบบหน้าต่าง" />
+    </setting>
+    <setting name="Foliage Sway" translation="การเคลื่อนที่ของใบไม้">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+    <setting name="Image Quality" translation="คุณภาพของภาพ">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Mid" translation="ตรงกลาง" />
+      <value name="Variable(Prioritize Framerate)" translation="แปรผัน (เน้นอัตราเฟรมเป็นสำคัญ)" />
+      <value name="Variable(Prioritize Resolution)" translation="แปรผัน (เน้นความละเอียดเป็นสำคัญ)" />
+    </setting>
+    <setting name="LOD Bias" translation="ค่าไบแอสของระดับรายละเอียด">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Mid" translation="กลาง" />
+      <value name="Variable" translation="หลากหลาย" />
+    </setting>
+    <setting name="Max LOD Level" translation="ระดับรายละเอียดสูงสุด">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="ไม่มีขีดจำกัด" />
+    </setting>
+    <setting name="Resolution" translation="ความละเอียด" />
+    <setting name="Screen Space Reflection" translation="การสะท้อนพื้นที่หน้าจอ">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="คุณภาพการแพร่กระจายของเงา">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Mid" translation="กลาง" />
+    </setting>
+    <setting name="Shadow Quality" translation="คุณภาพของเงา">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Mid" translation="ตรงกลาง" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="การสร้างแสงเงาแบบกระเจิงแสง">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+    <setting name="Texture Quality" translation="คุณภาพของพื้นผิว">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="อัตโนมัติ" />
+      <value name="Full" translation="เต็ม" />
+      <value name="High Resolution Texture Pack" translation="ชุดพื้นผิวความละเอียดสูง" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="คุณภาพการแสดงผลของเสียง">
+      <value name="High" translation="สูง" />
+      <value name="Highest" translation="สูงสุด" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Mid" translation="กลาง" />
+      <value name="Off" translation="ปิด" />
+      <value name="Variable" translation="หลากหลาย" />
+    </setting>
+    <setting name="Water Reflection" translation="ภาพสะท้อนของน้ำ">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+  </language>
+  <language name="tr_TR" translation="">
+    <setting name="Ambient Occlusion" translation="Ortam Kapatma">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Mid" translation="Orta" />
+      <value name="Off" translation="Kapalı" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="Eşyönsüz Filtreleme">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Mid" translation="Orta" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Kenar Yumuşatma">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="Kapalı" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="Ekran Modu">
+      <value name="Full-screen" translation="Tam Ekran" />
+      <value name="Full-screen Borderless" translation="Kenarlıksız Tam Ekran" />
+      <value name="HDR" translation="HDR" />
+      <value name="Windowed" translation="Pencere içinde" />
+    </setting>
+    <setting name="Foliage Sway" translation="Yaprak Hareketleri">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="Image Quality" translation="Görüntü Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Mid" translation="Orta" />
+      <value name="Variable(Prioritize Framerate)" translation="Değişken (Kare Hızına Öncelik Ver)" />
+      <value name="Variable(Prioritize Resolution)" translation="Değişken (Çözünürlüğe Öncelik Ver)" />
+    </setting>
+    <setting name="LOD Bias" translation="LOD Sapması">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Mid" translation="Orta" />
+      <value name="Variable" translation="Değişken" />
+    </setting>
+    <setting name="Max LOD Level" translation="Maksimum LOD Seviyesi">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="Sınırsız" />
+    </setting>
+    <setting name="Resolution" translation="Çözünürlük" />
+    <setting name="Screen Space Reflection" translation="Ekran Alanı Yansıması">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="Küresel Uyumlu Dağılma Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Mid" translation="Orta" />
+    </setting>
+    <setting name="Shadow Quality" translation="Gölge Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Mid" translation="Orta" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="Yüzey Altı Dağılması">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="Texture Quality" translation="Doku Kalitesi">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="Otomatik" />
+      <value name="Full" translation="Tam" />
+      <value name="High Resolution Texture Pack" translation="Yüksek Çözünürlükte Doku Paketi" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="Hacim Görüntü Oluşturma Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Highest" translation="En Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Mid" translation="Orta" />
+      <value name="Off" translation="Kapalı" />
+      <value name="Variable" translation="Değişken" />
+    </setting>
+    <setting name="Water Reflection" translation="Su Yansımaları">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+  </language>
+  <language name="zh_CHS" translation="">
+    <setting name="Ambient Occlusion" translation="环境光吸收">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+      <value name="Off" translation="关" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="各向异性过滤">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+    </setting>
+    <setting name="Anti-aliasing" translation="平滑处理">
+      <value name="FXAA" translation="FXAA" />
+      <value name="Off" translation="关" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="显示模式">
+      <value name="Full-screen" translation="全屏幕" />
+      <value name="Full-screen Borderless" translation="全屏无边框" />
+      <value name="HDR" translation="高动态范围" />
+      <value name="Windowed" translation="窗口化" />
+    </setting>
+    <setting name="Foliage Sway" translation="树叶摇摆">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="Image Quality" translation="图象质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+      <value name="Variable(Prioritize Framerate)" translation="可变（优先考虑帧速率）" />
+      <value name="Variable(Prioritize Resolution)" translation="可变（优先考虑分辨率）" />
+    </setting>
+    <setting name="LOD Bias" translation="细节级别偏移">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+      <value name="Variable" translation="变量" />
+    </setting>
+    <setting name="Max LOD Level" translation="最大细节级别">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="无限制" />
+    </setting>
+    <setting name="Resolution" translation="分辨率" />
+    <setting name="Screen Space Reflection" translation="屏幕空间反射">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="SH 弥漫质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+    </setting>
+    <setting name="Shadow Quality" translation="阴影质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="子面散射 ">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="Texture Quality" translation="纹理质量">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="自动" />
+      <value name="Full" translation="全屏" />
+      <value name="High Resolution Texture Pack" translation="高分辨率纹理包" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="立体渲染质量">
+      <value name="High" translation="高" />
+      <value name="Highest" translation="最高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+      <value name="Off" translation="关" />
+      <value name="Variable" translation="变量" />
+    </setting>
+    <setting name="Water Reflection" translation="水反射">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+  </language>
+  <language name="zh_CHT" translation="">
+    <setting name="Ambient Occlusion" translation="漫射陰影環場遮擋">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+      <value name="Off" translation="關閉" />
+    </setting>
+    <setting name="Anisotropic Filtering" translation="非均質篩選">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+    </setting>
+    <setting name="Anti-aliasing" translation="消除鋸齒">
+      <value name="FXAA" translation="快速近似消除鋸齒" />
+      <value name="Off" translation="關閉" />
+      <value name="TAA" translation="TAA" />
+      <value name="TAA+FXAA" translation="TAA+FXAA" />
+    </setting>
+    <setting name="Display Mode" translation="顯示模式">
+      <value name="Full-screen" translation="全螢幕" />
+      <value name="Full-screen Borderless" translation="全螢幕無框線" />
+      <value name="HDR" translation="高動態範圍" />
+      <value name="Windowed" translation="視窗型" />
+    </setting>
+    <setting name="Foliage Sway" translation="植被搖擺">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+    <setting name="Image Quality" translation="影像畫質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+      <value name="Variable(Prioritize Framerate)" translation="變量（排定畫面播放速率優先順序）" />
+      <value name="Variable(Prioritize Resolution)" translation="變量（排定解析度優先順序）" />
+    </setting>
+    <setting name="LOD Bias" translation="精細度偏差">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+      <value name="Variable" translation="可變" />
+    </setting>
+    <setting name="Max LOD Level" translation="最大精細度等級">
+      <value name="-1" translation="-1" />
+      <value name="-2" translation="-2" />
+      <value name="No Limit" translation="無限制" />
+    </setting>
+    <setting name="Resolution" translation="解析度" />
+    <setting name="Screen Space Reflection" translation="螢幕空間反射">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+    <setting name="SH Diffuse Quality" translation="球面調和擴散品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+    </setting>
+    <setting name="Shadow Quality" translation="陰影品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+    </setting>
+    <setting name="Subsurface Scattering" translation="次表面散射">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+    <setting name="Texture Quality" translation="材質品質">
+      <value name="1024" translation="1024" />
+      <value name="256" translation="256" />
+      <value name="512" translation="512" />
+      <value name="Auto" translation="自動" />
+      <value name="Full" translation="完整" />
+      <value name="High Resolution Texture Pack" translation="高解析度紋理套件" />
+    </setting>
+    <setting name="Volume Rendering Quality" translation="音量呈現品質">
+      <value name="High" translation="高" />
+      <value name="Highest" translation="最高" />
+      <value name="Low" translation="低" />
+      <value name="Mid" translation="中" />
+      <value name="Off" translation="關閉" />
+      <value name="Variable" translation="可變" />
+    </setting>
+    <setting name="Water Reflection" translation="水體倒影">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+  </language>
+</game>

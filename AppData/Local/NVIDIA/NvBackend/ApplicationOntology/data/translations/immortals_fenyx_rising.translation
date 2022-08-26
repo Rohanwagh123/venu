@@ -1,0 +1,1888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game name="immortals_fenyx_rising">
+  <language name="ar_AE" translation="">
+    <setting name="Adaptive Quality" translation="جودة تكيفية">
+      <value name="30 FPS" translation="30 إطار في الثانية" />
+      <value name="45 FPS" translation="45 إطار في الثانية" />
+      <value name="60 FPS" translation="60 إطار في الثانية" />
+      <value name="Off" translation="إيقاف تشغيل" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="إطباق محيطي">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Anti-aliasing" translation="منع الترادف">
+      <value name="Adaptive" translation="مهايئ" />
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Off" translation="إيقاف تشغيل" />
+    </setting>
+    <setting name="Depth of Field" translation="عمق المجال">
+      <value name="Off" translation="إيقاف تشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Display Mode" translation="وضع العرض">
+      <value name="Full-screen" translation="شاشة كاملة" />
+      <value name="Windowed" translation="مزود بإطارات" />
+      <value name="Windowed Borderless" translation="نافذة بلا حدود" />
+    </setting>
+    <setting name="Effects Quality" translation="جودة التأثيرات">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Ultra High" translation="فائق الارتفاع" />
+      <value name="Very High" translation="مرتفع جداً" />
+      <value name="Very Low" translation="منخفض جداً" />
+    </setting>
+    <setting name="Environment Quality" translation="جودة البيئة">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Ultra High" translation="فائق الارتفاع" />
+      <value name="Very High" translation="مرتفع جداً" />
+      <value name="Very Low" translation="منخفض جداً" />
+    </setting>
+    <setting name="Resolution" translation="الدقة" />
+    <setting name="Resolution Modifier" translation="معدل الدقة" />
+    <setting name="Screen Space Reflections" translation="انعكاسات مساحة الشاشة">
+      <value name="Off" translation="إيقاف التشغيل" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Shadow Quality" translation="جودة الظل">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Ultra High" translation="فائق الارتفاع" />
+      <value name="Very High" translation="مرتفع جداً" />
+      <value name="Very Low" translation="منخفض جداً" />
+    </setting>
+    <setting name="Texture Quality" translation="جودة مواد الصور">
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+      <value name="Very High" translation="مرتفع جداً" />
+      <value name="Very Low" translation="منخفض جداً" />
+    </setting>
+  </language>
+  <language name="cs_CZ" translation="">
+    <setting name="Adaptive Quality" translation="Adaptivní kvalita">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Vypnuto" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Okolní prostředí">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Vyhlazování hran">
+      <value name="Adaptive" translation="Adaptivní" />
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Off" translation="Vypnuto" />
+    </setting>
+    <setting name="Depth of Field" translation="Hloubka pole">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+    <setting name="Display Mode" translation="Režim zobrazení">
+      <value name="Full-screen" translation="Celá obrazovka" />
+      <value name="Windowed" translation="V okně" />
+      <value name="Windowed Borderless" translation="V okně bez okrajů" />
+    </setting>
+    <setting name="Effects Quality" translation="Kvalita efektů">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Ultra High" translation="Ultra vysoká" />
+      <value name="Very High" translation="Velmi vysoká" />
+      <value name="Very Low" translation="Velmi nízká" />
+    </setting>
+    <setting name="Environment Quality" translation="Kvalita prostředí">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Ultra High" translation="Ultra vysoká" />
+      <value name="Very High" translation="Velmi vysoká" />
+      <value name="Very Low" translation="Velmi nízká" />
+    </setting>
+    <setting name="Resolution" translation="Rozlišení" />
+    <setting name="Resolution Modifier" translation="Modifikátor rozlišení" />
+    <setting name="Screen Space Reflections" translation="Odrazy na obrazovce">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+    <setting name="Shadow Quality" translation="Kvalita stínu">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Ultra High" translation="Ultra vysoká" />
+      <value name="Very High" translation="Velmi vysoká" />
+      <value name="Very Low" translation="Velmi nízká" />
+    </setting>
+    <setting name="Texture Quality" translation="Kvalita textury">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+      <value name="Very High" translation="Velmi vysoká" />
+      <value name="Very Low" translation="Velmi nízká" />
+    </setting>
+  </language>
+  <language name="da_DK" translation="">
+    <setting name="Adaptive Quality" translation="Adaptiv kvalitet">
+      <value name="30 FPS" translation="‏‎30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Fra" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Omgivende tillukning">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Udjævning">
+      <value name="Adaptive" translation="Adaptiv" />
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Off" translation="Fra" />
+    </setting>
+    <setting name="Depth of Field" translation="Skarphedsdybde">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="Display Mode" translation="Skærmtilstand">
+      <value name="Full-screen" translation="Fuld skærm" />
+      <value name="Windowed" translation="Vinduesopdelt" />
+      <value name="Windowed Borderless" translation="Vinduesopdelt rammeløst" />
+    </setting>
+    <setting name="Effects Quality" translation="Effektkvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Ultra High" translation="Ultra høj" />
+      <value name="Very High" translation="Meget høj" />
+      <value name="Very Low" translation="Meget lav" />
+    </setting>
+    <setting name="Environment Quality" translation="Kvalitet på omgivelser">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Ultra High" translation="Ultra høj" />
+      <value name="Very High" translation="Meget høj" />
+      <value name="Very Low" translation="Meget lav" />
+    </setting>
+    <setting name="Resolution" translation="Opløsning" />
+    <setting name="Resolution Modifier" translation="Opløsningsmodifikator" />
+    <setting name="Screen Space Reflections" translation="Reflektioner i skærmrum">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="Shadow Quality" translation="Skyggekvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Ultra High" translation="Ultra høj" />
+      <value name="Very High" translation="Meget høj" />
+      <value name="Very Low" translation="Meget lav" />
+    </setting>
+    <setting name="Texture Quality" translation="Teksturkvalitet">
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+      <value name="Very High" translation="Meget høj" />
+      <value name="Very Low" translation="Meget lav" />
+    </setting>
+  </language>
+  <language name="de_DE" translation="">
+    <setting name="Adaptive Quality" translation="Adaptive Qualität">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Aus" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Umgebungsverdeckung">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Antialiasing">
+      <value name="Adaptive" translation="Adaptiv" />
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Off" translation="Aus" />
+    </setting>
+    <setting name="Depth of Field" translation="Schärfentiefe">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Display Mode" translation="Anzeigemodus">
+      <value name="Full-screen" translation="Ganzer Bildschirm" />
+      <value name="Windowed" translation="Fenster" />
+      <value name="Windowed Borderless" translation="In Fenster ohne Rand" />
+    </setting>
+    <setting name="Effects Quality" translation="Effektqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra High" translation="Ultrahoch" />
+      <value name="Very High" translation="Sehr hoch" />
+      <value name="Very Low" translation="Sehr niedrig" />
+    </setting>
+    <setting name="Environment Quality" translation="Umgebungsqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra High" translation="Ultrahoch" />
+      <value name="Very High" translation="Sehr hoch" />
+      <value name="Very Low" translation="Sehr niedrig" />
+    </setting>
+    <setting name="Resolution" translation="Auflösung" />
+    <setting name="Resolution Modifier" translation="Auslösungsanpassung" />
+    <setting name="Screen Space Reflections" translation="Reflexionen im Bildschirmbereich">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Shadow Quality" translation="Schattenqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Ultra High" translation="Ultrahoch" />
+      <value name="Very High" translation="Sehr hoch" />
+      <value name="Very Low" translation="Sehr niedrig" />
+    </setting>
+    <setting name="Texture Quality" translation="Texturqualität">
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+      <value name="Very High" translation="Sehr hoch" />
+      <value name="Very Low" translation="Sehr niedrig" />
+    </setting>
+  </language>
+  <language name="el_GR" translation="">
+    <setting name="Adaptive Quality" translation="Προσαρμοζόμενη Ποιότητα">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Ανενεργή" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Περιβαλλοντική έμφραξη">
+      <value name="Off" translation="Ανενεργή" />
+      <value name="On" translation="Ενεργή" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Εξομάλυνση ορίων">
+      <value name="Adaptive" translation="Προσαρμοστική" />
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Off" translation="Ανενεργή" />
+    </setting>
+    <setting name="Depth of Field" translation="Βάθος πεδίου">
+      <value name="Off" translation="Ανενεργό" />
+      <value name="On" translation="Ενεργό" />
+    </setting>
+    <setting name="Display Mode" translation="Λειτουργία οθόνης">
+      <value name="Full-screen" translation="Πλήρης οθόνη" />
+      <value name="Windowed" translation="Με παράθυρα" />
+      <value name="Windowed Borderless" translation="Παράθυρο χωρίς όρια" />
+    </setting>
+    <setting name="Effects Quality" translation="Ποιότητα εφέ">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Ultra High" translation="Εξαιρετικά υψηλή" />
+      <value name="Very High" translation="Πολύ υψηλή" />
+      <value name="Very Low" translation="Πολύ χαμηλή" />
+    </setting>
+    <setting name="Environment Quality" translation="Ποιότητα περιβάλλοντος">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Ultra High" translation="Ανώτατη υψηλή" />
+      <value name="Very High" translation="Πολύ υψηλή" />
+      <value name="Very Low" translation="Πολύ χαμηλή" />
+    </setting>
+    <setting name="Resolution" translation="Ανάλυση" />
+    <setting name="Resolution Modifier" translation="Τροποποιητής ανάλυσης" />
+    <setting name="Screen Space Reflections" translation="Αντανακλάσεις στο χώρο οθόνης">
+      <value name="Off" translation="Ανενεργή" />
+      <value name="On" translation="Ενεργή" />
+    </setting>
+    <setting name="Shadow Quality" translation="Ποιότητα σκιάς">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Ultra High" translation="Ανώτατη υψηλή" />
+      <value name="Very High" translation="Πολύ υψηλή" />
+      <value name="Very Low" translation="Πολύ χαμηλή" />
+    </setting>
+    <setting name="Texture Quality" translation="Ποιότητα υφής">
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+      <value name="Very High" translation="Πολύ υψηλή" />
+      <value name="Very Low" translation="Πολύ χαμηλή" />
+    </setting>
+  </language>
+  <language name="en_GB" translation="">
+    <setting name="Adaptive Quality" translation="Adaptive Quality">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Ambient Occlusion">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="Adaptive" translation="Adaptive" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Depth of Field" translation="Depth of Field">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Full-screen" translation="Full-screen" />
+      <value name="Windowed" translation="Windowed" />
+      <value name="Windowed Borderless" translation="Windowed Borderless" />
+    </setting>
+    <setting name="Effects Quality" translation="Effects Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra High" translation="Ultra High" />
+      <value name="Very High" translation="Very High" />
+      <value name="Very Low" translation="Very Low" />
+    </setting>
+    <setting name="Environment Quality" translation="Environment Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra High" translation="Ultra High" />
+      <value name="Very High" translation="Very High" />
+      <value name="Very Low" translation="Very Low" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Resolution Modifier" translation="Resolution Modifier" />
+    <setting name="Screen Space Reflections" translation="Screen Space Reflections">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Shadow Quality" translation="Shadow Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra High" translation="Ultra High" />
+      <value name="Very High" translation="Very High" />
+      <value name="Very Low" translation="Very Low" />
+    </setting>
+    <setting name="Texture Quality" translation="Texture Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Very High" translation="Very High" />
+      <value name="Very Low" translation="Very Low" />
+    </setting>
+  </language>
+  <language name="en_US" translation="">
+    <setting name="Adaptive Quality" translation="Adaptive Quality">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Ambient Occlusion">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="Adaptive" translation="Adaptive" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Depth of Field" translation="Depth of Field">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Full-screen" translation="Full-screen" />
+      <value name="Windowed" translation="Windowed" />
+      <value name="Windowed Borderless" translation="Windowed Borderless" />
+    </setting>
+    <setting name="Effects Quality" translation="Effects Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra High" translation="Ultra High" />
+      <value name="Very High" translation="Very High" />
+      <value name="Very Low" translation="Very Low" />
+    </setting>
+    <setting name="Environment Quality" translation="Environment Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra High" translation="Ultra High" />
+      <value name="Very High" translation="Very High" />
+      <value name="Very Low" translation="Very Low" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Resolution Modifier" translation="Resolution Modifier" />
+    <setting name="Screen Space Reflections" translation="Screen Space Reflections">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Shadow Quality" translation="Shadow Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Ultra High" translation="Ultra High" />
+      <value name="Very High" translation="Very High" />
+      <value name="Very Low" translation="Very Low" />
+    </setting>
+    <setting name="Texture Quality" translation="Texture Quality">
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+      <value name="Very High" translation="Very High" />
+      <value name="Very Low" translation="Very Low" />
+    </setting>
+  </language>
+  <language name="es_ES" translation="">
+    <setting name="Adaptive Quality" translation="Calidad adaptable">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Desactivada" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Oclusión ambiental">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Antialiasing">
+      <value name="Adaptive" translation="Adaptable" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Off" translation="Desactivado" />
+    </setting>
+    <setting name="Depth of Field" translation="Profundidad de campo">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+      <value name="Windowed" translation="En ventana" />
+      <value name="Windowed Borderless" translation="Sin bordes en ventana" />
+    </setting>
+    <setting name="Effects Quality" translation="Calidad de efectos">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra High" translation="Ultraalta" />
+      <value name="Very High" translation="Muy alto" />
+      <value name="Very Low" translation="Muy bajo" />
+    </setting>
+    <setting name="Environment Quality" translation="Calidad del entorno">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra High" translation="Ultraalta" />
+      <value name="Very High" translation="Muy alto" />
+      <value name="Very Low" translation="Muy bajo" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Resolution Modifier" translation="Modificador de resolución" />
+    <setting name="Screen Space Reflections" translation="Reflejos en espacio de pantalla">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Shadow Quality" translation="Calidad de sombras">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra High" translation="Ultraalto" />
+      <value name="Very High" translation="Muy alto" />
+      <value name="Very Low" translation="Muy bajo" />
+    </setting>
+    <setting name="Texture Quality" translation="Calidad de textura">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Very High" translation="Muy alta" />
+      <value name="Very Low" translation="Muy bajo" />
+    </setting>
+  </language>
+  <language name="es_MX" translation="">
+    <setting name="Adaptive Quality" translation="Calidad adaptable">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Desactivada" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Oclusión ambiental">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Suavizado de líneas">
+      <value name="Adaptive" translation="Adaptable" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Off" translation="Desactivado" />
+    </setting>
+    <setting name="Depth of Field" translation="Profundidad de campo">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Full-screen" translation="Pantalla completa" />
+      <value name="Windowed" translation="En ventana" />
+      <value name="Windowed Borderless" translation="En ventana sin borde" />
+    </setting>
+    <setting name="Effects Quality" translation="Calidad de los efectos">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Media" />
+      <value name="Ultra High" translation="Ultra alta" />
+      <value name="Very High" translation="Muy alta" />
+      <value name="Very Low" translation="Muy baja" />
+    </setting>
+    <setting name="Environment Quality" translation="Calidad del entorno">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Media" />
+      <value name="Ultra High" translation="Ultra alta" />
+      <value name="Very High" translation="Muy alta" />
+      <value name="Very Low" translation="Muy baja" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Resolution Modifier" translation="Modificador de la resolución" />
+    <setting name="Screen Space Reflections" translation="Reflejos en espacio de pantalla">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Shadow Quality" translation="Calidad de sombras">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra High" translation="Ultra alta" />
+      <value name="Very High" translation="Muy alto" />
+      <value name="Very Low" translation="Muy bajo" />
+    </setting>
+    <setting name="Texture Quality" translation="Calidad de la textura">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baja" />
+      <value name="Medium" translation="Media" />
+      <value name="Very High" translation="Muy alto" />
+      <value name="Very Low" translation="Muy bajo" />
+    </setting>
+  </language>
+  <language name="fi_FI" translation="">
+    <setting name="Adaptive Quality" translation="Mukautuva laatu">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Pois" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Ympäristön sulkeminen">
+      <value name="Off" translation="Pois" />
+      <value name="On" translation="Päällä" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Reunanpehmennys">
+      <value name="Adaptive" translation="Mukautuva" />
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Off" translation="Pois" />
+    </setting>
+    <setting name="Depth of Field" translation="Terävyysalue">
+      <value name="Off" translation="Pois" />
+      <value name="On" translation="Päällä" />
+    </setting>
+    <setting name="Display Mode" translation="Näyttötila">
+      <value name="Full-screen" translation="Kokonäyttö" />
+      <value name="Windowed" translation="Ikkuna" />
+      <value name="Windowed Borderless" translation="Kehyksetön ikkuna" />
+    </setting>
+    <setting name="Effects Quality" translation="Tehosteiden laatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Ultra High" translation="Ultra-korkea" />
+      <value name="Very High" translation="Hyvin korkea" />
+      <value name="Very Low" translation="Hyvin alhainen" />
+    </setting>
+    <setting name="Environment Quality" translation="Ympäristön laatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Ultra High" translation="Äärimmäisen korkea" />
+      <value name="Very High" translation="Hyvin korkea" />
+      <value name="Very Low" translation="Hyvin alhainen" />
+    </setting>
+    <setting name="Resolution" translation="Tarkkuus" />
+    <setting name="Resolution Modifier" translation="Tarkkuuden muuttaja" />
+    <setting name="Screen Space Reflections" translation="Näyttötilan heijastumat">
+      <value name="Off" translation="Pois" />
+      <value name="On" translation="Päällä" />
+    </setting>
+    <setting name="Shadow Quality" translation="Varjon laatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Ultra High" translation="Ultra-korkea" />
+      <value name="Very High" translation="Hyvin korkea" />
+      <value name="Very Low" translation="Hyvin alhainen" />
+    </setting>
+    <setting name="Texture Quality" translation="Pintakuvion laatu">
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+      <value name="Very High" translation="Erittäin korkea" />
+      <value name="Very Low" translation="Erittäin alhainen" />
+    </setting>
+  </language>
+  <language name="fr_FR" translation="">
+    <setting name="Adaptive Quality" translation="Qualité adaptative">
+      <value name="30 FPS" translation="30 ips" />
+      <value name="45 FPS" translation="45 ips" />
+      <value name="60 FPS" translation="60 ips" />
+      <value name="Off" translation="Désactivée" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Occlusion ambiante">
+      <value name="Off" translation="Désactivée" />
+      <value name="On" translation="Activée" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anticrénelage">
+      <value name="Adaptive" translation="Adaptatif" />
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyen" />
+      <value name="Off" translation="Désactivé" />
+    </setting>
+    <setting name="Depth of Field" translation="Profondeur de champ">
+      <value name="Off" translation="Désactivée" />
+      <value name="On" translation="Activée" />
+    </setting>
+    <setting name="Display Mode" translation="Mode d'affichage">
+      <value name="Full-screen" translation="Plein écran" />
+      <value name="Windowed" translation="Fenêtré" />
+      <value name="Windowed Borderless" translation="Fenêtré sans bordure" />
+    </setting>
+    <setting name="Effects Quality" translation="Qualité des effets">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyen" />
+      <value name="Ultra High" translation="Ultra élevée" />
+      <value name="Very High" translation="Très élevé" />
+      <value name="Very Low" translation="Très faible" />
+    </setting>
+    <setting name="Environment Quality" translation="Qualité d'environnement">
+      <value name="High" translation="Élevée" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Ultra High" translation="Ultra élevée" />
+      <value name="Very High" translation="Très élevée" />
+      <value name="Very Low" translation="Très faible" />
+    </setting>
+    <setting name="Resolution" translation="Résolution" />
+    <setting name="Resolution Modifier" translation="Modificateur de résolution" />
+    <setting name="Screen Space Reflections" translation="Reflets de l'espace d'écran">
+      <value name="Off" translation="Désactivé" />
+      <value name="On" translation="Activé" />
+    </setting>
+    <setting name="Shadow Quality" translation="Qualité de l’ombre">
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Ultra High" translation="Ultra élevé" />
+      <value name="Very High" translation="Très élevée" />
+      <value name="Very Low" translation="Très faible" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualité des textures">
+      <value name="High" translation="Élevée" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+      <value name="Very High" translation="Très élevé" />
+      <value name="Very Low" translation="Très faible" />
+    </setting>
+  </language>
+  <language name="he_IL" translation="">
+    <setting name="Adaptive Quality" translation="איכות ניתנת להתאמה">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="כבויה" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="הצללה בשיטה 'הסתרה סביבתית'">
+      <value name="Off" translation="מושבתת" />
+      <value name="On" translation="פועלת" />
+    </setting>
+    <setting name="Anti-aliasing" translation="החלקת שינון">
+      <value name="Adaptive" translation="ניתן להתאמה" />
+      <value name="High" translation="איכות גבוהה" />
+      <value name="Low" translation="איכות נמוכה" />
+      <value name="Medium" translation="איכות בינונית" />
+      <value name="Off" translation="מושבתת" />
+    </setting>
+    <setting name="Depth of Field" translation="עומק השדה">
+      <value name="Off" translation="מושבת" />
+      <value name="On" translation="פועל" />
+    </setting>
+    <setting name="Display Mode" translation="מצב תצוגה">
+      <value name="Full-screen" translation="במלוא שטח הצג" />
+      <value name="Windowed" translation="תצוגה בחלון" />
+      <value name="Windowed Borderless" translation="חלונות ללא מסגרת" />
+    </setting>
+    <setting name="Effects Quality" translation="איכות אפקטים">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra High" translation="גבוהה מאוד" />
+      <value name="Very High" translation="גבוהה מאד" />
+      <value name="Very Low" translation="נמוכה מאד" />
+    </setting>
+    <setting name="Environment Quality" translation="איכות הסביבה">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra High" translation="גבוה במיוחד" />
+      <value name="Very High" translation="גבוהה מאד" />
+      <value name="Very Low" translation="נמוכה מאד" />
+    </setting>
+    <setting name="Resolution" translation="רזולוציה" />
+    <setting name="Resolution Modifier" translation="צירוף רזולוציה" />
+    <setting name="Screen Space Reflections" translation="השתקפות משטחים ועצמים בתחום התלת-ממד">
+      <value name="Off" translation="מושבתות" />
+      <value name="On" translation="פעילה" />
+    </setting>
+    <setting name="Shadow Quality" translation="איכות ההצללה">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Ultra High" translation="גבוה במיוחד" />
+      <value name="Very High" translation="גבוהה מאד" />
+      <value name="Very Low" translation="נמוכה מאד" />
+    </setting>
+    <setting name="Texture Quality" translation="סינון מרקמים - איכות">
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Medium" translation="בינונית" />
+      <value name="Very High" translation="גבוהה מאד" />
+      <value name="Very Low" translation="נמוכה מאד" />
+    </setting>
+  </language>
+  <language name="hu_HU" translation="">
+    <setting name="Adaptive Quality" translation="Adaptív minőség">
+      <value name="30 FPS" translation="30 képkocka/s" />
+      <value name="45 FPS" translation="45 képkocka/s" />
+      <value name="60 FPS" translation="60 képkocka/s" />
+      <value name="Off" translation="Ki" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Környezeti kitakarás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Élsimítás">
+      <value name="Adaptive" translation="Adaptív" />
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Off" translation="Ki" />
+    </setting>
+    <setting name="Depth of Field" translation="Mélységélesség">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Display Mode" translation="Megjelenítési mód">
+      <value name="Full-screen" translation="Teljes képernyős" />
+      <value name="Windowed" translation="Ablakos" />
+      <value name="Windowed Borderless" translation="Keret nélküli ablakos" />
+    </setting>
+    <setting name="Effects Quality" translation="Effektusminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra High" translation="Ultramagas" />
+      <value name="Very High" translation="Nagyon magas" />
+      <value name="Very Low" translation="Nagyon alacsony" />
+    </setting>
+    <setting name="Environment Quality" translation="Környezetminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra High" translation="Ultramagas" />
+      <value name="Very High" translation="Nagyon magas" />
+      <value name="Very Low" translation="Nagyon alacsony" />
+    </setting>
+    <setting name="Resolution" translation="Felbontás" />
+    <setting name="Resolution Modifier" translation="Felbontásmódosító" />
+    <setting name="Screen Space Reflections" translation="Képernyőtéri visszatükröződések">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Shadow Quality" translation="Árnyékminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Ultra High" translation="Ultramagas" />
+      <value name="Very High" translation="Nagyon magas" />
+      <value name="Very Low" translation="Nagyon alacsony" />
+    </setting>
+    <setting name="Texture Quality" translation="Textúraminőség">
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+      <value name="Very High" translation="Nagyon magas" />
+      <value name="Very Low" translation="Nagyon alacsony" />
+    </setting>
+  </language>
+  <language name="it_IT" translation="">
+    <setting name="Adaptive Quality" translation="Qualità adattiva">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Disattivata" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Occlusione ambientale">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Antialias">
+      <value name="Adaptive" translation="Adattivo" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Off" translation="Disattivato" />
+    </setting>
+    <setting name="Depth of Field" translation="Profondità di campo">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="Display Mode" translation="Modalità di visualizzazione">
+      <value name="Full-screen" translation="Schermo intero" />
+      <value name="Windowed" translation="A finestra" />
+      <value name="Windowed Borderless" translation="Con finestre senza bordi" />
+    </setting>
+    <setting name="Effects Quality" translation="Qualità effetti">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra High" translation="Ultra alta" />
+      <value name="Very High" translation="Molto alto" />
+      <value name="Very Low" translation="Molto basso" />
+    </setting>
+    <setting name="Environment Quality" translation="Qualità ambiente">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra High" translation="Ultra alta" />
+      <value name="Very High" translation="Molto alto" />
+      <value name="Very Low" translation="Molto basso" />
+    </setting>
+    <setting name="Resolution" translation="Risoluzione" />
+    <setting name="Resolution Modifier" translation="Strumento di modifica della risoluzione" />
+    <setting name="Screen Space Reflections" translation="Riflessi nello spazio dello schermo">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivato" />
+    </setting>
+    <setting name="Shadow Quality" translation="Qualità ombre">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Ultra High" translation="Ultra alta" />
+      <value name="Very High" translation="Molto alto" />
+      <value name="Very Low" translation="Molto basso" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualità texture">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+      <value name="Very High" translation="Molto alto" />
+      <value name="Very Low" translation="Molto basso" />
+    </setting>
+  </language>
+  <language name="ja_JP" translation="">
+    <setting name="Adaptive Quality" translation="適応クオリティ">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="オフ" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="アンビエント オクルージョン">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Anti-aliasing" translation="アンチエイリアシング">
+      <value name="Adaptive" translation="適応" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Off" translation="オフ" />
+    </setting>
+    <setting name="Depth of Field" translation="被写界深度">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Display Mode" translation="ディスプレイ モード">
+      <value name="Full-screen" translation="フルスクリーン" />
+      <value name="Windowed" translation="ウィンドウ表示" />
+      <value name="Windowed Borderless" translation="ボーダーなしウィンドウ" />
+    </setting>
+    <setting name="Effects Quality" translation="エフェクトのクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra High" translation="ウルトラ高" />
+      <value name="Very High" translation="非常に高い" />
+      <value name="Very Low" translation="非常に低い" />
+    </setting>
+    <setting name="Environment Quality" translation="環境のクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra High" translation="ウルトラ高" />
+      <value name="Very High" translation="非常に高い" />
+      <value name="Very Low" translation="非常に低い" />
+    </setting>
+    <setting name="Resolution" translation="解像度" />
+    <setting name="Resolution Modifier" translation="解像度修飾子" />
+    <setting name="Screen Space Reflections" translation="スクリーンスペース反射">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Shadow Quality" translation="シャドウのクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra High" translation="ウルトラ高" />
+      <value name="Very High" translation="非常に高い" />
+      <value name="Very Low" translation="非常に低い" />
+    </setting>
+    <setting name="Texture Quality" translation="テクスチャのクオリティ">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Very High" translation="非常に高" />
+      <value name="Very Low" translation="非常に低" />
+    </setting>
+  </language>
+  <language name="ko_KR" translation="">
+    <setting name="Adaptive Quality" translation="적응 품질">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="끄기" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="앰비언트 오클루젼">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Anti-aliasing" translation="앤티엘리어싱">
+      <value name="Adaptive" translation="적응형" />
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="보통" />
+      <value name="Off" translation="끄기" />
+    </setting>
+    <setting name="Depth of Field" translation="피사계 심도">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Display Mode" translation="디스플레이 모드">
+      <value name="Full-screen" translation="전체 화면" />
+      <value name="Windowed" translation="창" />
+      <value name="Windowed Borderless" translation="테두리 없는 경계" />
+    </setting>
+    <setting name="Effects Quality" translation="효과 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra High" translation="최고 높음" />
+      <value name="Very High" translation="매우 높음" />
+      <value name="Very Low" translation="매우 낮음" />
+    </setting>
+    <setting name="Environment Quality" translation="환경 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra High" translation="울트라 높음" />
+      <value name="Very High" translation="매우 높음" />
+      <value name="Very Low" translation="매우 낮음" />
+    </setting>
+    <setting name="Resolution" translation="해상도" />
+    <setting name="Resolution Modifier" translation="해상도 수정" />
+    <setting name="Screen Space Reflections" translation="화면 공간 반사">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Shadow Quality" translation="그림자 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Ultra High" translation="아주 높음" />
+      <value name="Very High" translation="매우 높음" />
+      <value name="Very Low" translation="매우 낮음" />
+    </setting>
+    <setting name="Texture Quality" translation="텍스처 품질">
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+      <value name="Very High" translation="매우 높음" />
+      <value name="Very Low" translation="매우 낮음" />
+    </setting>
+  </language>
+  <language name="nb_NO" translation="">
+    <setting name="Adaptive Quality" translation="Adaptiv kvalitet">
+      <value name="30 FPS" translation="30 BPS" />
+      <value name="45 FPS" translation="45 BPS" />
+      <value name="60 FPS" translation="60 BPS" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Omgivelsesbetinget lys">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="Adaptive" translation="Adaptiv" />
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Depth of Field" translation="Dybdeskarphet">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Display Mode" translation="Skjermmodus">
+      <value name="Full-screen" translation="Full skjerm" />
+      <value name="Windowed" translation="Vindusmodus" />
+      <value name="Windowed Borderless" translation="Vinduer uten ramme" />
+    </setting>
+    <setting name="Effects Quality" translation="Effektkvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra High" translation="Ultrahøy" />
+      <value name="Very High" translation="Svært høy" />
+      <value name="Very Low" translation="Svært lav" />
+    </setting>
+    <setting name="Environment Quality" translation="Omgivelseskvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra High" translation="Ultrahøy" />
+      <value name="Very High" translation="Svært høy" />
+      <value name="Very Low" translation="Svært lav" />
+    </setting>
+    <setting name="Resolution" translation="Oppløsning" />
+    <setting name="Resolution Modifier" translation="Oppløsningsskala" />
+    <setting name="Screen Space Reflections" translation="Refleksjoner i skjermområdet">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Shadow Quality" translation="Skyggekvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Ultra High" translation="Ultrahøy" />
+      <value name="Very High" translation="Svært høy" />
+      <value name="Very Low" translation="Svært lav" />
+    </setting>
+    <setting name="Texture Quality" translation="Teksturkvalitet">
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+      <value name="Very High" translation="Svært høyt" />
+      <value name="Very Low" translation="Svært lavt" />
+    </setting>
+  </language>
+  <language name="nl_NL" translation="">
+    <setting name="Adaptive Quality" translation="Adaptieve kwaliteit">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Uit" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Omgevingsocclusie">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="Adaptive" translation="Adaptief" />
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Off" translation="Uit" />
+    </setting>
+    <setting name="Depth of Field" translation="Velddiepte">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Display Mode" translation="Beeldschermmodus">
+      <value name="Full-screen" translation="Volledig scherm" />
+      <value name="Windowed" translation="In venster" />
+      <value name="Windowed Borderless" translation="Randloos zonder vensters" />
+    </setting>
+    <setting name="Effects Quality" translation="Effectenkwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra High" translation="Ultrahoog" />
+      <value name="Very High" translation="Zeer hoog" />
+      <value name="Very Low" translation="Zeer laag" />
+    </setting>
+    <setting name="Environment Quality" translation="Omgevingskwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra High" translation="Ultrahoog" />
+      <value name="Very High" translation="Zeer hoog" />
+      <value name="Very Low" translation="Zeer laag" />
+    </setting>
+    <setting name="Resolution" translation="Resolutie" />
+    <setting name="Resolution Modifier" translation="Resolutie aanpassen" />
+    <setting name="Screen Space Reflections" translation="Schermruimtereflecties">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Shadow Quality" translation="Schaduwkwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Ultra High" translation="Ultrahoog" />
+      <value name="Very High" translation="Zeer hoog" />
+      <value name="Very Low" translation="Zeer laag" />
+    </setting>
+    <setting name="Texture Quality" translation="Patroonkwaliteit">
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+      <value name="Very High" translation="Zeer hoog" />
+      <value name="Very Low" translation="Zeer laag" />
+    </setting>
+  </language>
+  <language name="pl_PL" translation="">
+    <setting name="Adaptive Quality" translation="Jakość adaptacyjna">
+      <value name="30 FPS" translation="30 kl./s" />
+      <value name="45 FPS" translation="45 kl./s" />
+      <value name="60 FPS" translation="60 kl./s" />
+      <value name="Off" translation="Wyłącz" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Przesłanianie środowiska">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Wygładzanie krawędzi">
+      <value name="Adaptive" translation="Adaptacyjny" />
+      <value name="High" translation="Wysokie" />
+      <value name="Low" translation="Niskie" />
+      <value name="Medium" translation="Średnie" />
+      <value name="Off" translation="Wyłącz" />
+    </setting>
+    <setting name="Depth of Field" translation="Głębia ostrości">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Display Mode" translation="Tryb wyświetlania">
+      <value name="Full-screen" translation="Pełny ekran" />
+      <value name="Windowed" translation="Okienkowy" />
+      <value name="Windowed Borderless" translation="Okienkowy bez ramki" />
+    </setting>
+    <setting name="Effects Quality" translation="Jakość efektów">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra High" translation="Bardzo wysoka" />
+      <value name="Very High" translation="Bardzo wysoka" />
+      <value name="Very Low" translation="Bardzo niska" />
+    </setting>
+    <setting name="Environment Quality" translation="Jakość środowiska">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra High" translation="Ultra wysoka" />
+      <value name="Very High" translation="Bardzo wysoka" />
+      <value name="Very Low" translation="Bardzo niska" />
+    </setting>
+    <setting name="Resolution" translation="Rozdzielczość" />
+    <setting name="Resolution Modifier" translation="Modyfikator rozdzielczości" />
+    <setting name="Screen Space Reflections" translation="Odbicia przestrzeni ekranu">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Shadow Quality" translation="Jakość cieni">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Ultra High" translation="Ultra wysoka" />
+      <value name="Very High" translation="Bardzo wysoka" />
+      <value name="Very Low" translation="Bardzo niska" />
+    </setting>
+    <setting name="Texture Quality" translation="Jakość tekstur">
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+      <value name="Very High" translation="Bardzo wysoka" />
+      <value name="Very Low" translation="Bardzo niska" />
+    </setting>
+  </language>
+  <language name="pt_BR" translation="">
+    <setting name="Adaptive Quality" translation="Qualidade Adaptável">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Desativada" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Oclusão ambiental">
+      <value name="Off" translation="Desligada" />
+      <value name="On" translation="Ligada" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Anti-aliasing">
+      <value name="Adaptive" translation="Adaptável" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+      <value name="Medium" translation="Média" />
+      <value name="Off" translation="Desligado" />
+    </setting>
+    <setting name="Depth of Field" translation="Profundidade do Campo">
+      <value name="Off" translation="Desligada" />
+      <value name="On" translation="Ligada" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de video">
+      <value name="Full-screen" translation="Tela inteira" />
+      <value name="Windowed" translation="Em Janelas" />
+      <value name="Windowed Borderless" translation="Janela sem Borda" />
+    </setting>
+    <setting name="Effects Quality" translation="Qualidade dos Efeitos">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra High" translation="Ultra-alta" />
+      <value name="Very High" translation="Muito alta" />
+      <value name="Very Low" translation="Muito baixa" />
+    </setting>
+    <setting name="Environment Quality" translation="Qualidade do Ambiente">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra High" translation="Ultra alto" />
+      <value name="Very High" translation="Muito alta" />
+      <value name="Very Low" translation="Muito baixa" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+    <setting name="Resolution Modifier" translation="Modificador de resolução" />
+    <setting name="Screen Space Reflections" translation="Reflexos no espaço da tela">
+      <value name="Off" translation="Desligado" />
+      <value name="On" translation="Ligado" />
+    </setting>
+    <setting name="Shadow Quality" translation="Qualidade da sombra">
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra High" translation="Super alto" />
+      <value name="Very High" translation="Muito alta" />
+      <value name="Very Low" translation="Muito baixa" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualidade da Textura">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Very High" translation="Muito alto" />
+      <value name="Very Low" translation="Muito baixo" />
+    </setting>
+  </language>
+  <language name="pt_PT" translation="">
+    <setting name="Adaptive Quality" translation="Qualidade adaptativa">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Desactivar" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Oclusão ambiental">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Antialiasing">
+      <value name="Adaptive" translation="Adaptativo" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+      <value name="Medium" translation="Nível médio" />
+      <value name="Off" translation="Desactivar" />
+    </setting>
+    <setting name="Depth of Field" translation="Profundidade de campo">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de visualização">
+      <value name="Full-screen" translation="Ecrã inteiro" />
+      <value name="Windowed" translation="Modo de janela" />
+      <value name="Windowed Borderless" translation="Modo de janela sem margem" />
+    </setting>
+    <setting name="Effects Quality" translation="Qualidade dos efeitos">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra High" translation="Nível ultra alto" />
+      <value name="Very High" translation="Muito alta" />
+      <value name="Very Low" translation="Muito baixa" />
+    </setting>
+    <setting name="Environment Quality" translation="Qualidade do ambiente">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra High" translation="Ultra alta" />
+      <value name="Very High" translation="Muito alta" />
+      <value name="Very Low" translation="Muito baixa" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+    <setting name="Resolution Modifier" translation="Modificador da resolução" />
+    <setting name="Screen Space Reflections" translation="Reflexos no espaço de ecrã">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Shadow Quality" translation="Qualidade da sombra">
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Ultra High" translation="Ultra alta" />
+      <value name="Very High" translation="Muito alta" />
+      <value name="Very Low" translation="Muito baixa" />
+    </setting>
+    <setting name="Texture Quality" translation="Qualidade das texturas">
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+      <value name="Very High" translation="Nível muito alto" />
+      <value name="Very Low" translation="Nível muito baixo" />
+    </setting>
+  </language>
+  <language name="ru_RU" translation="">
+    <setting name="Adaptive Quality" translation="Адаптивное качество">
+      <value name="30 FPS" translation="30 кадр/сек" />
+      <value name="45 FPS" translation="45 кадр/сек" />
+      <value name="60 FPS" translation="60 кадр/сек" />
+      <value name="Off" translation="Выкл." />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Затенение фонового освещения">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Anti-aliasing" translation="Сглаживание">
+      <value name="Adaptive" translation="Адаптивное" />
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Off" translation="Выкл." />
+    </setting>
+    <setting name="Depth of Field" translation="Глубина резкости">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Display Mode" translation="Экранный режим">
+      <value name="Full-screen" translation="Полный экран" />
+      <value name="Windowed" translation="В окне" />
+      <value name="Windowed Borderless" translation="В окне без рамки" />
+    </setting>
+    <setting name="Effects Quality" translation="Качество эффектов">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Ultra High" translation="Ультравысокое" />
+      <value name="Very High" translation="Очень высокое" />
+      <value name="Very Low" translation="Очень низкое" />
+    </setting>
+    <setting name="Environment Quality" translation="Качество окружающей среды">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Ultra High" translation="Макс." />
+      <value name="Very High" translation="Очень высокое" />
+      <value name="Very Low" translation="Очень низкое" />
+    </setting>
+    <setting name="Resolution" translation="Разрешение" />
+    <setting name="Resolution Modifier" translation="Модификатор разрешения" />
+    <setting name="Screen Space Reflections" translation="Отражения объектов на экране">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Shadow Quality" translation="Качество теней">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Ultra High" translation="Крайне высокое" />
+      <value name="Very High" translation="Очень высокое" />
+      <value name="Very Low" translation="Очень низкое" />
+    </setting>
+    <setting name="Texture Quality" translation="Качество текстуры">
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+      <value name="Medium" translation="Среднее" />
+      <value name="Very High" translation="Очень высокое" />
+      <value name="Very Low" translation="Очень низкое" />
+    </setting>
+  </language>
+  <language name="sk_SK" translation="">
+    <setting name="Adaptive Quality" translation="Adaptívna kvalita">
+      <value name="30 FPS" translation="30 snímok/s" />
+      <value name="45 FPS" translation="45 snímok/s" />
+      <value name="60 FPS" translation="60 snímok/s" />
+      <value name="Off" translation="Vypnutá" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Zatienenie okolím">
+      <value name="Off" translation="Vypnuté" />
+      <value name="On" translation="Zapnuté" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Vyhladzovanie">
+      <value name="Adaptive" translation="Adaptívne" />
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+      <value name="Medium" translation="Stredné" />
+      <value name="Off" translation="Vypnuté" />
+    </setting>
+    <setting name="Depth of Field" translation="Hĺbka ostrosti">
+      <value name="Off" translation="Vypnutá" />
+      <value name="On" translation="Zapnutá" />
+    </setting>
+    <setting name="Display Mode" translation="Režim zobrazenia">
+      <value name="Full-screen" translation="Na celú obrazovku" />
+      <value name="Windowed" translation="V okne" />
+      <value name="Windowed Borderless" translation="V okne bez orámovania" />
+    </setting>
+    <setting name="Effects Quality" translation="Kvalita efektov">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Medium" translation="Stredná" />
+      <value name="Ultra High" translation="Ultravysoká" />
+      <value name="Very High" translation="Veľmi vysoká" />
+      <value name="Very Low" translation="Veľmi nízka" />
+    </setting>
+    <setting name="Environment Quality" translation="Kvalita prostredia">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Medium" translation="Stredná" />
+      <value name="Ultra High" translation="Ultravysoká" />
+      <value name="Very High" translation="Veľmi vysoká" />
+      <value name="Very Low" translation="Veľmi nízka" />
+    </setting>
+    <setting name="Resolution" translation="Rozlíšenie" />
+    <setting name="Resolution Modifier" translation="Modifikátor rozlíšenia" />
+    <setting name="Screen Space Reflections" translation="Odrazy v priestore obrazovky">
+      <value name="Off" translation="Vypnuté" />
+      <value name="On" translation="Zapnuté" />
+    </setting>
+    <setting name="Shadow Quality" translation="Kvalita tieňa">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Medium" translation="Stredná" />
+      <value name="Ultra High" translation="Ultravysoká" />
+      <value name="Very High" translation="Veľmi vysoká" />
+      <value name="Very Low" translation="Veľmi nízka" />
+    </setting>
+    <setting name="Texture Quality" translation="Kvalita textúry">
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízka" />
+      <value name="Medium" translation="Stredná" />
+      <value name="Very High" translation="Veľmi vysoká" />
+      <value name="Very Low" translation="Veľmi nízka" />
+    </setting>
+  </language>
+  <language name="sl_SI" translation="">
+    <setting name="Adaptive Quality" translation="Prilagajajoča kakovost">
+      <value name="30 FPS" translation="30 slik/sek." />
+      <value name="45 FPS" translation="45 slik/sek." />
+      <value name="60 FPS" translation="60 slik/sek." />
+      <value name="Off" translation="Izklop" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Zapiranje okolice">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Glajenje robov">
+      <value name="Adaptive" translation="Prilagajajoče" />
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Off" translation="Izklop" />
+    </setting>
+    <setting name="Depth of Field" translation="Globina polja">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Display Mode" translation="Zaslonski način">
+      <value name="Full-screen" translation="Celoten zaslon" />
+      <value name="Windowed" translation="V oknu" />
+      <value name="Windowed Borderless" translation="Način brezrobega okna" />
+    </setting>
+    <setting name="Effects Quality" translation="Kakovost učinkov">
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra High" translation="Ultra visoka" />
+      <value name="Very High" translation="Zelo visok" />
+      <value name="Very Low" translation="Zelo nizek" />
+    </setting>
+    <setting name="Environment Quality" translation="Kakovost okolja">
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra High" translation="Ultra visoka" />
+      <value name="Very High" translation="Zelo visok" />
+      <value name="Very Low" translation="Zelo nizek" />
+    </setting>
+    <setting name="Resolution" translation="Ločljivost" />
+    <setting name="Resolution Modifier" translation="Spreminjanje ločljivosti" />
+    <setting name="Screen Space Reflections" translation="Odsevi v zaslonu">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Shadow Quality" translation="Kakovost sence">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Ultra High" translation="Zelo visoka" />
+      <value name="Very High" translation="Zelo visok" />
+      <value name="Very Low" translation="Zelo nizek" />
+    </setting>
+    <setting name="Texture Quality" translation="Kakovost teksture">
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+      <value name="Very High" translation="Zelo visoko" />
+      <value name="Very Low" translation="Zelo nizko" />
+    </setting>
+  </language>
+  <language name="sv_SE" translation="">
+    <setting name="Adaptive Quality" translation="Anpassningsbar kvalitet">
+      <value name="30 FPS" translation="30 BPS" />
+      <value name="45 FPS" translation="45 BPS" />
+      <value name="60 FPS" translation="60 BPS" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Omgivande inneslutning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Kantutjämning">
+      <value name="Adaptive" translation="Anpassningsbar" />
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Depth of Field" translation="Skärpedjup">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Display Mode" translation="Visningsläge">
+      <value name="Full-screen" translation="Helskärm" />
+      <value name="Windowed" translation="I fönster" />
+      <value name="Windowed Borderless" translation="Kantlöst i fönster" />
+    </setting>
+    <setting name="Effects Quality" translation="Effektkvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra High" translation="Ultrahög" />
+      <value name="Very High" translation="Väldigt hög" />
+      <value name="Very Low" translation="Väldigt låg" />
+    </setting>
+    <setting name="Environment Quality" translation="Miljö, kvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra High" translation="Ultrahög" />
+      <value name="Very High" translation="Väldigt hög" />
+      <value name="Very Low" translation="Väldigt låg" />
+    </setting>
+    <setting name="Resolution" translation="Upplösning" />
+    <setting name="Resolution Modifier" translation="Upplösningsmodifikator" />
+    <setting name="Screen Space Reflections" translation="Skärmutrymmesreflektioner">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Shadow Quality" translation="Skuggkvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Ultra High" translation="Ultrahög" />
+      <value name="Very High" translation="Väldigt hög" />
+      <value name="Very Low" translation="Väldigt låg" />
+    </setting>
+    <setting name="Texture Quality" translation="Texturkvalitet">
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+      <value name="Very High" translation="Mycket hög" />
+      <value name="Very Low" translation="Mycket låg" />
+    </setting>
+  </language>
+  <language name="th_TH" translation="">
+    <setting name="Adaptive Quality" translation="คุณภาพที่ปรับให้เหมาะสม">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="ปิด" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="การบดบังแสงแวดล้อม">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+    <setting name="Anti-aliasing" translation="การลดรอยหยัก">
+      <value name="Adaptive" translation="ปรับให้เหมาะสม" />
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Off" translation="ปิด" />
+    </setting>
+    <setting name="Depth of Field" translation="ระยะชัดลึก">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+    <setting name="Display Mode" translation="โหมดการแสดงผล">
+      <value name="Full-screen" translation="เต็มหน้าจอ" />
+      <value name="Windowed" translation="แบบหน้าต่าง" />
+      <value name="Windowed Borderless" translation="หน้าต่างแบบไม่มีขอบ" />
+    </setting>
+    <setting name="Effects Quality" translation="คุณภาพของเอฟเฟกต์">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Ultra High" translation="สูงพิเศษ" />
+      <value name="Very High" translation="สูงมาก" />
+      <value name="Very Low" translation="ต่ำมาก" />
+    </setting>
+    <setting name="Environment Quality" translation="คุณภาพสภาพแวดล้อม">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Ultra High" translation="สูงพิเศษ" />
+      <value name="Very High" translation="สูงมาก" />
+      <value name="Very Low" translation="ต่ำมาก" />
+    </setting>
+    <setting name="Resolution" translation="ความละเอียด" />
+    <setting name="Resolution Modifier" translation="ตัวปรับแก้ไขความละเอียด" />
+    <setting name="Screen Space Reflections" translation="การสะท้อนในพื้นที่หน้าจอ">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+    <setting name="Shadow Quality" translation="คุณภาพของเงา">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Ultra High" translation="สูงพิเศษ" />
+      <value name="Very High" translation="สูงมาก" />
+      <value name="Very Low" translation="ต่ำมาก" />
+    </setting>
+    <setting name="Texture Quality" translation="คุณภาพของพื้นผิว">
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+      <value name="Very High" translation="สูงมาก" />
+      <value name="Very Low" translation="ต่ำมาก" />
+    </setting>
+  </language>
+  <language name="tr_TR" translation="">
+    <setting name="Adaptive Quality" translation="Uyarlamalı Kalite">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="Kapalı" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="Ortam Kapatma">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="Anti-aliasing" translation="Kenar Yumuşatma">
+      <value name="Adaptive" translation="Uyarlamalı" />
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Off" translation="Kapalı" />
+    </setting>
+    <setting name="Depth of Field" translation="Alan Derinliği">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="Display Mode" translation="Ekran Modu">
+      <value name="Full-screen" translation="Tam Ekran" />
+      <value name="Windowed" translation="Pencere içinde" />
+      <value name="Windowed Borderless" translation="Pencere İçinde Kenarlıksız" />
+    </setting>
+    <setting name="Effects Quality" translation="Efekt Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra High" translation="Ultra Yüksek" />
+      <value name="Very High" translation="Çok Yüksek" />
+      <value name="Very Low" translation="Çok Düşük" />
+    </setting>
+    <setting name="Environment Quality" translation="Ortam Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra High" translation="Ultra Yüksek" />
+      <value name="Very High" translation="Çok Yüksek" />
+      <value name="Very Low" translation="Çok Düşük" />
+    </setting>
+    <setting name="Resolution" translation="Çözünürlük" />
+    <setting name="Resolution Modifier" translation="Çözünürlük Değiştirici" />
+    <setting name="Screen Space Reflections" translation="Ekran Görüş Alanındaki Yansımalar">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="Shadow Quality" translation="Gölge Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Ultra High" translation="Ultra Yüksek" />
+      <value name="Very High" translation="Çok Yüksek" />
+      <value name="Very Low" translation="Çok Düşük" />
+    </setting>
+    <setting name="Texture Quality" translation="Doku Kalitesi">
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+      <value name="Very High" translation="Çok Yüksek" />
+      <value name="Very Low" translation="Çok Düşük" />
+    </setting>
+  </language>
+  <language name="zh_CHS" translation="">
+    <setting name="Adaptive Quality" translation="自适应质量">
+      <value name="30 FPS" translation="每秒 30 帧" />
+      <value name="45 FPS" translation="每秒 45 帧" />
+      <value name="60 FPS" translation="每秒 60 帧" />
+      <value name="Off" translation="关" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="环境光吸收">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="Anti-aliasing" translation="平滑处理">
+      <value name="Adaptive" translation="自适应" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Off" translation="关" />
+    </setting>
+    <setting name="Depth of Field" translation="景深">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="Display Mode" translation="显示模式">
+      <value name="Full-screen" translation="全屏幕" />
+      <value name="Windowed" translation="窗口化" />
+      <value name="Windowed Borderless" translation="无边框窗口化" />
+    </setting>
+    <setting name="Effects Quality" translation="效果质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra High" translation="超高" />
+      <value name="Very High" translation="非常高" />
+      <value name="Very Low" translation="非常低" />
+    </setting>
+    <setting name="Environment Quality" translation="环境质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra High" translation="超高" />
+      <value name="Very High" translation="非常高" />
+      <value name="Very Low" translation="非常低" />
+    </setting>
+    <setting name="Resolution" translation="分辨率" />
+    <setting name="Resolution Modifier" translation="分辨率修改器" />
+    <setting name="Screen Space Reflections" translation="屏幕空间反射">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="Shadow Quality" translation="阴影质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra High" translation="超高" />
+      <value name="Very High" translation="非常高" />
+      <value name="Very Low" translation="非常低" />
+    </setting>
+    <setting name="Texture Quality" translation="纹理质量">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Very High" translation="非常高" />
+      <value name="Very Low" translation="非常低" />
+    </setting>
+  </language>
+  <language name="zh_CHT" translation="">
+    <setting name="Adaptive Quality" translation="自適應品質">
+      <value name="30 FPS" translation="30 FPS" />
+      <value name="45 FPS" translation="45 FPS" />
+      <value name="60 FPS" translation="60 FPS" />
+      <value name="Off" translation="關閉" />
+    </setting>
+    <setting name="Ambient Occlusion" translation="漫射陰影環場遮擋">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+    <setting name="Anti-aliasing" translation="消除鋸齒">
+      <value name="Adaptive" translation="自適應" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Off" translation="關閉" />
+    </setting>
+    <setting name="Depth of Field" translation="景深">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+    <setting name="Display Mode" translation="顯示模式">
+      <value name="Full-screen" translation="全螢幕" />
+      <value name="Windowed" translation="視窗型" />
+      <value name="Windowed Borderless" translation="無框視窗" />
+    </setting>
+    <setting name="Effects Quality" translation="效果品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra High" translation="超高" />
+      <value name="Very High" translation="非常高" />
+      <value name="Very Low" translation="非常低" />
+    </setting>
+    <setting name="Environment Quality" translation="環境品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra High" translation="超高" />
+      <value name="Very High" translation="非常高" />
+      <value name="Very Low" translation="非常低" />
+    </setting>
+    <setting name="Resolution" translation="解析度" />
+    <setting name="Resolution Modifier" translation="解析度修改器" />
+    <setting name="Screen Space Reflections" translation="螢幕空間反射">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+    <setting name="Shadow Quality" translation="陰影品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Ultra High" translation="超高" />
+      <value name="Very High" translation="非常高" />
+      <value name="Very Low" translation="非常低" />
+    </setting>
+    <setting name="Texture Quality" translation="材質品質">
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+      <value name="Very High" translation="非常高" />
+      <value name="Very Low" translation="非常低" />
+    </setting>
+  </language>
+</game>

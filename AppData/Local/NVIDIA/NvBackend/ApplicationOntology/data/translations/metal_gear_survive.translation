@@ -1,0 +1,1859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game name="metal_gear_survive">
+  <language name="ar_AE" translation="">
+    <setting name="Ambient Occlusion" translation="إطباق محيطي">
+      <value name="Extra High" translation="فائق الارتفاع" />
+      <value name="High" translation="مرتفع" />
+      <value name="Off" translation="إيقاف تشغيل" />
+    </setting>
+    <setting name="Depth of Field" translation="عمق المجال">
+      <value name="Invalid" translation="غير صالح" />
+      <value name="Valid" translation="صالح" />
+    </setting>
+    <setting name="Display Mode" translation="وضع العرض">
+      <value name="Borderless Full-screen" translation="شاشة ممتلئة بلا حدود" />
+      <value name="Full-screen" translation="شاشة كاملة" />
+      <value name="Windowed" translation="مزود بإطارات" />
+    </setting>
+    <setting name="Effects" translation="تأثيرات">
+      <value name="Extra High" translation="مرتفع للغاية" />
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+    </setting>
+    <setting name="Frame Rate" translation="معدل الإطار">
+      <value name="30 FPS Lock" translation="تأمين 30 FPS" />
+      <value name="Auto" translation="تلقائي" />
+    </setting>
+    <setting name="Lighting" translation="إضاءة">
+      <value name="Extra High" translation="مرتفع للغاية" />
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+    </setting>
+    <setting name="Model Detail" translation="تفاصيل الموديل">
+      <value name="Extra High" translation="مرتفع للغاية" />
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="منع الترادف للعينات متعددة الإطارات لـ NVIDIA">
+      <value name="Off" translation="إيقاف" />
+      <value name="On" translation="تشغيل" />
+    </setting>
+    <setting name="Post Processing" translation="معالجة لاحقة">
+      <value name="Extra High" translation="فائق الارتفاع" />
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Off" translation="إيقاف تشغيل" />
+    </setting>
+    <setting name="Resolution" translation="الدقة" />
+    <setting name="Shadows" translation="الظلال">
+      <value name="Extra High" translation="مرتفع للغاية" />
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+    </setting>
+    <setting name="Texture Filtering" translation="تصفية مواد الصور">
+      <value name="Extra High" translation="مرتفع للغاية" />
+      <value name="High" translation="مرتفع" />
+      <value name="Medium" translation="متوسط" />
+    </setting>
+    <setting name="Textures" translation="مواد الصور">
+      <value name="Extra High" translation="مرتفع للغاية" />
+      <value name="High" translation="مرتفع" />
+      <value name="Low" translation="منخفض" />
+      <value name="Medium" translation="متوسط" />
+    </setting>
+  </language>
+  <language name="cs_CZ" translation="">
+    <setting name="Ambient Occlusion" translation="Okolní prostředí">
+      <value name="Extra High" translation="Extra vysoká" />
+      <value name="High" translation="Vysoká" />
+      <value name="Off" translation="Vypnuto" />
+    </setting>
+    <setting name="Depth of Field" translation="Hloubka pole">
+      <value name="Invalid" translation="Neplatný" />
+      <value name="Valid" translation="Platný" />
+    </setting>
+    <setting name="Display Mode" translation="Režim zobrazení">
+      <value name="Borderless Full-screen" translation="Celá obrazovka bez okrajů" />
+      <value name="Full-screen" translation="Celá obrazovka" />
+      <value name="Windowed" translation="V okně" />
+    </setting>
+    <setting name="Effects" translation="Efekty">
+      <value name="Extra High" translation="Extra vysoká" />
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+    </setting>
+    <setting name="Frame Rate" translation="Snímková frekvence">
+      <value name="30 FPS Lock" translation="30 snímků/s (pevný)" />
+      <value name="Auto" translation="Automatická" />
+    </setting>
+    <setting name="Lighting" translation="Osvětlení">
+      <value name="Extra High" translation="Extra vysoké" />
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízké" />
+    </setting>
+    <setting name="Model Detail" translation="Detail modelu">
+      <value name="Extra High" translation="Extra vysoký" />
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Technologie vyhlazování hran NVIDIA Multi-Frame Sampled Anti-aliasing">
+      <value name="Off" translation="Vypnuto" />
+      <value name="On" translation="Zapnuto" />
+    </setting>
+    <setting name="Post Processing" translation="Post-processing">
+      <value name="Extra High" translation="Extra vysoká" />
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Off" translation="Vypnuto" />
+    </setting>
+    <setting name="Resolution" translation="Rozlišení" />
+    <setting name="Shadows" translation="Stíny">
+      <value name="Extra High" translation="Extra vysoká" />
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtrování textur">
+      <value name="Extra High" translation="Extra vysoké" />
+      <value name="High" translation="Vysoké" />
+      <value name="Medium" translation="Střední" />
+    </setting>
+    <setting name="Textures" translation="Textury">
+      <value name="Extra High" translation="Extra vysoké" />
+      <value name="High" translation="Vysoká" />
+      <value name="Low" translation="Nízká" />
+      <value name="Medium" translation="Střední" />
+    </setting>
+  </language>
+  <language name="da_DK" translation="">
+    <setting name="Ambient Occlusion" translation="Omgivende tillukning">
+      <value name="Extra High" translation="Ekstra høj" />
+      <value name="High" translation="Høj" />
+      <value name="Off" translation="Fra" />
+    </setting>
+    <setting name="Depth of Field" translation="Skarphedsdybde">
+      <value name="Invalid" translation="Ugyldig" />
+      <value name="Valid" translation="Gyldig" />
+    </setting>
+    <setting name="Display Mode" translation="Skærmtilstand">
+      <value name="Borderless Full-screen" translation="Fuld skærm uden ramme" />
+      <value name="Full-screen" translation="Fuld skærm" />
+      <value name="Windowed" translation="Vinduesopdelt" />
+    </setting>
+    <setting name="Effects" translation="Effekter">
+      <value name="Extra High" translation="Ekstra høj" />
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+    </setting>
+    <setting name="Frame Rate" translation="Billedhastighed">
+      <value name="30 FPS Lock" translation="30 FPS lås" />
+      <value name="Auto" translation="Automatisk" />
+    </setting>
+    <setting name="Lighting" translation="Belysning">
+      <value name="Extra High" translation="Ekstra høj" />
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+    </setting>
+    <setting name="Model Detail" translation="Modeldetaljer">
+      <value name="Extra High" translation="Ekstra høj" />
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA udjævning med prøvetagning fra flere billeder">
+      <value name="Off" translation="Fra" />
+      <value name="On" translation="Til" />
+    </setting>
+    <setting name="Post Processing" translation="Efterbehandling">
+      <value name="Extra High" translation="Ekstra høj" />
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Off" translation="Fra" />
+    </setting>
+    <setting name="Resolution" translation="Opløsning" />
+    <setting name="Shadows" translation="Skygger">
+      <value name="Extra High" translation="Ekstra høj" />
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+    </setting>
+    <setting name="Texture Filtering" translation="Teksturfiltrering">
+      <value name="Extra High" translation="Ekstra høj" />
+      <value name="High" translation="Høj" />
+      <value name="Medium" translation="Mellem" />
+    </setting>
+    <setting name="Textures" translation="Teksturer">
+      <value name="Extra High" translation="Ekstra høj" />
+      <value name="High" translation="Høj" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Mellem" />
+    </setting>
+  </language>
+  <language name="de_DE" translation="">
+    <setting name="Ambient Occlusion" translation="Umgebungsverdeckung">
+      <value name="Extra High" translation="Extra-hoch" />
+      <value name="High" translation="Hoch" />
+      <value name="Off" translation="Aus" />
+    </setting>
+    <setting name="Depth of Field" translation="Schärfentiefe">
+      <value name="Invalid" translation="Ungültig" />
+      <value name="Valid" translation="Gültig" />
+    </setting>
+    <setting name="Display Mode" translation="Anzeigemodus">
+      <value name="Borderless Full-screen" translation="Randloses Vollbild" />
+      <value name="Full-screen" translation="Ganzer Bildschirm" />
+      <value name="Windowed" translation="Fenster" />
+    </setting>
+    <setting name="Effects" translation="Effekte">
+      <value name="Extra High" translation="Extrahoch" />
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+    </setting>
+    <setting name="Frame Rate" translation="Bildrate">
+      <value name="30 FPS Lock" translation="30 FPS fixiert" />
+      <value name="Auto" translation="Automatisch" />
+    </setting>
+    <setting name="Lighting" translation="Beleuchtung">
+      <value name="Extra High" translation="Extrahoch" />
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+    </setting>
+    <setting name="Model Detail" translation="Modelldetail">
+      <value name="Extra High" translation="Extrahoch" />
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Multi-Frame-Sample Anti-aliasing">
+      <value name="Off" translation="Aus" />
+      <value name="On" translation="Ein" />
+    </setting>
+    <setting name="Post Processing" translation="Nachbearbeitung">
+      <value name="Extra High" translation="Extra-hoch" />
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Off" translation="Aus" />
+    </setting>
+    <setting name="Resolution" translation="Auflösung" />
+    <setting name="Shadows" translation="Schatten">
+      <value name="Extra High" translation="Extrahoch" />
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+    </setting>
+    <setting name="Texture Filtering" translation="Texturfilterung">
+      <value name="Extra High" translation="Extrahoch" />
+      <value name="High" translation="Hoch" />
+      <value name="Medium" translation="Mittel" />
+    </setting>
+    <setting name="Textures" translation="Texturen">
+      <value name="Extra High" translation="Extrahoch" />
+      <value name="High" translation="Hoch" />
+      <value name="Low" translation="Niedrig" />
+      <value name="Medium" translation="Mittel" />
+    </setting>
+  </language>
+  <language name="el_GR" translation="">
+    <setting name="Ambient Occlusion" translation="Περιβαλλοντική έμφραξη">
+      <value name="Extra High" translation="Πολύ υψηλή" />
+      <value name="High" translation="Υψηλή" />
+      <value name="Off" translation="Ανενεργή" />
+    </setting>
+    <setting name="Depth of Field" translation="Βάθος πεδίου">
+      <value name="Invalid" translation="Μη έγκυρο" />
+      <value name="Valid" translation="Έγκυρο" />
+    </setting>
+    <setting name="Display Mode" translation="Λειτουργία οθόνης">
+      <value name="Borderless Full-screen" translation="Πλήρης οθόνη χωρίς όρια" />
+      <value name="Full-screen" translation="Πλήρης οθόνη" />
+      <value name="Windowed" translation="Με παράθυρα" />
+    </setting>
+    <setting name="Effects" translation="Εφέ">
+      <value name="Extra High" translation="Εξαιρετικά υψηλά" />
+      <value name="High" translation="Υψηλά" />
+      <value name="Low" translation="Χαμηλά" />
+    </setting>
+    <setting name="Frame Rate" translation="Ρυθμός καρέ">
+      <value name="30 FPS Lock" translation="Κλείδωμα 30 FPS" />
+      <value name="Auto" translation="Αυτόματος" />
+    </setting>
+    <setting name="Lighting" translation="Φωτισμός">
+      <value name="Extra High" translation="Εξαιρετικά υψηλός" />
+      <value name="High" translation="Υψηλός" />
+      <value name="Low" translation="Χαμηλός" />
+    </setting>
+    <setting name="Model Detail" translation="Λεπτομέρεια μοντέλου">
+      <value name="Extra High" translation="Εξαιρετικά υψηλή" />
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Medium" translation="Μεσαία" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Εξομάλυνση ορίων πολλαπλών καρέ με δειγματοληψία NVIDIA">
+      <value name="Off" translation="Ανενεργή" />
+      <value name="On" translation="Ενεργή" />
+    </setting>
+    <setting name="Post Processing" translation="Μετεπεξεργασία">
+      <value name="Extra High" translation="Πολύ υψηλή" />
+      <value name="High" translation="Υψηλή" />
+      <value name="Low" translation="Χαμηλή" />
+      <value name="Off" translation="Ανενεργή" />
+    </setting>
+    <setting name="Resolution" translation="Ανάλυση" />
+    <setting name="Shadows" translation="Σκιές">
+      <value name="Extra High" translation="Εξαιρετικά υψηλές" />
+      <value name="High" translation="Υψηλό" />
+      <value name="Low" translation="Χαμηλές" />
+      <value name="Medium" translation="Μεσαίες" />
+    </setting>
+    <setting name="Texture Filtering" translation="Φιλτράρισμα υφής">
+      <value name="Extra High" translation="Εξαιρετικά υψηλό" />
+      <value name="High" translation="Υψηλό" />
+      <value name="Medium" translation="Μεσαίο" />
+    </setting>
+    <setting name="Textures" translation="Υφές">
+      <value name="Extra High" translation="Εξαιρετικά υψηλές" />
+      <value name="High" translation="Υψηλές" />
+      <value name="Low" translation="Χαμηλές" />
+      <value name="Medium" translation="Μεσαίες" />
+    </setting>
+  </language>
+  <language name="en_GB" translation="">
+    <setting name="Ambient Occlusion" translation="Ambient Occlusion">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Depth of Field" translation="Depth of Field">
+      <value name="Invalid" translation="Invalid" />
+      <value name="Valid" translation="Valid" />
+    </setting>
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Borderless Full-screen" translation="Borderless Fullscreen" />
+      <value name="Full-screen" translation="Full-screen" />
+      <value name="Windowed" translation="Windowed" />
+    </setting>
+    <setting name="Effects" translation="Effects">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+    </setting>
+    <setting name="Frame Rate" translation="Frame Rate">
+      <value name="30 FPS Lock" translation="30 FPS Lock" />
+      <value name="Auto" translation="Auto" />
+    </setting>
+    <setting name="Lighting" translation="Lighting">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+    </setting>
+    <setting name="Model Detail" translation="Model Detail">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Multi-Frame Sampled Anti-aliasing">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Post Processing" translation="Postprocessing">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Shadows" translation="Shadows">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+    <setting name="Texture Filtering" translation="Texture Filtering">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+    <setting name="Textures" translation="Textures">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+  </language>
+  <language name="en_US" translation="">
+    <setting name="Ambient Occlusion" translation="Ambient Occlusion">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Depth of Field" translation="Depth of Field">
+      <value name="Invalid" translation="Invalid" />
+      <value name="Valid" translation="Valid" />
+    </setting>
+    <setting name="Display Mode" translation="Display Mode">
+      <value name="Borderless Full-screen" translation="Borderless Full-screen" />
+      <value name="Full-screen" translation="Full-screen" />
+      <value name="Windowed" translation="Windowed" />
+    </setting>
+    <setting name="Effects" translation="Effects">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+    </setting>
+    <setting name="Frame Rate" translation="Frame Rate">
+      <value name="30 FPS Lock" translation="30 FPS Lock" />
+      <value name="Auto" translation="Auto" />
+    </setting>
+    <setting name="Lighting" translation="Lighting">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+    </setting>
+    <setting name="Model Detail" translation="Model Detail">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Multi-Frame Sampled Anti-aliasing">
+      <value name="Off" translation="Off" />
+      <value name="On" translation="On" />
+    </setting>
+    <setting name="Post Processing" translation="Post Processing">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Off" translation="Off" />
+    </setting>
+    <setting name="Resolution" translation="Resolution" />
+    <setting name="Shadows" translation="Shadows">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+    <setting name="Texture Filtering" translation="Texture Filtering">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+    <setting name="Textures" translation="Textures">
+      <value name="Extra High" translation="Extra High" />
+      <value name="High" translation="High" />
+      <value name="Low" translation="Low" />
+      <value name="Medium" translation="Medium" />
+    </setting>
+  </language>
+  <language name="es_ES" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusión ambiental">
+      <value name="Extra High" translation="Muy alta" />
+      <value name="High" translation="Alto" />
+      <value name="Off" translation="Desactivado" />
+    </setting>
+    <setting name="Depth of Field" translation="Profundidad de campo">
+      <value name="Invalid" translation="No válida" />
+      <value name="Valid" translation="Válida" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Borderless Full-screen" translation="Pantalla completa sin bordes" />
+      <value name="Full-screen" translation="Pantalla completa" />
+      <value name="Windowed" translation="En ventana" />
+    </setting>
+    <setting name="Effects" translation="Efectos">
+      <value name="Extra High" translation="Extraaltos" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+    </setting>
+    <setting name="Frame Rate" translation="Velocidad de fotograma">
+      <value name="30 FPS Lock" translation="Bloqueo a 30 FPS" />
+      <value name="Auto" translation="Automática" />
+    </setting>
+    <setting name="Lighting" translation="Iluminación">
+      <value name="Extra High" translation="Extraaltos" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baja" />
+    </setting>
+    <setting name="Model Detail" translation="Detalle del modelo">
+      <value name="Extra High" translation="Extraalto" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Antialiasing de muestras de trama múltiple de NVIDIA">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Post Processing" translation="Posprocesamiento">
+      <value name="Extra High" translation="Muy alto" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Off" translation="Desactivado" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Shadows" translation="Sombras">
+      <value name="Extra High" translation="Extraaltas" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtrado de textura">
+      <value name="Extra High" translation="Extraaltos" />
+      <value name="High" translation="Alto" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="Textures" translation="Texturas">
+      <value name="Extra High" translation="Extraaltas" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+  </language>
+  <language name="es_MX" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusión ambiental">
+      <value name="Extra High" translation="Muy alta" />
+      <value name="High" translation="Alto" />
+      <value name="Off" translation="Desactivado" />
+    </setting>
+    <setting name="Depth of Field" translation="Profundidad de campo">
+      <value name="Invalid" translation="No válida" />
+      <value name="Valid" translation="Válida" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de pantalla">
+      <value name="Borderless Full-screen" translation="Pantalla completa sin borde" />
+      <value name="Full-screen" translation="Pantalla completa" />
+      <value name="Windowed" translation="En ventana" />
+    </setting>
+    <setting name="Effects" translation="Efectos">
+      <value name="Extra High" translation="Extra altos" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+    </setting>
+    <setting name="Frame Rate" translation="Frecuencia de fotogramas">
+      <value name="30 FPS Lock" translation="Bloqueo de 30 FPS" />
+      <value name="Auto" translation="Automática" />
+    </setting>
+    <setting name="Lighting" translation="Iluminación">
+      <value name="Extra High" translation="Extra alta" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+    </setting>
+    <setting name="Model Detail" translation="Detalle de los modelos">
+      <value name="Extra High" translation="Extra alto" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Suavizado de líneas muestreado por múltiples tramas de NVIDIA">
+      <value name="Off" translation="Desactivado" />
+      <value name="On" translation="Activado" />
+    </setting>
+    <setting name="Post Processing" translation="Posprocesamiento">
+      <value name="Extra High" translation="Muy alto" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Off" translation="Desactivado" />
+    </setting>
+    <setting name="Resolution" translation="Resolución" />
+    <setting name="Shadows" translation="Sombras">
+      <value name="Extra High" translation="Extra altas" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtrado de textura">
+      <value name="Extra High" translation="Extra alto" />
+      <value name="High" translation="Alto" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="Textures" translation="Texturas">
+      <value name="Extra High" translation="Extra altas" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Bajo" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+  </language>
+  <language name="fi_FI" translation="">
+    <setting name="Ambient Occlusion" translation="Ympäristön sulkeminen">
+      <value name="Extra High" translation="Erittäin korkea" />
+      <value name="High" translation="Korkea" />
+      <value name="Off" translation="Pois" />
+    </setting>
+    <setting name="Depth of Field" translation="Terävyysalue">
+      <value name="Invalid" translation="Epäkelpo" />
+      <value name="Valid" translation="Kelvollinen" />
+    </setting>
+    <setting name="Display Mode" translation="Näyttötila">
+      <value name="Borderless Full-screen" translation="Reunaton koko näyttö" />
+      <value name="Full-screen" translation="Kokonäyttö" />
+      <value name="Windowed" translation="Ikkuna" />
+    </setting>
+    <setting name="Effects" translation="Tehosteet">
+      <value name="Extra High" translation="Erittäin korkea" />
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+    </setting>
+    <setting name="Frame Rate" translation="Kehystaajuus">
+      <value name="30 FPS Lock" translation="Lukitus 30 FPS" />
+      <value name="Auto" translation="Automaattinen" />
+    </setting>
+    <setting name="Lighting" translation="Valaistus">
+      <value name="Extra High" translation="Erittäin korkea" />
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+    </setting>
+    <setting name="Model Detail" translation="Mallin yksityiskohta">
+      <value name="Extra High" translation="Erittäin korkea" />
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIAn MFAA-reunanpehmennys (moniruutuinen näytteen reunanpehmennys)">
+      <value name="Off" translation="Pois" />
+      <value name="On" translation="Päällä" />
+    </setting>
+    <setting name="Post Processing" translation="Jälkikäsittely">
+      <value name="Extra High" translation="Erittäin korkea" />
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Off" translation="Pois" />
+    </setting>
+    <setting name="Resolution" translation="Tarkkuus" />
+    <setting name="Shadows" translation="Varjot">
+      <value name="Extra High" translation="Erittäin korkea" />
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+    </setting>
+    <setting name="Texture Filtering" translation="Kuviosuodatus">
+      <value name="Extra High" translation="Erittäin korkea" />
+      <value name="High" translation="Korkea" />
+      <value name="Medium" translation="Keskitaso" />
+    </setting>
+    <setting name="Textures" translation="Pintakuviot">
+      <value name="Extra High" translation="Erittäin korkea" />
+      <value name="High" translation="Korkea" />
+      <value name="Low" translation="Alhainen" />
+      <value name="Medium" translation="Keskitaso" />
+    </setting>
+  </language>
+  <language name="fr_FR" translation="">
+    <setting name="Ambient Occlusion" translation="Occlusion ambiante">
+      <value name="Extra High" translation="Très élevée" />
+      <value name="High" translation="Élevée" />
+      <value name="Off" translation="Désactivée" />
+    </setting>
+    <setting name="Depth of Field" translation="Profondeur de champ">
+      <value name="Invalid" translation="Non valide" />
+      <value name="Valid" translation="Valide" />
+    </setting>
+    <setting name="Display Mode" translation="Mode d'affichage">
+      <value name="Borderless Full-screen" translation="Plein écran sans bordure" />
+      <value name="Full-screen" translation="Plein écran" />
+      <value name="Windowed" translation="Fenêtré" />
+    </setting>
+    <setting name="Effects" translation="Effets">
+      <value name="Extra High" translation="Extra élevés" />
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+    </setting>
+    <setting name="Frame Rate" translation="Images par seconde">
+      <value name="30 FPS Lock" translation="Verrouillage à 30 i/s" />
+      <value name="Auto" translation="Auto" />
+    </setting>
+    <setting name="Lighting" translation="Eclairage">
+      <value name="Extra High" translation="Extra élevé" />
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+    </setting>
+    <setting name="Model Detail" translation="Détail du modèle">
+      <value name="Extra High" translation="Extra élevé" />
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyen" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Anti-crénelage à échantillonnage sur plusieurs frames (MFAA)">
+      <value name="Off" translation="Désactivé" />
+      <value name="On" translation="Activé" />
+    </setting>
+    <setting name="Post Processing" translation="Post-traitement">
+      <value name="Extra High" translation="Très élevé" />
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Off" translation="Désactivé" />
+    </setting>
+    <setting name="Resolution" translation="Résolution" />
+    <setting name="Shadows" translation="Ombres">
+      <value name="Extra High" translation="Extra élevées" />
+      <value name="High" translation="Élevé" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyen" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtrage de texture">
+      <value name="Extra High" translation="Extra élevé" />
+      <value name="High" translation="Élevé" />
+      <value name="Medium" translation="Moyen" />
+    </setting>
+    <setting name="Textures" translation="Textures">
+      <value name="Extra High" translation="Extra élevées" />
+      <value name="High" translation="Élevée" />
+      <value name="Low" translation="Faible" />
+      <value name="Medium" translation="Moyenne" />
+    </setting>
+  </language>
+  <language name="he_IL" translation="">
+    <setting name="Ambient Occlusion" translation="הצללה בשיטה 'הסתרה סביבתית'">
+      <value name="Extra High" translation="גבוהה במיוחד" />
+      <value name="High" translation="חזקה" />
+      <value name="Off" translation="מושבתת" />
+    </setting>
+    <setting name="Depth of Field" translation="עומק השדה">
+      <value name="Invalid" translation="לא תקף" />
+      <value name="Valid" translation="תקף" />
+    </setting>
+    <setting name="Display Mode" translation="מצב תצוגה">
+      <value name="Borderless Full-screen" translation="מסך מלא ללא מסגרת" />
+      <value name="Full-screen" translation="במלוא שטח הצג" />
+      <value name="Windowed" translation="תצוגה בחלון" />
+    </setting>
+    <setting name="Effects" translation="אפקטים">
+      <value name="Extra High" translation="גבוה במיוחד" />
+      <value name="High" translation="עצמה גבוהה" />
+      <value name="Low" translation="עצמה נמוכה" />
+    </setting>
+    <setting name="Frame Rate" translation="תדירות נעילת המסגרות">
+      <value name="30 FPS Lock" translation="נעילת 30 FPS" />
+      <value name="Auto" translation="אוטומטית" />
+    </setting>
+    <setting name="Lighting" translation="תאורה">
+      <value name="Extra High" translation="גבוהה במיוחד" />
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+    </setting>
+    <setting name="Model Detail" translation="פירוט של דגמים">
+      <value name="Extra High" translation="גבוה במיוחד" />
+      <value name="High" translation="רמה גבוהה" />
+      <value name="Low" translation="רמה נמוכה" />
+      <value name="Medium" translation="רמה בינונית" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="החלקת שינון באמצעות דגימה מרובת מסגרות של NVIDIA">
+      <value name="Off" translation="כבוי" />
+      <value name="On" translation="מופעל" />
+    </setting>
+    <setting name="Post Processing" translation="עיבוד נוסף">
+      <value name="Extra High" translation="גבוהה במיוחד" />
+      <value name="High" translation="גבוהה" />
+      <value name="Low" translation="נמוכה" />
+      <value name="Off" translation="מושבתות" />
+    </setting>
+    <setting name="Resolution" translation="רזולוציה" />
+    <setting name="Shadows" translation="צללים">
+      <value name="Extra High" translation="גבוהים במיוחד" />
+      <value name="High" translation="רמה גבוהה" />
+      <value name="Low" translation="רמה נמוכה" />
+      <value name="Medium" translation="רמה בינונית" />
+    </setting>
+    <setting name="Texture Filtering" translation="סינון מרקמים">
+      <value name="Extra High" translation="גבוה במיוחד" />
+      <value name="High" translation="גבוהה" />
+      <value name="Medium" translation="בינונית" />
+    </setting>
+    <setting name="Textures" translation="מרקמים">
+      <value name="Extra High" translation="גבוהים במיוחד" />
+      <value name="High" translation="איכות גבוהה" />
+      <value name="Low" translation="איכות נמוכה" />
+      <value name="Medium" translation="איכות בינונית" />
+    </setting>
+  </language>
+  <language name="hu_HU" translation="">
+    <setting name="Ambient Occlusion" translation="Környezeti kitakarás">
+      <value name="Extra High" translation="Extramagas" />
+      <value name="High" translation="Magas" />
+      <value name="Off" translation="Ki" />
+    </setting>
+    <setting name="Depth of Field" translation="Mélységélesség">
+      <value name="Invalid" translation="Érvénytelen" />
+      <value name="Valid" translation="Érvényes" />
+    </setting>
+    <setting name="Display Mode" translation="Megjelenítési mód">
+      <value name="Borderless Full-screen" translation="Keret nélküli teljes képernyős" />
+      <value name="Full-screen" translation="Teljes képernyős" />
+      <value name="Windowed" translation="Ablakos" />
+    </setting>
+    <setting name="Effects" translation="Effektusok">
+      <value name="Extra High" translation="Extramagas" />
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+    </setting>
+    <setting name="Frame Rate" translation="Képkockasebesség">
+      <value name="30 FPS Lock" translation="30 képkocka/s" />
+      <value name="Auto" translation="Automatikus" />
+    </setting>
+    <setting name="Lighting" translation="Megvilágítás">
+      <value name="Extra High" translation="Extramagas" />
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+    </setting>
+    <setting name="Model Detail" translation="Modellrészletesség">
+      <value name="Extra High" translation="Extramagas" />
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA többképkockás mintavételes élsimítás">
+      <value name="Off" translation="Ki" />
+      <value name="On" translation="Be" />
+    </setting>
+    <setting name="Post Processing" translation="Utófeldolgozás">
+      <value name="Extra High" translation="Extramagas" />
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Off" translation="Ki" />
+    </setting>
+    <setting name="Resolution" translation="Felbontás" />
+    <setting name="Shadows" translation="Árnyékok">
+      <value name="Extra High" translation="Extramagas" />
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+    </setting>
+    <setting name="Texture Filtering" translation="Textúraszűrés">
+      <value name="Extra High" translation="Extramagas" />
+      <value name="High" translation="Magas" />
+      <value name="Medium" translation="Közepes" />
+    </setting>
+    <setting name="Textures" translation="Textúrák">
+      <value name="Extra High" translation="Extramagas" />
+      <value name="High" translation="Magas" />
+      <value name="Low" translation="Alacsony" />
+      <value name="Medium" translation="Közepes" />
+    </setting>
+  </language>
+  <language name="it_IT" translation="">
+    <setting name="Ambient Occlusion" translation="Occlusione ambientale">
+      <value name="Extra High" translation="Altissima" />
+      <value name="High" translation="Alto" />
+      <value name="Off" translation="Disattivato" />
+    </setting>
+    <setting name="Depth of Field" translation="Profondità di campo">
+      <value name="Invalid" translation="Non valida" />
+      <value name="Valid" translation="Valida" />
+    </setting>
+    <setting name="Display Mode" translation="Modalità di visualizzazione">
+      <value name="Borderless Full-screen" translation="Schermo intero senza bordi" />
+      <value name="Full-screen" translation="Schermo intero" />
+      <value name="Windowed" translation="A finestra" />
+    </setting>
+    <setting name="Effects" translation="Effetti">
+      <value name="Extra High" translation="Extra alti" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+    </setting>
+    <setting name="Frame Rate" translation="Velocità fotogramma">
+      <value name="30 FPS Lock" translation="30 FPS fissa" />
+      <value name="Auto" translation="Automatica" />
+    </setting>
+    <setting name="Lighting" translation="Luci">
+      <value name="Extra High" translation="Extra alte" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+    </setting>
+    <setting name="Model Detail" translation="Dettagli modello">
+      <value name="Extra High" translation="Extra alti" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Antialias con campionamento multi-frame NVIDIA">
+      <value name="Off" translation="Disattivato" />
+      <value name="On" translation="Attivo" />
+    </setting>
+    <setting name="Post Processing" translation="Post-elaborazione">
+      <value name="Extra High" translation="Altissima" />
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Bassa" />
+      <value name="Off" translation="Disattivata" />
+    </setting>
+    <setting name="Resolution" translation="Risoluzione" />
+    <setting name="Shadows" translation="Ombre">
+      <value name="Extra High" translation="Extra alte" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Basso" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtro texture">
+      <value name="Extra High" translation="Extra alto" />
+      <value name="High" translation="Alto" />
+      <value name="Medium" translation="Medio" />
+    </setting>
+    <setting name="Textures" translation="Texture">
+      <value name="Extra High" translation="Extra alta" />
+      <value name="High" translation="Alte" />
+      <value name="Low" translation="Basse" />
+      <value name="Medium" translation="Media" />
+    </setting>
+  </language>
+  <language name="ja_JP" translation="">
+    <setting name="Ambient Occlusion" translation="アンビエント オクルージョン">
+      <value name="Extra High" translation="エクストラ高" />
+      <value name="High" translation="高" />
+      <value name="Off" translation="オフ" />
+    </setting>
+    <setting name="Depth of Field" translation="被写界深度">
+      <value name="Invalid" translation="無効" />
+      <value name="Valid" translation="有効" />
+    </setting>
+    <setting name="Display Mode" translation="ディスプレイ モード">
+      <value name="Borderless Full-screen" translation="枠なしフルスクリーン" />
+      <value name="Full-screen" translation="フルスクリーン" />
+      <value name="Windowed" translation="ウィンドウ表示" />
+    </setting>
+    <setting name="Effects" translation="エフェクト">
+      <value name="Extra High" translation="エクストラ高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+    </setting>
+    <setting name="Frame Rate" translation="フレーム レート">
+      <value name="30 FPS Lock" translation="30 FPS ロック" />
+      <value name="Auto" translation="自動" />
+    </setting>
+    <setting name="Lighting" translation="ライティング">
+      <value name="Extra High" translation="エクストラ高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+    </setting>
+    <setting name="Model Detail" translation="モデルのディテール">
+      <value name="Extra High" translation="エクストラ高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA マルチフレーム サンプリング アンチエリアシング">
+      <value name="Off" translation="オフ" />
+      <value name="On" translation="オン" />
+    </setting>
+    <setting name="Post Processing" translation="ポストプロセッシング">
+      <value name="Extra High" translation="エクストラ高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Off" translation="オフ" />
+    </setting>
+    <setting name="Resolution" translation="解像度" />
+    <setting name="Shadows" translation="シャドウ">
+      <value name="Extra High" translation="エクストラ高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+    </setting>
+    <setting name="Texture Filtering" translation="テクスチャフィルタリング">
+      <value name="Extra High" translation="エクストラ高" />
+      <value name="High" translation="高" />
+      <value name="Medium" translation="中" />
+    </setting>
+    <setting name="Textures" translation="テクスチャ">
+      <value name="Extra High" translation="エクストラ高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+    </setting>
+  </language>
+  <language name="ko_KR" translation="">
+    <setting name="Ambient Occlusion" translation="앰비언트 오클루젼">
+      <value name="Extra High" translation="엑스트라 높음" />
+      <value name="High" translation="높음" />
+      <value name="Off" translation="끄기" />
+    </setting>
+    <setting name="Depth of Field" translation="피사계 심도">
+      <value name="Invalid" translation="잘못됨" />
+      <value name="Valid" translation="올바름" />
+    </setting>
+    <setting name="Display Mode" translation="디스플레이 모드">
+      <value name="Borderless Full-screen" translation="테두리 없는 전체화면" />
+      <value name="Full-screen" translation="전체 화면" />
+      <value name="Windowed" translation="창" />
+    </setting>
+    <setting name="Effects" translation="효과">
+      <value name="Extra High" translation="매우 높음" />
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+    </setting>
+    <setting name="Frame Rate" translation="프레임 속도">
+      <value name="30 FPS Lock" translation="30 FPS 잠금" />
+      <value name="Auto" translation="자동" />
+    </setting>
+    <setting name="Lighting" translation="조명">
+      <value name="Extra High" translation="매우 높음" />
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+    </setting>
+    <setting name="Model Detail" translation="모델 디테일">
+      <value name="Extra High" translation="매우 높음" />
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA 멀티프레임 샘플드 앤티엘리어싱(MFAA)">
+      <value name="Off" translation="끄기" />
+      <value name="On" translation="켜기" />
+    </setting>
+    <setting name="Post Processing" translation="후처리">
+      <value name="Extra High" translation="엑스트라 높음" />
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Off" translation="끄기" />
+    </setting>
+    <setting name="Resolution" translation="해상도" />
+    <setting name="Shadows" translation="그림자">
+      <value name="Extra High" translation="매우 높음" />
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+    </setting>
+    <setting name="Texture Filtering" translation="텍스처 필터링">
+      <value name="Extra High" translation="매우 높음" />
+      <value name="High" translation="높음" />
+      <value name="Medium" translation="중간" />
+    </setting>
+    <setting name="Textures" translation="텍스처">
+      <value name="Extra High" translation="매우 높음" />
+      <value name="High" translation="높음" />
+      <value name="Low" translation="낮음" />
+      <value name="Medium" translation="중간" />
+    </setting>
+  </language>
+  <language name="nb_NO" translation="">
+    <setting name="Ambient Occlusion" translation="Omgivelsesbetinget lys">
+      <value name="Extra High" translation="Ekstra høy" />
+      <value name="High" translation="Høy" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Depth of Field" translation="Dybdeskarphet">
+      <value name="Invalid" translation="Ugyldig" />
+      <value name="Valid" translation="Gyldig" />
+    </setting>
+    <setting name="Display Mode" translation="Skjermmodus">
+      <value name="Borderless Full-screen" translation="Kantløs fullskjerm" />
+      <value name="Full-screen" translation="Full skjerm" />
+      <value name="Windowed" translation="Vindusmodus" />
+    </setting>
+    <setting name="Effects" translation="Effekter">
+      <value name="Extra High" translation="Ekstra høy" />
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+    </setting>
+    <setting name="Frame Rate" translation="Bildefrekvens">
+      <value name="30 FPS Lock" translation="30 BPS-lås" />
+      <value name="Auto" translation="Auto" />
+    </setting>
+    <setting name="Lighting" translation="Lys">
+      <value name="Extra High" translation="Ekstra høy" />
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+    </setting>
+    <setting name="Model Detail" translation="Modelldetaljer">
+      <value name="Extra High" translation="Ekstra høy" />
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Avsøkt flerramme-kantutjevning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Post Processing" translation="Etterbehandling">
+      <value name="Extra High" translation="Ekstra høy" />
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Resolution" translation="Oppløsning" />
+    <setting name="Shadows" translation="Skygger">
+      <value name="Extra High" translation="Ekstra høy" />
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+    </setting>
+    <setting name="Texture Filtering" translation="Teksturfiltrering">
+      <value name="Extra High" translation="Ekstra høy" />
+      <value name="High" translation="Høy" />
+      <value name="Medium" translation="Middels" />
+    </setting>
+    <setting name="Textures" translation="Teksturer">
+      <value name="Extra High" translation="Ekstra høy" />
+      <value name="High" translation="Høy" />
+      <value name="Low" translation="Lav" />
+      <value name="Medium" translation="Middels" />
+    </setting>
+  </language>
+  <language name="nl_NL" translation="">
+    <setting name="Ambient Occlusion" translation="Omgevingsocclusie">
+      <value name="Extra High" translation="Extra hoog" />
+      <value name="High" translation="Hoog" />
+      <value name="Off" translation="Uit" />
+    </setting>
+    <setting name="Depth of Field" translation="Velddiepte">
+      <value name="Invalid" translation="Ongeldig" />
+      <value name="Valid" translation="Geldig" />
+    </setting>
+    <setting name="Display Mode" translation="Beeldschermmodus">
+      <value name="Borderless Full-screen" translation="Randloos volledig scherm" />
+      <value name="Full-screen" translation="Volledig scherm" />
+      <value name="Windowed" translation="In venster" />
+    </setting>
+    <setting name="Effects" translation="Effecten">
+      <value name="Extra High" translation="Extra hoog" />
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+    </setting>
+    <setting name="Frame Rate" translation="Framesnelheid">
+      <value name="30 FPS Lock" translation="30 FPS-vergrendeling" />
+      <value name="Auto" translation="Automatisch" />
+    </setting>
+    <setting name="Lighting" translation="Verlichting">
+      <value name="Extra High" translation="Extra hoog" />
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+    </setting>
+    <setting name="Model Detail" translation="Modeldetail">
+      <value name="Extra High" translation="Extra hoog" />
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Multi-Frame Sampled Anti-Aliasing">
+      <value name="Off" translation="Uit" />
+      <value name="On" translation="Aan" />
+    </setting>
+    <setting name="Post Processing" translation="Naverwerking">
+      <value name="Extra High" translation="Extra hoog" />
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Off" translation="Uit" />
+    </setting>
+    <setting name="Resolution" translation="Resolutie" />
+    <setting name="Shadows" translation="Schaduwen">
+      <value name="Extra High" translation="Extra hoog" />
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+    </setting>
+    <setting name="Texture Filtering" translation="Patroonfiltering">
+      <value name="Extra High" translation="Extra hoog" />
+      <value name="High" translation="Hoog" />
+      <value name="Medium" translation="Gemiddeld" />
+    </setting>
+    <setting name="Textures" translation="Patronen">
+      <value name="Extra High" translation="Extra hoog" />
+      <value name="High" translation="Hoog" />
+      <value name="Low" translation="Laag" />
+      <value name="Medium" translation="Gemiddeld" />
+    </setting>
+  </language>
+  <language name="pl_PL" translation="">
+    <setting name="Ambient Occlusion" translation="Przesłanianie środowiska">
+      <value name="Extra High" translation="Bardzo wysoki" />
+      <value name="High" translation="Wysokie" />
+      <value name="Off" translation="Wyłącz" />
+    </setting>
+    <setting name="Depth of Field" translation="Głębia ostrości">
+      <value name="Invalid" translation="Nieprawidłowa" />
+      <value name="Valid" translation="Prawidłowa" />
+    </setting>
+    <setting name="Display Mode" translation="Tryb wyświetlania">
+      <value name="Borderless Full-screen" translation="Pełny ekran, bez ramki" />
+      <value name="Full-screen" translation="Pełny ekran" />
+      <value name="Windowed" translation="Okienkowy" />
+    </setting>
+    <setting name="Effects" translation="Efekty">
+      <value name="Extra High" translation="Bardzo wysoki" />
+      <value name="High" translation="Wysokie" />
+      <value name="Low" translation="Niskie" />
+    </setting>
+    <setting name="Frame Rate" translation="Częstotliwość wyświetlania klatek">
+      <value name="30 FPS Lock" translation="Blokada 30 kl./s" />
+      <value name="Auto" translation="Automatyczna" />
+    </setting>
+    <setting name="Lighting" translation="Oświetlenie">
+      <value name="Extra High" translation="Bardzo wysokie" />
+      <value name="High" translation="Wysoki" />
+      <value name="Low" translation="Niski" />
+    </setting>
+    <setting name="Model Detail" translation="Szczegółowość modeli">
+      <value name="Extra High" translation="Bardzo wysoka" />
+      <value name="High" translation="Wysoka" />
+      <value name="Low" translation="Niska" />
+      <value name="Medium" translation="Średnia" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Wygładzanie krawędzi z próbkowaniem wielu klatek NVIDIA">
+      <value name="Off" translation="Wyłącz" />
+      <value name="On" translation="Włącz" />
+    </setting>
+    <setting name="Post Processing" translation="Przetwarzanie końcowe">
+      <value name="Extra High" translation="Bardzo wysokie" />
+      <value name="High" translation="Wysokie" />
+      <value name="Low" translation="Niskie" />
+      <value name="Off" translation="Wyłącz" />
+    </setting>
+    <setting name="Resolution" translation="Rozdzielczość" />
+    <setting name="Shadows" translation="Cienie">
+      <value name="Extra High" translation="Bardzo wysokie" />
+      <value name="High" translation="Wysokie" />
+      <value name="Low" translation="Niskie" />
+      <value name="Medium" translation="Średnie" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtrowanie tekstur">
+      <value name="Extra High" translation="Bardzo wysokie" />
+      <value name="High" translation="Wysoki" />
+      <value name="Medium" translation="Średni" />
+    </setting>
+    <setting name="Textures" translation="Tekstury">
+      <value name="Extra High" translation="Bardzo wysoka" />
+      <value name="High" translation="Wysoki" />
+      <value name="Low" translation="Niski" />
+      <value name="Medium" translation="Średni" />
+    </setting>
+  </language>
+  <language name="pt_BR" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusão ambiental">
+      <value name="Extra High" translation="Extra alta" />
+      <value name="High" translation="Alta" />
+      <value name="Off" translation="Desligada" />
+    </setting>
+    <setting name="Depth of Field" translation="Profundidade do Campo">
+      <value name="Invalid" translation="Inválida" />
+      <value name="Valid" translation="Válida" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de video">
+      <value name="Borderless Full-screen" translation="Tela inteira sem margens" />
+      <value name="Full-screen" translation="Tela inteira" />
+      <value name="Windowed" translation="Em Janelas" />
+    </setting>
+    <setting name="Effects" translation="Efeitos">
+      <value name="Extra High" translation="Extra alto" />
+      <value name="High" translation="Altos" />
+      <value name="Low" translation="Baixos" />
+    </setting>
+    <setting name="Frame Rate" translation="Taxa de Quadros">
+      <value name="30 FPS Lock" translation="Bloquear em 30 FPS" />
+      <value name="Auto" translation="Auto" />
+    </setting>
+    <setting name="Lighting" translation="Iluminação">
+      <value name="Extra High" translation="Extra alto" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+    </setting>
+    <setting name="Model Detail" translation="Detalhe do Modelo">
+      <value name="Extra High" translation="Extra alto" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+      <value name="Medium" translation="Médio" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Antisserrilhamento de amostragem multiquadros NVIDIA ">
+      <value name="Off" translation="Desligado" />
+      <value name="On" translation="Ligado" />
+    </setting>
+    <setting name="Post Processing" translation="Pós-Processamento">
+      <value name="Extra High" translation="Extra alto" />
+      <value name="High" translation="Alto" />
+      <value name="Low" translation="Baixo" />
+      <value name="Off" translation="Desligado" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+    <setting name="Shadows" translation="Sombras">
+      <value name="Extra High" translation="Extra alto" />
+      <value name="High" translation="Altas" />
+      <value name="Low" translation="Baixas" />
+      <value name="Medium" translation="Médias" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtragem da Textura">
+      <value name="Extra High" translation="Extra alto" />
+      <value name="High" translation="Alta" />
+      <value name="Medium" translation="Média" />
+    </setting>
+    <setting name="Textures" translation="Texturas">
+      <value name="Extra High" translation="Extra alto" />
+      <value name="High" translation="Altas" />
+      <value name="Low" translation="Baixas" />
+      <value name="Medium" translation="Médias" />
+    </setting>
+  </language>
+  <language name="pt_PT" translation="">
+    <setting name="Ambient Occlusion" translation="Oclusão ambiental">
+      <value name="Extra High" translation="Nível muito alto" />
+      <value name="High" translation="Alta" />
+      <value name="Off" translation="Desactivar" />
+    </setting>
+    <setting name="Depth of Field" translation="Profundidade de campo">
+      <value name="Invalid" translation="Inválido" />
+      <value name="Valid" translation="Válido" />
+    </setting>
+    <setting name="Display Mode" translation="Modo de visualização">
+      <value name="Borderless Full-screen" translation="Ecrã inteiro sem margem" />
+      <value name="Full-screen" translation="Ecrã inteiro" />
+      <value name="Windowed" translation="Modo de janela" />
+    </setting>
+    <setting name="Effects" translation="Efeitos">
+      <value name="Extra High" translation="Nível muito alto" />
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+    </setting>
+    <setting name="Frame Rate" translation="Taxa de videogramas">
+      <value name="30 FPS Lock" translation="Bloqueio 30 FPS" />
+      <value name="Auto" translation="Automática" />
+    </setting>
+    <setting name="Lighting" translation="Iluminação">
+      <value name="Extra High" translation="Nível muito alto" />
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Nível baixo" />
+    </setting>
+    <setting name="Model Detail" translation="Detalhe do modelo">
+      <value name="Extra High" translation="Nível muito alto" />
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Antialiasing de Amostragem de Multi-Videograma da NVIDIA">
+      <value name="Off" translation="Desactivar" />
+      <value name="On" translation="Activar" />
+    </setting>
+    <setting name="Post Processing" translation="Pós-processamento">
+      <value name="Extra High" translation="Nível muito alto" />
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Nível baixo" />
+      <value name="Off" translation="Desactivar" />
+    </setting>
+    <setting name="Resolution" translation="Resolução" />
+    <setting name="Shadows" translation="Sombras">
+      <value name="Extra High" translation="Nível muito alto" />
+      <value name="High" translation="Alta" />
+      <value name="Low" translation="Baixa" />
+      <value name="Medium" translation="Média" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtração de texturas">
+      <value name="Extra High" translation="Nível muito alto" />
+      <value name="High" translation="Alta" />
+      <value name="Medium" translation="Média" />
+    </setting>
+    <setting name="Textures" translation="Texturas">
+      <value name="Extra High" translation="Nível muito alto" />
+      <value name="High" translation="Nível alto" />
+      <value name="Low" translation="Nível baixo" />
+      <value name="Medium" translation="Nível médio" />
+    </setting>
+  </language>
+  <language name="ru_RU" translation="">
+    <setting name="Ambient Occlusion" translation="Затенение фонового освещения">
+      <value name="Extra High" translation="Очень высоко" />
+      <value name="High" translation="Высокое" />
+      <value name="Off" translation="Выкл." />
+    </setting>
+    <setting name="Depth of Field" translation="Глубина резкости">
+      <value name="Invalid" translation="Выключено" />
+      <value name="Valid" translation="Включено" />
+    </setting>
+    <setting name="Display Mode" translation="Экранный режим">
+      <value name="Borderless Full-screen" translation="На полный экран" />
+      <value name="Full-screen" translation="Полный экран" />
+      <value name="Windowed" translation="В окне" />
+    </setting>
+    <setting name="Effects" translation="Эффекты">
+      <value name="Extra High" translation="Очень высоко" />
+      <value name="High" translation="Высоко" />
+      <value name="Low" translation="Низко" />
+    </setting>
+    <setting name="Frame Rate" translation="Частота кадров">
+      <value name="30 FPS Lock" translation="30 кадр./сек." />
+      <value name="Auto" translation="Авто" />
+    </setting>
+    <setting name="Lighting" translation="Освещение">
+      <value name="Extra High" translation="Очень высокое" />
+      <value name="High" translation="Высокое" />
+      <value name="Low" translation="Низкое" />
+    </setting>
+    <setting name="Model Detail" translation="Детализация модели">
+      <value name="Extra High" translation="Очень высокая" />
+      <value name="High" translation="Высокая" />
+      <value name="Low" translation="Низкая" />
+      <value name="Medium" translation="Средняя" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Многокадровое сглаживание NVIDIA">
+      <value name="Off" translation="Выкл." />
+      <value name="On" translation="Вкл." />
+    </setting>
+    <setting name="Post Processing" translation="Постобработка">
+      <value name="Extra High" translation="Очень высоко" />
+      <value name="High" translation="Высоко" />
+      <value name="Low" translation="Низко" />
+      <value name="Off" translation="Выкл." />
+    </setting>
+    <setting name="Resolution" translation="Разрешение" />
+    <setting name="Shadows" translation="Тени">
+      <value name="Extra High" translation="Очень высоко" />
+      <value name="High" translation="Высоко" />
+      <value name="Low" translation="Низко" />
+      <value name="Medium" translation="Средне" />
+    </setting>
+    <setting name="Texture Filtering" translation="Фильтрация текстур">
+      <value name="Extra High" translation="Очень высокая" />
+      <value name="High" translation="Высокая" />
+      <value name="Medium" translation="Средняя" />
+    </setting>
+    <setting name="Textures" translation="Текстуры">
+      <value name="Extra High" translation="Очень высоко" />
+      <value name="High" translation="Высоко" />
+      <value name="Low" translation="Низко" />
+      <value name="Medium" translation="Средне" />
+    </setting>
+  </language>
+  <language name="sk_SK" translation="">
+    <setting name="Ambient Occlusion" translation="Zatienenie okolím">
+      <value name="Extra High" translation="Mimoriadne vysoká" />
+      <value name="High" translation="Vysoké" />
+      <value name="Off" translation="Vypnuté" />
+    </setting>
+    <setting name="Depth of Field" translation="Hĺbka ostrosti">
+      <value name="Invalid" translation="Neplatné" />
+      <value name="Valid" translation="Platné" />
+    </setting>
+    <setting name="Display Mode" translation="Režim zobrazenia">
+      <value name="Borderless Full-screen" translation="Na celú obrazovku bez orámovania" />
+      <value name="Full-screen" translation="Na celú obrazovku" />
+      <value name="Windowed" translation="V okne" />
+    </setting>
+    <setting name="Effects" translation="Efekty">
+      <value name="Extra High" translation="Zapnuté" />
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+    </setting>
+    <setting name="Frame Rate" translation="Snímková frekvencia">
+      <value name="30 FPS Lock" translation="Obmedziť na 30 snímok/s" />
+      <value name="Auto" translation="Automatická" />
+    </setting>
+    <setting name="Lighting" translation="Osvetlenie">
+      <value name="Extra High" translation="Mimoriadne vysoké" />
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+    </setting>
+    <setting name="Model Detail" translation="Detail modelu">
+      <value name="Extra High" translation="Mimoriadne vysoký" />
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+      <value name="Medium" translation="Stredné" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="Viacsnímkové vyhladzovanie NVIDIA">
+      <value name="Off" translation="Vypnuté" />
+      <value name="On" translation="Zapnuté" />
+    </setting>
+    <setting name="Post Processing" translation="Dodatočné spracovanie">
+      <value name="Extra High" translation="Mimoriadne vysoké" />
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+      <value name="Off" translation="Vypnuté" />
+    </setting>
+    <setting name="Resolution" translation="Rozlíšenie" />
+    <setting name="Shadows" translation="Tiene">
+      <value name="Extra High" translation="Mimoriadne vysoké" />
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+      <value name="Medium" translation="Stredné" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtrovanie textúr">
+      <value name="Extra High" translation="Mimoriadne vysoké" />
+      <value name="High" translation="Vysoké" />
+      <value name="Medium" translation="Stredné" />
+    </setting>
+    <setting name="Textures" translation="Textúry">
+      <value name="Extra High" translation="Mimoriadne vysoké" />
+      <value name="High" translation="Vysoké" />
+      <value name="Low" translation="Nízke" />
+      <value name="Medium" translation="Stredné" />
+    </setting>
+  </language>
+  <language name="sl_SI" translation="">
+    <setting name="Ambient Occlusion" translation="Zapiranje okolice">
+      <value name="Extra High" translation="Zelo visoko" />
+      <value name="High" translation="Visoko" />
+      <value name="Off" translation="Izklop" />
+    </setting>
+    <setting name="Depth of Field" translation="Globina polja">
+      <value name="Invalid" translation="Neveljavno" />
+      <value name="Valid" translation="Veljavno" />
+    </setting>
+    <setting name="Display Mode" translation="Zaslonski način">
+      <value name="Borderless Full-screen" translation="Celotni zaslon brez robu" />
+      <value name="Full-screen" translation="Celoten zaslon" />
+      <value name="Windowed" translation="V oknu" />
+    </setting>
+    <setting name="Effects" translation="Učinki">
+      <value name="Extra High" translation="Zelo visoka" />
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizko" />
+    </setting>
+    <setting name="Frame Rate" translation="Število okvirov">
+      <value name="30 FPS Lock" translation="Zapora: 30 slik/sek." />
+      <value name="Auto" translation="Samodejno" />
+    </setting>
+    <setting name="Lighting" translation="Osvetlitev">
+      <value name="Extra High" translation="Zelo visoka" />
+      <value name="High" translation="Visoko" />
+      <value name="Low" translation="Nizko" />
+    </setting>
+    <setting name="Model Detail" translation="Podrobnosti modela">
+      <value name="Extra High" translation="Zelo visoka" />
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA vzorčno glajenje robov z več okviri">
+      <value name="Off" translation="Izklop" />
+      <value name="On" translation="Vklop" />
+    </setting>
+    <setting name="Post Processing" translation="Naknadna obdelava">
+      <value name="Extra High" translation="Zelo visoka" />
+      <value name="High" translation="Visoka" />
+      <value name="Low" translation="Nizka" />
+      <value name="Off" translation="Izklop" />
+    </setting>
+    <setting name="Resolution" translation="Ločljivost" />
+    <setting name="Shadows" translation="Sence">
+      <value name="Extra High" translation="Zelo visoka" />
+      <value name="High" translation="Visok" />
+      <value name="Low" translation="Nizko" />
+      <value name="Medium" translation="Srednje" />
+    </setting>
+    <setting name="Texture Filtering" translation="Filtriranje tekstur">
+      <value name="Extra High" translation="Zelo visoka" />
+      <value name="High" translation="Visoko" />
+      <value name="Medium" translation="Srednje" />
+    </setting>
+    <setting name="Textures" translation="Teksture">
+      <value name="Extra High" translation="Zelo visoka" />
+      <value name="High" translation="Visoka" />
+      <value name="Low" translation="Nizka" />
+      <value name="Medium" translation="Srednje" />
+    </setting>
+  </language>
+  <language name="sv_SE" translation="">
+    <setting name="Ambient Occlusion" translation="Omgivande inneslutning">
+      <value name="Extra High" translation="Extra högt" />
+      <value name="High" translation="Hög" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Depth of Field" translation="Skärpedjup">
+      <value name="Invalid" translation="Ogiltig" />
+      <value name="Valid" translation="Giltig" />
+    </setting>
+    <setting name="Display Mode" translation="Visningsläge">
+      <value name="Borderless Full-screen" translation="Kantlös helskärm" />
+      <value name="Full-screen" translation="Helskärm" />
+      <value name="Windowed" translation="I fönster" />
+    </setting>
+    <setting name="Effects" translation="Effekter">
+      <value name="Extra High" translation="Extra höga" />
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+    </setting>
+    <setting name="Frame Rate" translation="Bildrutefrekvens">
+      <value name="30 FPS Lock" translation="Lås 30 FPS" />
+      <value name="Auto" translation="Automatiskt" />
+    </setting>
+    <setting name="Lighting" translation="Blixtar">
+      <value name="Extra High" translation="Extra höga" />
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+    </setting>
+    <setting name="Model Detail" translation="Modelldetalj">
+      <value name="Extra High" translation="Extra hög" />
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA flerbildssamplad kantutjämning">
+      <value name="Off" translation="Av" />
+      <value name="On" translation="På" />
+    </setting>
+    <setting name="Post Processing" translation="Efterbehandling">
+      <value name="Extra High" translation="Extra hög" />
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Off" translation="Av" />
+    </setting>
+    <setting name="Resolution" translation="Upplösning" />
+    <setting name="Shadows" translation="Skuggor">
+      <value name="Extra High" translation="Extra höga" />
+      <value name="High" translation="Hög" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+    </setting>
+    <setting name="Texture Filtering" translation="Texturfiltrering">
+      <value name="Extra High" translation="Extra hög" />
+      <value name="High" translation="Högt" />
+      <value name="Medium" translation="Medel" />
+    </setting>
+    <setting name="Textures" translation="Texturer">
+      <value name="Extra High" translation="Extra höga" />
+      <value name="High" translation="Högt" />
+      <value name="Low" translation="Låg" />
+      <value name="Medium" translation="Medel" />
+    </setting>
+  </language>
+  <language name="th_TH" translation="">
+    <setting name="Ambient Occlusion" translation="การบดบังแสงแวดล้อม">
+      <value name="Extra High" translation="สูงพิเศษ" />
+      <value name="High" translation="สูง" />
+      <value name="Off" translation="ปิด" />
+    </setting>
+    <setting name="Depth of Field" translation="ระยะชัดลึก">
+      <value name="Invalid" translation="ไม่ถูกต้อง" />
+      <value name="Valid" translation="ถูกต้อง" />
+    </setting>
+    <setting name="Display Mode" translation="โหมดการแสดงผล">
+      <value name="Borderless Full-screen" translation="เต็มหน้าจอแบบไม่มีขอบ" />
+      <value name="Full-screen" translation="เต็มหน้าจอ" />
+      <value name="Windowed" translation="แบบหน้าต่าง" />
+    </setting>
+    <setting name="Effects" translation="เอฟเฟกต์">
+      <value name="Extra High" translation="สูงพิเศษ" />
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+    </setting>
+    <setting name="Frame Rate" translation="อัตราเฟรม">
+      <value name="30 FPS Lock" translation="30 FPS คงที่" />
+      <value name="Auto" translation="อัตโนมัติ" />
+    </setting>
+    <setting name="Lighting" translation="การจัดแสง">
+      <value name="Extra High" translation="สูงพิเศษ" />
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+    </setting>
+    <setting name="Model Detail" translation="รายละเอียดของโมเดล">
+      <value name="Extra High" translation="สูงพิเศษ" />
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="การลบรอยหยักแบบ Multi-Frame Sampled ของ NVIDIA ">
+      <value name="Off" translation="ปิด" />
+      <value name="On" translation="เปิด" />
+    </setting>
+    <setting name="Post Processing" translation="หลังการประมวลผล">
+      <value name="Extra High" translation="สูงพิเศษ" />
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Off" translation="ปิด" />
+    </setting>
+    <setting name="Resolution" translation="ความละเอียด" />
+    <setting name="Shadows" translation="เงา">
+      <value name="Extra High" translation="สูงพิเศษ" />
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+    </setting>
+    <setting name="Texture Filtering" translation="การกรองพื้นผิว">
+      <value name="Extra High" translation="สูงพิเศษ" />
+      <value name="High" translation="สูง" />
+      <value name="Medium" translation="ปานกลาง" />
+    </setting>
+    <setting name="Textures" translation="พื้นผิว">
+      <value name="Extra High" translation="สูงพิเศษ" />
+      <value name="High" translation="สูง" />
+      <value name="Low" translation="ต่ำ" />
+      <value name="Medium" translation="ปานกลาง" />
+    </setting>
+  </language>
+  <language name="tr_TR" translation="">
+    <setting name="Ambient Occlusion" translation="Ortam Kapatma">
+      <value name="Extra High" translation="Ekstra Yüksek" />
+      <value name="High" translation="Yüksek" />
+      <value name="Off" translation="Kapalı" />
+    </setting>
+    <setting name="Depth of Field" translation="Alan Derinliği">
+      <value name="Invalid" translation="Geçersiz" />
+      <value name="Valid" translation="Geçerli" />
+    </setting>
+    <setting name="Display Mode" translation="Ekran Modu">
+      <value name="Borderless Full-screen" translation="Kenarlıksız Tam Ekran" />
+      <value name="Full-screen" translation="Tam Ekran" />
+      <value name="Windowed" translation="Pencere içinde" />
+    </setting>
+    <setting name="Effects" translation="Efektler">
+      <value name="Extra High" translation="Ekstra Yüksek" />
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+    </setting>
+    <setting name="Frame Rate" translation="Kare Hızı">
+      <value name="30 FPS Lock" translation="30 FPS Kilidi" />
+      <value name="Auto" translation="Otomatik" />
+    </setting>
+    <setting name="Lighting" translation="Işıklar">
+      <value name="Extra High" translation="Ekstra Yüksek" />
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+    </setting>
+    <setting name="Model Detail" translation="Model Ayrıntıları">
+      <value name="Extra High" translation="Ekstra Yüksek" />
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA Birden Çok Çerçeveli Örneklemeli Kenar Yumuşatma">
+      <value name="Off" translation="Kapalı" />
+      <value name="On" translation="Açık" />
+    </setting>
+    <setting name="Post Processing" translation="Son İşlem">
+      <value name="Extra High" translation="Ekstra Yüksek" />
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Off" translation="Kapalı" />
+    </setting>
+    <setting name="Resolution" translation="Çözünürlük" />
+    <setting name="Shadows" translation="Gölgeler">
+      <value name="Extra High" translation="Ekstra Yüksek" />
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+    </setting>
+    <setting name="Texture Filtering" translation="Doku Filtreleme">
+      <value name="Extra High" translation="Ekstra Yüksek" />
+      <value name="High" translation="Yüksek" />
+      <value name="Medium" translation="Orta" />
+    </setting>
+    <setting name="Textures" translation="Dokular">
+      <value name="Extra High" translation="Ekstra Yüksek" />
+      <value name="High" translation="Yüksek" />
+      <value name="Low" translation="Düşük" />
+      <value name="Medium" translation="Orta" />
+    </setting>
+  </language>
+  <language name="zh_CHS" translation="">
+    <setting name="Ambient Occlusion" translation="环境光吸收">
+      <value name="Extra High" translation="超高" />
+      <value name="High" translation="高" />
+      <value name="Off" translation="关" />
+    </setting>
+    <setting name="Depth of Field" translation="景深">
+      <value name="Invalid" translation="无效" />
+      <value name="Valid" translation="无效" />
+    </setting>
+    <setting name="Display Mode" translation="显示模式">
+      <value name="Borderless Full-screen" translation="无边框全屏幕" />
+      <value name="Full-screen" translation="全屏幕" />
+      <value name="Windowed" translation="窗口化" />
+    </setting>
+    <setting name="Effects" translation="效果">
+      <value name="Extra High" translation="极高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+    </setting>
+    <setting name="Frame Rate" translation="帧速率">
+      <value name="30 FPS Lock" translation="每秒 30  帧锁定" />
+      <value name="Auto" translation="自动" />
+    </setting>
+    <setting name="Lighting" translation="照明">
+      <value name="Extra High" translation="极高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+    </setting>
+    <setting name="Model Detail" translation="模型细节">
+      <value name="Extra High" translation="极高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA 多帧取样反失真">
+      <value name="Off" translation="关" />
+      <value name="On" translation="开" />
+    </setting>
+    <setting name="Post Processing" translation="后处理">
+      <value name="Extra High" translation="超高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Off" translation="关" />
+    </setting>
+    <setting name="Resolution" translation="分辨率" />
+    <setting name="Shadows" translation="阴影">
+      <value name="Extra High" translation="极高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+    </setting>
+    <setting name="Texture Filtering" translation="纹理过滤">
+      <value name="Extra High" translation="极高" />
+      <value name="High" translation="高" />
+      <value name="Medium" translation="中" />
+    </setting>
+    <setting name="Textures" translation="纹理">
+      <value name="Extra High" translation="极高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+    </setting>
+  </language>
+  <language name="zh_CHT" translation="">
+    <setting name="Ambient Occlusion" translation="漫射陰影環場遮擋">
+      <value name="Extra High" translation="超高" />
+      <value name="High" translation="高" />
+      <value name="Off" translation="關閉" />
+    </setting>
+    <setting name="Depth of Field" translation="景深">
+      <value name="Invalid" translation="無效" />
+      <value name="Valid" translation="有效" />
+    </setting>
+    <setting name="Display Mode" translation="顯示模式">
+      <value name="Borderless Full-screen" translation="無框線全螢幕" />
+      <value name="Full-screen" translation="全螢幕" />
+      <value name="Windowed" translation="視窗型" />
+    </setting>
+    <setting name="Effects" translation="效果">
+      <value name="Extra High" translation="超高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+    </setting>
+    <setting name="Frame Rate" translation="圖框速率">
+      <value name="30 FPS Lock" translation="30 FPS 鎖定" />
+      <value name="Auto" translation="自動" />
+    </setting>
+    <setting name="Lighting" translation="光源">
+      <value name="Extra High" translation="超高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+    </setting>
+    <setting name="Model Detail" translation="模型細節">
+      <value name="Extra High" translation="超高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+    </setting>
+    <setting name="NVIDIA Multi-Frame Sampled Anti-aliasing" translation="NVIDIA 多畫面採樣消除鋸齒">
+      <value name="Off" translation="關閉" />
+      <value name="On" translation="開啟" />
+    </setting>
+    <setting name="Post Processing" translation="後續處理">
+      <value name="Extra High" translation="超高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Off" translation="關閉" />
+    </setting>
+    <setting name="Resolution" translation="解析度" />
+    <setting name="Shadows" translation="陰影">
+      <value name="Extra High" translation="超高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+    </setting>
+    <setting name="Texture Filtering" translation="紋理篩選">
+      <value name="Extra High" translation="超高" />
+      <value name="High" translation="高" />
+      <value name="Medium" translation="中" />
+    </setting>
+    <setting name="Textures" translation="紋理材質">
+      <value name="Extra High" translation="超高" />
+      <value name="High" translation="高" />
+      <value name="Low" translation="低" />
+      <value name="Medium" translation="中" />
+    </setting>
+  </language>
+</game>

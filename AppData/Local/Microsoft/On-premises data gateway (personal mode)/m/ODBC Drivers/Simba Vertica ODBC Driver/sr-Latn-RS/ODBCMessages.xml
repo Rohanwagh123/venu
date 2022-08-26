@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Messages [<!ELEMENT Messages (Package*)>
+
+<!ELEMENT Package (Error*)>
+<!ATTLIST Package ID CDATA #REQUIRED>
+<!ATTLIST Package DefaultComponent CDATA #REQUIRED>
+
+<!ELEMENT Error (#PCDATA)>
+<!ATTLIST Error Key CDATA #REQUIRED>
+<!ATTLIST Error _locID CDATA "0">
+<!ATTLIST Error Component CDATA #IMPLIED>
+<!ATTLIST Error NativeErrorCode CDATA #REQUIRED>
+<!ATTLIST Error Params CDATA "0">]>
+<Messages>
+    <!-- #################################################################################### -->
+    <Package ID="1" DefaultComponent="ODBC">
+
+      <!-- Errors and warnings in general operation. --> 
+      <!-- Error thrown when an unexpected exception is caught. --> 
+      <Error Key="GenErr" NativeErrorCode="10000" _locID="1.GenErr">Opšta greška: uhvaćen je neočekivani izuzetak.</Error>
+
+      <!-- Same as GenErr, but allows for a custom message (say, from an std::exception) --> 
+      <Error Key="GenErr1" Params="1" NativeErrorCode="10001" _locID="1.GenErr1">Opšta greška: %1%</Error>
+
+      <!-- Error thrown when a std::bad_alloc exception is caught. --> 
+      <Error Key="MemAllocErr" NativeErrorCode="10010" _locID="1.MemAllocErr">Greška u dodeli memorije: uhvaćen je izuzetak std::bad_alloc.</Error>
+
+      <!-- Error thrown when ODBC functions are executed out of the allowed sequence as specified in the ODBC specification. --> 
+      <Error Key="FuncSeqErr" NativeErrorCode="10020" _locID="1.FuncSeqErr">ODBC funkcije su izvršene iz dozvoljene sekvence.</Error>
+
+      <!-- Error thrown when statement is invalid or not found. --> 
+      <Error Key="InvalidStmt" NativeErrorCode="10040" _locID="1.InvalidStmt">Izjava nije važeća ili nije pronađena.</Error>
+
+      <!-- Error thrown when connection is invalid or not found. --> 
+      <Error Key="InvalidConn" NativeErrorCode="10050" _locID="1.InvalidConn">Veza je nevažeća ili nije pronađena.</Error>
+
+      <!-- Error thrown when descriptor is invalid or not found. --> 
+      <Error Key="InvalidAppDesc" NativeErrorCode="10060" _locID="1.InvalidAppDesc">Opis aplikacije je nevažeći ili nije pronađen.</Error>
+
+      <!-- Error thrown when explicit application descriptor is invalid or not found. --> 
+      <Error Key="InvalidExplAppDesc" NativeErrorCode="10070" _locID="1.InvalidExplAppDesc">Opis eksplicitne aplikacije nije važeći ili nije pronađen.</Error>
+
+      <!-- Error thrown when query manager is invalid or not found. --> 
+      <Error Key="InvalidQueryMgr" NativeErrorCode="10080" _locID="1.InvalidQueryMgr">Menadžer upita nije važeći ili nije pronađen.</Error>
+
+      <!-- Error thrown when execution results are invalid or not found. --> 
+      <Error Key="InvalidExecResults" NativeErrorCode="10090" _locID="1.InvalidExecResults">Rezultati izvršavanja su nevažeći ili nisu pronađeni.</Error>
+
+      <!-- Errors and warnings with diagnostics reporting. --> 
+      <!-- Error thrown when an invalid diagnostic identifier is used. --> 
+      <Error Key="InvalidDiagIdent" NativeErrorCode="10110" _locID="1.InvalidDiagIdent">Korišćen je nevažeći dijagnostički identifikator.</Error>
+
+      <!-- Error thrown when requesting for a diagnostic field in binary format while no binary diagnostic fields exist. -->
+      <Error Key="NoBinaryDiagFields" NativeErrorCode="10120" _locID="1.NoBinaryDiagFields">Ne postoje binarna dijagnostička polja. Nije moguće vratiti dijagnostičko polje u binarnom formatu.</Error>
+
+
+      <!-- Errors and warnings with the provided buffer and buffer length. --> 
+      <!-- Error thrown when an invalid string or buffer length is provided by the application. --> 
+      <Error Key="InvalidStrOrBuffLen" NativeErrorCode="10130" _locID="1.InvalidStrOrBuffLen">Aplikacija je navela nevažeću dužinu niske ili bafera.</Error>
+
+      <!-- Warning posted when an output string is right truncated to fit into the output buffer. --> 
+      <Error Key="StrRightTruncWarn" NativeErrorCode="10160" _locID="1.StrRightTruncWarn">Desno skraćivanje podataka niske: podaci niske su preveliki za bafer izlaznih podataka i skraćeni su.</Error>
+
+      <!-- Error thrown when string data is too big for the driver's data buffer. --> 
+      <Error Key="StrRightTruncErr" NativeErrorCode="10170" _locID="1.StrRightTruncErr">Desno skraćivanje podataka niske na podacima iz izvora podataka: podaci niske su preveliki za bafer podataka upravljačkog programa.</Error>
+
+      <!-- Error thrown when an invalid output buffer is provided. --> 
+      <Error Key="InvalidOutputBuff" NativeErrorCode="10180" _locID="1.InvalidOutputBuff">Naveden je nevažeći izlazni bafer.</Error>
+
+      <!-- Error thrown when there is an invalid string truncation. --> 
+      <Error Key="InvalidStrTrunc" NativeErrorCode="10190" _locID="1.InvalidStrTrunc">Nevažeće skraćivanje niske.</Error>
+
+
+      <!-- Error and warnings with Attributes. --> 
+      <!-- Error thrown when the attribute type specified is not supported for the current operation. --> 
+      <Error Key="AttrTypeNotSupported" NativeErrorCode="10200" _locID="1.AttrTypeNotSupported">Tip atributa nije podržan za trenutnu operaciju.</Error>
+
+      <!-- Error thrown when the attribute identifier specified is invalid or not supported. --> 
+      <Error Key="InvalidAttrIdent" Params="1" NativeErrorCode="10210" _locID="1.InvalidAttrIdent">Identifikator atributa je nevažeći ili nije podržan: %1%</Error>
+
+      <!-- Error thrown when setting the value of a read-only attribute. --> 
+      <Error Key="CannotSetReadOnlyAttr" NativeErrorCode="10220" _locID="1.CannotSetReadOnlyAttr">Nije moguće podesiti atribut samo za čitanje.</Error>
+
+      <!-- Error thrown when failed to retrieve an attribute value. --> 
+      <Error Key="AttrValNotFound" NativeErrorCode="10230" _locID="1.AttrValNotFound">Nije moguće pribaviti vrednost atributa.</Error>
+
+      <!-- Error thrown when setting the implementation descriptor handle, a statement's implementation descriptor cannot be replaced. --> 
+      <Error Key="CannotSetImpDescHandle" NativeErrorCode="10240" _locID="1.CannotSetImpDescHandle">Nije moguće promeniti regulator opisa primene izjave.</Error>
+
+      <!-- Error thrown when setting the value of SQL_ATTR_ASYNC_ENABLE statement attribute when driver does not support this operation. --> 
+      <Error Key="SetAsyncEnabNotSupported" NativeErrorCode="10250" _locID="1.SetAsyncEnabNotSupported">Podešavanje atributa SQL_ATTR_ASYNC_ENABLE nije podržano.</Error>
+
+      <!-- Error thrown when failed to obtain a connection attribute that is required to check if the current operation is valid. --> 
+      <Error Key="ObtainCheckingConnAttrFailed" NativeErrorCode="10260" _locID="1.ObtainCheckingConnAttrFailed">Nije moguće pribaviti atribut veze potreban da bi se proverilo da li je trenutna operacija važeća.</Error>
+
+      <!-- Error thrown when changing the option to enable auto population of IPD while driver does not support IPD auto population. --> 
+      <Error Key="AutoPopIpdNotSupported" NativeErrorCode="10270" _locID="1.AutoPopIpdNotSupported">Automatsko popunjavanje IPD-a (opis parametra primene) nije podržano.</Error>
+
+      <!-- Error thrown when setting an attribute to a value that is invalid. --> 
+      <Error Key="InvalidAttrVal" NativeErrorCode="10280" _locID="1.InvalidAttrVal">Nevažeća vrednost atributa.</Error>
+
+      <!-- Warning posted when setting an attribute value that is not supported or invalid, and the driver was able to substitute a similar value. --> 
+      <Error Key="OptAttrValChangedWarn" NativeErrorCode="10290" _locID="1.OptAttrValChangedWarn">Vrednost atributa nije podržana ili nije važeća, tako da je slična vrednost atributa zamenjena. Preuzmite vrednost atributa da biste videli zamenu.</Error>
+
+      <!-- Error thrown when failing to revert a temporarily substituted attribute value back to its original value. --> 
+      <Error Key="RevertAttrValueToOrigFailed" NativeErrorCode="10300" _locID="1.RevertAttrValueToOrigFailed">Nije moguće vratiti privremenu vrednost atributa na prvobitnu vrednost.</Error>
+
+      <!-- Error thrown when failing to obtain a default value for a statement attribute during statement creation. --> 
+      <Error Key="ObtainDefaultStmtAttrValueFailed" NativeErrorCode="10310" _locID="1.ObtainDefaultStmtAttrValueFailed">Nije moguće pribaviti podrazumevanu vrednost atributa izjave.</Error>
+
+      <!-- Error thrown when setting an explicit application descriptor handle on a statement that is not from the statement's parent connection. --> 
+      <Error Key="ExplAppDescHandleNotFromSameConn" NativeErrorCode="10320" _locID="1.ExplAppDescHandleNotFromSameConn">Regulator opisa eksplicitne aplikacije nije iz iste veze kao ciljna izjava.</Error>
+
+      <!-- Error thrown when setting an implicit application descriptor handle on a statement but the descriptor was not one of the target statement's original implicit application descriptors. --> 
+      <Error Key="ImplicitAppDescHandleNotOrig" NativeErrorCode="10330" _locID="1.ImplicitAppDescHandleNotOrig">Regulator opisa implicitne aplikacije nije prvobitni opis implicitne aplikacije ciljne izjave.</Error>
+
+      <!-- Error and warnings with establishing connection to data source. -->
+      <!-- Error thrown when the connection string is not of valid form. -->
+      <Error Key="InvalidConnStr" NativeErrorCode="10360" _locID="1.InvalidConnStr">Nevažeća niska veze.</Error>
+
+      <!-- Error thrown when the connection string does not contain information requested by the driver. -->
+      <Error Key="InvalidConnStrAttr" NativeErrorCode="10370" _locID="1.InvalidConnStrAttr">Nevažeći atribut niske veze koji se ne podudara sa informacijama koje zahteva upravljački program.</Error>
+
+      <!-- Error thrown when unable to establish a connection with the data source. -->
+      <Error Key="UnableToEstConn" Params="1" NativeErrorCode="10380" _locID="1.UnableToEstConn">Nije moguće uspostaviti vezu sa izvorom podataka. Nedostaju podešavanja: %1%</Error>
+
+      <!-- Error thrown when failed to obtain connection information through the driver provided dialog box. -->
+      <Error Key="UpdateConnSettingsWithDiaglogFailed" NativeErrorCode="10390" _locID="1.UpdateConnSettingsWithDiaglogFailed">Ažuriranje podešavanja veze upitom dijaloga nije uspelo.</Error>
+
+      <!-- Error thrown when performing an operation that requires an established connection but no connection has been established yet. -->
+      <Error Key="NoEstConn" NativeErrorCode="10400" _locID="1.NoEstConn">Trenutna operacija zahteva uspostavljenu vezu, ali veza još uvek nije uspostavljena.</Error>
+
+      <!-- Error thrown when trying to establish a connection but a connection already exist. -->
+      <Error Key="ConnAlreadyEst" NativeErrorCode="10410" _locID="1.ConnAlreadyEst">Veza je već uspostavljena.</Error>
+
+      <!-- Error thrown when data source did not provide a valid response. -->
+      <Error Key="DataSourceDidNotGiveProperResp" NativeErrorCode="10420" _locID="1.DataSourceDidNotGiveProperResp">Izvor podataka nije naveo odgovarajući odgovor.</Error>
+
+      <!-- Error thrown when application did not provide enough information to establish a connection to the data source but application specified that driver should not prompt application for more information. -->
+      <Error Key="NotEnoughConnInfoButDriverNoPrompt" Params="1" NativeErrorCode="10430" _locID="1.NotEnoughConnInfoButDriverNoPrompt">Nije obezbeđeno dovoljno informacija za uspostavljanje veze sa izvorom podataka, a navedeno je da ne treba tražiti dodatne informacije. Nedostaju potrebna podešavanja: %1%</Error>
+
+      <!-- Error thrown when driver complete flag is invalid or not supported. -->
+      <Error Key="InvalidDriverComplFlag" NativeErrorCode="10440" _locID="1.InvalidDriverComplFlag">Zastavica za završetak rada upravljačkog programa nije važeća ili nije podržana.</Error>
+
+      <!-- Error thrown when driver needs an indicator buffer to indicate NULL output data to the application but the application did not provide such buffer. -->
+      <Error Key="NullIndPtrNotSupplied" NativeErrorCode="10450" _locID="1.NullIndPtrNotSupplied">Upravljački program zahteva pokazivač indikatora da bi se ukazalo na NULL izlazne podatke, ali on nije naveden.</Error>
+
+      <!-- Error thrown when data conversion could not complete properly. -->
+      <Error Key="DataConvError" NativeErrorCode="10460" _locID="1.DataConvError">Greška tokom konverzije podataka.</Error>
+
+      <!-- Error thrown when data conversion is not supported. -->
+      <Error Key="DataConvNotSupported" NativeErrorCode="10470" _locID="1.DataConvNotSupported">Konverzija podataka nije podržana.</Error>
+
+      <!-- Error thrown when fetch orientation is not compatible with current settings. -->
+      <Error Key="FetchTypeNotSupported" NativeErrorCode="10480" _locID="1.FetchTypeNotSupported">Tip dobavljanja nije podržan jer položaj dobavljanja nije kompatibilan sa trenutnim podešavanjima.</Error>
+
+      <!-- Error thrown when cursor is in an invalid position for fetching data. -->
+      <Error Key="InvalidCursorPos" NativeErrorCode="10490" _locID="1.InvalidCursorPos">Kursor je bio postavljen na položaj pre početka ili posle završetka skupa rezultata.</Error>
+
+      <!-- Error thrown when cursor is forward-only and SetPos is called while on a valid row. -->
+      <Error Key="InvalidForwardSetPosOper" NativeErrorCode="10495" _locID="1.InvalidForwardSetPosOper">SQLSetPos je nevažeća operacija kada se kursor kreće samo unapred.</Error>
+
+      <!-- Error thrown when cursor is not of a supported type. -->
+      <Error Key="InvalidCursorType" NativeErrorCode="10500" _locID="1.InvalidCursorType">Tip kursora nije važeći ili nije podržan.</Error>
+
+      <!-- Error thrown when cursor is in an invalid state. -->
+      <Error Key="InvalidCursorState" NativeErrorCode="10510" _locID="1.InvalidCursorState">Nevažeći status kursora.</Error>
+
+      <!-- Error thrown when there is no more data left to fetch. -->
+      <Error Key="NoMoreDataToFetch" NativeErrorCode="10530" _locID="1.NoMoreDataToFetch">Nema više podataka za dobavljanje.</Error>
+
+      <!-- Error thrown when getting data that has already been fetched, but current settings do not allow this behavior. -->
+      <Error Key="NotAllowedToGetSpecifiedColumn" NativeErrorCode="10540" _locID="1.NotAllowedToGetSpecifiedColumn">Nije dozvoljeno preuzimanje podataka koji su već dobavljeni za navedenu kolonu.</Error>
+
+      <!-- Error thrown when requesting a column in the result set but no matching column is found. -->
+      <Error Key="InvalidColNumInResultSet" NativeErrorCode="10550" _locID="1.InvalidColNumInResultSet">Nevažeći broj kolone skupa rezultata, nije pronađena podudarna kolona.</Error>
+
+      <!-- Error thrown when checking the status of a fetched row but the status is invalid and not recognized. -->
+      <Error Key="InvalidRowStatus" NativeErrorCode="10560" _locID="1.InvalidRowStatus">Nakon operacije dobavljanja otkriven je nevažeći status reda.</Error>
+
+      <!-- Error thrown when changing types between multipart SQLGetData() calls. -->
+      <Error Key="ChangeTypesInMultipartSQLGetDataNotSupported" NativeErrorCode="10570" _locID="1.ChangeTypesInMultipartSQLGetDataNotSupported">Promena tipova između višedelnih SQLGetData() poziva nije podržana.</Error>
+
+      <!-- Error thrown when the source data is invalid (i.e. null when it shouldn't be. -->
+      <Error Key="InvalidSrcData" NativeErrorCode="10580" _locID="1.InvalidSrcData">Izvorni podaci su nevažeći.</Error>
+
+      <!-- Error thrown when there is no more data to get. -->
+      <Error Key="NoMoreDataToGet" NativeErrorCode="10590" _locID="1.NoMoreDataToGet">Nema više podataka za preuzimanje.</Error>
+
+      <!-- Error thrown when the conversion strategy is invalid (i.e. null when it shouldn't be). -->
+      <Error Key="InvalidStrategy" NativeErrorCode="10600" _locID="1.InvalidStrategy">Strategija konverzije nije važeća.</Error>
+
+      <!-- Error thrown when the conversion strategy is not supported. -->
+      <Error Key="StrategyNotSupported" NativeErrorCode="10610" _locID="1.StrategyNotSupported">Strategija konverzije nije podržana.</Error>
+
+      <!-- Error thrown when a conversion is attempted when there is more data. -->
+      <Error Key="CannotConvWhileHasMoreData" NativeErrorCode="10620" _locID="1.CannotConvWhileHasMoreData">Nije moguće izvršiti konverziju kada postoji više podataka.</Error>
+
+      <!-- Error thrown when the result of a conversion is invalid. -->
+      <Error Key="InvalidConvResult" NativeErrorCode="10630" _locID="1.InvalidConvResult">Nevažeći rezultat konverzije.</Error>
+
+      <!-- Error thrown when a flush fails to clear the data. -->
+      <Error Key="FlushFailed" NativeErrorCode="10640" _locID="1.FlushFailed">Pražnjenje nije uspelo da obriše podatke.</Error>
+
+      <!-- Error thrown when execution expects a result set but no result set is available from the DSII. -->
+      <Error Key="NoAvailableResultSet" NativeErrorCode="10651" _locID="1.NoAvailableResultSet">Nijedan skup rezultata nije dostupan nakon izvršavanja, ali je jedan bio dostupan nakon pripreme.</Error>
+
+
+      <!-- Error and warnings with descriptors. -->
+      <!-- Error thrown when requesting a bookmark column but bookmark columns are not supported. -->
+      <Error Key="BookmarkColumnNotSupported" NativeErrorCode="10660" _locID="1.BookmarkColumnNotSupported">Kolona obeleživača nije podržana.</Error>
+
+      <!-- Error thrown when requesting a descriptor record or its information, but the descriptor record cannot be found -->
+      <Error Key="InvalidDescIndex" NativeErrorCode="10670" _locID="1.InvalidDescIndex">Nevažeći indeks opisa, zapis opisa ne postoji ili nije pravilno pokrenut.</Error>
+
+      <!-- Error thrown when requesting a descriptor field that is not supported or is invalid. -->
+      <Error Key="InvalidDescFieldIdent" NativeErrorCode="10680" _locID="1.InvalidDescFieldIdent">Identifikator polja za opis nije važeći ili nije podržan.</Error>
+
+      <!-- Error thrown when descriptor records are not sequential during query execution. -->
+      <Error Key="DescRecNotSeq" NativeErrorCode="10690" _locID="1.DescRecNotSeq">Najmanje jedan očekivani zapis opisa ne postoji tokom izvršavanja upita.</Error>
+
+      <!-- Error thrown when retrieving the SQL_DESC_COUNT field that is zero for a IRD. -->
+      <Error Key="InvalidDescCount" NativeErrorCode="10700" _locID="1.InvalidDescCount">Nevažeće polje broja opisa, nema broja koji treba vratiti.</Error>
+
+      <!-- Error thrown when setting a read-only descriptor field. -->
+      <Error Key="ReadOnlyDescField" NativeErrorCode="10710" _locID="1.ReadOnlyDescField">Polje opisa samo za čitanje.</Error>
+
+      <!-- Error thrown when registering or unregistering a listener (statement) on a non-explicit descriptor. -->
+      <Error Key="CannotAssocNonExpDescWithDeleteListener" NativeErrorCode="10720" _locID="1.CannotAssocNonExpDescWithDeleteListener">Nije moguće povezati neeksplicitne opise sa osluškivačima opisa koji se koriste za čišćenje brisanja.</Error>
+
+      <!-- Error thrown when getting the parent connection of a non-explicit descriptor. -->
+      <Error Key="CannotGetParentConnOnNonExpDesc" NativeErrorCode="10730" _locID="1.CannotGetParentConnOnNonExpDesc">Nije moguće preuzeti nadređenu vezu na neeksplicitnom opisu.</Error>
+
+      <!-- Error thrown when dropping descriptor record of an implementation row descriptor. -->
+      <Error Key="CannotDropRecOfImplRowDesc" NativeErrorCode="10740" _locID="1.CannotDropRecOfImplRowDesc">Nije moguće otpustiti zapis opisa reda za primenu.</Error>
+
+      <!-- Error thrown when an invalid or not supported datetime subcode identifier is given. -->
+      <Error Key="InvalidDatetimeSubcodeIdent" NativeErrorCode="10750" _locID="1.InvalidDatetimeSubcodeIdent">Identifikator potkoda za Datetime nije važeći ili nije podržan.</Error>
+
+      <!-- Error thrown when an invalid or not supported interval subcode identifier is given. -->
+      <Error Key="InvalidIntevalSubcodeIdent" NativeErrorCode="10760" _locID="1.InvalidIntevalSubcodeIdent">Identifikator potkoda intervala nije važeći ili nije podržan.</Error>
+
+      <!-- Error thrown when requesting a descriptor field that is not supported or invalid. -->
+      <Error Key="DescFieldNotSupported" NativeErrorCode="10770" _locID="1.DescFieldNotSupported">Polje za opis nije važeće ili nije podržano.</Error>
+
+      <!-- Error thrown when using a non-string method to get a string descriptor field. -->
+      <Error Key="CannotGetStrDescFieldInNonStrMethod" NativeErrorCode="10780" _locID="1.CannotGetStrDescFieldInNonStrMethod">Nevažeća upotreba metoda koji nije niska da bi se dobilo polje opisa niske.</Error>
+
+      <!-- Error thrown when specifying a descriptor field type that is not valid or not supported -->
+      <Error Key="InvalidDescFieldType" NativeErrorCode="10790" _locID="1.InvalidDescFieldType">Tip polja za opis nije važeći ili nije podržan.</Error>
+
+      <!-- Error thrown when the specified descriptor record cannot be found. -->
+      <Error Key="DescRecNotFound" NativeErrorCode="10800" _locID="1.DescRecNotFound">Zapis opisa nije pronađen.</Error>
+
+      <!-- Error thrown when setting SQL_DESC_UNNAMED to SQL_NAMED which is not allowed. -->
+      <Error Key="DescUnnamedNotAllowed" NativeErrorCode="10810" _locID="1.DescUnnamedNotAllowed">Nije dozvoljeno postaviti SQL_DESC_UNNAMED na SQL_NAMED.</Error>
+
+      <!-- Error thrown when performing an operation which requires the statement to be prepared but is not. -->
+      <Error Key="StmtNotPrep" NativeErrorCode="10820" _locID="1.StmtNotPrep">Izjava nije pripremljena.</Error>
+
+      <!-- Error thrown when setting or getting a descriptor field value that is not supported. -->
+      <Error Key="DescFieldValueNotSupported" Params="2" NativeErrorCode="10830" _locID="1.DescFieldValueNotSupported">Polje za opis %1% ne podržava vrednost %2%.</Error>
+
+      <!-- Error thrown when application modifies an implementation row descriptor -->
+      <Error Key="CannotModImpRowDesc" NativeErrorCode="10840" _locID="1.CannotModImpRowDesc">Nije moguće izmeniti opise redova primene.</Error>
+
+      <!-- Error thrown when setting the SQL_DESC_ALLOC_TYPE descriptor field. -->
+      <Error Key="CannotSetDescAllocType" NativeErrorCode="10850" _locID="1.CannotSetDescAllocType">Nije moguće podesiti opis SQL_DESC_ALLOC_TYPE.</Error>
+
+      <!-- Error thrown when an illegal descriptor type is detected. -->
+      <Error Key="IllegalDescType" NativeErrorCode="10860" _locID="1.IllegalDescType">Otkriven je nedozvoljen tip opisa.</Error>
+
+      <!-- Error thrown when an illegal descriptor concise type is detected -->
+      <Error Key="IllegalDescConciseType" NativeErrorCode="10870" _locID="1.IllegalDescConciseType">Nedozvoljen koncizan tip opisa.</Error>
+
+      <!-- Error thrown when an invalid or not supported datetime interval code is given. -->
+      <Error Key="InvalidDatetimeCodeIdent" NativeErrorCode="10880" _locID="1.InvalidDatetimeCodeIdent">Kôd intervala za Datetime nije važeći ili nije podržan.</Error>
+
+      <!-- Error thrown when an invalid or not supported interval code is given. -->
+      <Error Key="InvalidIntervalCode" NativeErrorCode="10890" _locID="1.InvalidIntervalCode">Kôd intervala nije važeći ili nije podržan.</Error>
+
+
+      <!-- Error and warnings with SQL statement execution. -->
+      <!-- Error thrown when reading from an output parameter. -->
+      <Error Key="CannotReadFromOutputParam" NativeErrorCode="10900" _locID="1.CannotReadFromOutputParam">Nije moguće čitati iz izlaznog parametra.</Error>
+
+      <!-- Error thrown when reading from a default input parameter. -->
+      <Error Key="CannotReadFromDefaultParam" NativeErrorCode="10910" _locID="1.CannotReadFromDefaultParam">Nije moguće dobiti nikakve podatke od podrazumevanog ulaznog parametra.</Error>
+
+      <!-- Error thrown when reading from an input parameter which value has already been pushed down. -->
+      <Error Key="CannotReadFromPushedParam" NativeErrorCode="10920" _locID="1.CannotReadFromPushedParam">Nije moguće dobiti nikakve podatke od ulaznog parametra čija je vrednost već pomerena nadole.</Error>
+
+      <!-- Error thrown when writing to a default output parameter. -->
+      <Error Key="WriteToDefaultParam" NativeErrorCode="10930" _locID="1.WriteToDefaultParam">Nije moguće upisivanje u podrazumevani parametar.</Error>
+
+      <!-- Error thrown when writing to an input parameter -->
+      <Error Key="WriteToInputParam" NativeErrorCode="10940" _locID="1.WriteToInputParam">Nije moguće upisivanje u ulazni parametar.</Error>
+
+      <!-- Error thrown when received an execute result status code that is not recognizable. -->
+      <Error Key="InvalidExecStatusCode" NativeErrorCode="10950" _locID="1.InvalidExecStatusCode">Kôd statusa rezultata izvršavanja nije važeći ili nije podržan.</Error>
+
+      <!-- Error thrown when sending concatenated data that is not binary nor character. -->
+      <Error Key="SendNonCharBinaryConcatData" NativeErrorCode="10970" _locID="1.SendNonCharBinaryConcatData">Nije moguće spojiti i poslati podatke koji nisu znakovni ili binarni.</Error>
+
+      <!-- Error thrown when sending concatenated data that is a default or null parameter. -->
+      <Error Key="SendConcatDataForDefaultOrNullParam" NativeErrorCode="10980" _locID="1.SendConcatDataForDefaultOrNullParam">Nije moguće spojiti i poslati podatke u delovima za podrazumevani parametar bez vrednosti.</Error>
+
+      <!-- Error thrown when getting SQLGetInfo field which is not supported. -->
+      <Error Key="InvalidGetInfoField" NativeErrorCode="10990" _locID="1.InvalidGetInfoField">Polje SQLGetInfo nije važeće ili nije podržano.</Error>
+
+      <!-- Error thrown when getting query executor from catalog query manager.  Catalog functions are already executed thus has not query executor. -->
+      <Error Key="NoQueryExecutor" NativeErrorCode="11000" _locID="1.NoQueryExecutor">Za menadžera upita kataloga ne postoji izvršilac upita.</Error>
+
+      <!-- Error thrown when there is no data-at-execution parameter detected for query executor. -->
+      <Error Key="NoDataAtExecParameter" NativeErrorCode="11010" _locID="1.NoDataAtExecParameter">Nema parametra za podatke pri izvršavanju.</Error>
+
+      <!-- Error thrown when querying a parameter source during auto population. -->
+      <Error Key="CannotQueryParmSrcDuringPopulate" NativeErrorCode="11020" _locID="1.CannotQueryParmSrcDuringPopulate">Tokom automatskog popunjavanja parametara nad informacijama nije moguće izvršiti upit o izvoru parametara.</Error>
+
+      <!-- Error thrown when setting fields of a parameter source during parameter data pushing. -->
+      <Error Key="CannotSetParmSrcAttrDuringPushData" NativeErrorCode="11030" _locID="1.CannotSetParmSrcAttrDuringPushData">Nije moguće podesiti atribute izvora parametra tokom prosleđivanja podataka o parametru.</Error>
+
+      <!-- Error thrown when querying push value status while not performing execution.  -->
+      <Error Key="PushValueStatusUnknown" NativeErrorCode="11040" _locID="1.PushValueStatusUnknown">Za status vrednosti prosleđivanja moguće je obaviti upit samo tokom izvršavanja.</Error>
+
+      <!-- Error thrown when registering a parameter but not allowed in current state of execution. -->
+      <Error Key="ParamRegistNotPermit" NativeErrorCode="11050" _locID="1.ParamRegistNotPermit">Registracija parametara nije dozvoljena.</Error>
+
+      <!-- Error thrown when invalid parameter index used for parameter registration. -->
+      <Error Key="InvalidParamRegistIndex" NativeErrorCode="11060" _locID="1.InvalidParamRegistIndex">Za registraciju se koristi nevažeći indeks parametra.</Error>
+
+      <!-- Error thrown when descriptor field value is not recognizable. -->
+      <Error Key="DescFieldNotRecg" NativeErrorCode="11070" _locID="1.DescFieldNotRecg">Vrednost polja za opis nije prepoznata.</Error>
+
+      <!-- Error thrown when parameter type is invalid or not supported  -->
+      <Error Key="InvalidParameterType" NativeErrorCode="11080" _locID="1.InvalidParameterType">Tip parametra nije važeći ili nije podržan.</Error>
+
+
+      <!-- Error and warnings with connection and statement. -->
+      <!-- Error thrown when setting a cursor name that is longer than the maximum limit. -->
+      <Error Key="CursorNameTooLong" NativeErrorCode="11100" _locID="1.CursorNameTooLong">Naziv kursora je predugačak.</Error>
+
+      <!-- Error thrown when setting a cursor name that is already in use. -->
+      <Error Key="DuplicateCursorName" NativeErrorCode="11110" _locID="1.DuplicateCursorName">Duplirani naziv kursora.</Error>
+
+      <!-- Error thrown when there are outstanding transactions when attempting to disconnect. -->
+      <Error Key="OutstandingTransDuringDisconn" NativeErrorCode="11120" _locID="1.OutstandingTransDuringDisconn">Otvorene transakcije tokom prekida veze.</Error>
+
+      <!-- Error thrown when using a connection to allocate a resource that is not statement nor descriptor. -->
+      <Error Key="AllocNonStmtDescInConn" NativeErrorCode="11130" _locID="1.AllocNonStmtDescInConn">Nije moguće koristiti vezu za dodeljivanje resursa koji nije izjava i nije opis.</Error>
+
+      <!-- Error thrown when using a connection to free a resource that is not statement nor descriptor. -->
+      <Error Key="FreeNonStmtDescInConn" NativeErrorCode="11140" _locID="1.FreeNonStmtDescInConn">Nije moguće koristiti vezu za oslobađanje resursa koji nije izjava i nije opis.</Error>
+
+      <!-- Error thrown when freeing an implicit application descriptor. -->
+      <Error Key="FreeImplicitAppDesc" NativeErrorCode="11150" _locID="1.FreeImplicitAppDesc">Nije moguće osloboditi implicitni opis aplikacije.</Error>
+
+      <!-- Error thrown when dropping an implicit application descriptor from its parent statement. -->
+      <Error Key="DropImplicitAppDesc" NativeErrorCode="11160" _locID="1.DropImplicitAppDesc">Nije moguće otpustiti implicitni opis aplikacije iz nadređene izjave.</Error>
+
+      <!-- MAINTENANCE NOTE: This error message needs to manually be duplicated in the other locales, since it has not be translated -->
+      <!-- Error thrown when cannot retrieve the requested SQLGetInfo property.  -->
+      <Error Key="GetInfoPropNotFound" NativeErrorCode="11180" Params="1" _locID="1.GetInfoPropNotFound">Svojstvo SQLGetInfo nije pronađeno: %1%</Error>
+
+      <!-- Error thrown when freeing a statement when no statements have been allocated. -->
+      <Error Key="FreeStmtWithoutAllocStmt" NativeErrorCode="11190" _locID="1.FreeStmtWithoutAllocStmt">Nije moguće osloboditi izjavu bez dodeljene izjave.</Error>
+
+      <!-- Error thrown when setting an attribute that is not allowed to be set in the current state of execution. -->
+      <Error Key="AttrCantBeSetNow" NativeErrorCode="11200" _locID="1.AttrCantBeSetNow">Trenutno nije moguće podesiti atribut.</Error>
+
+      <!-- Error thrown when performing an operation that is not allowed during a transaction state. -->
+      <Error Key="InvalidTransState" NativeErrorCode="11210" _locID="1.InvalidTransState">Nevažeći status transakcije: operacija nije dozvoljena tokom statusa transakcije.</Error>
+
+      <!-- Error thrown when the current operation requires a cursor spec but statement does not have one. -->
+      <Error Key="PreparedStmtNotCursorSpec" NativeErrorCode="11220" _locID="1.PreparedStmtNotCursorSpec">Pripremljena izjava nije specifikacija kursora.</Error>
+
+      <!-- Warning posted when SQLCancel is treated as closing a cursor. -->
+      <Error Key="CancelTreatedAsCloseWarn" NativeErrorCode="11230" _locID="1.CancelTreatedAsCloseWarn">Otkazivanje se tretira kao zatvaranje kursora.</Error>
+
+      <!-- Error thrown when free statement option identifier is invalid or not supported. -->
+      <Error Key="InvalidFreeStmtOptionIdent" NativeErrorCode="11240" _locID="1.InvalidFreeStmtOptionIdent">Identifikator opcije oslobađanja izjave nije važeći ili nije podržan.</Error>
+
+      <!-- Error thrown when column attribute field identifier is invalid or not supported. -->
+      <Error Key="InvalidColAttrFieldIdent" NativeErrorCode="11250" _locID="1.InvalidColAttrFieldIdent">Identifikator polja za atribut kolone nije važeći ili nije podržan.</Error>
+
+      <!-- Error thrown when the result type of a statement is invalid or not supported. -->
+      <Error Key="InvalidStmtResultType" NativeErrorCode="11270" _locID="1.InvalidStmtResultType">Tip rezultata izjave nije važeći ili nije podržan.</Error>
+
+      <!-- Error thrown when the setting the current catalog when a result set is pending. -->
+      <Error Key="InvalidCursorStateSetCatalog" NativeErrorCode="11280" _locID="1.InvalidCursorStateSetCatalog">Nevažeći status kursora. Nije moguće podesiti trenutni katalog kada su rezultati na čekanju.</Error>
+
+
+      <!-- Error and warnings with environment. -->
+      <!-- Error thrown when using an environment to allocate a resource that is not connection. -->
+      <Error Key="AllocNonConnInEnv" NativeErrorCode="11290" _locID="1.AllocNonConnInEnv">Nije moguće koristiti okruženje za dodeljivanje resursa koji nije veza.</Error>
+
+      <!-- Error thrown when using an environment to free a resource that is not connection. -->
+      <Error Key="InvalidFreeHandleOperationInEnvAllocState" NativeErrorCode="11300" _locID="1.InvalidFreeHandleOperationInEnvAllocState">Nevažeća operacija slobodnog rukovaoca u dodeljenom statusu okruženja.</Error>
+
+      <!-- Error thrown when SQL C type is not supported. -->
+      <Error Key="SqlCTypeNotSupported" NativeErrorCode="11310" _locID="1.SqlCTypeNotSupported">SQL C tip nije podržan.</Error>
+
+      <!-- Error thrown when SQL type is not supported. -->
+      <Error Key="SqlTypeNotSupported" NativeErrorCode="11320" _locID="1.SqlTypeNotSupported">SQL tip nije podržan.</Error>
+
+      <!-- Error thrown when setting a cursor name that begins with the reserved prefix. -->
+      <Error Key="CursorNameBeginWithReservedPrefix" NativeErrorCode="11330" _locID="1.CursorNameBeginWithReservedPrefix">Naziv kursora ne može da počinje rezervisanim prefiksom.</Error>
+
+
+      <!-- Error and warnings with catalog functions. -->
+      <!-- Error thrown when fail to map metadata table id to catalog function id. -->
+      <Error Key="MetadataTableIDNotFoundForCatalogFunctionId" NativeErrorCode="11360" _locID="1.MetadataTableIDNotFoundForCatalogFunctionId">Nije moguće pronaći ID tabele metapodataka koji odgovara ID-u funkcije kataloga.</Error>
+
+      <!-- Error thrown when catalog name is null but is required. -->
+      <Error Key="InvalidNullCatalogName" NativeErrorCode="11370" _locID="1.InvalidNullCatalogName">Nevažeća upotreba NULL pokazivača za naziv kataloga.</Error>
+
+      <!-- Error thrown when schema name is null but is required. -->
+      <Error Key="InvalidNullSchemaName" NativeErrorCode="11371" _locID="1.InvalidNullSchemaName">Nevažeća upotreba NULL pokazivača za naziv šeme.</Error>
+
+      <!-- Error thrown when table name is null but is required. -->
+      <Error Key="InvalidNullTableName" NativeErrorCode="11375" _locID="1.InvalidNullTableName">Nevažeća upotreba NULL pokazivača za naziv tabele.</Error>
+
+      <!-- Error thrown when column name is null but is required. -->
+      <Error Key="InvalidNullColumnName" NativeErrorCode="11376" _locID="1.InvalidNullColumnName">Nevažeća upotreba NULL pokazivača za naziv kolone.</Error>
+
+      <!-- Error thrown when procedure name is null but is required. -->
+      <Error Key="InvalidNullProcName" NativeErrorCode="11377" _locID="1.InvalidNullProcName">Nevažeća upotreba NULL pokazivača za naziv procedure.</Error>
+
+      <!-- Error thrown when catalog name longer than max. -->
+      <Error Key="CatalogNameTooLong" NativeErrorCode="11380" _locID="1.CatalogNameTooLong">Naziv kataloga je predugačak.</Error>
+
+      <!-- Error thrown when schema name longer than max. -->
+      <Error Key="SchemaNameTooLong" NativeErrorCode="11390" _locID="1.SchemaNameTooLong">Naziv šeme je predugačak.</Error>
+
+      <!-- Error thrown when table name longer than max. -->
+      <Error Key="TableNameTooLong" NativeErrorCode="11400" _locID="1.TableNameTooLong">Naziv tabele je predugačak.</Error>
+
+      <!-- Error thrown when procedure name longer than max. -->
+      <Error Key="ProcNameTooLong" NativeErrorCode="11410" _locID="1.ProcNameTooLong">Naziv procedure je predugačak.</Error>
+
+      <!-- Error thrown when column name longer than max. -->
+      <Error Key="ColumnNameTooLong" NativeErrorCode="11420" _locID="1.ColumnNameTooLong">Naziv kolone je predugačak.</Error>
+
+      <!-- Error thrown when provided a catalog name but catalog names are not supported. -->
+      <Error Key="CatalogNameNotSupported" NativeErrorCode="11430" _locID="1.CatalogNameNotSupported">Naziv kataloga nije podržan.</Error>
+
+      <!-- Error thrown when provided a schema name but schemas are not supported. -->
+      <Error Key="SchemaNotSupported" NativeErrorCode="11440" _locID="1.SchemaNotSupported">Šema nije podržana.</Error>
+
+      <!-- Error thrown when the current settings of bookmark and cursor type are not compatible. -->
+      <Error Key="BookmarkNotSupportedForCursorType" NativeErrorCode="11450" _locID="1.BookmarkNotSupportedForCursorType">Obeleživač nije podržan za tip kursora.</Error>
+
+      <!-- Error thrown when catalog function id is invalid or not supported. -->
+      <Error Key="InvalidCatalogFuncID" NativeErrorCode="11460" _locID="1.InvalidCatalogFuncID">ID funkcije kataloga je nije važeći ili nije podržan.</Error>
+
+      <!-- Error thrown when attempting to use transactions when they aren't supported. -->
+      <Error Key="TransNotSupported" NativeErrorCode="11470" _locID="1.TransNotSupported">Transakcije nisu podržane.</Error>
+
+      <!-- Error and warnings with driver functions. -->
+      <!-- Error thrown when we have too many handles. -->
+      <Error Key="TooManyHandles" NativeErrorCode="11480" _locID="1.TooManyHandles">Previše regulatora. Oslobodite ih da biste generisali više.</Error>
+
+      <!-- Error thrown when an operation is canceled. -->
+      <Error Key="OperationCanceled" NativeErrorCode="11490" _locID="1.OperationCanceled">Operacija je otkazana.</Error>
+
+
+      <!-- Error and warnings with driver functions. -->
+      <!-- Error thrown when driver configuration is invalid for DriverManagerEncoding -->
+      <Error Key="DriverConfigurationWarningEncoding" NativeErrorCode="11510" _locID="1.DriverConfigurationWarningEncoding">Nevažeća konfiguracija upravljačkog programa za DriverManagerEncoding.</Error>
+
+      <!-- Error thrown when unable to use SQLGetPrivateProfileString functions. -->
+      <Error Key="NoSQLGetPrivateProfileString" NativeErrorCode="11560" _locID="1.NoSQLGetPrivateProfileString">Nije moguće pronaći funkciju SQLGetPrivateProfileString.</Error>
+
+      <!-- Error thown when attempting to connect with missing required credential settings. -->
+      <Error Key="CredentialMissing" NativeErrorCode="11570" Params="1" _locID="1.CredentialMissing">Nedostaju obavezna podešavanja akreditiva: %1%. </Error>
+    </Package>
+    
+    <!-- #################################################################################### -->
+    <Package ID="2" DefaultComponent="DSI">
+
+      <!-- Error thrown when fail to get connection property from DSI  -->
+      <Error Key="DSIConnPropNotFound" Params="1" NativeErrorCode="20000" _locID="2.DSIConnPropNotFound">Svojstvo veze nije pronađeno u DSI: %1%</Error>
+
+      <!-- Error thrown when fail to get driver property from DSI. -->
+      <Error Key="DSIDriverPropNotFound" Params="1" NativeErrorCode="20001" _locID="2.DSIDriverPropNotFound">Svojstvo upravljačkog programa nije pronađeno u DSI: %1%</Error>
+
+      <!-- Error thrown when fail to get environment property from DSI. -->
+      <Error Key="DSIEnvPropNotFound" Params="1" NativeErrorCode="20002" _locID="2.DSIEnvPropNotFound">Svojstvo okruženja nije pronađeno u DSI: %1%</Error>
+
+      <!-- Error thrown when fail to get statement property from DSI. -->
+      <Error Key="DSIStmtPropNotFound" Params="1" NativeErrorCode="20003" _locID="2.DSIStmtPropNotFound">Svojstvo izjave nije pronađeno u DSI: %1%</Error>
+
+      <!-- Error thrown when setting driver to not put null terminator while driver does not support this feature. -->
+      <Error Key="EnvAttrOutputNtsNotSupported" NativeErrorCode="20004" _locID="2.EnvAttrOutputNtsNotSupported">Upravljački program ne podržava vraćanje niski koje se ne završavaju nulom.</Error>
+
+      <!-- Error thrown when fail to get statement property limits. -->
+      <Error Key="DSIStmtPropLimitNotFound" Params="1" NativeErrorCode="20005" _locID="2.DSIStmtPropLimitNotFound">Ograničenje svojstva izjave nije pronađeno: %1%</Error>
+
+      <!-- Error thrown when current result set traversal direction is not supported. -->
+      <Error Key="ResultSetTraverseDirNotSupported" Params="1" NativeErrorCode="20006" _locID="2.ResultSetTraverseDirNotSupported">Smer detaljnog prolaska skupa rezultata nije podržan: %1%</Error>
+
+      <!-- Error thrown when metadata table id is invalid or not supported. -->
+      <Error Key="InvalidMetadataTableID" Params="1" NativeErrorCode="20007" _locID="2.InvalidMetadataTableID">Nevažeći ID tabele metapodataka: %1%</Error>
+
+      <!-- Error thrown when invalid filter is passed into metadata restriction generator. -->
+      <Error Key="InvalidFilterInMetadataRestrictionGenerator" NativeErrorCode="20008" _locID="2.InvalidFilterInMetadataRestrictionGenerator">Koristi se nevažeći filter u generatoru ograničenja metapodataka.</Error>
+
+      <!-- Error thrown when no columns are marked as needed during data retrieval. -->
+      <Error Key="NoColumnsNeededDuringDataRetrieval" NativeErrorCode="20012" _locID="2.NoColumnsNeededDuringDataRetrieval">Nisu zahtevani podaci kolone, ali je izvršeno preuzimanje podataka.</Error>
+
+      <!-- Error thrown when no column exists for column number for data retrieval. -->
+      <Error Key="InvalidColumnNum" Params="1" NativeErrorCode="20013" _locID="2.InvalidColumnNum">Nevažeći broj kolone: %1%</Error>
+
+      <!-- Error thrown when metadata source invalid or not found. -->
+      <Error Key="MetadataSourceNotFound" NativeErrorCode="20014" _locID="2.MetadataSourceNotFound">Izvor metapodataka nije važeći ili nije pronađen.</Error>
+
+      <!-- Error thrown when cursor type invalid or not supported. -->
+      <Error Key="CursorTypeNotSupported" Params="1" NativeErrorCode="20016" _locID="2.CursorTypeNotSupported">Tip kursora nije podržan: %1%</Error>
+
+      <!-- Error thrown when asking basic metadata result for derived data. -->
+      <Error Key="CannotGetDerivedDataOnBasicResult" NativeErrorCode="20017" _locID="2.CannotGetDerivedDataOnBasicResult">Nije moguće preuzeti izvedene podatke o osnovnom filtriranom rezultatu metapodataka.</Error>
+
+      <!-- Error thrown when derived column Id is invalid for current metadata root. -->
+      <Error Key="InvalidDerivedColumnID" NativeErrorCode="20018" _locID="2.InvalidDerivedColumnID">Nevažeći ID izvedene kolone metapodataka.</Error>
+
+      <!-- Error thrown when current parameter is default but data source does not allow it to be default value for current parameter. -->
+      <Error Key="DefaultParamNotAllowed" NativeErrorCode="20020" _locID="2.DefaultParamNotAllowed">Trenutni parametar nema podrazumevanu vrednost i nije mu dozvoljeno da bude podrazumevan.</Error>
+
+      <!-- Error thrown when a specified column name is invalid or not found. -->
+      <Error Key="InvalidColumnName" Params="1" NativeErrorCode="20021" _locID="2.InvalidColumnName">Nevažeći naziv kolone: %1%</Error>
+
+      <!-- Error thrown when there is an invalid filter value (i.e. null). -->
+      <Error Key="InvalidFilterVal" NativeErrorCode="20023" _locID="2.InvalidFilterVal">Nevažeća vrednost filtera – nemojte koristiti niske bez vrednosti u vrednostima filtera, a da biste izbegli filtriranje, koristite prazan vektor.</Error>
+      
+      <!-- Error thrown when performing cursor or data retrieval related operations on a row count result. -->
+      <Error Key="CannotPerformCursorOrDataRetrievalOperationOnRowCountResult" NativeErrorCode="20027" _locID="2.CannotPerformCursorOrDataRetrievalOperationOnRowCountResult">Nije moguće izvršiti povezane operacije vezane za preuzimanje kursora ili podataka na rezultatu broja redova.</Error>
+      
+      <!-- Error thrown when a function is not supported. -->
+      <Error Key="FuncNotSupported" NativeErrorCode="20029" _locID="2.FuncNotSupported">Funkcija nije podržana.</Error>
+      
+      <!-- Error thrown when memory allocation failed. -->
+      <Error Key="DSIMemAllocErr" NativeErrorCode="20030" _locID="2.DSIMemAllocErr">Greška u upravljanju memorijom.</Error>
+      
+      <!-- Error thrown when too much data is provided in a call to DSI::RowProperties::WriteData -->
+      <Error Key="TempTableCellOverflow" NativeErrorCode="20031" Params="3" _locID="2.TempTableCellOverflow">Nije moguće uskladištiti %1% vrednost u privremenoj tabeli bez skraćivanja. (Metapodaci kolone podrazumevaju najviše %2% bajt(ov)a, dok navedena vrednost ima %3% bajt(ov)a)</Error>
+
+      <!-- Error thrown when cannot find custom property. -->
+      <Error Key="CustomPropNotFound" Params="1" NativeErrorCode="20031" _locID="2.CustomPropNotFound">Prilagođeno svojstvo nije pronađeno: %1%</Error>
+
+      <!-- Error thrown when a required setting is requested but not present. -->
+      <Error Key="DSIReqSettingNotFound" Params="1" NativeErrorCode="20032" _locID="2.DSIReqSettingNotFound">Obavezno podešavanje „%1%“ nije prisutno u podešavanjima veze.</Error>
+
+      <!-- Error thrown when a parameter type is output for an input parameter, or input for an output parameter. -->
+      <Error Key="IncompatibleParameterTypes" Params="1" NativeErrorCode="20033" _locID="2.IncompatibleParameterTypes">Naveden je nekompatibilan tip parametra za parametar: %1%.</Error>
+
+      <!-- Error thrown when a parameter SQL type doesn't match the bound type. -->
+      <Error Key="IncompatibleParameterSqlTypes" Params="3" NativeErrorCode="20034" _locID="2.IncompatibleParameterSqlTypes">Naveden je nekompatibilan SQL tip parametra za parametar: %1%. Povezani tip: %2%. Očekivani tip: %3%</Error>
+
+      <!-- Error thrown when a specifying an invalid catalog as the current catalog. -->
+      <Error Key="InvalidCurrentCatalog" Params="1" NativeErrorCode="20035" _locID="2.InvalidCurrentCatalog">Naveden je nevažeći katalog: %1%</Error>
+
+      <!-- Error thrown when a hex string with an odd length is given to DSITypeUtilities::HexStringToBinary() -->
+      <Error Key="DSIHexToBinaryConversionOddLengthError" NativeErrorCode="20036" _locID="2.DSIHexToBinaryConversionOddLengthError">Došlo je do greške pri konvertovanju iz heksadecimalne niske u binarnu: heksadecimalna niska ima neparnu dužinu.</Error>
+
+      <!-- Error thrown when a hex string with an invalid character is given to DSITypeUtilities::HexStringToBinary() -->
+      <Error Key="DSIHexToBinaryConversionInvalidCharacterError" Params="1" NativeErrorCode="20037" _locID="2.DSIHexToBinaryConversionInvalidCharacterError">Došlo je do greške pri konvertovanju iz heksadecimalne niske u binarnu: navedena heksadecimalna niska je sadržala znak „%1%“ koji nije heksadecimalni.</Error>
+
+      <!-- Error thrown when an property type is incorrect. -->
+      <Error Key="IncorrectPropertyAttributeType" Params="3" NativeErrorCode="20038" _locID="2.IncorrectPropertyAttributeType">Tip atributa AttributeData je netačan za ključ svojstva %1%. Očekivani je %2%, a stvarni %3%</Error>
+      
+      <!-- Error thrown when an ICU throws a U_FAILURE. -->
+      <Error Key="ICUUFailureStatus" Params="3" NativeErrorCode="20039" _locID="2.ICUUFailureStatus">Došlo je do greške pri pokretanju ICU funkcije, %1%, uz sledeći UErrorCode, %2%.</Error>
+
+      <!-- Error thrown when the total swap file disk space has reached the limit. -->
+      <Error Key="SwapLimitErr" NativeErrorCode="20040" _locID="2.SwapLimitErr">Dostignuto je ukupno ograničenje prostora na disku za datoteke stranične memorije.</Error>
+    
+      <!-- Error thrown when OpenSSL fails to load. -->
+      <Error Key="LibLoadErr" NativeErrorCode="20041" _locID="2.LibLoadErr">Došlo je do greške prilikom učitavanja dinamičke ili deljene biblioteke „%1%“: „%2%“.</Error>
+    
+      <!-- Error thrown when OpenSSL fails to load. -->
+      <Error Key="LibFunctLoadErr" NativeErrorCode="20042" _locID="2.LibFunctLoadErr">Došlo je do greške tokom učitavanja funkcije „%2%“ iz dinamičke ili deljene biblioteke „%1%“.</Error>
+    
+      <!-- Error thrown when OpenSSL fails to load. -->
+      <Error Key="SwapFileEncryptErr" NativeErrorCode="20043" _locID="2.SwapFileEncryptErr">Došlo je do unutrašnje greške prilikom šifrovanja ili dešifrovanja sadržaja datoteke stranične memorije: poziv „%1%“ – razlog „%2%“.</Error>
+    
+      <!-- Swap: Read error. -->
+      <Error Key="SwapReadError" NativeErrorCode="20044" _locID="2.SwapReadError">Unutrašnja greška – SwapReadError.</Error>
+
+      <!-- Swap: Seek error. -->
+      <Error Key="SwapSeekError" NativeErrorCode="20045" _locID="2.SwapSeekError">Unutrašnja greška – SwapSeekError.</Error>
+
+	    <!-- Swap: Write error. -->
+      <Error Key="SwapWriteError" Params="1" NativeErrorCode="20046" _locID="2.SwapWriteError">Greška tokom upisivanja u privremenu datoteku stranične memorije %1%. Proverite da li je lokacija datoteke stranične memorije upisiva i da ima dovoljno prostora – SwapWriteError</Error>
+      
+	  <!-- [HY000]: Invalid argument passed to a function. -->
+      <Error Key="InvalidArgument" Params="2" NativeErrorCode="21000" _locID="2.InvalidArgument">Nevažeći argumenti su prosleđeni funkciji [%1%: %2%].</Error>
+
+      <!-- [HY000]: Invalid function/method has been invoked. -->
+      <Error Key="InvalidOperation" Params="3" NativeErrorCode="21001" _locID="2.InvalidOperation">Došlo je do logičke greške prilikom pozivanja funkcije %1% [%2%: %3%]. Uverite se da je operacija podržana i da je funkcija primenjena.</Error>
+	  
+      <!-- [22019]: Invalid LIKE escape character. -->
+      <Error Key="InvalidEscapeChar" Params="1" NativeErrorCode="22019" _locID="2.InvalidEscapeChar">Nevažeća LIKE IZLAZNA odredba „%1%“. Ona mora da se sastoji od tačno jednog znaka.</Error>
+
+      <!-- [22025]: Invalid LIKE escape sequence. -->
+      <Error Key="InvalidEscapeSequence" NativeErrorCode="22025" _locID="2.InvalidEscapeSequence">Nevažeća LIKE IZLAZNA sekvenca. Iza izlazne sekvence mora da se nalazi „%“, „_“ ili neka druga izlazna sekvenca.</Error>
+
+    </Package>
+
+    <!-- #################################################################################### -->
+    <Package ID="3" DefaultComponent="Support">
+
+      <!-- Error thrown when attribute data type is invalid or not supported. -->
+      <Error Key="AttrDataTypeNotRecog" NativeErrorCode="40020" _locID="3.AttrDataTypeNotRecog">Tip podataka atributa nije prepoznat.</Error>
+
+      <!-- Error thrown when buffer is too small to hold binary attribute data. --> 
+      <Error Key="BufLenTooSmallForBinaryAttrData" NativeErrorCode="40070" _locID="3.BufLenTooSmallForBinaryAttrData">Dužina bafera je premala za podatke o binarnom atributu koji se vraćaju.</Error>
+
+      <!-- Error thrown when warning listener is not valid or not found. --> 
+      <Error Key="WarningListenerNotValid" NativeErrorCode="40090" _locID="3.WarningListenerNotValid">Osluškivač upozorenja nije važeći.</Error>
+
+      <!-- Error thrown when invalid string buffer length is given. --> 
+      <Error Key="InvalidStrBufLen" NativeErrorCode="40100" _locID="3.InvalidStrBufLen">Nevažeća dužina bafera niske.</Error>
+
+      <!-- Error thrown when converting from SQL C type to SQL C type. --> 
+      <Error Key="IllegalDataConvFromCToCType" NativeErrorCode="40110" _locID="3.IllegalDataConvFromCToCType">Nedozvoljena konverzija podataka iz tipa SQL C u tip SQL C.</Error>
+
+      <!-- Error thrown when converting from SQL type to SQL type. --> 
+      <Error Key="IllegalDataConvFromSQLToSQLType" NativeErrorCode="40120" _locID="3.IllegalDataConvFromSQLToSQLType">Nedozvoljena konverzija podataka iz tipa SQL u tip SQL.</Error>
+
+      <!-- Error thrown when setting precision less than zero. --> 
+      <Error Key="PrecLessThanZero" NativeErrorCode="40130" _locID="3.PrecLessThanZero">Preciznost ne može da bude manja od nule.</Error>
+
+      <!-- Error thrown when setting precision greater than supported. -->
+      <Error Key="MaxPrecisionExceeded" Params="2" NativeErrorCode="40131" _locID="3.MaxPrecisionExceeded">Broj „%1%“ premašuje maksimalnu dozvoljenu preciznost (%2%).</Error>
+
+      <!-- Error thrown when setting scale less than zero. --> 
+      <Error Key="ScaleLessThanZero" NativeErrorCode="40140" _locID="3.ScaleLessThanZero">Skaliranje ne može biti manje od nule.</Error>
+
+      <!-- Error thrown when SQL C type is not supported. --> 
+      <Error Key="SQLCTypeNotSupported" Params="2" NativeErrorCode="40150" _locID="3.SQLCTypeNotSupported">SQL C tip nije podržan: %1% (%2%)</Error>
+
+      <!-- Error thrown when SQL type is not supported. --> 
+      <Error Key="SQLTypeNotSupported" Params="2" NativeErrorCode="40160" _locID="3.SQLTypeNotSupported">SQL tip nije podržan: %1% (%2%)</Error>
+
+      <!-- Error thrown when SQL TDW type is not supported. --> 
+      <Error Key="SQLTDWTypeNotSupported" Params="1" NativeErrorCode="40170" _locID="3.SQLTDWTypeNotSupported">SQL TDW tip nije podržan (%1%).</Error>
+
+      <!-- Error thrown when data conversion algorithm resulted in an error. -->
+      <Error Key="DataConvAlgorithmError" NativeErrorCode="40180" _locID="3.DataConvAlgorithmError">Greška u algoritmu konverzije podataka.</Error>
+
+      <!-- Error thrown when data conversion algorithm resulted in a memory allocation error. -->
+      <Error Key="DataConvAlgorithmMemError" NativeErrorCode="40181" _locID="3.DataConvAlgorithmMemError">Greška tokom dodele memorije za algoritam konverzije podataka.</Error>
+
+      <!-- Error thrown when conversion between the 2 data types are not supported. --> 
+      <Error Key="DataConvAlgorithmNotSupported" Params="2" NativeErrorCode="40190" _locID="3.DataConvAlgorithmNotSupported">Algoritam konverzije podataka nije podržan za %1% do %2%.</Error>
+
+      <!-- Error thrown when fail to map SQLC type to tDW type. -->
+      <Error Key="TDWTypeNotFoundForCType" Params="2" NativeErrorCode="40450" _locID="3.TDWTypeNotFoundForCType">Nije moguće pronaći odgovarajući TDW tip za SQL C tip %1% (%2%).</Error>
+
+      <!-- Error thrown when fail to map SQL type to tDW type. -->
+      <Error Key="TDWTypeNotFoundForSqlType" Params="2" NativeErrorCode="40460" _locID="3.TDWTypeNotFoundForSqlType">Nije moguće pronaći odgovarajući TDW tip za SQL tip %1% (%2%).</Error>
+
+      <!-- Error thrown when fail to find default SQL C type for the TDW type. --> 
+      <Error Key="DefaultCForTDWTypeNotFound" Params="2" NativeErrorCode="40210" _locID="3.DefaultCForTDWTypeNotFound">Nije moguće pronaći podrazumevani SQL C tip za TDW tip %1% (%2%).</Error>
+
+      <!-- Error thrown when TDW timestamp type is invalid. --> 
+      <Error Key="InvalidTDWTimestampType" NativeErrorCode="40220" _locID="3.InvalidTDWTimestampType">Nevažeći tip TDW vremenske oznake.</Error>
+
+      <!-- Error thrown when joining two buffer descriptors forms a loop. -->
+      <Error Key="DetectedBufferDescriptorLoop" NativeErrorCode="40240" _locID="3.DetectedBufferDescriptorLoop">Otkrivena je petlja tokom spajanja dva opisa bafera.</Error>
+
+      <!-- Error thrown when attempting to allocate memory for a string fails. -->
+      <Error Key="CannotAllocateMemoryForString" NativeErrorCode="40250" _locID="3.CannotAllocateMemoryForString">Nije moguće dodeliti memoriju u koju treba učitati nisku.</Error>
+
+      <!-- Error thrown when attempting to generate a new handle when the maximum handle value has been hit. -->
+      <Error Key="CannotGenerateHandle" NativeErrorCode="40260" _locID="3.CannotGenerateHandle">Previše regulatora. Oslobodite ih da biste generisali više.</Error>
+
+      <!-- Error thrown when an argument is passed to an object that is invalid. -->
+      <Error Key="IllegalArgument" NativeErrorCode="40280" _locID="3.IllegalArgument">Nevažeći argument je prosleđen funkciji.</Error>
+
+      <!-- Error thrown when a new handle failed to be inserted in the manager. -->
+      <Error Key="HandleInsertionFailed" NativeErrorCode="40290" _locID="3.HandleInsertionFailed">Regulator nije uspešno umetnut u menadžer regulatora.</Error>
+
+      <!-- Warning posted when trying to get attribute data as the wrong type. -->
+      <Error Key="BadAttrType" NativeErrorCode="40300" _locID="3.BadAttrType">Nije moguće preuzeti atribut kao traženi tip.</Error>
+
+      <!-- Error thrown when SetLength or AttachBuffer are called on SQLData with the wrong ownership strategy. -->
+      <Error Key="InvalidBufferStrategyOperation" NativeErrorCode="40310" _locID="3.InvalidBufferStrategyOperation">Nevažeća operacija za izabranu strategiju vlasništva bafera.</Error>
+
+      <!-- Error posted when an arithmetic operation resulted in an invalid numeric. -->
+      <Error Key="TDWNumericArithmeticError" Params="1" NativeErrorCode="40320" _locID="3.TDWNumericArithmeticError">Numerička operacija „%1%“ kao rezultat je dala nevažeću numeričku vrednost.</Error>
+
+      <!-- Error thrown when constructing a numeric from a string resulted in an invalid numeric. -->
+      <Error Key="TDWNumericStringError" Params="1" NativeErrorCode="40321" _locID="3.TDWNumericStringError">Vrednost niske „%1%“ kao rezultat je dala nevažeću numeričku vrednost.</Error>
+
+      <!-- Error thrown when constructing a numeric from a number resulted in an invalid numeric. -->
+      <Error Key="TDWNumericValueError" Params="1" NativeErrorCode="40322" _locID="3.TDWNumericValueError">Vrednost „%1%“ kao rezultat je dala nevažeću numeričku vrednost.</Error>
+
+      <!-- Error thrown when constructing a numeric from a number resulted in an invalid numeric. -->
+      <Error Key="TDWNumericOperationOnInvalid" Params="1" NativeErrorCode="40323" _locID="3.TDWNumericOperationOnInvalid">Pokušano je izvršenje operacije „%1%“ na nevažećoj numeričkoj vrednosti.</Error>
+
+      <!-- Error thrown when fetching a numeric resulted in an out of range error. -->
+      <Error Key="TDWNumericOutOfRangeError" Params="2" NativeErrorCode="40324" _locID="3.TDWNumericOutOfRangeError">Vrednost „%1%“ dobavljena kao %2% je van opsega.</Error>
+
+      <!-- Swap: Invalid column number. -->
+      <Error Key="SwapInvalidColumnNum" NativeErrorCode="40340" _locID="3.SwapInvalidColumnNum">Unutrašnja greška – SwapInvalidRowColumnNum.</Error>
+
+      <!-- Swap: Invalid offset. -->
+      <Error Key="SwapInvalidOffset" NativeErrorCode="40350" _locID="3.SwapInvalidOffset">Unutrašnja greška – SwapInvalidOffset.</Error>
+
+      <!-- Swap: Invalid row number. -->
+      <Error Key="SwapInvalidRowNum" NativeErrorCode="40360" _locID="3.SwapInvalidRowNum">Unutrašnja greška – SwapInvalidRowNum.</Error>
+
+      <!-- Error thrown when the end of the message buffer is encountered while more data is expected. -->
+      <Error Key="UnexpectedBufferEnd" NativeErrorCode="40400" _locID="3.UnexpectedBufferEnd">Neočekivano je dostignut kraj bafera sadržaja.</Error>
+
+      <!-- Error thrown if the serializer runs out of memory to serialize into. -->
+      <Error Key="OutOfMemToSerialize" NativeErrorCode="40410" _locID="3.OutOfMemToSerialize">Nema dovoljno memorije u koju se može serijalizovati sadržaj.</Error>
+
+      <!-- Error thrown when traversal direction is not supported for temporary table. -->
+      <Error Key="TempTableTraverseDirNotSupported" NativeErrorCode="40430" _locID="3.TempTableTraverseDirNotSupported">Smer detaljnog prolaska nije podržan za privremenu tabelu.</Error>
+
+      <!-- Error thrown when accesing a closed temporary table. -->
+      <Error Key="CannotAccessDataWithCursor" NativeErrorCode="40440" _locID="3.CannotAccessDataWithCursor">Nije moguće pristupiti podacima u privremenoj tabeli bez otvorenog kursora.</Error>
+
+      <!-- [01004]: String data, right-truncated. -->
+      <Error Key="StrRightTrunc" NativeErrorCode="40450" _locID="3.StrRightTrunc">Podaci niske su skraćeni tokom izvršavanja konverzije.</Error>
+
+      <!-- [01S07]: Fractional truncation. -->
+      <Error Key="FractionalTrunc" NativeErrorCode="40460" _locID="3.FractionalTrunc">Razlomljeni podaci su skraćeni tokom izvršavanja konverzije.</Error>
+
+      <!-- [07006]: Restricted data type violation. -->
+      <Error Key="RestrictedDataTypeAttrViolation" NativeErrorCode="40461" _locID="3.RestrictedDataTypeAttrViolation">Kršenje atributa ograničenog tipa podataka.</Error>
+
+      <!-- [07006]: Invalid multi-field interval conversion. -->
+      <Error Key="InvalidMultiFieldIntervalConversion" NativeErrorCode="40462" _locID="3.InvalidMultiFieldIntervalConversion">Nevažeća konverzija. Intervale sa više polja nije moguće konvertovati u jedan broj.</Error>
+
+      <!-- [22001]: String data, right-truncated. -->
+      <Error Key="StrRightTruncErr" NativeErrorCode="40465" _locID="3.StrRightTruncErr">Podaci niske su skraćeni tokom izvršavanja konverzije.</Error>
+
+      <!-- [22003]: Numeric value out of range. -->
+      <Error Key="NumericValOutOfRange" Params="2" NativeErrorCode="40470" _locID="3.NumericValOutOfRange">Greška tokom konverzije u koloni %1% i redu %2%: numerička vrednost je van opsega.</Error>
+
+      <!-- [22007]: Invalid date, time or datetime format. -->
+      <Error Key="InvalidDatetimeFormat" NativeErrorCode="40480" _locID="3.InvalidDatetimeFormat">Nevažeći format datuma, vremena ili vremenske oznake.</Error>
+
+      <!-- [22007]: Invalid date format. -->
+      <Error Key="InvalidDateFormat" Params="1" NativeErrorCode="40481" _locID="3.InvalidDateFormat">Nevažeći format datuma za „%1%“. Format bi trebalo da bude [-]YYYY-MM-DD.</Error>
+
+      <!-- [22007]: Invalid time format. -->
+      <Error Key="InvalidTimeFormat" Params="1" NativeErrorCode="40482" _locID="3.InvalidTimeFormat">Nevažeći format vremena za „%1%“. Format treba da bude hh:mm:ss[.fffffffff].</Error>
+
+      <!-- [22007]: Invalid timestamp format. -->
+      <Error Key="InvalidTimestampFormat" Params="1" NativeErrorCode="40483" _locID="3.InvalidTimestampFormat">Nevažeći format vremenske oznake za „%1%“. Format bi trebalo da bude [-]YYYY-MM-DD hh:mm:ss[.fffffffff].</Error>
+
+      <!-- [22007]: Invalid date, time or datetime value. -->
+      <Error Key="InvalidDatetimeValue" NativeErrorCode="40490" _locID="3.InvalidDatetimeValue">Nevažeća vrednost datuma, vremena ili vremenske oznake.</Error>
+
+      <!-- [22007]: Invalid date value. -->
+      <Error Key="InvalidDateValue" Params="1" NativeErrorCode="40500" _locID="3.InvalidDateValue">Nevažeća vrednost datuma „%1%“. Godina mora biti u opsegu [-9999, 9999], mesec mora biti u opsegu [1, 12], a dan mora biti u opsegu [1, 31] i u skladu sa opsegom dana za navedeni mesec i godinu.</Error>
+
+      <!-- [22007]: Invalid time value. -->
+      <Error Key="InvalidTimeValue" Params="1" NativeErrorCode="40501" _locID="3.InvalidTimeValue">Nevažeća vrednost vremena „%1%“. Čas mora biti u opsegu [0, 23], minut u opsegu [0, 59], a sekunda u opsegu [0, 61], pri čemu se 60 i 61 koriste za prestupne sekunde.</Error>
+
+      <!-- [22007]: Invalid timestamp value. -->
+      <Error Key="InvalidTimestampValue" Params="1" NativeErrorCode="40502" _locID="3.InvalidTimestampValue">Nevažeća vrednost vremenske oznake „%1%“. Godina mora biti u opsegu [-9999, 9999] izuzimajući 0, mesec mora biti u opsegu [1, 12], dan u opsegu [1, 31] i u skladu sa opsegom dana za navedeni mesec i godinu, čas mora biti u opsegu [0, 23], minut opsegu [0, 59], a sekunda u opsegu [0, 61], pri čemu se 60 i 61 koriste za prestupne sekunde.</Error>
+
+      <!-- [22007]: Invalid year to month interval value. -->
+      <Error Key="InvalidYearMonthIntervalValue" Params="1" NativeErrorCode="40491" _locID="3.InvalidYearMonthIntervalValue">Nevažeća vrednost intervala od godine do meseca: %1%. Godina mora biti u opsegu [0, 999999999], a mesec u opsegu [0, 11].</Error>
+
+      <!-- [22007]: Invalid day to hour interval value. -->
+      <Error Key="InvalidDayHourIntervalValue" Params="1" NativeErrorCode="40492" _locID="3.InvalidDayHourIntervalValue">Nevažeća vrednost intervala od dana do časa: %1%. Dan mora biti u opsegu [0, 999999999], a čas mora biti u opsegu [0, 23].</Error>
+
+      <!-- [22007]: Invalid day to minute interval value. -->
+      <Error Key="InvalidDayMinuteIntervalValue" Params="1" NativeErrorCode="40493" _locID="3.InvalidDayMinuteIntervalValue">Nevažeća vrednost intervala od dana do minuta: %1%. Dan mora biti u opsegu [0, 999999999], čas u opsegu [0, 23], a minut u opsegu [0, 59].</Error>
+
+      <!-- [22007]: Invalid day to second interval value. -->
+      <Error Key="InvalidDaySecondIntervalValue" Params="1" NativeErrorCode="40494" _locID="3.InvalidDaySecondIntervalValue">Nevažeća vrednost intervala od dana do sekunde: %1%. Dan mora biti u opsegu [0, 999999999], čas u opsegu [0, 23], a minut i sekunda u opsegu [0, 59].</Error>
+
+      <!-- [22007]: Invalid hour to minute interval value. -->
+      <Error Key="InvalidHourMinuteIntervalValue" Params="1" NativeErrorCode="40495" _locID="3.InvalidHourMinuteIntervalValue">Nevažeća vrednost intervala od časa do minuta: %1%. Čas mora biti u opsegu [0, 999999999], a minut u opsegu [0, 59].</Error>
+
+      <!-- [22007]: Invalid hour to second interval value. -->
+      <Error Key="InvalidHourSecondIntervalValue" Params="1" NativeErrorCode="40496" _locID="3.InvalidHourSecondIntervalValue">Nevažeća vrednost intervala od časa do sekunde: %1%. Čas mora biti u opsegu [0, 999999999], a minut i sekunda u opsegu [0, 59].</Error>
+
+      <!-- [22007]: Invalid minute to second interval value. -->
+      <Error Key="InvalidMinuteSecondIntervalValue" Params="1" NativeErrorCode="40497" _locID="3.InvalidMinuteSecondIntervalValue">Nevažeća vrednost intervala od minuta do sekunde: %1%. Minut mora biti u opsegu [0, 999999999], a sekunda u opsegu [0, 59].</Error>
+
+      <!-- [22007]: Invalid second interval value. -->
+      <Error Key="InvalidSecondIntervalValue" Params="1" NativeErrorCode="40498" _locID="3.InvalidSecondIntervalValue">Nevažeća vrednost intervala sekunde: %1%. Sekunda mora biti u opsegu [0, 999999999].</Error>
+
+      <!-- [22007]: Invalid single field interval value. -->
+      <Error Key="InvalidSingleFieldIntervalValue" Params="1" NativeErrorCode="40499" _locID="3.InvalidSingleFieldIntervalValue">Nevažeća vrednost intervala jednog polja: %1%. Vrednost mora biti u opsegu [0, 999999999].</Error>
+
+      <!-- [22008]: Invalid datetime value resulting in a field overflow. -->
+      <Error Key="IntervalArithOverflow" Params="1" NativeErrorCode="40519" _locID="3.IntervalArithOverflow">Prekoračenje polja intervala potiče iz operacije „%1%“.</Error>
+
+      <!-- [22008]: Invalid datetime value resulting in a field overflow. -->
+      <Error Key="DatetimeFieldOverflow" NativeErrorCode="40520" _locID="3.DatetimeFieldOverflow">Prekoračenje polja Datetime rezultat je nevažeće vrednosti datetime.</Error>
+
+      <!-- [22015]: Interval field overflow. -->
+      <Error Key="IntervalFieldOverflow" NativeErrorCode="40530" _locID="3.IntervalFieldOverflow">Prekoračenje polja intervala.</Error>
+
+      <!-- [22015]: Leading precision is too small for the leading interval value. -->
+      <Error Key="InvalidLeadingPrecision" NativeErrorCode="40540" _locID="3.InvalidLeadingPrecision">Preciznost na čelu je manja od preciznosti vrednosti vodećeg intervala.</Error>
+
+      <!-- [22015]: Leading interval precision exceeded. -->
+      <Error Key="LeadingPrecisionExceeded" Params="1" NativeErrorCode="40541" _locID="3.LeadingPrecisionExceeded">Premašena je i %1% intervala.</Error>
+
+      <!-- [22015]: Fractional seconds precision exceeded. -->
+      <Error Key="FractionalPrecisionExceeded" Params="1" NativeErrorCode="40542" _locID="3.FractionalPrecisionExceeded">Premašena je preciznost razlomljenih sekundi %1%.</Error>
+
+      <!-- [22018]: Invalid character value for cast. -->
+      <Error Key="InvalidCharValForCast" NativeErrorCode="40550" _locID="3.InvalidCharValForCast">Nevažeća vrednost znaka za specifikaciju eksplicitne konverzije.</Error>
+
+      <!-- [22018]: Invalid GUID data format. -->
+      <Error Key="InvalidGuidValue" Params="1" NativeErrorCode="40560" _locID="3.InvalidGuidValue">Nevažeća vrednost GUID podataka: %1%. Podaci treba da budu u formatu XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX sa opcionalnim vitičastim zagradama {}.</Error>
+
+      <!-- [HY013]: Out of memory error. -->
+      <Error Key="OutOfMemoryError" NativeErrorCode="40600" _locID="3.OutOfMemoryError">Greška zbog nedostatka memorije.</Error>
+      
+      <!-- [HY000]: Conversion invalid data. -->
+      <Error Key="ConvInvalidData" NativeErrorCode="40610" _locID="3.ConvInvalidData">Nevažeći podaci za konverziju.</Error>
+      
+      <!-- [HY000]: Conversion logic error. -->
+      <Error Key="ConvLogicError" NativeErrorCode="40620" _locID="3.ConvLogicError">Logička greška tokom konverzije.</Error>
+
+      <!-- [HY000]: Invalid argument passed to a function. -->
+      <Error Key="InvalidArgument" Params="2" NativeErrorCode="30020" _locID="3.InvalidArgument">Nevažeći argumenti su prosleđeni funkciji [%1%: %2%].</Error>
+
+      <!-- [HY000]: Invalid argument passed to a function. -->
+      <Error Key="InvalidArgumentParam" Params="3" NativeErrorCode="30021" _locID="3.InvalidArgumentParam">Nevažeći argument (%1%) prosleđen je funkciji [%2%: %3%].</Error>
+
+      <!-- [HY000]: Invalid function/method has been invoked. -->
+      <Error Key="InvalidOperation" Params="3" NativeErrorCode="30030" _locID="3.InvalidOperation">Došlo je do logičke greške prilikom pozivanja funkcije %1% [%2%: %3%]. Uverite se da je operacija podržana i da je funkcija primenjena.</Error>
+
+      <!-- [HY000]: Semaphore at maximum value. -->
+      <Error Key="ErrSemaphoreMaxValue" NativeErrorCode="40621" _locID="3.ErrSemaphoreMaxValue">Nije moguće podesiti semafor na vrednost veću od SEMAPHORE_MAX_VALUE.</Error>
+
+      <!-- [HY000]: Error initializing semaphore. -->
+      <Error Key="ErrSemaphoreInit" Params="1" NativeErrorCode="40622" _locID="3.ErrSemaphoreInit">Greška pri pokretanju semafora: %1%</Error>
+
+      <!-- Error thrown when there is an I/O error. -->
+      <Error Key="IOError" NativeErrorCode="40630" _locID="3.IOError">Došlo je do U/I greške.</Error>
+
+      <!-- Error thrown when registry key not found when trying to connect. --> 
+      <Error Key="RegKeyNotFound" NativeErrorCode="50010" _locID="3.RegKeyNotFound">Ključ registratora nije pronađen.</Error>
+
+      <!-- Error thrown when cannot open registry when trying to connect.  --> 
+      <Error Key="CannotOpenRegistry" NativeErrorCode="50020" _locID="3.CannotOpenRegistry">Nije moguće otvoriti registrator.</Error>
+
+      <!-- Error thrown when cannot open ini file when trying to connect. --> 
+      <Error Key="CannotOpenIniFile" NativeErrorCode="50040" _locID="3.CannotOpenIniFile">Nije moguće otvoriti Ini datoteku.</Error>
+
+      <!-- Error thrown when environment variable not found when trying to connect. --> 
+      <Error Key="EnvVarNotFound" Params="1" NativeErrorCode="50050" _locID="3.EnvVarNotFound">Promenljiva okruženja nije pronađena: „%1%“.</Error>
+
+      <!-- Error thrown when a file cannot be opened. -->
+      <Error Key="CannotOpenFile" Params="2" NativeErrorCode="50070" _locID="3.CannotOpenFile">Nije moguće otvoriti datoteku „%1%“ – greška: %2%</Error>
+
+      <!-- Error thrown when an encoding type is not recognized. --> 
+      <Error Key="EncodingNotRecog" NativeErrorCode="50080" _locID="3.EncodingNotRecog">Kodiranje nije prepoznato.</Error>
+
+      <!-- Error thrown when conversion from string to numeric value fails. -->
+      <Error Key="StrToNumConvFailed" Params="1" NativeErrorCode="50090" _locID="3.StrToNumConvFailed">Konverzija iz niske u broj nije uspela uz vrednost „%1%“</Error>
+
+      <!-- Error thrown when conversion from string to unsigned numeric value fails. -->
+      <Error Key="StrToNumConvFailedUnsigned" Params="1" NativeErrorCode="50100" _locID="3.StrToNumConvFailedUnsigned">Konverzija iz niske u nepotpisani broj nije uspela uz vrednost „%1%“</Error>
+
+      <!-- Error thrown when conversion from string to numeric value due to overflow fails. -->
+      <Error Key="StrToNumConvFailedOverflow" Params="1" NativeErrorCode="50110" _locID="3.StrToNumConvFailedOverflow">Konverzija iz niske u broj nije uspela zbog prekoračenja uz vrednost „%1%“</Error>
+
+      <!-- Error thrown when conversion from string to numeric value due to underflow fails. -->
+      <Error Key="StrToNumConvFailedUnderflow" Params="1" NativeErrorCode="50120" _locID="3.StrToNumConvFailedUnderflow">Konverzija iz niske u broj nije uspela zbog podbačaja uz vrednost „%1%“</Error>
+
+      <!-- Error thrown when conversion from integer to string value fails due to an undersized buffer. -->
+      <Error Key="NumToStrConvFailed" NativeErrorCode="50130" _locID="3.NumToStrConvFailed">Konverzija iz broja u nisku nije uspela zbog premalog bafera znakova.</Error>
+
+      <!-- Error thrown when using a method that has not been implemented yet. --> 
+      <Error Key="NotImplYet" NativeErrorCode="50140" _locID="3.NotImplYet">Metod još uvek nije primenjen.</Error>
+
+      <!-- Error thrown when an argument is passed to an object that is invalid. -->
+      <Error Key="ThreadInvalidStateAction" NativeErrorCode="50160" _locID="3.ThreadInvalidStateAction">Nevažeća radnja za nit u trenutnom statusu.</Error>
+
+      <!-- Error thrown when creation of a new thread failed. -->
+      <Error Key="ThreadCreationFailed" NativeErrorCode="50170" _locID="3.ThreadCreationFailed">Kreiranje nove niti nije uspelo.</Error>
+
+      <!-- Error thrown when creation of new thread attributes failed. -->
+      <Error Key="ThreadAttributeCreationFailed" NativeErrorCode="50175" _locID="3.ThreadAttributeCreationFailed">Kreiranje novih atributa niti nije uspelo.</Error>
+
+      <!-- Error thrown when a wait for a thread has failed. -->
+      <Error Key="ThreadWaitFailed" NativeErrorCode="50180" _locID="3.ThreadWaitFailed">Čekanje niti nije uspelo.</Error>
+
+      <!-- Error thrown when a thread is started multiple times. -->
+      <Error Key="ThreadAlreadyStarted" NativeErrorCode="50185" _locID="3.ThreadAlreadyStarted">Nit je već pokrenuta i nije je moguće pokrenuti više puta.</Error>
+
+      <!-- Error thrown when a temporary file cannot be generated for swapping. -->
+      <Error Key="CannotGenerateTempFileName" Params="2" NativeErrorCode="50190" _locID="3.CannotGenerateTempFileName">Greška pri kreiranju privremene datoteke stranične memorije u direktorijumu „%1%“ zbog greške %2%.</Error>
+
+      <!-- Error thrown when a temporary file cannot be generated for swapping. -->
+      <Error Key="CannotGenerateTempFileNoError" Params="1" NativeErrorCode="50191" _locID="3.CannotGenerateTempFileNoError">Greška pri kreiranju privremene datoteke stranične memorije u direktorijumu „%1%“.</Error>
+
+      <!-- Error thrown when name for file is invalid.  -->
+      <Error Key="InvalidFileName" NativeErrorCode="50200" _locID="3.InvalidFileName">Naziv datoteke nije važeći.</Error>
+
+      <!-- Error thrown when text file position cannot be set.  -->
+      <Error Key="CannotSetFilePosition" NativeErrorCode="50210" _locID="3.CannotSetFilePosition">Nije moguće podesiti položaj datoteke.</Error>
+
+      <!-- Error thrown when the maximum size for code point is invalid (i.e too large). --> 
+      <Error Key="InvalidCodePtMaxSize" NativeErrorCode="50220" _locID="3.InvalidCodePtMaxSize">Nevažeća maksimalna veličina za tačku koda.</Error>
+
+      <!-- Error thrown when there is an invalid number of code points in a buffer (i.e too many). --> 
+      <Error Key="InvalidNumCodePtInBuffer" NativeErrorCode="50230" _locID="3.InvalidNumCodePtInBuffer">Nevažeći broj tačaka koda u baferu.</Error>
+
+      <!-- Error thrown when the position in a buffer is invalid (i.e buffer overrun). --> 
+      <Error Key="InvalidBuffPos" NativeErrorCode="50240" _locID="3.InvalidBuffPos">Nevažeća pozicija bafera.</Error>
+
+      <!-- Error thrown when output string will not align properly with the output byte buffer. --> 
+      <Error Key="StrByteAlignErr" NativeErrorCode="50250" _locID="3.StrByteAlignErr">Bajtovi niske nisu ispravno poravnati.</Error>
+
+      <!-- Error thrown when the endianness of the encoding is invalid for the platform (i.e. big endian for Windows, or for Unix on a little endian machine). --> 
+      <Error Key="InvalidEncodingEndianForPlatform" NativeErrorCode="50260" _locID="3.InvalidEncodingEndianForPlatform">Nevažeći redosled bajtova kodiranja za platformu.</Error>
+
+      <!-- Error thrown when trying to set a buffer that hasn't been fully used yet, or when setting it with an invalid buffer. --> 
+      <Error Key="SetBuffErr" NativeErrorCode="50270" _locID="3.SetBuffErr">Podešava se bafer koji nije u potpunosti korišćen ili se podešava sa nevažećim baferom.</Error>
+
+      <!-- Error thrown when given NULL for a parameter that should not be NULL. --> 
+      <Error Key="InvalidNullParam" NativeErrorCode="50280" _locID="3.InvalidNullParam">Parametar ne može biti bez vrednosti.</Error>
+
+      <!-- Error thrown when ICU gives an error when creating a Unicode converter object. --> 
+      <Error Key="ICUCreateUConverterErr" Params="1" NativeErrorCode="50290" _locID="3.ICUCreateUConverterErr">Greška pri kreiranju ICU Unikod objekta konvertora za kodiranje „%1%“.</Error>
+
+      <!-- Error thrown when ICU gives an error when converting a string. --> 
+      <Error Key="ICUConvErr" NativeErrorCode="50300" _locID="3.ICUConvErr">Greška pri konvertovanju niske koja ima ICU.</Error>
+
+      <!-- Error thrown when ICU gives an unrecognized conversion error. --> 
+      <Error Key="ICUConvErrNotRecog" NativeErrorCode="50310" _locID="3.ICUConvErrNotRecog">Nepoznate greška pri ICU konverziji.</Error>
+
+      <!-- Error thrown when ICU gives an error using a regex. --> 
+      <Error Key="ICURegexError" Params="1" NativeErrorCode="50315" _locID="3.ICURegexError">Greška pri korišćenju regularnog izraza: %1%.</Error>
+
+      <!-- Error thrown when an unsupported code unit size is specified when retrieving data. --> 
+      <Error Key="UnsupportedCodeUnitSize" Params="1" NativeErrorCode="50320" _locID="3.UnsupportedCodeUnitSize">Nepodržana veličina jedinice koda (%1%) za preuzimanje podataka.</Error>
+
+      <!-- Product License Errors and Warnings -->
+
+      <!-- Error thrown when license file is not found. -->
+      <Error Key="LicFileNotFound" Params="1" NativeErrorCode="50325" _locID="3.LicFileNotFound">Nije moguće pronaći datoteku licence „%1%“. Obratite se administratoru ili kompaniji Simba Technologies Inc. na sales@simba.com.</Error>
+
+      <!-- Error thrown when license file is corrupt. -->
+      <Error Key="LicFileCorrupt" Params="1" NativeErrorCode="50330" _locID="3.LicFileCorrupt">Datoteka licence „%1%“ je oštećena. Obratite se administratoru ili kompaniji Simba Technologies Inc. na sales@simba.com.</Error>
+
+      <!-- Error thrown when evaluation is expired. -->
+      <Error Key="TrialPeriodExp" Params="1" NativeErrorCode="50340" _locID="3.TrialPeriodExp">Dozvola ističe %1%. Obratite se kompaniji Simba Technologies Inc. na sales@simba.com.</Error>
+      
+      <!-- Error thrown when evaluation has not yet begun. -->
+      <Error Key="TrialPeriodNotBegun" Params="1" NativeErrorCode="50341" _locID="3.TrialPeriodNotBegun">Period procene još uvek nije počeo, počeće %1%. Obratite se kompaniji Simba Technologies Inc. na sales@simba.com.</Error>
+
+      <!-- Warning posted when evaluation will expire soon. -->
+      <Error Key="TrialPeriodExpSoon" Params="1" NativeErrorCode="50342" _locID="3.TrialPeriodExpSoon">Period procene ističe %1%. Obratite se kompaniji Simba Technologies Inc. na sales@simba.com.</Error>
+
+      <!-- Error thrown when an INI file contains a line that cannot be parsed. -->
+      <Error Key="IniParseError" Params="2" NativeErrorCode="50350" _locID="3.IniParseError">Greška INI raščlanjivanja u %1%. redu od %2%.</Error>
+
+      <!-- Error thrown when the license check fails. -->
+      <Error Key="LicenseValidationFailure" Params="1" NativeErrorCode="50351" _locID="3.LicenseValidationFailure">Greška u proveri valjanosti licence: %1%. Obratite se kompaniji Simba Technologies Inc. na sales@simba.com.</Error>
+      
+      <!-- Authentication failed for integrated security. -->
+      <Error Key="IntegratedSecurityAuthFailed" NativeErrorCode="50360" Params="1" _locID="3.IntegratedSecurityAuthFailed">Integrisana bezbednosna potvrda identiteta nije uspela. (%1%)</Error>
+
+      <!-- Integrated security failed to acquire local credentials. -->
+      <Error Key="FailedToAcquireCredentials" NativeErrorCode="50361" Params="1" _locID="3.FailedToAcquireCredentials">Integrisana bezbednost nije uspela da pribavi lokalne akreditive. (%1%)</Error>
+
+      <!-- Error thrown on failure to get username for integrated security. -->
+      <Error Key="FailedToGetUsername" NativeErrorCode="50363" Params="1" _locID="3.FailedToGetUsername">Preuzimanje korisničkog imena nije uspelo. (%1%)</Error>
+
+      <!-- Error thrown if attempting to change properties of a security context already in progress. -->
+      <Error Key="SecurityContextInProgress" NativeErrorCode="50364" _locID="3.SecurityContextInProgress">Nije moguće promeniti svojstva bezbednosnog konteksta jer je taj postupak već u toku.</Error>
+
+      <!-- Error thrown if there is a failure establishing thread impersonation -->
+      <Error Key="ThreadImpersonationFailed" NativeErrorCode="50365" Params="1" _locID="3.ThreadImpersonationFailed">Greška tokom omogućavanja imitiranja niti. (%1%)</Error>
+
+      <!-- Error thown when gssapi lib delay load fails. -->
+      <Error Key="GSSAPILoadFailed" NativeErrorCode="50366" Params="1" _locID="3.GSSAPILoadFailed">Učitavanje bezbednosne biblioteke nije uspelo: (%1%)</Error>
+      
+      <!-- Error thown when attempting to use the security API on an unsupported platform. -->
+      <Error Key="NoSecurityAPI" NativeErrorCode="50367" Params="0" _locID="3.NoSecurityAPI">Nema podržanog bezbednosnog API-ja na ovoj platformi. </Error>
+      <!-- Error thown when an invalid TDWExactNumericType is detected. -->
+      <Error Key="InvalidNumeric" NativeErrorCode="50368" Params="0" _locID="3.InvalidNumeric">Provera valjanosti za TDWExactNumericType objekat nije uspela.</Error>
+
+      <!-- Error thrown when OpenSSL fails to load. -->
+      <Error Key="LibLoadErr" Params="2" NativeErrorCode="50400" _locID="3.LibLoadErr">Došlo je do greške prilikom učitavanja dinamičke ili deljene biblioteke „%1%“: „%2%“.</Error>
+	  
+      <!-- Error thrown when OpenSSL fails to load. -->
+      <Error Key="LibFunctLoadErr" Params="2" NativeErrorCode="50401" _locID="3.LibFunctLoadErr">Došlo je do greške tokom učitavanja funkcije „%2%“ iz dinamičke ili deljene biblioteke „%1%“.</Error>
+	  
+      <!-- Error thrown when OpenSSL fails to load. -->
+      <Error Key="SwapFileEncryptErr" Params="2" NativeErrorCode="50402" _locID="3.SwapFileEncryptErr">Došlo je do unutrašnje greške prilikom šifrovanja ili dešifrovanja sadržaja datoteke stranične memorije: poziv „%1%“ – razlog „%2%“.</Error>
+	  
+      <!-- Error thrown when the total swap file disk space has reached the limit. -->
+      <Error Key="SwapLimitErr" NativeErrorCode="50403" _locID="3.SwapLimitErr">Dostignuto je ukupno ograničenje prostora na disku za datoteke stranične memorije.</Error>
+	  
+    </Package>
+</Messages>

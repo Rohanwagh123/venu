@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Messages [<!ELEMENT Messages (Package*)>
+
+<!ELEMENT Package (Error*)>
+<!ATTLIST Package ID CDATA #REQUIRED>
+<!ATTLIST Package DefaultComponent CDATA #REQUIRED>
+
+<!ELEMENT Error (#PCDATA)>
+<!ATTLIST Error Key CDATA #REQUIRED>
+<!ATTLIST Error _locID CDATA "0">
+<!ATTLIST Error Component CDATA #IMPLIED>
+<!ATTLIST Error NativeErrorCode CDATA #REQUIRED>
+<!ATTLIST Error Params CDATA "0">]>
+<Messages>
+    <!-- Package DS_ERROR. ID corresponds to the DS_ERROR constant defined in DriverSupport.h -->
+    <Package ID="110" DefaultComponent="DriverSupport">
+        <!-- Error thrown when an error occurs while trying to load a string resource for the dialog. -->
+        <Error Key="DSStringResourceError" Params="1" NativeErrorCode="1000" _locID="110.DSStringResourceError">Không tìm thấy %1% tài nguyên chuỗi.</Error>
+
+        <!-- Error thrown when an error occurs while trying to load a cursor resource.. -->
+        <Error Key="DSCursorResourceError" Params="1" NativeErrorCode="1010" _locID="110.DSCursorResourceError">Đã xảy ra lỗi trong khi cố gắng tải con trỏ: %1%</Error>
+
+        <!-- Error thrown when an error occurs while trying to encrypt data. -->
+        <Error Key="DSEncryptError" Params="1" NativeErrorCode="1020" _locID="110.DSEncryptError">Đã xảy ra lỗi trong khi cố gắng mã hóa dữ liệu: %1%</Error>
+      
+        <!-- Error thrown when an error occurs while trying to decrypt data. -->
+        <Error Key="DSDecryptError" Params="1" NativeErrorCode="1030" _locID="110.DSDecryptError">Không thể giải mã dữ liệu: %1%</Error>
+      
+        <!-- Error thrown when an error occurs while trying to initialize SSL context. -->
+         <Error Key="DSSSLError" Params="1" NativeErrorCode="1040" _locID="110.DSSSLError">Không thể khởi tạo ngữ cảnh SSL: %1%</Error>
+     
+        <!-- Error thrown when OpenSSL was unable to allocate enough memory. -->
+        <Error Key="DSOpenSSLOutofMemory" Params="1" NativeErrorCode="1041" _locID="110.DSOpenSSLOutofMemory">Đã xảy ra lỗi trong khi phân bổ bộ nhớ để tạo: %1%</Error>
+
+        <!-- Error thrown when an error occurs while converting server SSL certificate into CryptoAPI format. -->
+        <Error Key="DSSSLServerCertConvertError" Params="0" NativeErrorCode="1050" _locID="110.DSSSLServerCertConvertError">Không thể chuyển đổi chứng chỉ từ OpenSSL sang CryptoAPI.</Error>
+
+        <!-- Error thrown when an the driver has been locked by a vendor. -->
+        <Error Key="DSDriverLockedError" Params="1" NativeErrorCode="1060" _locID="110.DSDriverLockedError">Trình điều khiển đã bị nhà cung cấp %1% khóa và không được cấp phép sử dụng với ứng dụng này.</Error>
+
+        <!-- Error thrown when an the driver has been locked by a vendor. -->
+        <Error Key="DSDIDFileMissingError" Params="1" NativeErrorCode="1070" _locID="110.DSDIDFileMissingError">Không thể truy cập vào tệp %1%. Trình điều khiển không thể hoạt động đúng cách mà không có tệp.</Error>
+
+        <!-- Error thrown when OpenSSL functions return an error. -->
+        <Error Key="DSOpenSSLError" Params="2" NativeErrorCode="1080" _locID="110.DSOpenSSLError">Hàm OpenSSL %1% trả về lỗi: %2%</Error>
+
+        <!-- Error thrown when CSV parser encounters an error. -->
+        <Error Key="CSVParser" Params="1" NativeErrorCode="1090" _locID="110.CSVParser">Lỗi khi phân tích cú pháp CSV. [%1%]</Error>
+
+        <!-- Error thrown when SSL verification fails because trust store does not have right CA certs to verify the server certificate. -->
+        <Error Key="DSSslNoCaError" Params="0" NativeErrorCode="1100" _locID="110.DSSslNoCaError">Xác minh chứng chỉ SSL không thành công vì chứng chỉ còn thiếu hoặc không chính xác.</Error>
+
+        <!-- Error thrown when cURL is not able to receive the expected response from the server due to either incorrect host/port specified or SSL not enabled for connection when connecting to SSL enabled server. -->
+        <Error Key="DSCurlRecvError" Params="0" NativeErrorCode="1110" _locID="110.DSCurlRecvError">Nhận được phản hồi không mong muốn từ máy chủ. Vui lòng đảm bảo máy chủ lưu trữ và cổng được chỉ định cho kết nối là chính xác và xác nhận xem có phải bật SSL cho kết nối hay không.</Error>
+
+        <!-- Error thrown when server host name does not match server SSL certificate subject common name (CN) or any of the "DNS Name" entries in the "Subject Alternative Name". -->
+        <Error Key="DSServerHostAndCnSubjectMismatch" Params="0" NativeErrorCode="1120" _locID="110.DSServerHostAndCnSubjectMismatch">Xác minh SSL không thành công vì tên máy chủ lưu trữ được chỉ định cho kết nối không khớp với mục "CN" trong trường "Chủ đề" hoặc bất kỳ mục "Tên DNS" nào của trường "Tên thay thế chủ đề" trong chứng chỉ máy chủ.</Error>
+
+        <!-- Error thrown when enabling SSL for the connection when connecting to a server that has not enabled SSL.-->
+        <Error Key="DSSslConnectionToNonSslServerError" Params="0" NativeErrorCode="1130" _locID="110.DSSslConnectionToNonSslServerError">Không thể kích hoạt giao thức SSL cho kết nối trong khi kết nối với máy chủ chưa bật giao thức SSL.</Error>
+
+        <!-- Error thrown when CA certificates can not be read from the CA certificates file. -->
+        <Error Key="DSCaCertsFileLoadError" Params="0" NativeErrorCode="1140" _locID="110.DSCaCertsFileLoadError">Không thể tải chứng chỉ CA từ vị trí tệp chứng chỉ  Vui lòng đảm bảo tệp tồn tại, có quyền đọc và có định dạng PEM chính xác.</Error>
+
+        <!-- Error thrown when enabling SSL for the connection when connecting to a server that has not enabled SSL or if server has been configured to use SSLv2 or SSLv3 but they are not allowed by the driver.-->
+        <Error Key="DSSslConnectErrorSsl2AndSsl3NotAllowed" Params="0" NativeErrorCode="1150" _locID="110.DSSslConnectErrorSsl2AndSsl3NotAllowed">Không thể kích hoạt giao thức SSL cho kết nối khi kết nối với máy chủ chưa bật giao thức SSL. Nếu máy chủ đã bật giao thức SSL, vui lòng kiểm tra xem máy chủ đã được cấu hình để sử dụng giao thức SSLv2 hoặc giao thức SSLv3 chưa. giao thức SSLv2 và giao thức SSLv3 không được trình điều khiển cho phép vì chúng không bảo mật.</Error>
+
+        <!-- Error thrown when enabling SSL for the connection when connecting to a server that has not enabled SSL or if server has been configured to use SSL protocol version lower than what is allowed by the connection.-->
+        <Error Key="DSSslConnectErrorLowerThanMinTls" Params="1" NativeErrorCode="1160" _locID="110.DSSslConnectErrorLowerThanMinTls">Không thể bật SSL cho kết nối khi kết nối với máy chủ chưa bật SSL. Nếu máy chủ đã bật SSL, vui lòng kiểm tra xem máy chủ đã được đặt cấu hình để sử dụng phiên bản giao thức SSL thấp hơn phiên bản được phép kết nối chưa. Phiên bản giao thức SSL tối thiểu được phép kết nối là: %1%.</Error>
+
+        <!-- Error thrown when driver is not able to receive the expected response from the server due to incorrect host/port specified. -->
+        <Error Key="DSWrongServerError" Params="0" NativeErrorCode="1170" _locID="110.DSWrongServerError">Phản hồi không mong muốn nhận được từ máy chủ. Vui lòng đảm bảo không gian lưu trữ và cổng máy chủ được chỉ định cho kết nối là chính xác.</Error>
+
+        <!-- Error thrown when driver is not able to receive an invalid port valid. -->
+        <Error Key="DSInvalidPortError" Params="1" NativeErrorCode="1180" _locID="110.DSInvalidPortError">%1% không chính xác được chỉ định. Vui lòng kiểm tra cấu hình của bạn.</Error>
+
+        <!-- Error thrown when the client private key properties are not provided while two-way SSL feature is enabled. -->
+        <Error Key="DSClientPrivateKeyPropsNeededError" Params="0" NativeErrorCode="1190" _locID="110.DSClientPrivateKeyPropsNeededError">Thuộc tính khóa riêng của máy khách không được cung cấp trong khi tính năng SSL hai chiều được bật.</Error>
+
+        <!-- X509 or Windows Truststore error thrown when ssl handshake failed.-->
+        <Error Key="DSSslErrorMessage " Params="1" NativeErrorCode="1200" _locID="110.DSSslErrorMessage ">%1%</Error>
+		
+        <!-- Error thrown when Client certificate or Client key can not be read from the Client certificate or Client private key file. -->
+        <Error Key="DSClientCertOrKeyFileLoadError" Params="0" NativeErrorCode="1210" _locID="110.DSClientCertOrKeyFileLoadError">Không thể tải chứng chỉ máy khách hoặc khóa riêng máy khách được đặt thông qua các thuộc tính kết nối ClientCert hoặc ClientPrivateKey. Vui lòng đảm bảo tệp tồn tại, có quyền đọc và có định dạng PEM chính xác.</Error>
+
+      <!--Rapidjson Error Messages-->
+        <!-- Errors from rapidjson, rapidjson enum value is NativeErrorCode minus 2000. Messages from error.h in rapidjson library. -->
+        <Error Key="DSkParseErrorNone" Params="0" NativeErrorCode="2000" _locID="110.DSkParseErrorNone">Lỗi khi phân tích cú pháp JSON: Không có lỗi.</Error>
+        <Error Key="DSkParseErrorDocumentEmpty" Params="0" NativeErrorCode="2001" _locID="110.DSkParseErrorDocumentEmpty">Lỗi khi phân tích cú pháp JSON: Tài liệu trống.</Error>
+        <Error Key="DSkParseErrorDocumentRootNotSingular" Params="0" NativeErrorCode="2002" _locID="110.DSkParseErrorDocumentRootNotSingular">Lỗi khi phân tích cú pháp JSON: Gốc tài liệu không được có các giá trị khác theo sau.</Error>
+        <Error Key="DSkParseErrorValueInvalid" Params="0" NativeErrorCode="2003" _locID="110.DSkParseErrorValueInvalid">Lỗi khi phân tích cú pháp JSON: Giá trị không hợp lệ.</Error>
+        <Error Key="DSkParseErrorObjectMissName" Params="0" NativeErrorCode="2004" _locID="110.DSkParseErrorObjectMissName">Lỗi khi phân tích cú pháp JSON: Thiếu tên cho thành phần đối tượng.</Error>
+        <Error Key="DSkParseErrorObjectMissColon" Params="0" NativeErrorCode="2005" _locID="110.DSkParseErrorObjectMissColon">Lỗi khi phân tích cú pháp JSON: Thiếu dấu hai chấm sau tên thành phần đối tượng.</Error>
+        <Error Key="DSkParseErrorObjectMissCommaOrCurlyBracket" Params="0" NativeErrorCode="2006" _locID="110.DSkParseErrorObjectMissCommaOrCurlyBracket">Lỗi khi phân tích cú pháp JSON: Thiếu dấu phẩy hoặc "}" sau thành phần đối tượng.</Error>
+        <Error Key="DSkParseErrorArrayMissCommaOrSquareBracket" Params="0" NativeErrorCode="2007" _locID="110.DSkParseErrorArrayMissCommaOrSquareBracket">Lỗi khi phân tích cú pháp JSON: Thiếu dấu phẩy hoặc "]" sau một phần tử mảng.</Error>
+        <Error Key="DSkParseErrorStringUnicodeEscapeInvalidHex" Params="0" NativeErrorCode="2008" _locID="110.DSkParseErrorStringUnicodeEscapeInvalidHex">Lỗi khi phân tích cú pháp JSON: Chữ số lục giác không chính xác sau ký tự thoát \\u trong chuỗi.</Error>
+        <Error Key="DSkParseErrorStringUnicodeSurrogateInvalid" Params="0" NativeErrorCode="2009" _locID="110.DSkParseErrorStringUnicodeSurrogateInvalid">Lỗi khi phân tích cú pháp JSON: Cặp thay thế trong chuỗi là không hợp lệ.</Error>
+        <Error Key="DSkParseErrorStringEscapeInvalid" Params="0" NativeErrorCode="2010" _locID="110.DSkParseErrorStringEscapeInvalid">Lỗi khi phân tích cú pháp JSON: Ký tự thoát không hợp lệ trong chuỗi.</Error>
+        <Error Key="DSkParseErrorStringMissQuotationMark" Params="0" NativeErrorCode="2011" _locID="110.DSkParseErrorStringMissQuotationMark">Lỗi khi phân tích cú pháp JSON: Thiếu dấu ngoặc kép đóng trong chuỗi.</Error>
+        <Error Key="DSkParseErrorStringInvalidEncoding" Params="0" NativeErrorCode="2012" _locID="110.DSkParseErrorStringInvalidEncoding">Lỗi khi phân tích cú pháp JSON: Mã hóa không hợp lệ trong chuỗi.</Error>
+        <Error Key="DSkParseErrorNumberTooBig" Params="0" NativeErrorCode="2013" _locID="110.DSkParseErrorNumberTooBig">Lỗi khi phân tích cú pháp JSON: Số quá lớn để được lưu trữ gấp đôi.</Error>
+        <Error Key="DSkParseErrorNumberMissFraction" Params="0" NativeErrorCode="2014" _locID="110.DSkParseErrorNumberMissFraction">Lỗi khi phân tích cú pháp JSON: Thiếu phần phân số trong số.</Error>
+        <Error Key="DSkParseErrorNumberMissExponent" Params="0" NativeErrorCode="2015" _locID="110.DSkParseErrorNumberMissExponent">Lỗi khi phân tích cú pháp JSON: Thiếu số mũ.</Error>
+        <Error Key="DSkParseErrorTermination" Params="0" NativeErrorCode="2016" _locID="110.DSkParseErrorTermination">Lỗi khi phân tích cú pháp JSON: Phân tích cú pháp đã bị chấm dứt.</Error>
+        <Error Key="DSkParseErrorUnspecificSyntaxError" Params="0" NativeErrorCode="2017" _locID="110.DSkParseErrorUnspecificSyntaxError">Lỗi khi phân tích cú pháp JSON: Lỗi cú pháp không rõ ràng.</Error>
+
+      <!-- Error thrown when the column doesn't exist. -->
+      <Error Key="InvalidColumnNum" Params="1" NativeErrorCode="2018" _locID="110.InvalidColumnNum">%1% không tồn tại; BadColumnException.</Error>
+      
+      <!-- Error thrown when the user agent entry is invalid. -->
+      <Error Key="InvalidUserAgentEntry" Params="0" NativeErrorCode="2019" _locID="110.InvalidUserAgentEntry">Mục nhập tác nhân người dùng không hợp lệ.</Error>
+    
+      <!-- Error thrown when the user agent comment is not enclosed in parentheses. -->
+      <Error Key="UserAgentCommentNotEnclosedInParen" Params="0" NativeErrorCode="2020" _locID="110.UserAgentCommentNotEnclosedInParen">Chuỗi tác nhân người dùng không hợp lệ. Toàn bộ nhận xét phải được đặt trong dấu ngoặc đơn.</Error>
+
+      <!-- Error thrown when the user agent comment contains an invalid character. -->
+      <Error Key="InvalidCharacterInUserAgentComment" Params="1" NativeErrorCode="2021" _locID="110.InvalidCharacterInUserAgentComment">Ký tự không hợp lệ "%1%" được tìm thấy trong nhận xét người dùng-tổng đài viên.</Error>
+
+      <!-- Error thrown when the user agent product contains an invalid character. -->
+      <Error Key="InvalidCharacterInUserAgentProductName" Params="1" NativeErrorCode="2022" _locID="110.InvalidCharacterInUserAgentProductName">Tìm thấy ký tự không hợp lệ "%1%" trong tên sản phẩm người dùng-tổng đài viên.</Error>
+
+      <!-- Error thrown when the user agent product version contains an invalid character. -->
+      <Error Key="InvalidCharacterInUserAgentProductVer" Params="1" NativeErrorCode="2023" _locID="110.InvalidCharacterInUserAgentProductVer">Tìm thấy ký tự không hợp lệ "%1%" trong phiên bản sản phẩm người dùng-tổng đài viên.</Error>
+
+      <!-- Error thrown when an empty product name is specific in the user-agent entry. -->
+      <Error Key="UserAgentEmptyProductName" Params="0" NativeErrorCode="2024" _locID="110.UserAgentEmptyProductName">Tên sản phẩm trống không được cho phép trong mục nhập người dùng-tổng đài viên.</Error>
+
+      <!-- Error thrown when an empty product version is specific in the user-agent entry. -->
+      <Error Key="UserAgentEmptyProductVer" Params="0" NativeErrorCode="2025" _locID="110.UserAgentEmptyProductVer">Phiên bản sản phẩm trống không được phép trong mục người dùng-tổng đài viên.</Error>
+
+      <!-- Error thrown when an invalid log level is specified. -->
+      <Error Key="InvalidLogLevel" Params="1" NativeErrorCode="2026" _locID="110.InvalidLogLevel">Đã chỉ định cấp độ ghi nhật ký không hợp lệ "%1%".</Error>
+
+      <!-- Error generated when an instance of Simba::Support::Promise is destroyed before it it used to set it's corresponding Future's value/exception. -->
+      <Error Key="DSFutureNotSetAtPromiseDestruction" Params="0" NativeErrorCode="50410" _locID="110.DSFutureNotSetAtPromiseDestruction">Giá trị/lỗi Future không được đặt trước khi đối tượng Promise mẹ bị phá hủy.</Error>
+
+      <!-- Error thrown when it's attempted to set a Future multiple times. -->
+      <Error Key="DSFutureAlreadySet" NativeErrorCode="50411" _locID="110.DSFutureAlreadySet">Đã cố gắng đặt giá trị/lỗi trong tương lai sau khi giá trị/lỗi đó được đặt rồi.</Error>
+
+      <!-- Error thrown when Future::Get is called on an un-set future. -->
+      <Error Key="DSFutureNotSet" NativeErrorCode="50412" _locID="110.DSFutureNotSet">Đã cố gắng đặt giá trị/lỗi trong tương lai sau khi giá trị/lỗi đó được đặt rồi.</Error>
+
+      <!-- Error thrown when an error occurred while decompressing LZ4 frames. -->
+      <Error Key="DSLZ4FDecompressionError" Params="3" NativeErrorCode="60000" _locID="110.DSLZ4FDecompressionError">%1%An error occurred while attempting to decompress LZ4 frames. The LZ4 API function %2% returned an error. Error Detail: %3%</Error>
+
+      <!-- Error thrown when the LZ4F_decompress function finished the decompression process but there is compressed data remaining that was not consumed. -->
+      <Error Key="DSLZ4FCompressedDataMissedError" Params="2" NativeErrorCode="60001" _locID="110.DSLZ4FCompressedDataMissedError">%1%Decompression completed with %2% bytes of compressed data not consumed.</Error>
+
+      <!-- Error thrown when the decompressed data size is smaller than expected. -->
+      <Error Key="DSLZ4FDecompressedDataSmallerThanExpectedError" Params="3" NativeErrorCode="60002" _locID="110.DSLZ4FDecompressedDataSmallerThanExpectedError">%1%The decompressed data is smaller than expected. The actual decompressed data size is %2% bytes while we expect %3% bytes.</Error>
+
+      <!-- Error thrown when 0 bytes of compressed data is passed in for decompression but a non-zero bytes of decompressed data is expected. -->
+      <Error Key="DSLZ4FMissingCompressedDataError" Params="2" NativeErrorCode="60003" _locID="110.DSLZ4FMissingCompressedDataError">%1%Zero bytes of compressed data was passed in for decompression while %2% bytes of decompressed data is expected.</Error>
+
+      <!-- Error thrown when 0 bytes of decompressed data is expected while a non-zero bytes of compressed data was passed in for decompression. -->
+      <Error Key="DSLZ4FIncorrectExpectedDecompressedDataSizeError" Params="2" NativeErrorCode="60004" _locID="110.DSLZ4FIncorrectExpectedDecompressedDataSizeError">%1%Zero bytes of decompressed data is expected while %2% bytes of compressed data was passed in.</Error>
+    </Package>
+</Messages>

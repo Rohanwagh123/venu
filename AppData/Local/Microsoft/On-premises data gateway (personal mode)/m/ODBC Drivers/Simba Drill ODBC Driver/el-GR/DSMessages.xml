@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Messages [<!ELEMENT Messages (Package*)>
+
+<!ELEMENT Package (Error*)>
+<!ATTLIST Package ID CDATA #REQUIRED>
+<!ATTLIST Package DefaultComponent CDATA #REQUIRED>
+
+<!ELEMENT Error (#PCDATA)>
+<!ATTLIST Error Key CDATA #REQUIRED>
+<!ATTLIST Error _locID CDATA "0">
+<!ATTLIST Error Component CDATA #IMPLIED>
+<!ATTLIST Error NativeErrorCode CDATA #REQUIRED>
+<!ATTLIST Error Params CDATA "0">]>
+<Messages>
+    <!-- Package DS_ERROR. ID corresponds to the DS_ERROR constant defined in DriverSupport.h -->
+    <Package ID="110" DefaultComponent="DriverSupport">
+        <!-- Error thrown when an error occurs while trying to load a string resource for the dialog. -->
+        <Error Key="DSStringResourceError" Params="1" NativeErrorCode="1000" _locID="110.DSStringResourceError">Ο πόρος συμβολοσειράς %1% βρέθηκε.</Error>
+
+        <!-- Error thrown when an error occurs while trying to load a cursor resource.. -->
+        <Error Key="DSCursorResourceError" Params="1" NativeErrorCode="1010" _locID="110.DSCursorResourceError">Παρουσιάστηκε σφάλμα κατά την προσπάθεια φόρτωσης ενός δρομέα: %1%</Error>
+
+        <!-- Error thrown when an error occurs while trying to encrypt data. -->
+        <Error Key="DSEncryptError" Params="1" NativeErrorCode="1020" _locID="110.DSEncryptError">Παρουσιάστηκε σφάλμα κατά την προσπάθεια κρυπτογράφησης δεδομένων: %1%</Error>
+      
+        <!-- Error thrown when an error occurs while trying to decrypt data. -->
+        <Error Key="DSDecryptError" Params="1" NativeErrorCode="1030" _locID="110.DSDecryptError">Απέτυχε η αποκρυπτογράφηση δεδομένων: %1%</Error>
+      
+        <!-- Error thrown when an error occurs while trying to initialize SSL context. -->
+         <Error Key="DSSSLError" Params="1" NativeErrorCode="1040" _locID="110.DSSSLError">Η προετοιμασία του περιβάλλοντος SSL απέτυχε: %1%</Error>
+     
+        <!-- Error thrown when OpenSSL was unable to allocate enough memory. -->
+        <Error Key="DSOpenSSLOutofMemory" Params="1" NativeErrorCode="1041" _locID="110.DSOpenSSLOutofMemory">Παρουσιάστηκε σφάλμα κατά την εκχώρηση μνήμης για δημιουργία: %1%</Error>
+
+        <!-- Error thrown when an error occurs while converting server SSL certificate into CryptoAPI format. -->
+        <Error Key="DSSSLServerCertConvertError" Params="0" NativeErrorCode="1050" _locID="110.DSSSLServerCertConvertError">Απέτυχε η μετατροπή πιστοποιητικού από OpenSSL σε CryptoAPI.</Error>
+
+        <!-- Error thrown when an the driver has been locked by a vendor. -->
+        <Error Key="DSDriverLockedError" Params="1" NativeErrorCode="1060" _locID="110.DSDriverLockedError">Το πρόγραμμα οδήγησης έχει κλειδωθεί από τον προμηθευτή %1% δεν έχει άδεια χρήσης με αυτήν την εφαρμογή.</Error>
+
+        <!-- Error thrown when an the driver has been locked by a vendor. -->
+        <Error Key="DSDIDFileMissingError" Params="1" NativeErrorCode="1070" _locID="110.DSDIDFileMissingError">Δεν είναι δυνατή η πρόσβαση στο αρχείο %1%. Το πρόγραμμα οδήγησης δεν μπορεί να λειτουργήσει σωστά χωρίς το αρχείο.</Error>
+
+        <!-- Error thrown when OpenSSL functions return an error. -->
+        <Error Key="DSOpenSSLError" Params="2" NativeErrorCode="1080" _locID="110.DSOpenSSLError">Η συνάρτηση OpenSSL %1% επέστρεψε σφάλμα: %2%</Error>
+
+        <!-- Error thrown when CSV parser encounters an error. -->
+        <Error Key="CSVParser" Params="1" NativeErrorCode="1090" _locID="110.CSVParser">Σφάλμα κατά την ανάλυση CSV. [%1%]</Error>
+
+        <!-- Error thrown when SSL verification fails because trust store does not have right CA certs to verify the server certificate. -->
+        <Error Key="DSSslNoCaError" Params="0" NativeErrorCode="1100" _locID="110.DSSslNoCaError">Η επαλήθευση πιστοποιητικού SSL απέτυχε επειδή το πιστοποιητικό λείπει ή είναι εσφαλμένο.</Error>
+
+        <!-- Error thrown when cURL is not able to receive the expected response from the server due to either incorrect host/port specified or SSL not enabled for connection when connecting to SSL enabled server. -->
+        <Error Key="DSCurlRecvError" Params="0" NativeErrorCode="1110" _locID="110.DSCurlRecvError">Ελήφθη μη αναμενόμενη απόκριση από τον διακομιστή. Βεβαιωθείτε ότι ο κεντρικός υπολογιστής και η θύρα διακομιστή που καθορίστηκαν για τη σύνδεση είναι σωστά και επιβεβαιώστε αν θα πρέπει να ενεργοποιηθεί το SSL για τη σύνδεση.</Error>
+
+        <!-- Error thrown when server host name does not match server SSL certificate subject common name (CN) or any of the "DNS Name" entries in the "Subject Alternative Name". -->
+        <Error Key="DSServerHostAndCnSubjectMismatch" Params="0" NativeErrorCode="1120" _locID="110.DSServerHostAndCnSubjectMismatch">Η επαλήθευση SSL απέτυχε επειδή το όνομα κεντρικού υπολογιστή διακομιστή που καθορίστηκε για τη σύνδεση δεν συμφωνεί με την καταχώρηση "CN" στο πεδίο "Θέμα" ή οποιαδήποτε από τις καταχωρήσεις "Όνομα DNS" του πεδίου "Εναλλακτικό όνομα θέματος" στο πιστοποιητικό διακομιστή.</Error>
+
+        <!-- Error thrown when enabling SSL for the connection when connecting to a server that has not enabled SSL.-->
+        <Error Key="DSSslConnectionToNonSslServerError" Params="0" NativeErrorCode="1130" _locID="110.DSSslConnectionToNonSslServerError">Δεν είναι δυνατή η ενεργοποίηση SSL για τη σύνδεση κατά τη σύνδεση σε έναν διακομιστή που δεν έχει ενεργοποιήσει το SSL.</Error>
+
+        <!-- Error thrown when CA certificates can not be read from the CA certificates file. -->
+        <Error Key="DSCaCertsFileLoadError" Params="0" NativeErrorCode="1140" _locID="110.DSCaCertsFileLoadError">Δεν είναι δυνατή η φόρτωση πιστοποιητικών CA από τη θέση αρχείου certs. Βεβαιωθείτε ότι το αρχείο υπάρχει, έχει δικαιώματα ανάγνωσης και έχει τη σωστή μορφή PEM.</Error>
+
+        <!-- Error thrown when enabling SSL for the connection when connecting to a server that has not enabled SSL or if server has been configured to use SSLv2 or SSLv3 but they are not allowed by the driver.-->
+        <Error Key="DSSslConnectErrorSsl2AndSsl3NotAllowed" Params="0" NativeErrorCode="1150" _locID="110.DSSslConnectErrorSsl2AndSsl3NotAllowed">Δεν είναι δυνατή η ενεργοποίηση SSL για τη σύνδεση κατά τη σύνδεση σε έναν διακομιστή που δεν έχει ενεργοποιήσει το SSL. Αν ο διακομιστής έχει ενεργοποιημένο SSL, ελέγξτε αν έχει ρυθμιστεί ώστε να χρησιμοποιεί τα πρωτόκολλο SSLv2 ή SSLv3. Τα πρωτοκόλλα SSLv2 και SSLv3 δεν επιτρέπονται από το πρόγραμμα οδήγησης, επειδή είναι μη ασφαλή.</Error>
+
+        <!-- Error thrown when enabling SSL for the connection when connecting to a server that has not enabled SSL or if server has been configured to use SSL protocol version lower than what is allowed by the connection.-->
+        <Error Key="DSSslConnectErrorLowerThanMinTls" Params="1" NativeErrorCode="1160" _locID="110.DSSslConnectErrorLowerThanMinTls">Δεν είναι δυνατή η ενεργοποίηση SSL για τη σύνδεση κατά τη σύνδεση σε έναν διακομιστή που δεν έχει ενεργοποιήσει το SSL. Αν ο διακομιστής έχει ενεργοποιημένο SSL, ελέγξτε αν έχει ρυθμιστεί ώστε να χρησιμοποιεί έκδοση πρωτοκόλλου SSL που είναι χαμηλότερη από την επιτρεπόμενη για τη σύνδεση. Η ελάχιστη επιτρεπόμενη έκδοση πρωτοκόλλου SSL για τη σύνδεση είναι: %1%.</Error>
+
+        <!-- Error thrown when driver is not able to receive the expected response from the server due to incorrect host/port specified. -->
+        <Error Key="DSWrongServerError" Params="0" NativeErrorCode="1170" _locID="110.DSWrongServerError">Ελήφθη μη αναμενόμενη απόκριση από τον διακομιστή. Βεβαιωθείτε ότι ο κεντρικός υπολογιστής διακομιστή και η θύρα που καθορίστηκαν για τη σύνδεση είναι σωστά.</Error>
+
+        <!-- Error thrown when driver is not able to receive an invalid port valid. -->
+        <Error Key="DSInvalidPortError" Params="1" NativeErrorCode="1180" _locID="110.DSInvalidPortError">Καθορίστηκε εσφαλμένο %1%. Ελέγξτε τη ρύθμιση παραμέτρων σας.</Error>
+
+        <!-- Error thrown when the client private key properties are not provided while two-way SSL feature is enabled. -->
+        <Error Key="DSClientPrivateKeyPropsNeededError" Params="0" NativeErrorCode="1190" _locID="110.DSClientPrivateKeyPropsNeededError">Οι ιδιότητες ιδιωτικών κλειδιών πελάτη δεν παρέχονται όσο είναι ενεργοποιημένη η δυνατότητα SSL δύο δρόμων.</Error>
+
+        <!-- X509 or Windows Truststore error thrown when ssl handshake failed.-->
+        <Error Key="DSSslErrorMessage " Params="1" NativeErrorCode="1200" _locID="110.DSSslErrorMessage ">%1%</Error>
+		
+        <!-- Error thrown when Client certificate or Client key can not be read from the Client certificate or Client private key file. -->
+        <Error Key="DSClientCertOrKeyFileLoadError" Params="0" NativeErrorCode="1210" _locID="110.DSClientCertOrKeyFileLoadError">Δεν είναι δυνατή η φόρτωση του πιστοποιητικού προγράμματος-πελάτη ή του συνόλου ιδιωτικών κλειδιών προγράμματος-πελάτη μέσω των χαρακτηριστικών σύνδεσης ClientCert ή ClientPrivateKey. Βεβαιωθείτε ότι το αρχείο υπάρχει, έχει δικαιώματα ανάγνωσης και έχει τη σωστή μορφή PEM.</Error>
+
+      <!--Rapidjson Error Messages-->
+        <!-- Errors from rapidjson, rapidjson enum value is NativeErrorCode minus 2000. Messages from error.h in rapidjson library. -->
+        <Error Key="DSkParseErrorNone" Params="0" NativeErrorCode="2000" _locID="110.DSkParseErrorNone">Σφάλμα ανάλυσης JSON: Δεν υπάρχει σφάλμα.</Error>
+        <Error Key="DSkParseErrorDocumentEmpty" Params="0" NativeErrorCode="2001" _locID="110.DSkParseErrorDocumentEmpty">Σφάλμα ανάλυσης JSON: Το έγγραφο είναι κενό.</Error>
+        <Error Key="DSkParseErrorDocumentRootNotSingular" Params="0" NativeErrorCode="2002" _locID="110.DSkParseErrorDocumentRootNotSingular">Σφάλμα ανάλυσης JSON: Η ρίζα του εγγράφου δεν πρέπει να παρακολουθείται από άλλες τιμές.</Error>
+        <Error Key="DSkParseErrorValueInvalid" Params="0" NativeErrorCode="2003" _locID="110.DSkParseErrorValueInvalid">Σφάλμα ανάλυσης JSON: Μη έγκυρη τιμή.</Error>
+        <Error Key="DSkParseErrorObjectMissName" Params="0" NativeErrorCode="2004" _locID="110.DSkParseErrorObjectMissName">Σφάλμα ανάλυσης JSON: Λείπει ένα όνομα για το μέλος αντικειμένου.</Error>
+        <Error Key="DSkParseErrorObjectMissColon" Params="0" NativeErrorCode="2005" _locID="110.DSkParseErrorObjectMissColon">Σφάλμα ανάλυσης JSON: Λείπει μια άνω και κάτω τελεία μετά από ένα όνομα μέλους αντικειμένου.</Error>
+        <Error Key="DSkParseErrorObjectMissCommaOrCurlyBracket" Params="0" NativeErrorCode="2006" _locID="110.DSkParseErrorObjectMissCommaOrCurlyBracket">Σφάλμα ανάλυσης JSON: Λείπει ένα κόμμα ή ένα "}" μετά από ένα μέλος αντικειμένου.</Error>
+        <Error Key="DSkParseErrorArrayMissCommaOrSquareBracket" Params="0" NativeErrorCode="2007" _locID="110.DSkParseErrorArrayMissCommaOrSquareBracket">Σφάλμα ανάλυσης JSON: Λείπει κόμμα ή ']' μετά από ένα στοιχείο πίνακα.</Error>
+        <Error Key="DSkParseErrorStringUnicodeEscapeInvalidHex" Params="0" NativeErrorCode="2008" _locID="110.DSkParseErrorStringUnicodeEscapeInvalidHex">Σφάλμα ανάλυσης JSON: Εσφαλμένο δεκαεξαψήφιο ψηφίο μετά τη διαφυγή \\u σε συμβολοσειρά.</Error>
+        <Error Key="DSkParseErrorStringUnicodeSurrogateInvalid" Params="0" NativeErrorCode="2009" _locID="110.DSkParseErrorStringUnicodeSurrogateInvalid">Σφάλμα ανάλυσης JSON: Το ζεύγος υποκατάστατων στη συμβολοσειρά δεν είναι έγκυρο.</Error>
+        <Error Key="DSkParseErrorStringEscapeInvalid" Params="0" NativeErrorCode="2010" _locID="110.DSkParseErrorStringEscapeInvalid">Σφάλμα ανάλυσης JSON: Μη έγκυρος χαρακτήρας διαφυγής στη συμβολοσειρά.</Error>
+        <Error Key="DSkParseErrorStringMissQuotationMark" Params="0" NativeErrorCode="2011" _locID="110.DSkParseErrorStringMissQuotationMark">Σφάλμα ανάλυσης JSON: λείπει ένα εισαγωγικό κλεισίματος στη συμβολοσειρά.</Error>
+        <Error Key="DSkParseErrorStringInvalidEncoding" Params="0" NativeErrorCode="2012" _locID="110.DSkParseErrorStringInvalidEncoding">Σφάλμα ανάλυσης JSON: Μη έγκυρη κωδικοποίηση στη συμβολοσειρά.</Error>
+        <Error Key="DSkParseErrorNumberTooBig" Params="0" NativeErrorCode="2013" _locID="110.DSkParseErrorNumberTooBig">Σφάλμα ανάλυσης JSON: Αριθμός πολύ μεγάλος για να αποθηκευτεί σε διπλό.</Error>
+        <Error Key="DSkParseErrorNumberMissFraction" Params="0" NativeErrorCode="2014" _locID="110.DSkParseErrorNumberMissFraction">Σφάλμα ανάλυσης JSON: λείπει το τμήμα κλάσματος σε αριθμό.</Error>
+        <Error Key="DSkParseErrorNumberMissExponent" Params="0" NativeErrorCode="2015" _locID="110.DSkParseErrorNumberMissExponent">Σφάλμα ανάλυσης JSON: λείπει εκθέτης σε αριθμό.</Error>
+        <Error Key="DSkParseErrorTermination" Params="0" NativeErrorCode="2016" _locID="110.DSkParseErrorTermination">Σφάλμα ανάλυσης JSON: Η ανάλυση τερματίστηκε.</Error>
+        <Error Key="DSkParseErrorUnspecificSyntaxError" Params="0" NativeErrorCode="2017" _locID="110.DSkParseErrorUnspecificSyntaxError">Σφάλμα ανάλυσης JSON: Σφάλμα μη ειδικής σύνταξης.</Error>
+
+      <!-- Error thrown when the column doesn't exist. -->
+      <Error Key="InvalidColumnNum" Params="1" NativeErrorCode="2018" _locID="110.InvalidColumnNum">%1% δεν υπάρχει. BadColumnException.</Error>
+      
+      <!-- Error thrown when the user agent entry is invalid. -->
+      <Error Key="InvalidUserAgentEntry" Params="0" NativeErrorCode="2019" _locID="110.InvalidUserAgentEntry">Μη έγκυρη καταχώρηση εκπροσώπου χρήστη.</Error>
+    
+      <!-- Error thrown when the user agent comment is not enclosed in parentheses. -->
+      <Error Key="UserAgentCommentNotEnclosedInParen" Params="0" NativeErrorCode="2020" _locID="110.UserAgentCommentNotEnclosedInParen">Μη έγκυρη συμβολοσειρά χρήστη-εκπροσώπου. Ολόκληρο το σχόλιο πρέπει να είναι μέσα σε παρένθεση.</Error>
+
+      <!-- Error thrown when the user agent comment contains an invalid character. -->
+      <Error Key="InvalidCharacterInUserAgentComment" Params="1" NativeErrorCode="2021" _locID="110.InvalidCharacterInUserAgentComment">Βρέθηκε μη έγκυρο %1% χαρακτήρα στο σχόλιο χρήστη-εκπροσώπου.</Error>
+
+      <!-- Error thrown when the user agent product contains an invalid character. -->
+      <Error Key="InvalidCharacterInUserAgentProductName" Params="1" NativeErrorCode="2022" _locID="110.InvalidCharacterInUserAgentProductName">Βρέθηκε μη έγκυρο %1% χαρακτήρα στο όνομα προϊόντος χρήστη-εκπροσώπου.</Error>
+
+      <!-- Error thrown when the user agent product version contains an invalid character. -->
+      <Error Key="InvalidCharacterInUserAgentProductVer" Params="1" NativeErrorCode="2023" _locID="110.InvalidCharacterInUserAgentProductVer">Βρέθηκε μη έγκυρο '%1%' χαρακτήρα στην έκδοση προϊόντος χρήστη-εκπροσώπου.</Error>
+
+      <!-- Error thrown when an empty product name is specific in the user-agent entry. -->
+      <Error Key="UserAgentEmptyProductName" Params="0" NativeErrorCode="2024" _locID="110.UserAgentEmptyProductName">Το κενό όνομα προϊόντος δεν επιτρέπεται στην καταχώρηση χρήστη-εκπροσώπου.</Error>
+
+      <!-- Error thrown when an empty product version is specific in the user-agent entry. -->
+      <Error Key="UserAgentEmptyProductVer" Params="0" NativeErrorCode="2025" _locID="110.UserAgentEmptyProductVer">Η κενή έκδοση προϊόντος δεν επιτρέπεται στην καταχώρηση χρήστη-εκπροσώπου.</Error>
+
+      <!-- Error thrown when an invalid log level is specified. -->
+      <Error Key="InvalidLogLevel" Params="1" NativeErrorCode="2026" _locID="110.InvalidLogLevel">Καθορίστηκε μη έγκυρο "%1%" επιπέδου αρχείου καταγραφής.</Error>
+
+      <!-- Error generated when an instance of Simba::Support::Promise is destroyed before it it used to set it's corresponding Future's value/exception. -->
+      <Error Key="DSFutureNotSetAtPromiseDestruction" Params="0" NativeErrorCode="50410" _locID="110.DSFutureNotSetAtPromiseDestruction">Η μελλοντική τιμή/σφάλμα δεν έχει οριστεί πριν από την καταστροφή του γονικού αντικειμένου Promise.</Error>
+
+      <!-- Error thrown when it's attempted to set a Future multiple times. -->
+      <Error Key="DSFutureAlreadySet" NativeErrorCode="50411" _locID="110.DSFutureAlreadySet">Επιχειρήθηκε ο ορισμός μελλοντικής τιμής/σφάλματος μετά τον ορισμό της.</Error>
+
+      <!-- Error thrown when Future::Get is called on an un-set future. -->
+      <Error Key="DSFutureNotSet" NativeErrorCode="50412" _locID="110.DSFutureNotSet">Επιχειρήθηκε ο ορισμός μελλοντικής τιμής/σφάλματος μετά τον ορισμό της.</Error>
+
+      <!-- Error thrown when an error occurred while decompressing LZ4 frames. -->
+      <Error Key="DSLZ4FDecompressionError" Params="3" NativeErrorCode="60000" _locID="110.DSLZ4FDecompressionError">%1%Παρουσιάστηκε σφάλμα κατά την προσπάθεια αποσυμπίεσης πλαισίων LZ4. Η συνάρτηση LZ4 API %2% επέστρεψε σφάλμα. Λεπτομέρεια σφάλματος: %3%</Error>
+
+      <!-- Error thrown when the LZ4F_decompress function finished the decompression process but there is compressed data remaining that was not consumed. -->
+      <Error Key="DSLZ4FCompressedDataMissedError" Params="2" NativeErrorCode="60001" _locID="110.DSLZ4FCompressedDataMissedError">%1%Η αποσυμπίεση ολοκληρώθηκε με %2% byte συμπιεσμένων δεδομένων να μην έχουν καταναλωθεί.</Error>
+
+      <!-- Error thrown when the decompressed data size is smaller than expected. -->
+      <Error Key="DSLZ4FDecompressedDataSmallerThanExpectedError" Params="3" NativeErrorCode="60002" _locID="110.DSLZ4FDecompressedDataSmallerThanExpectedError">%1%Τα αποσυμπιεσμένα δεδομένα είναι μικρότερα από το αναμενόμενο. Το πραγματικό μέγεθος αποσυμπίεσης δεδομένων είναι %2% byte ενώ αναμένουμε %3% byte.</Error>
+
+      <!-- Error thrown when 0 bytes of compressed data is passed in for decompression but a non-zero bytes of decompressed data is expected. -->
+      <Error Key="DSLZ4FMissingCompressedDataError" Params="2" NativeErrorCode="60003" _locID="110.DSLZ4FMissingCompressedDataError">%1%Κανένα byte συμπιεσμένων δεδομένων δεν μεταβιβάστηκε για αποσυμπίεση, ενώ αναμένονται %2% byte αποσυμπιεσμένων δεδομένων.</Error>
+
+      <!-- Error thrown when 0 bytes of decompressed data is expected while a non-zero bytes of compressed data was passed in for decompression. -->
+      <Error Key="DSLZ4FIncorrectExpectedDecompressedDataSizeError" Params="2" NativeErrorCode="60004" _locID="110.DSLZ4FIncorrectExpectedDecompressedDataSizeError">%1%Μηδενικά byte αποσυμπιεσμένων δεδομένων αναμένονται ενώ %2% byte συμπιεσμένων δεδομένων μεταβιβάστηκαν.</Error>
+
+      <!-- Error thrown when a call to the SystemTimeToFileTime function fails. -->
+      <Error Key="DSSystemTimeToFileTimeError" Params="1" NativeErrorCode="60005" _locID="110.DSSystemTimeToFileTimeError">Παρουσιάστηκε σφάλμα κατά την κλήση της συνάρτησης SystemTimeToFileTime. Λεπτομέρεια σφάλματος: %1%</Error>
+
+      <!-- Error thrown when a call to the gettimeofday function fails. -->
+      <Error Key="DSgettimeofdayError" Params="1" NativeErrorCode="60006" _locID="110.DSgettimeofdayError">Παρουσιάστηκε σφάλμα κατά την κλήση της συνάρτησης gettimeofday. Κωδικός σφάλματος: %1%</Error>
+
+      <!-- Error thrown when there is a parsing error of the json.-->
+      <Error Key="JSONMemberNotFoundError" Params="1" NativeErrorCode="60007" _locID="110.JSONMemberNotFoundError">Σφάλμα ανάλυσης JSON: %1% μέλος δεν βρέθηκε.</Error>
+
+      <!-- Error thrown when an invalid header has been supplied to the HTTPHeaders::Set() function -->
+      <Error Key="DSHTTPInvalidHeaderStringError" Params="1" NativeErrorCode="60008" _locID="110.DSHTTPInvalidHeaderStringError">Γίνεται προσπάθεια να οριστεί μη έγκυρη κεφαλίδα: "%1%".</Error>
+
+      <!-- Error thrown when a base64 encoded string has the wrong length.-->
+      <Error Key="DSInvalidBase64EncodedStringLenError" Params="1" NativeErrorCode="60009" _locID="110.DSInvalidBase64EncodedStringLenError">Μη έγκυρο μήκος κωδικοποιημένης συμβολοσειράς base64 %1%.</Error>
+
+    </Package>
+</Messages>

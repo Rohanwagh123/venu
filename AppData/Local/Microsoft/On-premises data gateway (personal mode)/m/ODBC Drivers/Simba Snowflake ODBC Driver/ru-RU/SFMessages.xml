@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?driver SimbaSnowflake version=2.24.6.1017 ?>
+<!DOCTYPE Messages [<!ELEMENT Messages (Package*)>
+
+<!ELEMENT Package (Error*)>
+<!ATTLIST Package ID CDATA #REQUIRED>
+<!ATTLIST Package DefaultComponent CDATA #REQUIRED>
+
+<!ELEMENT Error (#PCDATA)>
+<!ATTLIST Error Key CDATA #REQUIRED>
+<!ATTLIST Error _locID CDATA "0">
+<!ATTLIST Error Component CDATA #IMPLIED>
+<!ATTLIST Error NativeErrorCode CDATA #REQUIRED>
+<!ATTLIST Error Params CDATA "0">]>
+<Messages>
+  <!-- Package SF_ERROR. ID corresponds to the SF_ERROR constant defined in
+       Snowflake.h
+  -->
+  <Package ID="102" DefaultComponent="Snowflake">
+    <!-- Error thrown when attempting to access an invalid column. -->
+    <Error Key="SFInvalidColumnIndex" Params="1" NativeErrorCode="1" _locID="102.SFInvalidColumnIndex">
+      Недопустимый индекс столбца: %1%.</Error>
+
+    <!-- Error thrown when cannot find the requested metadata column. -->
+    <Error Key="SFMetadataColumnNotFound" NativeErrorCode="2" _locID="102.SFMetadataColumnNotFound">
+      Столбец метаданных не найден.</Error>
+
+    <!-- Error thrown when result set traversal direction is not supported. -->
+    <Error Key="SFResultSetTraverseDirNotSupported" NativeErrorCode="3" _locID="102.SFResultSetTraverseDirNotSupported">
+      Направление обхода результирующего набора не поддерживается.</Error>
+
+    <Error Key="SFRestRequestFailed" Params="2" NativeErrorCode="4" _locID="102.SFRestRequestFailed">
+      Сбой запроса REST для URL-адреса %1%: %2%.
+    </Error>
+
+    <Error Key="SFStatementExecutionAborted" NativeErrorCode="5" _locID="102.SFStatementExecutionAborted">
+      Выполнение процесса прервано глобальными службами баз данных.
+    </Error>
+
+    <Error Key="SFAssertionFailure" Params="1" NativeErrorCode="6" _locID="102.SFAssertionFailure">
+      Сбой проверочного утверждения: %1%
+    </Error>
+
+    <Error Key="SFCurlCallFailed" Params="3" NativeErrorCode="7" _locID="102.SFCurlCallFailed">
+      Непредвиденный сбой вызова cURL %1% с кодом ошибки %2%: %3%
+    </Error>
+
+    <Error Key="SFConnectionFailed" Params="1" NativeErrorCode="8" _locID="102.SFConnectionFailed">
+      Не удалось подключиться к серверу. Код ошибки: %1%
+    </Error>
+
+    <Error Key="SFDisconnectFailed" Params="1" NativeErrorCode="9" _locID="102.SFDisconnectFailed">
+      Не удалось отключиться от сервера. Код ошибки: %1%
+    </Error>
+
+    <Error Key="SFExecuteQueryFailed" Params="3" NativeErrorCode="10" _locID="102.SFExecuteQueryFailed">
+      Не удалось выполнить запрос. Код ошибки: %1%, код ошибки GS: %2%, сообщение об ошибке GS: %3%
+    </Error>
+
+    <Error Key="SFMissingResultURL" NativeErrorCode="11" _locID="102.SFMissingResultURL">
+      Отсутствует URL-адрес результата для ответа в ходе выполнения.
+    </Error>
+
+    <Error Key="SFInvalidDecimalValue" Params="2" NativeErrorCode="12" _locID="102.SFInvalidDecimalValue">
+      Недопустимое десятичное значение: %1%, сообщение об ошибке: %2%
+    </Error>
+
+    <Error Key="SFUnsupportedDataTypeConversion" Params="2" NativeErrorCode="13" _locID="102.SFUnsupportedDataTypeConversion">
+      Исходный тип данных: %1%, целевой тип данных: %2%
+    </Error>
+
+    <Error Key="SFExecuteCancelFailed" Params="3" NativeErrorCode="14" _locID="102.SFExecuteCancelFailed">
+      Не удалось отменить запрос. Код ошибки: %1%, код ошибки GS: %2%, сообщение об ошибке GS: %3%
+    </Error>
+
+    <Error Key="SFExecuteQueryTimeout" Params="2" NativeErrorCode="15" _locID="102.SFExecuteQueryTimeout">
+      Время ожидания запроса истекло. Указанное пользователем время ожидания в секундах: %1%, прошло: %2%
+    </Error>
+
+    <Error Key="SFUnexpectedException" Params="1" NativeErrorCode="16" _locID="102.SFUnexpectedException">
+      Непредвиденное исключение: %1%
+    </Error>
+
+    <Error Key="SFInvalidConnStr" Params="2" NativeErrorCode="17" _locID="102.SFInvalidConnStr">
+      В строке подключения обнаружено %1% недопустимых ключей: %2%
+    </Error>
+
+    <Error Key="SFBindDataTypeUnsupported" Params="1" NativeErrorCode="18" _locID="102.SFBindDataTypeUnsupported">
+      Неподдерживаемый тип данных для переменной привязки: %1%
+    </Error>
+
+    <Error Key="SFBindDefaultValueUnsupported" Params="1" NativeErrorCode="19" _locID="102.SFBindDefaultValueUnsupported">
+      Значение по умолчанию для переменной привязки не поддерживаются: %1%
+    </Error>
+
+    <Error Key="SFArrayBindUnsupported" NativeErrorCode="20" _locID="102.SFArrayBindUnsupported">
+      Привязка массива не поддерживается
+    </Error>
+
+    <Error Key="SFStreamBindUnsupported" Params="1" NativeErrorCode="21" _locID="102.SFStreamBindUnsupported">
+      Потоковое значение для переменной привязки не поддерживается: %1%
+    </Error>
+
+    <Error Key="SFAutoIPDUnsupported" NativeErrorCode="22" _locID="102.SFAutoIPDUnsupported">
+      Автоматическое обнаружение параметров привязки не поддерживается
+    </Error>
+
+    <Error Key="SFMaxResultLimitExceeded" NativeErrorCode="23" _locID="102.SFMaxResultLimitExceeded">
+      Превышен максимальный размер результата запроса
+    </Error>
+
+    <Error Key="SFRestRequestCanceled" NativeErrorCode="24" _locID="102.SFRestRequestCanceled">
+      Запрос REST отменен.
+    </Error>
+
+    <Error Key="SFResultDownloadWorkerError" Params="1" NativeErrorCode="25" _locID="102.SFResultDownloadWorkerError">
+      Ошибка рабочего процесса скачивания результата: %1%
+    </Error>
+
+    <Error Key="SFInvalidResultChunkData" Params="1" NativeErrorCode="26" _locID="102.SFInvalidResultChunkData">
+      Недопустимые данные блока результата: %1%
+    </Error>
+
+    <Error Key="SFInvalidConnectionParameterValue" Params="2" NativeErrorCode="27" _locID="102.SFInvalidConnectionParameterValue">
+      Недопустимое значение параметра подключения: %1% (ключ: %2%)
+    </Error>
+
+    <Error Key="SFInsecureSSLLibUsed" Params="1" NativeErrorCode="28" _locID="102.SFInsecureSSLLibUsed">
+      Используется незащищенная библиотека SSL/TLS %1%, которая не поддерживает автоматическое управление списками отзыва сертификатов. Установите параметр SkipSSLCheck в конфигурации Snowflake в значение true, чтобы использовать эту библиотеку SSL, если вас не пугает связанная с ней уязвимость.
+    </Error>
+
+    <Error Key="SFNoSSLLibUsed" NativeErrorCode="29" _locID="102.SFNoSSLLibUsed">
+      Версия библиотеки SSL/TLS не найдена. Установите параметр SkipSSLCheck в конфигурации Snowflake в значение true, чтобы использовать предоставленный драйвер, если вас не пугает связанная с ним уязвимость.
+    </Error>
+
+    <Error Key="OktaConnectionFailed" Params="1" NativeErrorCode="30" _locID="102.OktaConnectionFailed">
+      Не удалось подключиться к Okta. Код ошибки: %1%
+    </Error>
+
+    <Error Key="SFPasswordNotFound" NativeErrorCode="31" _locID="102.SFPasswordNotFound">
+      Пароль не найден.
+    </Error>
+
+    <Error Key="SFUserNotFound" NativeErrorCode="32" _locID="102.SFUserNotFound">
+      Пользователь не найден.
+    </Error>
+
+    <Error Key="SFResultJsonParser2Failed" NativeErrorCode="33" _locID="102.SFResultJsonParser2Failed">
+      Не удалось разобрать JSON-блок результата. Сообщение об ошибке: %1%
+    </Error>
+
+    <Error Key="SFAuthenticatorVerificationFailed" Params="3" NativeErrorCode="34" _locID="102.SFAuthenticatorVerificationFailed">
+      Указанная структура проверки подлинности не поддерживается. Структура проверки подлинности: %1%, URL-адрес токена: %2%, URL-адрес единого входа: %3%
+    </Error>
+
+    <Error Key="SFSamlResponseVerificationFailed" Params="2" NativeErrorCode="35" _locID="102.SFSamlResponseVerificationFailed">
+      Указанная структура проверки подлинности и место назначения проверочного утверждения SAML не совпадают. Ожидалось: %1%, обратная отправка: %2%
+    </Error>
+
+    <!-- Error thrown when the timestamp is out of range in binding. -->
+    <Error Key="SFBindOutOfRangeTimestamp" Params="3" NativeErrorCode="36" _locID="102.SFBindOutOfRangeTimestamp">
+      Метка времени выходит за пределы допустимого диапазона для преобразования из местного часового пояса в UTC. Год: %1%, месяц: %2%, день: %3%.
+    </Error>
+
+    <!-- Error thrown when the timestamp is out of range in fetching. -->
+    <Error Key="SFFetchOutOfRangeTimestamp" Params="3" NativeErrorCode="37" _locID="102.SFFetchOutOfRangeTimestamp">
+      Метка времени выходит за пределы допустимого диапазона для преобразования из UTC в местный часовой пояс. Год: %1%, месяц: %2%, день: %3%.
+    </Error>
+
+    <!-- Error thrown when Authentication by Saml failed. -->
+    <Error Key="SFAuthWebBrowserFailed" Params="1" NativeErrorCode="38" _locID="102.SFAuthWebBrowserFailed">
+      Не удалось проверить подлинность пользователя посредством внешнего браузера: %1%.
+    </Error>
+
+    <Error Key="SFFileTransferUnsupported" NativeErrorCode="39" _locID="102.SFFileTransferUnsupported">
+      Команда put или get не поддерживается.
+    </Error>
+
+    <Error Key="SFFileTransferError" Params="1" NativeErrorCode="40" _locID="102.SFFileTransferError">
+      При выполнении передачи файла произошла ошибка: %1%.
+    </Error>
+
+    <!-- Error thrown when ValidateSessionParam is turned on and invalid session parameters of database, schema, warehouse or role are found. -->
+    <Error Key="SFInvalidSessionParams" Params="1" NativeErrorCode="41" _locID="102.SFInvalidSessionParams">
+      Invalid connection parameter value: %1%
+    </Error>
+
+    <!-- Error thrown when an invalid DSN is set. -->
+    <Error Key="DSNError" Params="1" NativeErrorCode="2000" _locID="102.DSNError">Недопустимое имя DSN: %1%.</Error>
+
+    <!-- Error thrown when an error occurs while trying to write a configuration value. -->
+    <Error Key="WriteError" Params="1" NativeErrorCode="2010" _locID="102.WriteError">Ошибка записи значения конфигурации: %1%</Error>
+
+    <!-- Error thrown when a required token is not present. -->
+    <Error Key="SFTokenNotFound" NativeErrorCode="41" _locID="102.SFTokenNotFound">
+      Токен не найден
+    </Error>
+
+    <!-- Error thrown when the private key is not loaded correctely -->
+    <Error Key="SFJwtAuthenticationError" Params="1" NativeErrorCode="42" _locID="102.SFJwtAuthenticationError">
+      Ошибка при использовании закрытого ключа: %1%.
+    </Error>
+
+    <!-- Error thrown when the custom connection attribute is not loaded correctly -->
+    <Error Key="SFCustomConnAttrError" NativeErrorCode="43" _locID="102.SFCustomConnAttrError">
+      Ошибка при загрузке пользовательского атрибута: %1%.
+    </Error>
+
+    <!-- Error thrown when settings are not marshaled correctly -->
+    <Error Key="SFSettingError" NativeErrorCode="44" _locID="102.SFSettingError">
+      Ошибка финализации параметра: %1%.
+    </Error>
+
+    <!-- Error thrown when settings are not marshaled correctly -->
+    <Error Key="SFPrivKeyFile" NativeErrorCode="45" _locID="102.SFPrivKeyFile">
+      Ошибка при загрузке файла закрытого ключа: %1%.
+    </Error>
+
+  </Package>
+</Messages>

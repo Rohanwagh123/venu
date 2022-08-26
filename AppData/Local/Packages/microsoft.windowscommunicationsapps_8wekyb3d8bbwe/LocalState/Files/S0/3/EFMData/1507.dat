@@ -1,0 +1,1092 @@
+
+
+
+
+
+
+<html lang="en">
+  <head><meta name="x-apple-disable-message-reformatting"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"><meta content="IE=edge">
+    
+<style type="text/css"><!--
+@font-face
+	{font-family:'Montserrat';
+	font-style:normal;
+	font-weight:400;}
+@font-face
+	{font-family:'Montserrat';
+	font-style:bold;
+	font-weight:700;}
+.ReadMsgBody
+	{width:100%;}
+.ExternalClass
+	{width:100%;}
+.linkAddress, .linkAddress a
+	{color:inherit!important;
+	text-decoration:none!important;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div
+	{line-height:100%;
+	font-family:'Open Sans',Arial,sans-serif!important;}
+body
+	{-webkit-text-size-adjust:100%!important;
+	margin:0!important;
+	padding:0!important;}
+p
+	{margin:0em 0;}
+table td
+	{border-collapse:collapse;}
+img
+	{outline:0;}
+a img
+	{border:none;}
+ul
+	{margin:0;
+	padding:20px 25px 0px 25px!important;
+	font-family:'Open Sans',Arial,sans-serif!important;}
+li
+	{padding-bottom:20px!important;
+	font-family:'Open Sans',Arial,sans-serif!important;}
+--></style>
+    
+<style type="text/css"><!--
+@media only screen and (max-width: 480px){
+.container
+	{width:100%!important;}
+.footer
+	{width:auto!important;
+	margin-left:0;}
+.mobile-hidden
+	{display:none!important;}
+img
+	{max-width:100%!important;
+	height:auto!important;
+	max-height:auto!important;}
+.header img
+	{max-width:100%!important;
+	height:auto!important;
+	max-height:auto!important;}
+.tableBlock
+	{width:100%!important;}
+.responsive-td-padding_medium
+	{width:100%!important;
+	display:block!important;
+	padding:0% 0% 5%!important;}
+.responsive-td-padding_inline
+	{width:100%!important;
+	display:block!important;}
+.responsive-td-padding_tall
+	{width:100%!important;
+	display:block!important;
+	padding:5% 0% 5%!important;}
+.mobile-padding-small
+	{padding:2.5% 2.5% 2.5% 2.5%!important;}
+.mobile-padding-small-2
+	{padding:2.5% 0% 2.5% 0%!important;}
+.mobile-padding-medium
+	{padding:5% 5% 5% 5%!important;}
+.mobile-padding-medium-2
+	{padding:5% 0% 5% 0%!important;}
+.mobile-padding-large
+	{padding:7.5% 7.5% 7.5% 7.5%!important;}
+.mobile-padding-large-2
+	{padding:7.5% 0% 7.5% 0%!important;}
+.coursera-logo
+	{width:116px!important;}
+body, .tb_properties
+	{font-family:'Open Sans',Arial,sans-serif!important;
+	font-size:16px!important;
+	color:#000000!important;
+	padding:0px!important;}
+.buttonstyles
+	{font-family:'Open Sans',Arial,sans-serif!important;
+	font-size:14px!important;
+	color:#FFFFFF!important;
+	padding:20px 30px!important;
+	font-weight:bold;}
+h1
+	{font-family:'Open Sans',Arial,sans-serif!important;
+	font-size:24px!important;
+	color:#000000!important;
+	line-height:1.25!important;
+	font-weight:bold;}
+h2
+	{font-family:'Open Sans',Arial,sans-serif!important;
+	font-size:24px!important;
+	color:#000000!important;
+	line-height:1.25!important;
+	font-weight:bold;}
+h3
+	{font-family:'Open Sans',Arial,sans-serif!important;
+	font-size:16px!important;
+	line-height:1.25!important;
+	font-weight:bold;}
+.headline
+	{font-size:24px!important;
+	line-height:30px!important;}
+.mobile-hidden
+	{display:none!important;}
+.responsive-td
+	{width:100%!important;
+	display:block!important;
+	padding:0px!important;}
+.line_height_gmail_fix
+	{line-height:0px!important;}
+.line_height_mobile
+	{line-height:6px!important;}
+}
+@media only screen and (max-width: 640px){
+#MessageViewBody, #MessageWebViewDiv
+	{width:100%!important;}
+.container
+	{width:100%!important;
+	min-width:100%!important;}
+.mobile-hidden
+	{display:none!important;}
+.heroImage
+	{width:100%!important;}
+.expand-vertical
+	{padding-top:5%!important;}
+.headline
+	{font-size:24px!important;
+	line-height:30px!important;}
+table[class=wrapper], table.wrapper
+	{width:100%!important;
+	margin-left:0px!important;}
+.heroImage
+	{width:100%!important;}
+.force-col
+	{display:block;
+	width:100%!important;
+	padding:0% 0% 0% 0%!important;}
+.middle-sec
+	{padding-bottom:5%!important;}
+.linkAddress, .linkAddress a
+	{color:inherit!important;
+	text-decoration:none!important;}
+.mobile-padding-small-2
+	{padding:2.5% 0% 2.5% 0%!important;}
+.partnerLogo
+	{max-width:100%!important;
+	height:auto!important;
+	max-height:100px!important;}
+.headline-wrapper
+	{padding:5% 5% 2.5%!important;}
+.header-outer-wrapper
+	{padding-top:5%!important;
+	padding-left:5%!important;
+	padding-right:5%!important;}
+.force-col-noPadd
+	{display:block;
+	width:90%!important;
+	min-width:90%!important;
+	padding-left:5%!important;
+	padding-right:5%!important;}
+.force-col-horzCardImage, .force-col-horzCardText
+	{display:block;}
+.force-col-horzCardText
+	{padding-top:0%!important;
+	min-width:95%!important;
+	width:95%!important;}
+.mobile-padding-medium
+	{padding:5% 5% 5% 5%!important;}
+.coursera-plus-logo
+	{width:203px!important;}
+img.fluid
+	{width:100%!important;}
+.button-space
+	{padding:5% 10px 7.5%!important;}
+.center_block
+	{margin:0 auto!important;}
+}
+--></style><!--[if mso]><style type="text/css">/*Begin Outlook Font Fix*/body,table,td{font-family:Arial,sans-serif;color:#000000;}p{line-height: 0px !important;}a{text-decoration: none;}/*End Outlook Font Fix */</style><![endif]-->
+  </head>
+   <body bgcolor="#F5F7F8" style="margin:0px; -webkit-text-size-adjust:none; background-color:#F5F7F8; font-family:'Open Sans',Arial,sans-serif!important; line-height:125%; font-size:16px; color:#000000; padding:0px"><style type="text/css"><!--
+div.preheader
+	{display:none!important;}
+--></style>
+<div class="preheader" style="font-size:1px; display:none!important">Ready to learn something new?</div>    
+    <div style="font-size:0; line-height:0"><img src="https://click.email.coursera.org/open.aspx?ffcb10-ff0115747d6504-fe3516797667047e741475-fe3111717164047e751c79-ff9d1670-fe2d157072640d7c7d1478-fec1157470610d7b&amp;d=110009&amp;bmt=0" width="1" height="1" alt=""></div>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="background-color:#F5F7F8">
+        <tr><td align="center" valign="top"></td></tr>
+        <tr><td align="center"><table cellspacing="0" cellpadding="0" border="0" width="624" class="container" align="center" style="border-image:initial; border-width:15px 12px 0px; border-style:solid; border-color:#F5F7F8"><tr><td><table class="tb_properties" cellspacing="0" cellpadding="0" bgcolor="#F5F7F8" width="100%" style="font-size:16px; font-family:'Open Sans',Arial,sans-serif!important; color:#000000; background-color:#F5F7F8"> 
+                    
+<tr><td align="center"><div style="display:none; font-size:0px; color:transparent; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden"> 
+͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏<wbr>͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏<wbr>͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏<wbr>͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏
+<wbr>͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏<wbr>͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏<wbr>͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏<wbr>͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏
+<wbr>͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏<wbr>͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏<wbr>͏‌&nbsp;͏‌&nbsp;͏‌&nbsp;͏‌
+</div><table width="90%" cellspacing="0" cellpadding="0" style="margin:0 auto"><tr><td align="center" style="padding:0% 5% 0% 5%; font-size:0px; line-height:0px"><a href="https://click.email.coursera.org/?qs=ebe7e68ba9c965a771a653aa87edf9d3437e1436f32ac1278547076bedad218157080de0411fbcc2a684dd9fdd19082912d4da0ed96198d0db70d8d6c380e76b" title="Coursera | "><img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-misc.s3.amazonaws.com/mailspin/prod/11_03_2020_18_12_04_coursera-wordmark-blue.png?w=240&amp;h=34" alt="Coursera | " height="auto" width="120" class="coursera-logo" style="display:inline-block; text-align:left; height:auto; width:120px; padding:0%"></a></td></tr></table></td></tr>
+ 
+                    <tr><td align="center" valign="top"><table cellpadding="0" cellspacing="0" width="100%" style="background-color:#FFFFFF; min-width:100%; border-width:15px 0px 15px 0px; border-style:solid; border-color:#F5F7F8">
+                            
+                            
+                            <tr><td align="left" dir="ltr" style="padding:7.5% 5% 2.5%; font-family:'Open Sans',Arial,sans-serif!important"><span class="body" style="font-size:24px; line-height:30px; color:#1F1F1F; font-weight:bold">Recommendations for you.</span></td></tr>
+
+                            
+                            
+                            
+                            <tr><td align="left" dir="ltr" style="padding:0% 5% 7.5%; font-family:'Open Sans',Arial,sans-serif!important"><span class="body" style="font-size:16px; line-height:20px; color:#1F1F1F; font-weight:normal; display:inline-block">We combed our catalog and found courses that we think match your interests. Browse our recommendations below, and start learning something new today!</span></td></tr>
+
+                            
+                            <tr><td bgcolor="#F5F7F8" style="padding:5% 0% 0%; font-size:1px; line-height:1px; background-color:#F5F7F8">&nbsp;</td></tr>
+                            
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae4279ad0e280745b20077810749b6481ad5c89364436e577d559c0ce98bbd3f10daa4253dfc4cc5c6f0907f865c54d2f4a6c77131a00628d011">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/95/77558056d811e79f95119f98b3ba96/visite-google-datacenter-14.jpg?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae4279ad0e280745b20077810749b6481ad5c89364436e577d559c0ce98bbd3f10daa4253dfc4cc5c6f0907f865c54d2f4a6c77131a00628d011" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Data Engineering, Big Data, and Machine Learning on GCP</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google Cloud</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#1F1F1F; font-weight:bold; border-radius:8px; background-color:#F7A360; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Specialization
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">5 courses</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae428a1d849773155ac1763b9ed54034f84e7b9b76e354ef31d81c885008f4974a597a6a38ed10828ba425375c321f5a3ec15f9ff3620dd793e0">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/40/08bebaea2d4b479ce471a4d14679d8/BD-and-ML-Fundamentals-v3.jpg?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae428a1d849773155ac1763b9ed54034f84e7b9b76e354ef31d81c885008f4974a597a6a38ed10828ba425375c321f5a3ec15f9ff3620dd793e0" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Building Resilient Streaming Analytics Systems on Google Cloud</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google Cloud</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#1F1F1F; font-weight:bold; border-radius:8px; background-color:#F3C800; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Course
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">1 course</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae420af85b42019b3bd44698d65455fb2fe00db3d26bf458af15a90477e978fd608eb404360b39daffcfd68ef40c702b396e4e20b2852487fb80">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/63/c6c427d9244493b8074cd432eab090/DE.jpg?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae420af85b42019b3bd44698d65455fb2fe00db3d26bf458af15a90477e978fd608eb404360b39daffcfd68ef40c702b396e4e20b2852487fb80" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Preparing for Google Cloud Certification: Cloud Data Engineer</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google Cloud</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#FFFFFF; font-weight:bold; border-radius:8px; background-color:#382D8B; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Professional Certificate
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">6 courses</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42da2e32352561f21fb00be4b7d1d718cc93a34a56f11f2a697f35da0e6879c090013851f99b4399c50c3336d54c7b1d44fd9802f4c03fad5e">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/30/642985a29449dba4ed46240a482e3a/new-ml-on-gcp-logo.jpeg?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42da2e32352561f21fb00be4b7d1d718cc93a34a56f11f2a697f35da0e6879c090013851f99b4399c50c3336d54c7b1d44fd9802f4c03fad5e" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Preparing for Google Cloud Certification: Machine Learning Engineer</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google Cloud</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#FFFFFF; font-weight:bold; border-radius:8px; background-color:#382D8B; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Professional Certificate
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">9 courses</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42f4b59df678064613fe078112ef75473f5782a3070ad00458647e763b13f404fe90dce8fceb66a9404b703c42f1784385259365823f930369">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/ac/2b9afa21c2425d934f8ac83f8bdd5b/security.png?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42f4b59df678064613fe078112ef75473f5782a3070ad00458647e763b13f404fe90dce8fceb66a9404b703c42f1784385259365823f930369" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Preparing for Google Cloud Certification: Cloud Security Engineer</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google Cloud</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#FFFFFF; font-weight:bold; border-radius:8px; background-color:#382D8B; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Professional Certificate
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">8 courses</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae4283263e0258b1fe7db584966673fba8201d84472733120c94bbc19e331fa8b61b45e93677090a3947b609e47391efd3f5bc1b41e1d0c539cb">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/18/7cb0a0032c11e99a22b596a6eba47f/Logo-PDE-2018-12-18.png?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae4283263e0258b1fe7db584966673fba8201d84472733120c94bbc19e331fa8b61b45e93677090a3947b609e47391efd3f5bc1b41e1d0c539cb" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Preparing for the Google Cloud Professional Data Engineer Exam</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google Cloud</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#1F1F1F; font-weight:bold; border-radius:8px; background-color:#F3C800; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Course
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">1 course</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae4208f0f2ef53548fe44a61519338a8cce8ab87372023ea621bc5ecc0f04cd7fb540545d2067b1c264b404b472cececb10ac283686dedd64097">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/d7/ae085568e94de29ca34917dfbae02a/BD-and-ML-Fundamentals-v3.jpg?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae4208f0f2ef53548fe44a61519338a8cce8ab87372023ea621bc5ecc0f04cd7fb540545d2067b1c264b404b472cececb10ac283686dedd64097" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Modernizing Data Lakes and Data Warehouses with Google Cloud</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google Cloud</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#1F1F1F; font-weight:bold; border-radius:8px; background-color:#F3C800; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Course
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">1 course</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42a2cf4cbb74c0b9062a75d5074f544eaec46d2de5b4161432765c12d513e52b6874342cea42773a160d909fca4c5305af85f94d94126def16">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/e3/d2a90321c54cfcb577896c8c21e07e/BD-and-ML-Fundamentals-v3.jpg?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42a2cf4cbb74c0b9062a75d5074f544eaec46d2de5b4161432765c12d513e52b6874342cea42773a160d909fca4c5305af85f94d94126def16" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Smart Analytics, Machine Learning, and AI on GCP</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google Cloud</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#1F1F1F; font-weight:bold; border-radius:8px; background-color:#F3C800; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Course
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">1 course</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42e1eae079fd9e63a6c566564b6f678e5518a34527b85544fc1d481a1928c3a345c73ace540a1c98196eeb4bca1eabde19c8fca2aed61342ca">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/51/f6514ea43b4403a8a1be1d9bcd2cf8/BD-and-ML-Fundamentals-v3.jpg?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42e1eae079fd9e63a6c566564b6f678e5518a34527b85544fc1d481a1928c3a345c73ace540a1c98196eeb4bca1eabde19c8fca2aed61342ca" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Building Batch Data Pipelines on Google Cloud</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google Cloud</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#1F1F1F; font-weight:bold; border-radius:8px; background-color:#F3C800; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Course
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">1 course</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42f0c5c312e0f63b189141f94b5a6f47082aad82a984d99262f5643b49090297f4bd93f0db6ab0b36867641882150644a1a8006d598983debb">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/8a/f7f459f9674408947edb8e594a5da3/1200x600_PgM.png?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42f0c5c312e0f63b189141f94b5a6f47082aad82a984d99262f5643b49090297f4bd93f0db6ab0b36867641882150644a1a8006d598983debb" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Google Project Management:</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#FFFFFF; font-weight:bold; border-radius:8px; background-color:#382D8B; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Professional Certificate
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">6 courses</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae424f9e2342e9c0ff3b24dffe84088744f62d96709e18cf0f2c4ac9456846701de3f42ef4c754e8f5a201db7fbf489a959db2443c8238b5fd350f1ef7ecf79a91a9">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/a1/b5d6d29da941b0ab8b27ac00775299/DBImageCoursera.png?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae424f9e2342e9c0ff3b24dffe84088744f62d96709e18cf0f2c4ac9456846701de3f42ef4c754e8f5a201db7fbf489a959db2443c8238b5fd350f1ef7ecf79a91a9" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Apache Spark (TM) SQL for Data Analysts</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Databricks</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#1F1F1F; font-weight:bold; border-radius:8px; background-color:#F3C800; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Course
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">1 course</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae4294077d64a8d657455a4a6b8f73270105f874e0c85f76c00fa841343c9f6fa076bd28134d16bb21015a55834b3c84fe349748e11c5ada5ea7de3fa54c1085063c">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/20/759964989244b2b7f003a2901348a1/Cloud_Digital_Leader_Specialization_1200x1200_dark.png?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae4294077d64a8d657455a4a6b8f73270105f874e0c85f76c00fa841343c9f6fa076bd28134d16bb21015a55834b3c84fe349748e11c5ada5ea7de3fa54c1085063c" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Google Cloud Digital Leader Training</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google Cloud</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#FFFFFF; font-weight:bold; border-radius:8px; background-color:#382D8B; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Professional Certificate
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">4 courses</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42ef9b1db6e8282a65633aee7f3400cb4738e5e130b1624943aa3de8b358eb90e137dd8cfd8aa634d61027865694bc048ee50578e22288e2cf8f5208833af24d45">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/a8/c5509017f511e8841b697778604607/new-ml-on-gcp-logo.png?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42ef9b1db6e8282a65633aee7f3400cb4738e5e130b1624943aa3de8b358eb90e137dd8cfd8aa634d61027865694bc048ee50578e22288e2cf8f5208833af24d45" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">TensorFlow on Google Cloud</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google Cloud</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#1F1F1F; font-weight:bold; border-radius:8px; background-color:#F3C800; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Course
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">1 course</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42c0f9cf57ddd710d83a881677d3d628f5f8c4aa2899b0d07c9d4a19fd371919ece8fd74167e04f0a443c6b593fca1739fdff0311cb492ae328e75e7a5d58de928">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/a5/85a280dea811e794c0699a51ced2c2/course-1_v2.jpg?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42c0f9cf57ddd710d83a881677d3d628f5f8c4aa2899b0d07c9d4a19fd371919ece8fd74167e04f0a443c6b593fca1739fdff0311cb492ae328e75e7a5d58de928" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Exploring ​and ​Preparing ​your ​Data with BigQuery</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">Google Cloud</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#1F1F1F; font-weight:bold; border-radius:8px; background-color:#F3C800; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Course
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">1 course</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+
+
+<tr>
+    <td valign="top" align="center" style="background-color:#ffffff; padding:0% 5%">
+        <table dir="ltr" border="0" align="center" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" style="width:90px; padding:35px 0% 0% 0%">
+                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42ae7ed6d02fa94272c3f5b62e0e6e28eb02a604a18f3f70d4890a6e4ad7c7bf80a13a56bdebd6e42890e4fe46490b3d7013dee3e6b97120da2424a27231215352">
+                        <img width="80" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/03/b2f7203b7a11e994812fbcfbb84700/DSV1069_Nav_Build_1200x1200.png?w=160&amp;h=160&amp;fit=crop&amp;crop=entropy" alt="Icon" style="display:block; width:80px">
+                        </a>
+                    </td>
+                    <td align="left" valign="top" style="padding:28px 0% 0% 0%; line-height:0px; font-size:0px">
+                        <table border="0" align="center" width="100%">
+                            <tr><td valign="top" style="padding-bottom:6px; line-height:6px; font-family:'Open Sans',Arial,sans-serif">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42ae7ed6d02fa94272c3f5b62e0e6e28eb02a604a18f3f70d4890a6e4ad7c7bf80a13a56bdebd6e42890e4fe46490b3d7013dee3e6b97120da2424a27231215352" style="text-decoration:none">
+                                <span style="font-size:20px; line-height:28px; font-weight:600; color:#0056D2">Data Wrangling, Analysis and AB Testing with SQL</span>
+                                
+                                <br><br>
+                              <span style="font-size:14px; line-height:20px; color:#1F1F1F; font-weight:bold">University of California, Davis</span>
+                                
+                                <br><br>
+                                <table align="left" style="margin:0px">
+  <tr>
+    <td valign="middle" style="padding:0px 4px 0px 0px; font-size:0px; line-height:0px">
+      <table cellpadding="0" cellspacing="0" style="display:block">
+          <tr>
+              <td style="text-align:center; font-size:12px; line-height:16px; color:#1F1F1F; font-weight:bold; border-radius:8px; background-color:#F3C800; padding:4px 8px; font-family:'Open Sans',Arial,sans-serif">
+                  Course
+              </td>
+          </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+                                
+                                
+                                </a>
+                            </td></tr> 
+                            <tr><td>
+                                <span style="font-size:14px; line-height:18px; color:#1F1F1F; font-family:'Open Sans',Arial,sans-serif">1 course</span>
+                            </td></tr>
+                            
+                        </table>
+                    </td></tr></tbody></table></td></tr> 
+ 
+
+
+
+ 
+
+                            
+                            <tr><td style="font-size:6px; height:6px; line-height:6px; mso-line-height-rule:exactly">&nbsp;</td></tr>
+                            
+
+
+<tr>
+    <td class="button-space" align="center" style="padding:5% 0%">
+        <table height="48" width="auto" role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:auto; border:1px solid #FFFFFF; background:#0056D2; border-radius:4px">
+            <tr>
+                <td height="48" style="text-align:center; padding-left:25px; padding-right:25px">
+                    <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae420192bfd080615f5b94678cbc7ac9f622a3e348d6e9f6917e727303614cbab5c1cb0758d7cb6fbc5189e695d07c4ab8e008210ddf5a948503" style="font-family:'Open Sans',Arial,sans-serif!important; font-weight:bold; font-size:16px; line-height:20px; text-align:center; text-decoration:none; display:block">
+                        <span style="color:#FFFFFF">See Catalog</span>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr> 
+
+ 
+<tr><td style="font-size:15px; height:15px; line-height:15px; mso-line-height-rule:exactly">&nbsp;</td></tr>
+                            
+                        </table></td></tr>
+                    
+
+<tr>
+    <td align="left" valign="top" style="padding:0% 0%">
+        <table cellpadding="0" cellspacing="0" width="100%" style="background-color:#F5F7F8; min-width:100%">
+            <tr>
+                <td style="padding:0% 0%">
+                    <table cellpadding="0" cellspacing="0" align="center">
+                        <tr>
+                            <td class="mobile-padding-medium" align="center" style="padding:2.5% 0% 2.5% 0%">
+                                <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42b375274e34216d9e6984f6c7d0b7f9080f7669780b1eadb7ae7072af69f6018e8b6998e12daec981766ef8e087b7d3b4520a9c057905d04d" title="Footer Logo">
+                                    <img class="coursera-logo" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-misc.s3.amazonaws.com/mailspin/prod/12_03_2020_03_28_01_Coursera-black-BG-F5F7F8.png?w=240&amp;h=34" alt="Coursera" height="auto" width="120" style="display:block; text-align:center; height:auto; width:120px">
+                                </a>
+                            </td>
+                        </tr>
+                       <tr>
+                            <td align="center" style="padding:2.5% 0% 2.5% 0%">
+                                <table style="display:inline-block">
+                                    <tr>
+                                        <td style="padding:0px 7px">
+                                            <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae427f62360438c9669942c9fb10acf0dfe82b9b5a7b49b841daf5a6c7585bfcacc413e41f2f8a7246fd01f31f1c5f1d89ae112d886cbbdc24b6">
+                                                <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-misc.s3.amazonaws.com/mailspin/prod/02_02_2022_04_31_22_badge_mac_app_store_130w_2x.png" alt="App Store" width="auto" height="40" style="display:block; width:auto!important; height:40px!important">
+                                            </a>
+                                        </td>
+                                        <td style="padding:0px 8px">
+                                            <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42c0e1ef5c0087b67fd1b208baf3a04e3821cc01e97af817d2e7740402513d1d11e3b210161adfa8944e6b109fb93c7dfbfea07638a99900ea">
+                                                <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-misc.s3.amazonaws.com/mailspin/prod/06_23_2021_20_00_57_GP_EN.png?trim=color&amp;h=80&amp;w=266&amp;fit=scale" alt="Android" width="auto" height="40" style="display:block; width:auto!important; height:40px!important">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                       
+                       <tr>
+                            <td align="center" style="padding:2.5% 0% 2.5% 0%">
+                                <table style="display:inline-block; vertical-align:middle">
+                                    <tr>
+                                        <td style="padding:0px 10px">
+                                            <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae4298e1d150b4e80b947abdbb0a9cf55c1650defe7746ebc92a6d0779ae4188abad6fc90f7eb2da4af8c7970c3b774d0a34cf5e93f6b8e51221" style="font-size:1px">
+                                                <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-misc.s3.amazonaws.com/mailspin/prod/03_18_2020_19_35_00_FB.png" alt="Visit us on Facebook" width="8" height="auto" style="display:block; width:8px; height:auto">
+                                            </a>
+                                        </td>
+                                        <td style="padding:0px 10px">
+                                            <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42323133ef0d452e1ca1f12f79ea3a379ed0ada1feb6dbbea2bc4b3f0b5e08bfa679009726323cff6b24e9428e0f213842ef4314f8c8a4d6e3" style="font-size:1px">
+                                                <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-misc.s3.amazonaws.com/mailspin/prod/03_18_2020_19_34_30_TW.png" alt="Visit us on Twitter" width="21" height="auto" style="display:block; width:21px; height:auto">
+                                            </a>
+                                        </td>
+                                        <td style="padding:0px 10px">
+                                            <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae424e8cfe8d916096ed5ff3eeb26133b68be5f639df3a3d48946ea2f5068c7dbf6afc4260023230e3818781e34e8060bef00081f01e23c554d0" style="font-size:1px">
+                                                <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-misc.s3.amazonaws.com/mailspin/prod/03_18_2020_19_33_42_IG.png" alt="Visit us on Instagram" width="20" height="auto" style="display:block; width:20px; height:auto">
+                                            </a>
+                                        </td>
+                                        <td style="padding:0px 10px">
+                                            <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae42f7c47ecb9ee2861e5d210cbacb9ee2f879c6cf92acc992b364e98ce48d46cc5c1e51a1acd8a0edbc4262fbd58dfed7e746e001c324d57cee" style="font-size:1px">
+                                                <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-misc.s3.amazonaws.com/mailspin/prod/03_18_2020_19_34_15_LN.png" alt="Visit us on LinkedIn" width="18" height="auto" style="display:block; width:18px; height:auto">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="center" style="padding:2.5% 0% 5% 0%; text-align:center; font-family:'Open Sans',Arial,sans-serif!important">
+                                <div style="font-family:'Open Sans',Arial,sans-serif!important; font-size:12px">
+                                    <span style="font-size:12px; line-height:16px; color:#1F1F1F; font-weight:normal">
+                                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae4267a394b3c6e70da9d93465bd1926e05623a5ba8ed3410080b1f193e5b5b1331fcb455c27e295c85730a5b0085ffb550a35f24e79f404c00f" style="color:#0056D2!important; text-decoration:underline!important; font-family:'Open Sans',Arial,sans-serif!important; font-size:12px">Help</a>&nbsp;&nbsp;|&nbsp;
+
+                                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae422e7e0b82dbbec13ae26837df0683d06215ce5f738a927a96877e94617cb47cc9ba06751f4d2abccc1684719089a2e0ab1d7411c9cec10228" style="color:#0056D2!important; text-decoration:underline!important; font-family:'Open Sans',Arial,sans-serif!important; font-size:12px">Coursera for Business</a>
+                                            &nbsp;&nbsp;|&nbsp;
+                                                                              
+                                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae4242a2a1d6e9622668006ba37fac91b7f349371ed1b152ef0de35ffd73f56be6791f7864710531924b86bc861cf003543ba28ea7bff2aceee0" style="color:#0056D2!important; text-decoration:underline!important; font-family:'Open Sans',Arial,sans-serif!important; font-size:12px">Privacy Notice</a>
+                                        &nbsp;&nbsp;|&nbsp;
+                                            <a href="https://click.email.coursera.org/unsub_center.aspx?qs=233281cba4a51e451745582d096b3610262ff2aa7f8211c363509c48a95e93507fe2ee429106e11e76258f553fa4f4dd9e3a70e4ddd38a375e88fc8466b1c517314cb73b1f9e41ab" style="color:#0056D2!important; text-decoration:underline!important; font-family:'Open Sans',Arial,sans-serif!important; font-size:12px">Unsubscribe</a>
+                                        
+                                    </span>
+                                    <br>
+                                    <br>
+                                    <span class="disclaimer" style="font-size:12px; line-height:16px; color:#1F1F1F; font-weight:normal">
+                                        © 2022 Coursera Inc. All rights reserved. Coursera and the Coursera logo are registered trademarks of Coursera, Inc. All other trademarks are property of their respective owners. Log in to manage all your notification preferences in  
+                                        <a href="https://click.email.coursera.org/?qs=825f0f23f4ddae422b88016cd788d876c4a9aa0282c70457c1ed7d18a85794d60ad21233a3e6d2d8ac0f785bce51c6b1bfd8c63d0495a3909797503b4fad0eef" style="color:#0056D2!important; text-decoration:underline!important; font-family:'Open Sans',Arial,sans-serif!important; font-size:12px"> Email&nbsp;Settings</a>.
+                                        
+                                        <br>
+                                        <br>
+                                    </span>
+                                    <span class="linkAddress" dir="ltr" lang="en" style="font-size:12px; line-height:16px; color:#1F1F1F; font-weight:normal">
+                                        Coursera | 381 East Evelyn Ave, Mountain View, CA 94041 USA
+                                        
+                                    </span>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+                  </table></td></tr></table></td></tr></table></body>
+</html>

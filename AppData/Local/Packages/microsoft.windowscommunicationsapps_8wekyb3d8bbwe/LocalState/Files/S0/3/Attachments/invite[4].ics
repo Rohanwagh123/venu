@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20220121T153000Z
+DTEND:20220121T183000Z
+DTSTAMP:20220121T130348Z
+ORGANIZER;CN=janbatch102@newtonschool.co:mailto:janbatch102@newtonschool.co
+UID:6tn7togtj266m0lvorpfdp1q6v@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=waghrohan11@gmail.com;X-NUM-GUESTS=0:mailto:waghrohan11@gmail.com
+X-MICROSOFT-CDO-OWNERAPPTID:1775064871
+CREATED:20220121T124242Z
+DESCRIPTION:Hello future coder!<br><br>We hope you are as excited as we are
+  for Day 5 of your Five day Trial course!<br>Remember\, class starts at 9pm
+  sharp!<br><br>How to join the session?<br>Click on the link - <a href="htt
+ ps://my.newtonschool.co/course/pitdgc5fruzq/details/" target="_blank">https
+ ://my.newtonschool.co/course/pitdgc5fruzq/details/</a><br><br>You&#39\;ll b
+ e having your Doubt Session today from <b>11PM-12:00AM</b> with our amazing
+  doubt solvers!!<br><br>How to join Doubt Session?<br>The doubt class will 
+ happen in continuation with your Instructor session.<br><br>Don&#39\;t leav
+ e your Instructor Session!!<br><br>See you in the session!<br>Keep aiming h
+ igh!<br><br>Regards<br>Newton School\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nDo not edit this sect
+ ion of the description.\n\nView your event at https://calendar.google.com/c
+ alendar/event?action=VIEW&eid=NnRuN3RvZ3RqMjY2bTBsdm9ycGZkcDFxNnYgd2FnaHJva
+ GFuMTFAbQ&tok=MjcjamFuYmF0Y2gxMDJAbmV3dG9uc2Nob29sLmNvNzdiYzI5NzdjZmQ0ODQ4N
+ Tc3OWE0NGEyNDVjZGNmMzQwYTEzZTE0OQ&ctz=Asia%2FKolkata&hl=en_GB&es=1.\n-::~:~
+ ::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::
+ ~:~::-
+LAST-MODIFIED:20220121T130346Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Your Day 5 Trial Class Starts TODAY at 9 PM! Don't Miss it!
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

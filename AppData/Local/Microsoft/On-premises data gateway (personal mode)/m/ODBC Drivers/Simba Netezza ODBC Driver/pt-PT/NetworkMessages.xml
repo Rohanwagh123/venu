@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Messages [<!ELEMENT Messages (Package*)>
+
+<!ELEMENT Package (Error*)>
+<!ATTLIST Package ID CDATA #REQUIRED>
+<!ATTLIST Package DefaultComponent CDATA #REQUIRED>
+
+<!ELEMENT Error (#PCDATA)>
+<!ATTLIST Error Key CDATA #REQUIRED>
+<!ATTLIST Error _locID CDATA "0">
+<!ATTLIST Error Component CDATA #IMPLIED>
+<!ATTLIST Error NativeErrorCode CDATA #REQUIRED>
+<!ATTLIST Error Params CDATA "0">]>
+<Messages>
+      <Package ID="22" DefaultComponent="Network">
+
+      <!-- Error thrown when communication link error. --> 
+      <Error Key="NetworkCommLinkErr" NativeErrorCode="17" _locID="22.NetworkCommLinkErr">Erro ao comunicar com o servidor.</Error>
+      
+      <!-- Error thrown when the client has an internal error. -->
+      <Error Key="NetworkInternalError" NativeErrorCode="42" _locID="22.NetworkInternalError">Erro interno do cliente.</Error>
+      
+      <!-- Error thrown execution is cancelled on the client. -->
+      <Error Key="ExecutionCanceled" NativeErrorCode="61" _locID="22.ExecutionCanceled">Execução cancelada.</Error>
+      
+      <!-- Error thrown when the connection timeout has been reached. -->
+      <Error Key="ConnectionTimeout" NativeErrorCode="50" _locID="22.ConnectionTimeout">O tempo limite foi alcançado antes de ser recebida uma resposta do servidor.</Error>
+      
+      <!-- Called when there is an SSL verification error. -->
+      <Error Key="SslVerifyIdentity" NativeErrorCode="73" _locID="22.SslVerifyIdentity">O SSL não conseguiu verificar a identidade do servidor.</Error>
+      
+      <!--  Failed to start up SSL. -->
+      <Error Key="SslStartupFailed" NativeErrorCode="74" _locID="22.SslStartupFailed">Falha ao iniciar o SSL.</Error>
+      
+      <!-- Failed to disconnect SSL. -->
+      <Error Key="SslDisconnectFailed" NativeErrorCode="75" _locID="22.SslDisconnectFailed">Falha ao desligar o SSL"</Error>
+      
+      <!-- Error thrown when the client has an internal error. -->
+      <Error Key="NetworkInternalErrorWParam" NativeErrorCode="76" Params="1" _locID="22.NetworkInternalErrorWParam">Erro interno do cliente: %1%</Error>
+      
+       <!-- Failed to encrypt. -->
+      <Error Key="EncryptionFailure" NativeErrorCode="77" Params="1" _locID="22.EncryptionFailure">Falha ao encriptar: %1%</Error>
+      
+      <!-- Failed to sign. -->
+      <Error Key="SSLSignFailure" NativeErrorCode="78" Params="0" _locID="22.SSLSignFailure">Falha ao Assinar SSL.</Error>
+      
+       <!-- Failed to create the SSL context. -->
+      <Error Key="SSLContextCreationFailure" NativeErrorCode="79" Params="0" _locID="22.SSLContextCreationFailure">Falha ao criar contexto de SSL.</Error>
+      
+      <!-- SSL Error. -->
+      <Error Key="SSLError" NativeErrorCode="80" Params="1" _locID="22.SSLError">Erro de SSL: %1%</Error>
+      
+      <!-- OpenSSL Error. -->
+      <Error Key="OpenSSLError" NativeErrorCode="81" Params="2" _locID="22.OpenSSLError">Erro de OpenSSL: (%1%) %2%</Error>
+     
+       <!-- Certification Error. -->
+      <Error Key="CertificationError" NativeErrorCode="82" Params="1" _locID="22.CertificationError">Erro do TrustStore: %1%</Error>
+      
+      <!-- SSL Certificate file is self signed. -->
+      <Error Key="CertSelfSigned" NativeErrorCode="83" _locID="22.CertSelfSigned">A aceitar um certificado SSL autoassinado</Error>
+      
+      <!-- Certification file is expired or not yet valid. -->
+      <Error Key="CertExpiredOrNotValidYet" NativeErrorCode="84" _locID="22.CertExpiredOrNotValidYet">A aceitar um certificado SSL que ainda não é válido ou que já expirou</Error>
+      
+    </Package>
+</Messages>

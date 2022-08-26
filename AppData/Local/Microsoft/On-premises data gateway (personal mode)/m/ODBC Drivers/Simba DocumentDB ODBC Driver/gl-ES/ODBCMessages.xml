@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Messages [<!ELEMENT Messages (Package*)>
+
+<!ELEMENT Package (Error*)>
+<!ATTLIST Package ID CDATA #REQUIRED>
+<!ATTLIST Package DefaultComponent CDATA #REQUIRED>
+
+<!ELEMENT Error (#PCDATA)>
+<!ATTLIST Error Key CDATA #REQUIRED>
+<!ATTLIST Error _locID CDATA "0">
+<!ATTLIST Error Component CDATA #IMPLIED>
+<!ATTLIST Error NativeErrorCode CDATA #REQUIRED>
+<!ATTLIST Error Params CDATA "0">]>
+<Messages>
+    <!-- #################################################################################### -->
+    <Package ID="1" DefaultComponent="ODBC">
+
+      <!-- Errors and warnings in general operation. --> 
+      <!-- Error thrown when an unexpected exception is caught. --> 
+      <Error Key="GenErr" NativeErrorCode="10000" _locID="1.GenErr">Erro xeral: detectouse unha excepción inesperada.</Error>
+
+      <!-- Same as GenErr, but allows for a custom message (say, from an std::exception) --> 
+      <Error Key="GenErr1" Params="1" NativeErrorCode="10001" _locID="1.GenErr1">Erro xeral: %1%</Error>
+
+      <!-- Error thrown when a std::bad_alloc exception is caught. --> 
+      <Error Key="MemAllocErr" NativeErrorCode="10010" _locID="1.MemAllocErr">Erro de atribución da memoria: detectouse a excepción std::bad_alloc.</Error>
+
+      <!-- Error thrown when ODBC functions are executed out of the allowed sequence as specified in the ODBC specification. --> 
+      <Error Key="FuncSeqErr" NativeErrorCode="10020" _locID="1.FuncSeqErr">A función ODBC executouse fóra da secuencia permitida.</Error>
+
+      <!-- Error thrown when statement is invalid or not found. --> 
+      <Error Key="InvalidStmt" NativeErrorCode="10040" _locID="1.InvalidStmt">Non se atopou a instrución ou non é válida.</Error>
+
+      <!-- Error thrown when connection is invalid or not found. --> 
+      <Error Key="InvalidConn" NativeErrorCode="10050" _locID="1.InvalidConn">Non se atopou a conexión ou non é válida.</Error>
+
+      <!-- Error thrown when descriptor is invalid or not found. --> 
+      <Error Key="InvalidAppDesc" NativeErrorCode="10060" _locID="1.InvalidAppDesc">Non se atopou o descritor da aplicación ou non é válido.</Error>
+
+      <!-- Error thrown when explicit application descriptor is invalid or not found. --> 
+      <Error Key="InvalidExplAppDesc" NativeErrorCode="10070" _locID="1.InvalidExplAppDesc">Non se atopou o descritor de aplicación explícito ou non é válido.</Error>
+
+      <!-- Error thrown when query manager is invalid or not found. --> 
+      <Error Key="InvalidQueryMgr" NativeErrorCode="10080" _locID="1.InvalidQueryMgr">Non se atopou o xestor de consultas ou non é válido.</Error>
+
+      <!-- Error thrown when execution results are invalid or not found. --> 
+      <Error Key="InvalidExecResults" NativeErrorCode="10090" _locID="1.InvalidExecResults">Non se atoparon os resultados da execución ou non son válidos.</Error>
+
+      <!-- Errors and warnings with diagnostics reporting. --> 
+      <!-- Error thrown when an invalid diagnostic identifier is used. --> 
+      <Error Key="InvalidDiagIdent" NativeErrorCode="10110" _locID="1.InvalidDiagIdent">Usouse un identificador de diagnóstico non válido.</Error>
+
+      <!-- Error thrown when requesting for a diagnostic field in binary format while no binary diagnostic fields exist. -->
+      <Error Key="NoBinaryDiagFields" NativeErrorCode="10120" _locID="1.NoBinaryDiagFields">Non se pode devolver o campo de diagnóstico no formato binario solicitado: non existe ningún campo de diagnóstico binario.</Error>
+
+
+      <!-- Errors and warnings with the provided buffer and buffer length. --> 
+      <!-- Error thrown when an invalid string or buffer length is provided by the application. --> 
+      <Error Key="InvalidStrOrBuffLen" NativeErrorCode="10130" _locID="1.InvalidStrOrBuffLen">A aplicación forneceu unha lonxitude de búfer ou cadea non válida.</Error>
+
+      <!-- Warning posted when an output string is right truncated to fit into the output buffer. --> 
+      <Error Key="StrRightTruncWarn" NativeErrorCode="10160" _locID="1.StrRightTruncWarn">Truncamento pola dereita dos datos da cadea de saída: os datos da cadea son demasiado grandes para o búfer de datos de saída e truncáronse.</Error>
+
+      <!-- Error thrown when string data is too big for the driver's data buffer. --> 
+      <Error Key="StrRightTruncInsufBufferErr" NativeErrorCode="10170" _locID="1.StrRightTruncInsufBufferErr">Truncamento pola dereita dos datos da cadea nos datos da orixe de datos: os datos da cadea son demasiado grandes para o búfer de datos do controlador.</Error>
+
+      <!-- Error thrown when an invalid output buffer is provided. --> 
+      <Error Key="InvalidOutputBuff" NativeErrorCode="10180" _locID="1.InvalidOutputBuff">Forneceuse un búfer de saída non válido.</Error>
+
+      <!-- Error thrown when there is an invalid string truncation. --> 
+      <Error Key="InvalidStrTrunc" NativeErrorCode="10190" _locID="1.InvalidStrTrunc">Truncamento de cadea non válido.</Error>
+
+
+      <!-- Error and warnings with Attributes. --> 
+      <!-- Error thrown when the attribute type specified is not supported for the current operation. --> 
+      <Error Key="AttrTypeNotSupported" NativeErrorCode="10200" _locID="1.AttrTypeNotSupported">Tipo de atributo non compatible coa operación actual.</Error>
+
+      <!-- Error thrown when the attribute identifier specified is invalid or not supported. --> 
+      <Error Key="InvalidAttrIdent" Params="1" NativeErrorCode="10210" _locID="1.InvalidAttrIdent">O identificador do atributo non é válido ou non é compatible: %1%</Error>
+
+      <!-- Error thrown when setting the value of a read-only attribute. --> 
+      <Error Key="CannotSetReadOnlyAttr" NativeErrorCode="10220" _locID="1.CannotSetReadOnlyAttr">Non se pode configurar un atributo só de lectura.</Error>
+
+      <!-- Error thrown when failed to retrieve an attribute value. --> 
+      <Error Key="AttrValNotFound" NativeErrorCode="10230" _locID="1.AttrValNotFound">Non se pode obter o valor do atributo.</Error>
+
+      <!-- Error thrown when setting the implementation descriptor handle, a statement's implementation descriptor cannot be replaced. --> 
+      <Error Key="CannotSetImpDescHandle" NativeErrorCode="10240" _locID="1.CannotSetImpDescHandle">Non se pode modificar o identificador do descritor de implantación dunha instrución.</Error>
+
+      <!-- Error thrown when setting the value of SQL_ATTR_ASYNC_ENABLE statement attribute when driver does not support this operation. --> 
+      <Error Key="SetAsyncEnabNotSupported" NativeErrorCode="10250" _locID="1.SetAsyncEnabNotSupported">A configuración do atributo SQL_ATTR_ASYNC_ENABLE non é compatible.</Error>
+
+      <!-- Error thrown when failed to obtain a connection attribute that is required to check if the current operation is valid. --> 
+      <Error Key="ObtainCheckingConnAttrFailed" NativeErrorCode="10260" _locID="1.ObtainCheckingConnAttrFailed">Non se puido obter un atributo de conexión requirido para comprobar se a operación actual é válida.</Error>
+
+      <!-- Error thrown when changing the option to enable auto population of IPD while driver does not support IPD auto population. --> 
+      <Error Key="AutoPopIpdNotSupported" NativeErrorCode="10270" _locID="1.AutoPopIpdNotSupported">O enchemento automático do IPD (descritor de parámetros de implantación) non é compatible.</Error>
+
+      <!-- Error thrown when setting an attribute to a value that is invalid. --> 
+      <Error Key="InvalidAttrVal" NativeErrorCode="10280" _locID="1.InvalidAttrVal">Valor de atributo non válido.</Error>
+
+      <!-- Warning posted when setting an attribute value that is not supported or invalid, and the driver was able to substitute a similar value. --> 
+      <Error Key="OptAttrValChangedWarn" NativeErrorCode="10290" _locID="1.OptAttrValChangedWarn">O valor do atributo non é compatible ou non é válido. Substituíuse un valor de atributo semellante. Comprobe o valor actual do atributo para ver o valor substituído.</Error>
+
+      <!-- Error thrown when failing to revert a temporarily substituted attribute value back to its original value. --> 
+      <Error Key="RevertAttrValueToOrigFailed" NativeErrorCode="10300" _locID="1.RevertAttrValueToOrigFailed">Non se puido reverter o valor do atributo temporal ao valor orixinal.</Error>
+
+      <!-- Error thrown when failing to obtain a default value for a statement attribute during statement creation. --> 
+      <Error Key="ObtainDefaultStmtAttrValueFailed" NativeErrorCode="10310" _locID="1.ObtainDefaultStmtAttrValueFailed">Non se puido obter o valor do atributo de instrución predefinido.</Error>
+
+      <!-- Error thrown when setting an explicit application descriptor handle on a statement that is not from the statement's parent connection. --> 
+      <Error Key="ExplAppDescHandleNotFromSameConn" NativeErrorCode="10320" _locID="1.ExplAppDescHandleNotFromSameConn">O identificador do descritor de aplicación explícito non pertence á mesma conexión que a instrución de destino.</Error>
+
+      <!-- Error thrown when setting an implicit application descriptor handle on a statement but the descriptor was not one of the target statement's original implicit application descriptors. --> 
+      <Error Key="ImplicitAppDescHandleNotOrig" NativeErrorCode="10330" _locID="1.ImplicitAppDescHandleNotOrig">O identificador do descritor de aplicación implícito non é un descritor de aplicación implícito orixinal da instrución de destino.</Error>
+
+      <!-- Error and warnings with establishing connection to data source. -->
+      <!-- Error thrown when the connection string is not of valid form. -->
+      <Error Key="InvalidConnStr" NativeErrorCode="10360" _locID="1.InvalidConnStr">Cadea de conexión non válida.</Error>
+
+      <!-- Error thrown when the connection string does not contain information requested by the driver. -->
+      <Error Key="InvalidConnStrAttr" NativeErrorCode="10370" _locID="1.InvalidConnStrAttr">Atributo de cadea de conexión non válido: non coincide coa información solicitada polo controlador.</Error>
+
+      <!-- Error thrown when unable to establish a connection with the data source. -->
+      <Error Key="UnableToEstConn" Params="1" NativeErrorCode="10380" _locID="1.UnableToEstConn">Non se pode establecer a conexión coa orixe de datos. Faltan configuracións: %1%</Error>
+
+      <!-- Error thrown when failed to obtain connection information through the driver provided dialog box. -->
+      <Error Key="UpdateConnSettingsWithDiaglogFailed" NativeErrorCode="10390" _locID="1.UpdateConnSettingsWithDiaglogFailed">Erro ao actualizar a configuración da conexión co cadro de diálogo.</Error>
+
+      <!-- Error thrown when performing an operation that requires an established connection but no connection has been established yet. -->
+      <Error Key="NoEstConn" NativeErrorCode="10400" _locID="1.NoEstConn">A operación actual require que se estableza unha conexión, pero aínda non estableceu ningunha.</Error>
+
+      <!-- Error thrown when trying to establish a connection but a connection already exist. -->
+      <Error Key="ConnAlreadyEst" NativeErrorCode="10410" _locID="1.ConnAlreadyEst">Xa se estableceu a conexión.</Error>
+
+      <!-- Error thrown when data source did not provide a valid response. -->
+      <Error Key="DataSourceDidNotGiveProperResp" NativeErrorCode="10420" _locID="1.DataSourceDidNotGiveProperResp">A orixe de datos non forneceu unha resposta axeitada.</Error>
+
+      <!-- Error thrown when application did not provide enough information to establish a connection to the data source but application specified that driver should not prompt application for more information. -->
+      <Error Key="NotEnoughConnInfoButDriverNoPrompt" Params="1" NativeErrorCode="10430" _locID="1.NotEnoughConnInfoButDriverNoPrompt">Non se forneceu información abonda para establecer unha conexión coa orixe de datos e desactivouse a solicitude de máis información. Falta a configuración necesaria: %1%</Error>
+
+      <!-- Error thrown when driver complete flag is invalid or not supported. -->
+      <Error Key="InvalidDriverComplFlag" NativeErrorCode="10440" _locID="1.InvalidDriverComplFlag">A marca de finalización do controlador non é válida ou non é compatible.</Error>
+
+      <!-- Error thrown when driver needs an indicator buffer to indicate NULL output data to the application but the application did not provide such buffer. -->
+      <Error Key="NullIndPtrNotSupplied" NativeErrorCode="10450" _locID="1.NullIndPtrNotSupplied">O controlador require que o punteiro do indicador indique se os datos de saída son NULL, pero non se forneceu.</Error>
+
+      <!-- Error thrown when data conversion could not complete properly. -->
+      <Error Key="DataConvError" NativeErrorCode="10460" _locID="1.DataConvError">Erro de conversión dos datos.</Error>
+
+      <!-- Error thrown when data conversion is not supported. -->
+      <Error Key="DataConvNotSupported" NativeErrorCode="10470" _locID="1.DataConvNotSupported">A conversión dos datos non é compatible.</Error>
+
+      <!-- Error thrown when fetch orientation is not compatible with current settings. -->
+      <Error Key="FetchTypeNotSupported" NativeErrorCode="10480" _locID="1.FetchTypeNotSupported">O tipo de obtención non é compatible. A orientación da obtención non é compatible coa configuración actual.</Error>
+
+      <!-- Error thrown when cursor is in an invalid position for fetching data. -->
+      <Error Key="InvalidCursorPos" NativeErrorCode="10490" _locID="1.InvalidCursorPos">O cursor non está situado no conxunto de resultados.</Error>
+
+      <!-- Error thrown when cursor is forward-only and SetPos is called while on a valid row. -->
+      <Error Key="InvalidForwardSetPosOper" NativeErrorCode="10495" _locID="1.InvalidForwardSetPosOper">SQLSetPos é unha operación non válida cando o cursor é só de avance.</Error>
+
+      <!-- Error thrown when cursor is not of a supported type. -->
+      <Error Key="InvalidCursorType" NativeErrorCode="10500" _locID="1.InvalidCursorType">O tipo de cursor non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when cursor is in an invalid state. -->
+      <Error Key="InvalidCursorState" NativeErrorCode="10510" _locID="1.InvalidCursorState">Estado do cursor non válido.</Error>
+
+      <!-- Error thrown when there is no more data left to fetch. -->
+      <Error Key="NoMoreDataToFetch" NativeErrorCode="10530" _locID="1.NoMoreDataToFetch">Non quedan datos que obter.</Error>
+
+      <!-- Error thrown when getting data that has already been fetched, but current settings do not allow this behavior. -->
+      <Error Key="NotAllowedToGetSpecifiedColumn" NativeErrorCode="10540" _locID="1.NotAllowedToGetSpecifiedColumn">Non está permitido obter datos que xa se obtiveron para a columna especificada.</Error>
+
+      <!-- Error thrown when requesting a column in the result set but no matching column is found. -->
+      <Error Key="InvalidColNumInResultSet" NativeErrorCode="10550" _locID="1.InvalidColNumInResultSet">Número de columna do conxunto de resultados non válido: non se atopou ningunha columna coincidente.</Error>
+
+      <!-- Error thrown when checking the status of a fetched row but the status is invalid and not recognized. -->
+      <Error Key="InvalidRowStatus" NativeErrorCode="10560" _locID="1.InvalidRowStatus">Detectouse un estado de fila non válido tras a operación de obtención.</Error>
+
+      <!-- Error thrown when changing types between multipart SQLGetData() calls. -->
+      <Error Key="ChangeTypesInMultipartSQLGetDataNotSupported" NativeErrorCode="10570" _locID="1.ChangeTypesInMultipartSQLGetDataNotSupported">O cambio de tipos entre chamadas de SQLGetData() de varias partes non é compatible.</Error>
+
+      <!-- Error thrown when the source data is invalid (i.e. null when it shouldn't be. -->
+      <Error Key="InvalidSrcData" NativeErrorCode="10580" _locID="1.InvalidSrcData">A orixe de datos non é válida.</Error>
+
+      <!-- Error thrown when there is no more data to get. -->
+      <Error Key="NoMoreDataToGet" NativeErrorCode="10590" _locID="1.NoMoreDataToGet">Non hai máis datos para obter.</Error>
+
+      <!-- Error thrown when the conversion strategy is invalid (i.e. null when it shouldn't be). -->
+      <Error Key="InvalidStrategy" NativeErrorCode="10600" _locID="1.InvalidStrategy">A estratexia de conversión non é válida.</Error>
+
+      <!-- Error thrown when the conversion strategy is not supported. -->
+      <Error Key="StrategyNotSupported" NativeErrorCode="10610" _locID="1.StrategyNotSupported">A estratexia de conversión non é compatible.</Error>
+
+      <!-- Error thrown when a conversion is attempted when there is more data. -->
+      <Error Key="CannotConvWhileHasMoreData" NativeErrorCode="10620" _locID="1.CannotConvWhileHasMoreData">Non se pode converter cando hai máis datos.</Error>
+
+      <!-- Error thrown when the result of a conversion is invalid. -->
+      <Error Key="InvalidConvResult" NativeErrorCode="10630" _locID="1.InvalidConvResult">Resultado da conversión non válido.</Error>
+
+      <!-- Error thrown when a flush fails to clear the data. -->
+      <Error Key="FlushFailed" NativeErrorCode="10640" _locID="1.FlushFailed">O baleirado non puido borrar os datos.</Error>
+
+      <!-- Error thrown when execution expects a result set but no result set is available from the DSII. -->
+      <Error Key="NoAvailableResultSet" NativeErrorCode="10651" _locID="1.NoAvailableResultSet">Non hai ningún conxunto de resultados dispoñible tras a execución, pero si había un dispoñible tras a preparación.</Error>
+
+      <!-- Error thrown when a Driver Manager calls SQLConnect without providing a valid DSN. -->
+      <Error Key="InvalidDSN" NativeErrorCode="10652" _locID="1.InvalidDSN">O DSN non pode ser unha cadea baleira conforme as especificacións de ODBC. O xestor do controlador debe fornecer un valor de DSN válido.</Error>
+      
+      <!-- Error and warnings with descriptors. -->
+      <!-- Error thrown when requesting a bookmark column but bookmark columns are not supported. -->
+      <Error Key="BookmarkColumnNotSupported" NativeErrorCode="10660" _locID="1.BookmarkColumnNotSupported">A columna de marcador non é compatible.</Error>
+
+      <!-- Error thrown when requesting a descriptor record or its information, but the descriptor record cannot be found -->
+      <Error Key="InvalidDescIndex" NativeErrorCode="10670" _locID="1.InvalidDescIndex">Índice de descritor non válido, o rexistro do descritor non existe ou o non se iniciou correctamente.</Error>
+
+      <!-- Error thrown when requesting a descriptor field that is not supported or is invalid. -->
+      <Error Key="InvalidDescFieldIdent" NativeErrorCode="10680" _locID="1.InvalidDescFieldIdent">O identificador do campo do descritor non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when descriptor records are not sequential during query execution. -->
+      <Error Key="DescRecNotSeq" NativeErrorCode="10690" _locID="1.DescRecNotSeq">Durante a execución da consulta, non existía o rexistro de descritor esperado.</Error>
+
+      <!-- Error thrown when retrieving the SQL_DESC_COUNT field that is zero for a IRD. -->
+      <Error Key="InvalidDescCount" NativeErrorCode="10700" _locID="1.InvalidDescCount">Campo de número total de descritores non válido: non hai ningún reconto que devolver.</Error>
+
+      <!-- Error thrown when setting a read-only descriptor field. -->
+      <Error Key="ReadOnlyDescField" NativeErrorCode="10710" _locID="1.ReadOnlyDescField">Campo de descritor só de lectura.</Error>
+
+      <!-- Error thrown when registering or unregistering a listener (statement) on a non-explicit descriptor. -->
+      <Error Key="CannotAssocNonExpDescWithDeleteListener" NativeErrorCode="10720" _locID="1.CannotAssocNonExpDescWithDeleteListener">Non se poden asociar descritores non explícitos aos axentes de escoita dos descritor usados na limpeza da eliminación.</Error>
+
+      <!-- Error thrown when getting the parent connection of a non-explicit descriptor. -->
+      <Error Key="CannotGetParentConnOnNonExpDesc" NativeErrorCode="10730" _locID="1.CannotGetParentConnOnNonExpDesc">Non se pode obter a conexión principal nun descritor non explícito.</Error>
+
+      <!-- Error thrown when dropping descriptor record of an implementation row descriptor. -->
+      <Error Key="CannotDropRecOfImplRowDesc" NativeErrorCode="10740" _locID="1.CannotDropRecOfImplRowDesc">Non se pode soltar o rexistro dun descritor da fila de implantación.</Error>
+
+      <!-- Error thrown when an invalid or not supported datetime subcode identifier is given. -->
+      <Error Key="InvalidDatetimeSubcodeIdent" NativeErrorCode="10750" _locID="1.InvalidDatetimeSubcodeIdent">O identificador do subcódigo de dataHora non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when an invalid or not supported interval subcode identifier is given. -->
+      <Error Key="InvalidIntevalSubcodeIdent" NativeErrorCode="10760" _locID="1.InvalidIntevalSubcodeIdent">O identificador do subcódigo do intervalo non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when requesting a descriptor field that is not supported or invalid. -->
+      <Error Key="DescFieldNotSupported" NativeErrorCode="10770" _locID="1.DescFieldNotSupported">O campo do descritor non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when using a non-string method to get a string descriptor field. -->
+      <Error Key="CannotGetStrDescFieldInNonStrMethod" NativeErrorCode="10780" _locID="1.CannotGetStrDescFieldInNonStrMethod">Uso non válido do método sen cadea para obter o campo do descritor da cadea.</Error>
+
+      <!-- Error thrown when specifying a descriptor field type that is not valid or not supported -->
+      <Error Key="InvalidDescFieldType" NativeErrorCode="10790" _locID="1.InvalidDescFieldType">O tipo do campo do descritor non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when the specified descriptor record cannot be found. -->
+      <Error Key="DescRecNotFound" NativeErrorCode="10800" _locID="1.DescRecNotFound">Non se atopou o rexistro do descritor.</Error>
+
+      <!-- Error thrown when setting SQL_DESC_UNNAMED to SQL_NAMED which is not allowed. -->
+      <Error Key="DescUnnamedNotAllowed" NativeErrorCode="10810" _locID="1.DescUnnamedNotAllowed">Non está permitido configurar SQL_DESC_UNNAMED en SQL_NAMED.</Error>
+
+      <!-- Error thrown when performing an operation which requires the statement to be prepared but is not. -->
+      <Error Key="StmtNotPrep" NativeErrorCode="10820" _locID="1.StmtNotPrep">Instrución non preparada.</Error>
+
+      <!-- Error thrown when setting or getting a descriptor field value that is not supported. -->
+      <Error Key="DescFieldValueNotSupported" Params="2" NativeErrorCode="10830" _locID="1.DescFieldValueNotSupported">O campo do descritor %1% non admite o valor %2%.</Error>
+
+      <!-- Error thrown when application modifies an implementation row descriptor -->
+      <Error Key="CannotModImpRowDesc" NativeErrorCode="10840" _locID="1.CannotModImpRowDesc">Non se poden modificar os descritores de filas de implantación.</Error>
+
+      <!-- Error thrown when setting the SQL_DESC_ALLOC_TYPE descriptor field. -->
+      <Error Key="CannotSetDescAllocType" NativeErrorCode="10850" _locID="1.CannotSetDescAllocType">Non se pode configurar o descritor SQL_DESC_ALLOC_TYPE.</Error>
+
+      <!-- Error thrown when an illegal descriptor type is detected. -->
+      <Error Key="IllegalDescType" NativeErrorCode="10860" _locID="1.IllegalDescType">Tipo de descritor non válido.</Error>
+
+      <!-- Error thrown when an illegal descriptor concise type is detected -->
+      <Error Key="IllegalDescConciseType" NativeErrorCode="10870" _locID="1.IllegalDescConciseType">Tipo conciso de descritor non válido.</Error>
+
+      <!-- Error thrown when an invalid or not supported datetime interval code is given. -->
+      <Error Key="InvalidDatetimeCodeIdent" NativeErrorCode="10880" _locID="1.InvalidDatetimeCodeIdent">O código do intervalo de dataHora non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when an invalid or not supported interval code is given. -->
+      <Error Key="InvalidIntervalCode" NativeErrorCode="10890" _locID="1.InvalidIntervalCode">O código do intervalo non é válido ou non é compatible.</Error>
+
+
+      <!-- Error and warnings with SQL statement execution. -->
+      <!-- Error thrown when reading from an output parameter. -->
+      <Error Key="CannotReadFromOutputParam" NativeErrorCode="10900" _locID="1.CannotReadFromOutputParam">Non se pode ler desde o parámetro de saída.</Error>
+
+      <!-- Error thrown when reading from a default input parameter. -->
+      <Error Key="CannotReadFromDefaultParam" NativeErrorCode="10910" _locID="1.CannotReadFromDefaultParam">Non se pode obter ningún dato dun parámetro de entrada predefinido.</Error>
+
+      <!-- Error thrown when reading from an input parameter which value has already been pushed down. -->
+      <Error Key="CannotReadFromPushedParam" NativeErrorCode="10920" _locID="1.CannotReadFromPushedParam">Non se pode obter ningún dato dun parámetro de entrada cuxo valor xa se transferiu.</Error>
+
+      <!-- Error thrown when writing to a default output parameter. -->
+      <Error Key="WriteToDefaultParam" NativeErrorCode="10930" _locID="1.WriteToDefaultParam">Non se pode escribir nun parámetro predefinido.</Error>
+
+      <!-- Error thrown when writing to an input parameter -->
+      <Error Key="WriteToInputParam" NativeErrorCode="10940" _locID="1.WriteToInputParam">Non se pode escribir nun parámetro de entrada.</Error>
+
+      <!-- Error thrown when received an execute result status code that is not recognizable. -->
+      <Error Key="InvalidExecStatusCode" NativeErrorCode="10950" _locID="1.InvalidExecStatusCode">O código de estado dos resultados da execución non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when sending concatenated data that is not binary nor character. -->
+      <Error Key="SendNonCharBinaryConcatData" NativeErrorCode="10970" _locID="1.SendNonCharBinaryConcatData">Non se poden concatenar e enviar datos que non sexan caracteres ou binarios.</Error>
+
+      <!-- Error thrown when sending concatenated data that is a default or null parameter. -->
+      <Error Key="SendConcatDataForDefaultOrNullParam" NativeErrorCode="10980" _locID="1.SendConcatDataForDefaultOrNullParam">Non se poden concatenar os datos dun parámetro predefinido ou nulo.</Error>
+
+      <!-- Error thrown when getting SQLGetInfo field which is not supported. -->
+      <Error Key="InvalidGetInfoField" NativeErrorCode="10990" _locID="1.InvalidGetInfoField">O campo SQLGetInfo non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when getting query executor from catalog query manager.  Catalog functions are already executed thus has not query executor. -->
+      <Error Key="NoQueryExecutor" NativeErrorCode="11000" _locID="1.NoQueryExecutor">Non existe ningún executor de consultas para o xestor de consultas de catálogo.</Error>
+
+      <!-- Error thrown when there is no data-at-execution parameter detected for query executor. -->
+      <Error Key="NoDataAtExecParameter" NativeErrorCode="11010" _locID="1.NoDataAtExecParameter">Non hai ningún parámetro de datos en execución.</Error>
+
+      <!-- Error thrown when querying a parameter source during auto population. -->
+      <Error Key="CannotQueryParmSrcDuringPopulate" NativeErrorCode="11020" _locID="1.CannotQueryParmSrcDuringPopulate">Non se pode consultar a información acerca da orixe do parámetro durante o enchemento automático do parámetro.</Error>
+
+      <!-- Error thrown when setting fields of a parameter source during parameter data pushing. -->
+      <Error Key="CannotSetParmSrcAttrDuringPushData" NativeErrorCode="11030" _locID="1.CannotSetParmSrcAttrDuringPushData">Non se poden configurar os atributos de orixe dos parámetros durante a inserción dos datos dos parámetros.</Error>
+
+      <!-- Error thrown when querying push value status while not performing execution.  -->
+      <Error Key="PushValueStatusUnknown" NativeErrorCode="11040" _locID="1.PushValueStatusUnknown">O estado do valor de inserción só se pode consultar durante a execución.</Error>
+
+      <!-- Error thrown when registering a parameter but not allowed in current state of execution. -->
+      <Error Key="ParamRegistNotPermit" NativeErrorCode="11050" _locID="1.ParamRegistNotPermit">Non se permite o rexistro do parámetro.</Error>
+
+      <!-- Error thrown when invalid parameter index used for parameter registration. -->
+      <Error Key="InvalidParamRegistIndex" NativeErrorCode="11060" _locID="1.InvalidParamRegistIndex">Usouse un índice de parámetro non válido para o rexistro.</Error>
+
+      <!-- Error thrown when descriptor field value is not recognizable. -->
+      <Error Key="DescFieldNotRecg" NativeErrorCode="11070" _locID="1.DescFieldNotRecg">Non se recoñece o valor do campo do descritor.</Error>
+
+      <!-- Error thrown when parameter type is invalid or not supported  -->
+      <Error Key="InvalidParameterType" NativeErrorCode="11080" _locID="1.InvalidParameterType">O tipo de parámetro non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when setting fields of a parameter source during parameter execution. -->
+      <Error Key="CannotSetParmSrcAttrDuringExecution" NativeErrorCode="11090" _locID="1.CannotSetParmSrcAttrDuringExecution">Non se poden configurar os atributos de orixe dos parámetros durante a execución.</Error>
+
+
+      <!-- Error and warnings with connection and statement. -->
+      <!-- Error thrown when setting a cursor name that is longer than the maximum limit. -->
+      <Error Key="CursorNameTooLong" NativeErrorCode="11100" _locID="1.CursorNameTooLong">O nome do cursor é demasiado longo.</Error>
+
+      <!-- Error thrown when setting a cursor name that is already in use. -->
+      <Error Key="DuplicateCursorName" NativeErrorCode="11110" _locID="1.DuplicateCursorName">Nome do cursor duplicado.</Error>
+
+      <!-- Error thrown when there are outstanding transactions when attempting to disconnect. -->
+      <Error Key="OutstandingTransDuringDisconn" NativeErrorCode="11120" _locID="1.OutstandingTransDuringDisconn">Transaccións pendentes durante a desconexión.</Error>
+
+      <!-- Error thrown when using a connection to allocate a resource that is not statement nor descriptor. -->
+      <Error Key="AllocNonStmtDescInConn" NativeErrorCode="11130" _locID="1.AllocNonStmtDescInConn">Non se pode usar unha conexión para atribuír un recurso que non sexa unha instrución nin un descritor.</Error>
+
+      <!-- Error thrown when using a connection to free a resource that is not statement nor descriptor. -->
+      <Error Key="FreeNonStmtDescInConn" NativeErrorCode="11140" _locID="1.FreeNonStmtDescInConn">Non se pode usar unha conexión para liberar un recurso que non sexa unha instrución nin un descritor.</Error>
+
+      <!-- Error thrown when freeing an implicit application descriptor. -->
+      <Error Key="FreeImplicitAppDesc" NativeErrorCode="11150" _locID="1.FreeImplicitAppDesc">Non se pode liberar un descritor de aplicación implícito.</Error>
+
+      <!-- Error thrown when dropping an implicit application descriptor from its parent statement. -->
+      <Error Key="DropImplicitAppDesc" NativeErrorCode="11160" _locID="1.DropImplicitAppDesc">Non se pode soltar o descritor de aplicación implícito da súa instrución principal.</Error>
+
+      <!-- MAINTENANCE NOTE: This error message needs to manually be duplicated in the other locales, since it has not be translated -->
+      <!-- Error thrown when cannot retrieve the requested SQLGetInfo property.  -->
+      <Error Key="GetInfoPropNotFound" NativeErrorCode="11180" Params="1" _locID="1.GetInfoPropNotFound">Non se atopou a propiedade SQLGetInfo: %1%</Error>
+
+      <!-- Error thrown when freeing a statement when no statements have been allocated. -->
+      <Error Key="FreeStmtWithoutAllocStmt" NativeErrorCode="11190" _locID="1.FreeStmtWithoutAllocStmt">Non se pode liberar unha instrución sen unha instrución atribuída.</Error>
+
+      <!-- Error thrown when setting an attribute that is not allowed to be set in the current state of execution. -->
+      <Error Key="AttrCantBeSetNow" NativeErrorCode="11200" _locID="1.AttrCantBeSetNow">Agora non se pode configurar o atributo.</Error>
+
+      <!-- Error thrown when performing an operation that is not allowed during a transaction state. -->
+      <Error Key="InvalidTransState" NativeErrorCode="11210" _locID="1.InvalidTransState">Operación non permitida durante o estado da transacción.</Error>
+
+      <!-- Error thrown when the current operation requires a cursor spec but statement does not have one. -->
+      <Error Key="PreparedStmtNotCursorSpec" NativeErrorCode="11220" _locID="1.PreparedStmtNotCursorSpec">A instrución preparada non é unha especificación de cursor.</Error>
+
+      <!-- Warning posted when SQLCancel is treated as closing a cursor. -->
+      <Error Key="CancelTreatedAsCloseWarn" NativeErrorCode="11230" _locID="1.CancelTreatedAsCloseWarn">A cancelación tratouse como un cursor pechado.</Error>
+
+      <!-- Error thrown when free statement option identifier is invalid or not supported. -->
+      <Error Key="InvalidFreeStmtOptionIdent" NativeErrorCode="11240" _locID="1.InvalidFreeStmtOptionIdent">O identificador de opción de instrución libre non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when column attribute field identifier is invalid or not supported. -->
+      <Error Key="InvalidColAttrFieldIdent" NativeErrorCode="11250" _locID="1.InvalidColAttrFieldIdent">O identificador do campo do atributo da columna non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when the result type of a statement is invalid or not supported. -->
+      <Error Key="InvalidStmtResultType" NativeErrorCode="11270" _locID="1.InvalidStmtResultType">O tipo de resultado da instrución non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when the setting the current catalog when a result set is pending. -->
+      <Error Key="InvalidCursorStateSetCatalog" NativeErrorCode="11280" _locID="1.InvalidCursorStateSetCatalog">Estado do cursor non válido: non se pode configurar o catálogo actual cando hai resultados pendentes.</Error>
+      
+      <!-- Error thrown when SQLRowCount return value is truncated -->
+      <Error Key="SQLRowcountTruncation" Params="1" NativeErrorCode="11281" _locID="1.SQLRowcountTruncation">O número total de filas (%1%) está fóra do intervalo de SQLLEN.</Error>
+
+      <!-- Error and warnings with environment. -->
+      <!-- Error thrown when using an environment to allocate a resource that is not connection. -->
+      <Error Key="AllocNonConnInEnv" NativeErrorCode="11290" _locID="1.AllocNonConnInEnv">Non se pode usar un ambiente para atribuír un recurso que non sexa unha conexión.</Error>
+
+      <!-- Error thrown when using an environment to free a resource that is not connection. -->
+      <Error Key="InvalidFreeHandleOperationInEnvAllocState" NativeErrorCode="11300" _locID="1.InvalidFreeHandleOperationInEnvAllocState">Operación de identificador libre non válida no estado de ambiente atribuído.</Error>
+
+      <!-- Error thrown when SQL C type is not supported. -->
+      <Error Key="SqlCTypeNotSupported" NativeErrorCode="11310" _locID="1.SqlCTypeNotSupported">Tipo SQL C non compatible.</Error>
+
+      <!-- Error thrown when SQL type is not supported. -->
+      <Error Key="SqlTypeNotSupported" NativeErrorCode="11320" _locID="1.SqlTypeNotSupported">Tipo SQL non compatible.</Error>
+
+      <!-- Error thrown when setting a cursor name that begins with the reserved prefix. -->
+      <Error Key="CursorNameBeginWithReservedPrefix" NativeErrorCode="11330" _locID="1.CursorNameBeginWithReservedPrefix">O nome do cursor non pode comezar por un prefixo reservado.</Error>
+      
+      <!-- Error thrown when argument value is invalid-->
+      <Error Key="InvalidArgumentValue" NativeErrorCode="11340" _locID="1.InvalidArgumentValue">Valor de argumento non válido.</Error>
+
+      <!-- Error and warnings with catalog functions. -->
+      <!-- Error thrown when fail to map metadata table id to catalog function id. -->
+      <Error Key="MetadataTableIDNotFoundForCatalogFunctionId" NativeErrorCode="11360" _locID="1.MetadataTableIDNotFoundForCatalogFunctionId">Non se atopa o ID da táboa de metadatos correspondente ao ID da función do catálogo.</Error>
+
+      <!-- Error thrown when catalog name is null but is required. -->
+      <Error Key="InvalidNullCatalogName" NativeErrorCode="11370" _locID="1.InvalidNullCatalogName">Uso non válido do punteiro NULL para o nome do catálogo.</Error>
+
+      <!-- Error thrown when schema name is null but is required. -->
+      <Error Key="InvalidNullSchemaName" NativeErrorCode="11371" _locID="1.InvalidNullSchemaName">Uso non válido do punteiro NULL para o nome do esquema.</Error>
+
+      <!-- Error thrown when table name is null but is required. -->
+      <Error Key="InvalidNullTableName" NativeErrorCode="11375" _locID="1.InvalidNullTableName">Uso non válido do punteiro NULL para o nome da táboa.</Error>
+
+      <!-- Error thrown when column name is null but is required. -->
+      <Error Key="InvalidNullColumnName" NativeErrorCode="11376" _locID="1.InvalidNullColumnName">Uso non válido do punteiro NULL para o nome da columna.</Error>
+
+      <!-- Error thrown when procedure name is null but is required. -->
+      <Error Key="InvalidNullProcName" NativeErrorCode="11377" _locID="1.InvalidNullProcName">Uso non válido do punteiro NULL para o nome do procedemento.</Error>
+
+      <!-- Error thrown when catalog name longer than max. -->
+      <Error Key="CatalogNameTooLong" NativeErrorCode="11380" _locID="1.CatalogNameTooLong">O nome do catálogo é demasiado longo.</Error>
+
+      <!-- Error thrown when schema name longer than max. -->
+      <Error Key="SchemaNameTooLong" NativeErrorCode="11390" _locID="1.SchemaNameTooLong">O nome do esquema é demasiado longo.</Error>
+
+      <!-- Error thrown when table name longer than max. -->
+      <Error Key="TableNameTooLong" NativeErrorCode="11400" _locID="1.TableNameTooLong">Nome da táboa demasiado longo.</Error>
+
+      <!-- Error thrown when procedure name longer than max. -->
+      <Error Key="ProcNameTooLong" NativeErrorCode="11410" _locID="1.ProcNameTooLong">O nome do procedemento é demasiado longo.</Error>
+
+      <!-- Error thrown when column name longer than max. -->
+      <Error Key="ColumnNameTooLong" NativeErrorCode="11420" _locID="1.ColumnNameTooLong">O nome da columna é demasiado longo.</Error>
+
+      <!-- Error thrown when provided a catalog name but catalog names are not supported. -->
+      <Error Key="CatalogNameNotSupported" NativeErrorCode="11430" _locID="1.CatalogNameNotSupported">O nome do catálogo non é compatible.</Error>
+
+      <!-- Error thrown when provided a schema name but schemas are not supported. -->
+      <Error Key="SchemaNotSupported" NativeErrorCode="11440" _locID="1.SchemaNotSupported">Esquema non compatible.</Error>
+
+      <!-- Error thrown when the current settings of bookmark and cursor type are not compatible. -->
+      <Error Key="BookmarkNotSupportedForCursorType" NativeErrorCode="11450" _locID="1.BookmarkNotSupportedForCursorType">O marcador non é compatible co tipo de cursor.</Error>
+
+      <!-- Error thrown when catalog function id is invalid or not supported. -->
+      <Error Key="InvalidCatalogFuncID" NativeErrorCode="11460" _locID="1.InvalidCatalogFuncID">O ID da función de catálogo non é válido ou non é compatible.</Error>
+
+      <!-- Error thrown when attempting to use transactions when they aren't supported. -->
+      <Error Key="TransNotSupported" NativeErrorCode="11470" _locID="1.TransNotSupported">As transaccións non son compatibles.</Error>
+
+      <!-- Error and warnings with driver functions. -->
+      <!-- Error thrown when we have too many handles. -->
+      <Error Key="TooManyHandles" NativeErrorCode="11480" _locID="1.TooManyHandles">Demasiados identificadores en uso.</Error>
+
+      <!-- Error thrown when an operation is canceled. -->
+      <Error Key="OperationCanceled" NativeErrorCode="11490" _locID="1.OperationCanceled">Cancelouse a operación.</Error>
+
+
+      <!-- Error and warnings with driver functions. -->
+      <!-- Error thrown when driver configuration is invalid for DriverManagerEncoding -->
+      <Error Key="DriverConfigurationWarningEncoding" NativeErrorCode="11510" _locID="1.DriverConfigurationWarningEncoding">Configuración do controlador non válida para DriverManagerEncoding.</Error>
+
+      <!-- Error thrown when unable to use SQLGetPrivateProfileString functions. -->
+      <Error Key="NoSQLGetPrivateProfileString" NativeErrorCode="11560" _locID="1.NoSQLGetPrivateProfileString">Non se pode localizar a función SQLGetPrivateProfileString.</Error>
+
+      <!-- Error thown when attempting to connect with missing required credential settings. -->
+      <Error Key="CredentialMissing" NativeErrorCode="11570" Params="1" _locID="1.CredentialMissing">Falta a configuración das credenciais necesaria: %1%.</Error>
+
+      <!-- Error thrown when the settings requested by DSII contain empty keys. -->
+      <Error Key="EmptyKeyNameInSettings" NativeErrorCode="11580" _locID="1.EmptyKeyNameInSettings">Detectouse un nome de clave baleiro na configuración.</Error>
+      
+      <!-- Error thrown when the connection settings from User Connection String are already present while SQLBrowseConnect -->
+      <Error Key="ConnAttrAlreadyPresent" Params="1" NativeErrorCode="11590" _locID="1.ConnAttrAlreadyPresent">Erro de conexión: xa se atopou o atributo %1% da conexión.</Error>
+      
+      <!-- Error thrown when a non requested connection setting is present as a part of User Connection String while SQLBrowseConnect -->
+      <Error Key="NonRequestedConnAttr" Params="1" NativeErrorCode="11600" _locID="1.NonRequestedConnAttr">Erro de conexión: atributo de conexión non solicitado %1% en ConnectionString </Error>
+      
+    </Package>
+    
+    <!-- #################################################################################### -->
+    <Package ID="2" DefaultComponent="DSI">
+
+      <!-- Error thrown when fail to get connection property from DSI  -->
+      <Error Key="DSIConnPropNotFound" Params="1" NativeErrorCode="20000" _locID="2.DSIConnPropNotFound">Non se atopou a propiedade da conexión en DSI: %1%</Error>
+
+      <!-- Error thrown when fail to get driver property from DSI. -->
+      <Error Key="DSIDriverPropNotFound" Params="1" NativeErrorCode="20001" _locID="2.DSIDriverPropNotFound">Non se atopou a propiedade do controlador en DSI: %1%</Error>
+
+      <!-- Error thrown when fail to get environment property from DSI. -->
+      <Error Key="DSIEnvPropNotFound" Params="1" NativeErrorCode="20002" _locID="2.DSIEnvPropNotFound">Non se atopou a propiedade do ambiente en DSI: %1%</Error>
+
+      <!-- Error thrown when fail to get statement property from DSI. -->
+      <Error Key="DSIStmtPropNotFound" Params="1" NativeErrorCode="20003" _locID="2.DSIStmtPropNotFound">Non se atopou a propiedade da instrución en DSI: %1%</Error>
+
+      <!-- Error thrown when setting driver to not put null terminator while driver does not support this feature. -->
+      <Error Key="EnvAttrOutputNtsNotSupported" NativeErrorCode="20004" _locID="2.EnvAttrOutputNtsNotSupported">O controlador non admite a devolución de cadeas que non rematen en NULL.</Error>
+
+      <!-- Error thrown when fail to get statement property limits. -->
+      <Error Key="DSIStmtPropLimitNotFound" Params="1" NativeErrorCode="20005" _locID="2.DSIStmtPropLimitNotFound">Non se atopou a limitación de propiedade da instrución: %1%</Error>
+
+      <!-- Error thrown when current result set traversal direction is not supported. -->
+      <Error Key="ResultSetTraverseDirNotSupported" Params="1" NativeErrorCode="20006" _locID="2.ResultSetTraverseDirNotSupported">A dirección do percorrido do conxunto de resultados non é compatible: %1%</Error>
+
+      <!-- Error thrown when metadata table id is invalid or not supported. -->
+      <Error Key="InvalidMetadataTableID" Params="1" NativeErrorCode="20007" _locID="2.InvalidMetadataTableID">ID da táboa de metadatos non válido: %1%</Error>
+
+      <!-- Error thrown when invalid filter is passed into metadata restriction generator. -->
+      <Error Key="InvalidFilterInMetadataRestrictionGenerator" NativeErrorCode="20008" _locID="2.InvalidFilterInMetadataRestrictionGenerator">Usouse un filtro non válido no xerador de restricións de metadatos.</Error>
+
+      <!-- Error thrown when no columns are marked as needed during data retrieval. -->
+      <Error Key="NoColumnsNeededDuringDataRetrieval" NativeErrorCode="20012" _locID="2.NoColumnsNeededDuringDataRetrieval">Realizouse unha recuperación de datos a pesar de que non se solicitara ningún dato da columna.</Error>
+
+      <!-- Error thrown when no column exists for column number for data retrieval. -->
+      <Error Key="InvalidColumnNum" Params="1" NativeErrorCode="20013" _locID="2.InvalidColumnNum">Número de columna non válido: %1%</Error>
+
+      <!-- Error thrown when metadata source invalid or not found. -->
+      <Error Key="MetadataSourceNotFound" NativeErrorCode="20014" _locID="2.MetadataSourceNotFound">Non se atopou a orixe de metadatos ou non é válida.</Error>
+
+      <!-- Error thrown when cursor type invalid or not supported. -->
+      <Error Key="CursorTypeNotSupported" Params="1" NativeErrorCode="20016" _locID="2.CursorTypeNotSupported">O tipo de cursor non é compatible: %1%</Error>
+
+      <!-- Error thrown when asking basic metadata result for derived data. -->
+      <Error Key="CannotGetDerivedDataOnBasicResult" NativeErrorCode="20017" _locID="2.CannotGetDerivedDataOnBasicResult">Non se poden recuperar datos derivados no resultado de metadatos filtrados básicos.</Error>
+
+      <!-- Error thrown when derived column Id is invalid for current metadata root. -->
+      <Error Key="InvalidDerivedColumnID" NativeErrorCode="20018" _locID="2.InvalidDerivedColumnID">ID da columna de metadatos derivados non válido.</Error>
+
+      <!-- Error thrown when current parameter is default but data source does not allow it to be default value for current parameter. -->
+      <Error Key="DefaultParamNotAllowed" NativeErrorCode="20020" _locID="2.DefaultParamNotAllowed">Non se permite configurar o parámetro actual como predefinido.</Error>
+
+      <!-- Error thrown when a specified column name is invalid or not found. -->
+      <Error Key="InvalidColumnName" Params="1" NativeErrorCode="20021" _locID="2.InvalidColumnName">Nome de columna non válido: %1%</Error>
+
+      <!-- Error thrown when there is an invalid filter value (i.e. null). -->
+      <Error Key="InvalidFilterVal" NativeErrorCode="20023" _locID="2.InvalidFilterVal">Valor do filtro non válido. Non use cadeas nulas nos valores de filtro. Para evitar a filtraxe, use un vector baleiro.</Error>
+      
+      <!-- Error thrown when performing cursor or data retrieval related operations on a row count result. -->
+      <Error Key="CannotPerformCursorOrDataRetrievalOperationOnRowCountResult" NativeErrorCode="20027" _locID="2.CannotPerformCursorOrDataRetrievalOperationOnRowCountResult">Non se poden realizar operacións de recuperación de datos ou do cursor no resultado de reconto de filas.</Error>
+      
+      <!-- Error thrown when a function is not supported. -->
+      <Error Key="FuncNotSupported" NativeErrorCode="20029" _locID="2.FuncNotSupported">A función non é compatible.</Error>
+      
+      <!-- Error thrown when memory allocation failed. -->
+      <Error Key="DSIMemAllocErr" NativeErrorCode="20030" _locID="2.DSIMemAllocErr">Erro de xestión da memoria.</Error>
+
+      <!-- Error thrown when cannot find custom property. -->
+      <Error Key="CustomPropNotFound" Params="1" NativeErrorCode="20031" _locID="2.CustomPropNotFound">Non se atopou a propiedade personalizada: %1%</Error>
+
+      <!-- Error thrown when a required setting is requested but not present. -->
+      <Error Key="DSIReqSettingNotFound" Params="1" NativeErrorCode="20032" _locID="2.DSIReqSettingNotFound">A configuración "%1%" necesaria non está presente na configuración da conexión.</Error>
+
+      <!-- Error thrown when a parameter type is output for an input parameter, or input for an output parameter. -->
+      <Error Key="IncompatibleParameterTypes" Params="1" NativeErrorCode="20033" _locID="2.IncompatibleParameterTypes">Especificouse un tipo de parámetro non compatible para o parámetro: %1%.</Error>
+
+      <!-- Error thrown when a parameter SQL type doesn't match the bound type. -->
+      <Error Key="IncompatibleParameterSqlTypes" Params="3" NativeErrorCode="20034" _locID="2.IncompatibleParameterSqlTypes">Especificouse un tipo SQL de parámetro non compatible para o parámetro: %1%. Tipo de vinculación: %2%. Tipo esperado: %3%</Error>
+
+      <!-- Error thrown when a specifying an invalid catalog as the current catalog. -->
+      <Error Key="InvalidCurrentCatalog" Params="1" NativeErrorCode="20035" _locID="2.InvalidCurrentCatalog">Especificouse un catálogo non válido: %1%</Error>
+
+      <!-- Error thrown when a hex string with an odd length is given to DSITypeUtilities::HexStringToBinary() -->
+      <Error Key="DSIHexToBinaryConversionOddLengthError" NativeErrorCode="20036" _locID="2.DSIHexToBinaryConversionOddLengthError">Erro ao converter de cadea hexadecimal a binaria: lonxitude impar da cadea hexadecimal.</Error>
+
+      <!-- Error thrown when a hex string with an invalid character is given to DSITypeUtilities::HexStringToBinary() -->
+      <Error Key="DSIHexToBinaryConversionInvalidCharacterError" Params="1" NativeErrorCode="20037" _locID="2.DSIHexToBinaryConversionInvalidCharacterError">Erro ao converter de cadea hexadecimal a binaria: a cadea hexadecimal contén o carácter non hexadecimal "%1%".</Error>
+
+      <!-- Error thrown when an property type is incorrect. -->
+      <Error Key="IncorrectPropertyAttributeType" Params="3" NativeErrorCode="20038" _locID="2.IncorrectPropertyAttributeType">O tipo de AttributeData da propiedade é incorrecto para a clave da propiedade %1%: esperábase %2%, real %3%</Error>
+
+      <!-- Error thrown when the total swap file disk space has reached the limit. -->
+      <Error Key="SwapLimitErr" NativeErrorCode="20040" _locID="2.SwapLimitErr">Alcanzouse o límite de espazo total no disco de ficheiros de intercambio.</Error>
+    
+      <!-- Error thrown when OpenSSL fails to load. -->
+      <Error Key="LibLoadErr" NativeErrorCode="20041" _locID="2.LibLoadErr">Erro ao cargar a biblioteca dinámica ou compartida "%1%": "%2%".</Error>
+    
+      <!-- Error thrown when OpenSSL fails to load. -->
+      <Error Key="LibFunctLoadErr" NativeErrorCode="20042" _locID="2.LibFunctLoadErr">Erro ao cargar a función "%2%" da biblioteca dinámica ou compartida "%1%".</Error>
+    
+      <!-- Error thrown when OpenSSL fails to load. -->
+      <Error Key="SwapFileEncryptErr" NativeErrorCode="20043" _locID="2.SwapFileEncryptErr">Erro interno ao cifrar ou descifrar o ficheiro de intercambio: chamada a "%1%", motivo "%2%".</Error>
+      
+      <!-- [HY000]: Invalid argument passed to a function. -->
+      <Error Key="InvalidArgument" Params="2" NativeErrorCode="21000" _locID="2.InvalidArgument">Transmitíronse argumentos non válidos a unha función [%1%: %2%].</Error>
+
+      <!-- [HY000]: Invalid function/method has been invoked. -->
+      <Error Key="InvalidOperation" Params="3" NativeErrorCode="21001" _locID="2.InvalidOperation">Produciuse un erro lóxico ao chamar a función %1% [%2%: %3%]. Asegúrese de que se admite a operación e de que se aplica a función.</Error>
+    
+      <!-- [22019]: Invalid LIKE escape character. -->
+      <Error Key="InvalidEscapeChar" Params="1" NativeErrorCode="22019" _locID="2.InvalidEscapeChar">Cláusula de escape LIKE non válida "%1%". Esta cláusula debe estar formada por un carácter exactamente.</Error>
+
+      <!-- [22025]: Invalid LIKE escape sequence. -->
+      <Error Key="InvalidEscapeSequence" NativeErrorCode="22025" _locID="2.InvalidEscapeSequence">Secuencia de escape LIKE non válida. O carácter de escape debe ir seguido por un "%", "_" ou outro carácter de escape.</Error>
+
+      <!-- [HY000]: Statement execution failed during a batch execution, but the reason is unknown -->
+      <Error Key="ExecuteBatchUnknownError" NativeErrorCode="22040" _locID="2.ExecuteBatchUnknownError">Non se puido levar a cabo a execución debido a un erro descoñecido.</Error>
+
+      <!-- [HY000]: Statement execution produced no results a batch execution, but the reason is unknown -->
+      <Error Key="ExecuteBatchNoResults" NativeErrorCode="22041" _locID="2.ExecuteBatchNoResults">A execución non xerou ningún resultado.</Error>
+
+      <!-- [HY000]: Statement execution produced a resultset during batch execution, but only rowcounts are allowed. -->
+      <Error Key="ExecuteBatchResultSet" NativeErrorCode="22042" _locID="2.ExecuteBatchResultSet">A execución xerou un conxunto de resultados. Durante a execución en lote, só se permiten instrucións que xeren recontos de filas.</Error>
+
+      <!-- [HY000]: Statement execution produced multiple results during batch execution, but only a single rowcount result is allowed. -->
+      <Error Key="ExecuteBatchMultipleResults" NativeErrorCode="22043" _locID="2.ExecuteBatchMultipleResults">A execución xerou varios resultados. Durante a execución en lote, só se permite un único resultado de reconto de filas.</Error>
+
+      <!-- [HY000]: Statement used for batch execution needs dynamic parameters, which is not allowed. -->
+      <Error Key="ExecuteBatchParameters" NativeErrorCode="22045" _locID="2.ExecuteBatchParameters">As instrucións dunha execución en lote non poden usar parámetros dinámicos.</Error>
+
+      <!-- Swap: Seek error. -->
+      <Error Key="SwapSeekError" NativeErrorCode="22046" _locID="2.SwapSeekError">Erro interno: non se puido modificar a posición no ficheiro de intercambio.</Error>
+      
+      <!-- [HY000]: COLUMNS Clause may not be empty in a NATIVE escape.  -->
+      <Error Key="EmptyColumnsClauseError" NativeErrorCode="22047" _locID="2.EmptyColumnsClauseError">A cláusula COLUMNS non pode estar baleira nun carácter de escape NATIVE.</Error>
+
+      <!-- Error when registering duplicate components to the message source. -->
+      <Error Key="DuplicateComponentErr" Params="3" NativeErrorCode="220048" _locID="2.DuplicateComponentErr">O ID de compoñente "%1%" para rexistrar no ficheiro de mensaxe "%2%" xa se rexistrou no ficheiro de mensaxe "%3%".</Error>
+
+      <!-- Error when too many filter values were provided for a catalog function -->
+      <Error Key="CatFnTooManyFilters" Params="0" NativeErrorCode="220049" _locID="2.CatFnTooManyFilters">Fornecéronse demasiados filtros para a función de catálogo que se executou.</Error>
+    </Package>
+
+    <!-- #################################################################################### -->
+    <Package ID="3" DefaultComponent="Support">
+
+      <!-- [HY000]: Invalid argument passed to a function. -->
+      <Error Key="InvalidArgument" Params="2" NativeErrorCode="30020" _locID="3.InvalidArgument">Transmitiuse un argumento non válido á función [%1%: %2%].</Error>
+
+      <!-- [HY000]: Invalid argument passed to a function. -->
+      <Error Key="InvalidArgumentParam" Params="3" NativeErrorCode="30021" _locID="3.InvalidArgumentParam">Transmitiuse un argumento non válido (%1%) á función [%2%: %3%].</Error>
+
+      <!-- [HY000]: Invalid function/method has been invoked. -->
+      <Error Key="InvalidOperation" Params="3" NativeErrorCode="30030" _locID="3.InvalidOperation">Erro ao chamar a función %1% [%2%: %3%]. Comprobe que se admite a operación e que se aplica a función.</Error>
+
+      <!-- Error thrown when attribute data type is invalid or not supported. -->
+      <Error Key="AttrDataTypeNotRecog" NativeErrorCode="40020" _locID="3.AttrDataTypeNotRecog">Non se recoñece o tipo de datos do atributo.</Error>
+
+      <!-- Error thrown when buffer is too small to hold binary attribute data. --> 
+      <Error Key="BufLenTooSmallForBinaryAttrData" NativeErrorCode="40070" _locID="3.BufLenTooSmallForBinaryAttrData">A lonxitude do búfer é demasiado pequena para os datos de atributo binarios devoltos.</Error>
+
+      <!-- Error thrown when warning listener is not valid or not found. --> 
+      <Error Key="WarningListenerNotValid" NativeErrorCode="40090" _locID="3.WarningListenerNotValid">Non se atopou o axente de escoita de aviso ou non é válido.</Error>
+      
+      <!-- Error thrown when invalid string buffer length is given. --> 
+      <Error Key="InvalidStrBufLen" NativeErrorCode="40100" _locID="3.InvalidStrBufLen">Lonxitude do búfer de cadea non válida.</Error>
+
+      <!-- Error thrown when converting from SQL C type to SQL C type. --> 
+      <Error Key="IllegalDataConvFromCToCType" NativeErrorCode="40110" _locID="3.IllegalDataConvFromCToCType">Conversión de datos non válida do tipo SQL C ao tipo SQL C.</Error>
+
+      <!-- Error thrown when converting from SQL type to SQL type. --> 
+      <Error Key="IllegalDataConvFromSQLToSQLType" NativeErrorCode="40120" _locID="3.IllegalDataConvFromSQLToSQLType">Conversión de datos non válida do tipo SQL ao tipo SQL.</Error>
+
+      <!-- Error thrown when setting precision less than zero. --> 
+      <Error Key="PrecLessThanZero" NativeErrorCode="40130" _locID="3.PrecLessThanZero">A precisión non pode ser menor que cero.</Error>
+
+      <!-- Error thrown when setting precision greater than supported. -->
+      <Error Key="MaxPrecisionExceeded" Params="2" NativeErrorCode="40131" _locID="3.MaxPrecisionExceeded">O número "%1%" supera a precisión máxima permitida (%2%).</Error>
+
+      <!-- Error thrown when setting scale less than zero. --> 
+      <Error Key="ScaleLessThanZero" NativeErrorCode="40140" _locID="3.ScaleLessThanZero">A escala non pode ser menor que cero.</Error>
+
+      <!-- Error thrown when SQL C type is not supported. --> 
+      <Error Key="SQLCTypeNotSupported" Params="2" NativeErrorCode="40150" _locID="3.SQLCTypeNotSupported">Tipo SQL C non compatible: %1% (%2%)</Error>
+
+      <!-- Error thrown when SQL type is not supported. --> 
+      <Error Key="SQLTypeNotSupported" Params="2" NativeErrorCode="40160" _locID="3.SQLTypeNotSupported">Tipo SQL non compatible: %1% (%2%)</Error>
+
+      <!-- Error thrown when SQL TDW type is not supported. --> 
+      <Error Key="SQLTDWTypeNotSupported" Params="1" NativeErrorCode="40170" _locID="3.SQLTDWTypeNotSupported">Tipo SQL TDW non compatible (%1%).</Error>
+
+      <!-- Error thrown when data conversion algorithm resulted in an error. -->
+      <Error Key="DataConvAlgorithmError" NativeErrorCode="40180" _locID="3.DataConvAlgorithmError">Erro do algoritmo de conversión de datos.</Error>
+
+      <!-- Error thrown when data conversion algorithm resulted in a memory allocation error. -->
+      <Error Key="DataConvAlgorithmMemError" NativeErrorCode="40181" _locID="3.DataConvAlgorithmMemError">Erro de atribución de memoria do algoritmo de conversión de datos.</Error>
+
+      <!-- Error thrown when conversion between the 2 data types are not supported. --> 
+      <Error Key="DataConvAlgorithmNotSupported" Params="2" NativeErrorCode="40190" _locID="3.DataConvAlgorithmNotSupported">O algoritmo de conversión de datos non é compatible con %1% para %2%.</Error>
+
+      <!-- Error thrown when fail to map SQLC type to tDW type. -->
+      <Error Key="TDWTypeNotFoundForCType" Params="2" NativeErrorCode="40450" _locID="3.TDWTypeNotFoundForCType">Non se atopa o tipo TDW correspondente para o tipo SQL C %1% (%2%).</Error>
+
+      <!-- Error thrown when fail to map SQL type to tDW type. -->
+      <Error Key="TDWTypeNotFoundForSqlType" Params="2" NativeErrorCode="40460" _locID="3.TDWTypeNotFoundForSqlType">Non se atopa o tipo TDW correspondente para o tipo SQL %1% (%2%).</Error>
+
+      <!-- Error thrown when fail to find default SQL C type for the TDW type. --> 
+      <Error Key="DefaultCForTDWTypeNotFound" Params="2" NativeErrorCode="40210" _locID="3.DefaultCForTDWTypeNotFound">Non se atopa o tipo SQL C predefinido para o tipo TDW %1% (%2%).</Error>
+
+      <!-- Error thrown when TDW timestamp type is invalid. --> 
+      <Error Key="InvalidTDWTimestampType" NativeErrorCode="40220" _locID="3.InvalidTDWTimestampType">Tipo de marca de hora de TDW non válida.</Error>
+
+      <!-- Error thrown when joining two buffer descriptors forms a loop. -->
+      <Error Key="DetectedBufferDescriptorLoop" NativeErrorCode="40240" _locID="3.DetectedBufferDescriptorLoop">Detectouse un bucle ao unir dous descritores de búfer.</Error>
+
+      <!-- Error thrown when attempting to allocate memory for a string fails. -->
+      <Error Key="CannotAllocateMemoryForString" NativeErrorCode="40250" _locID="3.CannotAllocateMemoryForString">Non se pode atribuír a memoria na que ler a cadea.</Error>
+
+      <!-- Error thrown when attempting to generate a new handle when the maximum handle value has been hit. -->
+      <Error Key="CannotGenerateHandle" NativeErrorCode="40260" _locID="3.CannotGenerateHandle">Demasiados identificadores en uso.</Error>
+
+      <!-- Error thrown when an argument is passed to an object that is invalid. -->
+      <Error Key="IllegalArgument" NativeErrorCode="40280" _locID="3.IllegalArgument">Transmitiuse un argumento non válido á función.</Error>
+
+      <!-- Error thrown when a new handle failed to be inserted in the manager. -->
+      <Error Key="HandleInsertionFailed" NativeErrorCode="40290" _locID="3.HandleInsertionFailed">O identificador non se inseriu correctamente no xestor de identificadores.</Error>
+
+      <!-- Warning posted when trying to get attribute data as the wrong type. -->
+      <Error Key="BadAttrType" NativeErrorCode="40300" _locID="3.BadAttrType">Non se pode obter o atributo do tipo solicitado.</Error>
+
+      <!-- Error thrown when SetLength or AttachBuffer are called on SQLData with the wrong ownership strategy. -->
+      <Error Key="InvalidBufferStrategyOperation" NativeErrorCode="40310" _locID="3.InvalidBufferStrategyOperation">Operación non válida para a estratexia de propiedade do búfer seleccionada.</Error>
+
+      <!-- Error posted when an arithmetic operation resulted in an invalid numeric. -->
+      <Error Key="TDWNumericArithmeticError" Params="1" NativeErrorCode="40320" _locID="3.TDWNumericArithmeticError">A operación numérica "%1%" xerou un valor numérico non válido.</Error>
+
+      <!-- Error thrown when constructing a numeric from a string resulted in an invalid numeric. -->
+      <Error Key="TDWNumericStringError" Params="1" NativeErrorCode="40321" _locID="3.TDWNumericStringError">O valor de cadea "%1%" tivo como resultado un numérico non válido.</Error>
+
+      <!-- Error thrown when constructing a numeric from a number resulted in an invalid numeric. -->
+      <Error Key="TDWNumericValueError" Params="1" NativeErrorCode="40322" _locID="3.TDWNumericValueError">O valor "%1%" tivo como resultado un numérico non válido.</Error>
+
+      <!-- Error thrown when constructing a numeric from a number resulted in an invalid numeric. -->
+      <Error Key="TDWNumericOperationOnInvalid" Params="1" NativeErrorCode="40323" _locID="3.TDWNumericOperationOnInvalid">Tentouse executar a operación "%1%" nun numérico non válido.</Error>
+
+      <!-- Error thrown when fetching a numeric resulted in an out of range error. -->
+      <Error Key="TDWNumericOutOfRangeError" Params="2" NativeErrorCode="40324" _locID="3.TDWNumericOutOfRangeError">O valor "%1%" que se obtivo como %2% estaba fóra do intervalo.</Error>
+
+      <!-- Swap: Invalid column number. -->
+      <Error Key="SwapInvalidColumnNum" NativeErrorCode="40340" _locID="3.SwapInvalidColumnNum">Erro interno: tentouse acceder a unha columna que non é válida.</Error>
+
+      <!-- Swap: Invalid offset. -->
+      <Error Key="SwapInvalidOffset" NativeErrorCode="40350" _locID="3.SwapInvalidOffset">Erro interno: desprazamento calculado non válido ao reservar espazo para o ficheiro de intercambio.</Error>
+
+      <!-- Swap: Invalid row number. -->
+      <Error Key="SwapInvalidRowNum" NativeErrorCode="40360" _locID="3.SwapInvalidRowNum">Erro interno: tentouse acceder a unha fila que non é válida.</Error>
+
+      <!-- Swap: Read error. -->
+      <Error Key="SwapReadError" NativeErrorCode="40370" _locID="3.SwapReadError">Erro interno: non se puido ler desde un ficheiro de intercambio.</Error>
+
+      <!-- Swap: Seek error. -->
+      <Error Key="SwapSeekError" NativeErrorCode="40380" _locID="3.SwapSeekError">Erro interno: non se puido modificar a posición no ficheiro de intercambio.</Error>
+
+        <!-- Swap: Write error. -->
+      <Error Key="SwapWriteError" Params="1" NativeErrorCode="40390" _locID="3.SwapWriteError">Erro ao escribir o ficheiro de intercambio temporal %1%. Asegúrese de que a localización do ficheiro de intercambio permite a escritura e ten espazo abondo.</Error>
+      
+      <!-- Error thrown when the end of the message buffer is encountered while more data is expected. -->
+      <Error Key="UnexpectedBufferEnd" NativeErrorCode="40400" _locID="3.UnexpectedBufferEnd">Finalización inesperada do búfer de contido.</Error>
+
+      <!-- Error thrown if the serializer runs out of memory to serialize into. -->
+      <Error Key="OutOfMemToSerialize" NativeErrorCode="40410" _locID="3.OutOfMemToSerialize">Memoria insuficiente para pór contido en serie.</Error>
+
+      <!-- Error thrown when traversal direction is not supported for temporary table. -->
+      <Error Key="TempTableTraverseDirNotSupported" NativeErrorCode="40430" _locID="3.TempTableTraverseDirNotSupported">Dirección do percorrido non compatible coa táboa temporal.</Error>
+
+      <!-- Error thrown when accesing a closed temporary table. -->
+      <Error Key="CannotAccessDataWithCursor" NativeErrorCode="40440" _locID="3.CannotAccessDataWithCursor">Non se pode acceder aos datos da táboa temporal sen un cursor aberto.</Error>
+
+      <!-- [01004]: String data, right-truncated. -->
+      <Error Key="StrRightTrunc" NativeErrorCode="40450" _locID="3.StrRightTrunc">Os datos da cadea truncáronse ao realizar a conversión.</Error>
+
+      <!-- [01S07]: Fractional truncation. -->
+      <Error Key="FractionalTrunc" NativeErrorCode="40460" _locID="3.FractionalTrunc">Os datos fraccionarios truncáronse ao realizar a conversión.</Error>
+
+      <!-- [07006]: Restricted data type violation. -->
+      <Error Key="RestrictedDataTypeAttrViolation" NativeErrorCode="40461" _locID="3.RestrictedDataTypeAttrViolation">Infracción do atributo de tipo de datos restrinxido.</Error>
+
+      <!-- [07006]: Invalid multi-field interval conversion. -->
+      <Error Key="InvalidMultiFieldIntervalConversion" NativeErrorCode="40462" _locID="3.InvalidMultiFieldIntervalConversion">Conversión non válida. Os intervalos de varios campos non se poden converter a un único número.</Error>
+
+      <!-- [22001]: String data, right-truncated. -->
+      <Error Key="StrRightTruncErr" NativeErrorCode="40465" _locID="3.StrRightTruncErr">Os datos da cadea truncáronse ao realizar a conversión.</Error>
+
+      <!-- [22003]: Numeric value out of range. -->
+      <Error Key="NumericValOutOfRange" Params="2" NativeErrorCode="40470" _locID="3.NumericValOutOfRange">Erro de conversión na columna %1% e fila %2%: valor numérico fóra do intervalo.</Error>
+
+      <!-- [22007]: Invalid date, time or datetime format. -->
+      <Error Key="InvalidDatetimeFormat" NativeErrorCode="40480" _locID="3.InvalidDatetimeFormat">Formato de marca de hora, hora ou data non válido.</Error>
+
+      <!-- [22007]: Invalid date format. -->
+      <Error Key="InvalidDateFormat" Params="1" NativeErrorCode="40481" _locID="3.InvalidDateFormat">Formato de data non válido para "%1%". O formato debería ser [-]AAAA-MM-DD.</Error>
+
+      <!-- [22007]: Invalid time format. -->
+      <Error Key="InvalidTimeFormat" Params="1" NativeErrorCode="40482" _locID="3.InvalidTimeFormat">Formato de hora non válido para "%1%". O formato debería ser hh:mm:ss[.fffffffff].</Error>
+
+      <!-- [22007]: Invalid timestamp format. -->
+      <Error Key="InvalidTimestampFormat" Params="1" NativeErrorCode="40483" _locID="3.InvalidTimestampFormat">Formato de hora non válido para "%1%". O formato debería ser [-]AAAA-MM-DD hh:mm:ss[.fffffffff].</Error>
+
+      <!-- [22007]: Invalid date, time or datetime value. -->
+      <Error Key="InvalidDatetimeValue" NativeErrorCode="40490" _locID="3.InvalidDatetimeValue">Valor de marca de hora, hora ou data non válido.</Error>
+
+      <!-- [22007]: Invalid date value. -->
+      <Error Key="InvalidDateValue" Params="1" NativeErrorCode="40500" _locID="3.InvalidDateValue">O valor de data "%1%" non é válido. O ano debe estar dentro do intervalo [-9999, 9999], o mes debe estar dentro do intervalo [1, 12], e o día debe estar dentro do intervalo [1, 31] e axustarse ao intervalo de días do mes e do ano especificados.</Error>
+
+      <!-- [22007]: Invalid time value. -->
+      <Error Key="InvalidTimeValue" Params="1" NativeErrorCode="40501" _locID="3.InvalidTimeValue">O valor de hora "%1%" non é válido. A hora debe estar dentro do intervalo [0, 23], o minuto debe estar dentro do intervalo [0, 59] e o segundo debe estar dentro do intervalo [0, 61], onde 60 e 61 resérvanse para os segundos intercalares.</Error>
+
+      <!-- [22007]: Invalid timestamp value. -->
+      <Error Key="InvalidTimestampValue" Params="1" NativeErrorCode="40502" _locID="3.InvalidTimestampValue">O valor de marca de hora "%1%" non é válido. O ano debe estar dentro do intervalo [-9999, 9999] excluíndo o 0, o mes debe estar dentro do intervalo [1, 12], o día debe estar dentro do intervalo [1, 31] e axustarse ao intervalo de días do mes e do ano especificados, a hora debe estar dentro do intervalo [0, 23], o minuto debe estar dentro do intervalo [0, 59] e o segundo debe estar dentro do intervalo [0, 61], onde 60 e 61 resérvanse para os segundos intercalares.</Error>
+
+      <!-- [22007]: Invalid year to month interval value. -->
+      <Error Key="InvalidYearMonthIntervalValue" Params="1" NativeErrorCode="40491" _locID="3.InvalidYearMonthIntervalValue">Valor do intervalo de ano a mes non válido: %1%. O ano debe estar dentro do intervalo [0, 999999999] e o mes debe estar dentro do intervalo [0, 11].</Error>
+
+      <!-- [22007]: Invalid day to hour interval value. -->
+      <Error Key="InvalidDayHourIntervalValue" Params="1" NativeErrorCode="40492" _locID="3.InvalidDayHourIntervalValue">Valor do intervalo de día a hora non válido: %1%. O día debe estar dentro do intervalo [0, 999999999] e a hora debe estar dentro do intervalo [0, 23].</Error>
+
+      <!-- [22007]: Invalid day to minute interval value. -->
+      <Error Key="InvalidDayMinuteIntervalValue" Params="1" NativeErrorCode="40493" _locID="3.InvalidDayMinuteIntervalValue">Valor do intervalo de día a minuto non válido: %1%. O día debe estar dentro do intervalo [0, 999999999], a hora debe estar dentro do intervalo [0, 23] e o minuto debe estar dentro do intervalo [0, 59].</Error>
+
+      <!-- [22007]: Invalid day to second interval value. -->
+      <Error Key="InvalidDaySecondIntervalValue" Params="1" NativeErrorCode="40494" _locID="3.InvalidDaySecondIntervalValue">Valor do intervalo de día a segundo non válido: %1%. O día debe estar dentro do intervalo [0, 999999999], a hora debe estar dentro do intervalo [0, 23] e o minuto e o segundo deben estar dentro do intervalo [0, 59].</Error>
+
+      <!-- [22007]: Invalid hour to minute interval value. -->
+      <Error Key="InvalidHourMinuteIntervalValue" Params="1" NativeErrorCode="40495" _locID="3.InvalidHourMinuteIntervalValue">Valor do intervalo de hora a minuto non válido: %1%. A hora debe estar dentro do intervalo [0, 999999999] e o minuto debe estar dentro do intervalo [0, 59].</Error>
+
+      <!-- [22007]: Invalid hour to second interval value. -->
+      <Error Key="InvalidHourSecondIntervalValue" Params="1" NativeErrorCode="40496" _locID="3.InvalidHourSecondIntervalValue">Valor do intervalo de hora a segundo non válido: %1%. A hora debe estar dentro do intervalo [0, 999999999] e o minuto e o segundo deben estar dentro do intervalo [0, 59].</Error>
+
+      <!-- [22007]: Invalid minute to second interval value. -->
+      <Error Key="InvalidMinuteSecondIntervalValue" Params="1" NativeErrorCode="40497" _locID="3.InvalidMinuteSecondIntervalValue">Valor do intervalo de minuto a segundo non válido: %1%. O minuto debe estar dentro do intervalo [0, 999999999] e o segundo debe estar dentro do intervalo [0, 59].</Error>
+
+      <!-- [22007]: Invalid second interval value. -->
+      <Error Key="InvalidSecondIntervalValue" Params="1" NativeErrorCode="40498" _locID="3.InvalidSecondIntervalValue">Valor do intervalo de segundo non válido: %1%. O segundo debe estar dentro do intervalo [0, 999999999].</Error>
+
+      <!-- [22007]: Invalid single field interval value. -->
+      <Error Key="InvalidSingleFieldIntervalValue" Params="1" NativeErrorCode="40499" _locID="3.InvalidSingleFieldIntervalValue">Valor do intervalo de campo único non válido: %1%. O valor debe estar dentro do intervalo [0, 999999999].</Error>
+
+      <!-- [22008]: Invalid datetime value resulting in a field overflow. -->
+      <Error Key="IntervalArithOverflow" Params="1" NativeErrorCode="40519" _locID="3.IntervalArithOverflow">A operación "%1%" xerou un desbordamento do campo do intervalo.</Error>
+
+      <!-- [22008]: Invalid datetime value resulting in a field overflow. -->
+      <Error Key="DatetimeFieldOverflow" NativeErrorCode="40520" _locID="3.DatetimeFieldOverflow">Desbordamento do campo dataHora provocado por un valor dataHora non válido.</Error>
+
+      <!-- [22015]: Interval field overflow. -->
+      <Error Key="IntervalFieldOverflow" NativeErrorCode="40530" _locID="3.IntervalFieldOverflow">Desbordamento do campo do intervalo.</Error>
+
+      <!-- [22015]: Leading precision is too small for the leading interval value. -->
+      <Error Key="InvalidLeadingPrecision" NativeErrorCode="40540" _locID="3.InvalidLeadingPrecision">A precisión inicial é menor que a do valor do intervalo inicial.</Error>
+
+      <!-- [22015]: Leading interval precision exceeded. -->
+      <Error Key="LeadingPrecisionExceeded" Params="1" NativeErrorCode="40541" _locID="3.LeadingPrecisionExceeded">Superouse a precisión do intervalo inicial de %1%.</Error>
+
+      <!-- [22015]: Fractional seconds precision exceeded. -->
+      <Error Key="FractionalPrecisionExceeded" Params="1" NativeErrorCode="40542" _locID="3.FractionalPrecisionExceeded">Superouse a precisión de fraccións de segundo de %1%.</Error>
+
+      <!-- [22015]: Fractional seconds precision is too small for the interval value. -->
+      <Error Key="InvalidFractionalPrecision" NativeErrorCode="40543" _locID="3.InvalidFractionalPrecision">A precisión de fraccións de segundo é menor que a do valor do intervalo.</Error>
+
+      <!-- [22018]: Invalid character value for cast. -->
+      <Error Key="InvalidCharValForCast" NativeErrorCode="40550" _locID="3.InvalidCharValForCast">Valor de carácter non válido para a especificación da conversión.</Error>
+
+      <!-- [22018]: Invalid GUID data format. -->
+      <Error Key="InvalidGuidValue" Params="1" NativeErrorCode="40560" _locID="3.InvalidGuidValue">Valor dos datos GUID non válido: %1%. O GUID debe ter o formato XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX con chaves de peche {} opcionais.</Error>
+
+      <!-- [HY013]: Out of memory error. -->
+      <Error Key="OutOfMemoryError" NativeErrorCode="40600" _locID="3.OutOfMemoryError">Erro de memoria insuficiente.</Error>
+      
+      <!-- [HY000]: Conversion invalid data. -->
+      <Error Key="ConvInvalidData" NativeErrorCode="40610" _locID="3.ConvInvalidData">Datos non válidos para a conversión.</Error>
+      
+      <!-- [HY000]: Conversion logic error. -->
+      <Error Key="ConvLogicError" NativeErrorCode="40620" _locID="3.ConvLogicError">Erro lóxico durante a conversión.</Error>
+
+      <!-- [HY000]: Semaphore at maximum value. -->
+      <Error Key="ErrSemaphoreMaxValue" NativeErrorCode="40621" _locID="3.ErrSemaphoreMaxValue">Non se pode configurar o semáforo nun valor maior que SEMAPHORE_MAX_VALUE.</Error>
+
+      <!-- [HY000]: Error initializing semaphore. -->
+      <Error Key="ErrSemaphoreInit" Params="1" NativeErrorCode="40622" _locID="3.ErrSemaphoreInit">Erro ao iniciar o semáforo: %1%</Error>
+
+      <!-- Error thrown when there is an I/O error. -->
+      <Error Key="IOError" NativeErrorCode="40630" _locID="3.IOError">Erro de E/S.</Error>
+
+      <!-- Error thrown when registry key not found when trying to connect. --> 
+      <Error Key="RegKeyNotFound" NativeErrorCode="50010" _locID="3.RegKeyNotFound">Non se atopou a clave do rexistro.</Error>
+
+      <!-- Error thrown when cannot open registry when trying to connect.  --> 
+      <Error Key="CannotOpenRegistry" NativeErrorCode="50020" _locID="3.CannotOpenRegistry">Non se pode abrir o rexistro.</Error>
+
+      <!-- Error thrown when cannot open ini file when trying to connect. --> 
+      <Error Key="CannotOpenIniFile" NativeErrorCode="50040" _locID="3.CannotOpenIniFile">Non se pode abrir o ficheiro INI.</Error>
+
+      <!-- Error thrown when environment variable not found when trying to connect. --> 
+      <Error Key="EnvVarNotFound" Params="1" NativeErrorCode="50050" _locID="3.EnvVarNotFound">Non se atopou a variable de ambiente: "%1%".</Error>
+
+      <!-- Error thrown when a file cannot be opened. -->
+      <Error Key="CannotOpenFile" Params="2" NativeErrorCode="50070" _locID="3.CannotOpenFile">Non se pode abrir o ficheiro "%1%". Erro: %2%</Error>
+
+      <!-- Error thrown when an encoding type is not recognized. --> 
+      <Error Key="EncodingNotRecog" NativeErrorCode="50080" _locID="3.EncodingNotRecog">Non se recoñece a codificación.</Error>
+
+      <!-- Error thrown when conversion from string to numeric value fails. -->
+      <Error Key="StrToNumConvFailed" Params="1" NativeErrorCode="50090" _locID="3.StrToNumConvFailed">Erro de conversión de cadea a número co valor "%1%"</Error>
+
+      <!-- Error thrown when conversion from string to unsigned numeric value fails. -->
+      <Error Key="StrToNumConvFailedUnsigned" Params="1" NativeErrorCode="50100" _locID="3.StrToNumConvFailedUnsigned">Erro de conversión de cadea a número sen signo co valor "%1%"</Error>
+
+      <!-- Error thrown when conversion from string to numeric value due to overflow fails. -->
+      <Error Key="StrToNumConvFailedOverflow" Params="1" NativeErrorCode="50110" _locID="3.StrToNumConvFailedOverflow">Erro de conversión de cadea a número debido a un desbordamento co valor "%1%"</Error>
+
+      <!-- Error thrown when conversion from string to numeric value due to underflow fails. -->
+      <Error Key="StrToNumConvFailedUnderflow" Params="1" NativeErrorCode="50120" _locID="3.StrToNumConvFailedUnderflow">Erro de conversión de cadea a número debido a un subdesbordamento co valor "%1%"</Error>
+
+      <!-- Error thrown when conversion from integer to string value fails due to an undersized buffer. -->
+      <Error Key="NumToStrConvFailed" NativeErrorCode="50130" _locID="3.NumToStrConvFailed">Erro de conversión de número a cadea debido a un búfer de caracteres de tamaño insuficiente.</Error>
+
+      <!-- Error thrown when using a method that has not been implemented yet. --> 
+      <Error Key="NotImplYet" NativeErrorCode="50140" _locID="3.NotImplYet">Método non implementado.</Error>
+
+      <!-- Error thrown when an argument is passed to an object that is invalid. -->
+      <Error Key="ThreadInvalidStateAction" NativeErrorCode="50160" _locID="3.ThreadInvalidStateAction">Acción non válida para o subproceso no estado actual.</Error>
+
+      <!-- Error thrown when creation of a new thread failed. -->
+      <Error Key="ThreadCreationFailed" NativeErrorCode="50170" _locID="3.ThreadCreationFailed">Erro ao crear un novo subproceso.</Error>
+
+      <!-- Error thrown when creation of new thread attributes failed. -->
+      <Error Key="ThreadAttributeCreationFailed" NativeErrorCode="50175" _locID="3.ThreadAttributeCreationFailed">Erro ao crear novos atributos de subproceso.</Error>
+
+      <!-- Error thrown when a wait for a thread has failed. -->
+      <Error Key="ThreadWaitFailed" NativeErrorCode="50180" _locID="3.ThreadWaitFailed">Erro ao agardar polo subproceso.</Error>
+
+      <!-- Error thrown when a thread is started multiple times. -->
+      <Error Key="ThreadAlreadyStarted" NativeErrorCode="50185" _locID="3.ThreadAlreadyStarted">Tentouse iniciar un subproceso que xa se iniciou.</Error>
+
+      <!-- Error thrown when a temporary file cannot be generated for swapping. -->
+      <Error Key="CannotGenerateTempFileName" Params="2" NativeErrorCode="50190" _locID="3.CannotGenerateTempFileName">Erro ao crear o ficheiro de intercambio temporal no directorio "%1%" debido ao erro %2%.</Error>
+
+      <!-- Error thrown when a temporary file cannot be generated for swapping. -->
+      <Error Key="CannotGenerateTempFileNoError" Params="1" NativeErrorCode="50191" _locID="3.CannotGenerateTempFileNoError">Erro ao crear o ficheiro de intercambio temporal no directorio "%1%".</Error>
+
+      <!-- Error thrown when name for file is invalid.  -->
+      <Error Key="InvalidFileName" NativeErrorCode="50200" _locID="3.InvalidFileName">O nome do ficheiro non é válido.</Error>
+
+      <!-- Error thrown when text file position cannot be set.  -->
+      <Error Key="CannotSetFilePosition" NativeErrorCode="50210" _locID="3.CannotSetFilePosition">Non se pode configurar a posición do ficheiro.</Error>
+
+      <!-- Error thrown when the maximum size for code point is invalid (i.e too large). --> 
+      <Error Key="InvalidCodePtMaxSize" NativeErrorCode="50220" _locID="3.InvalidCodePtMaxSize">Tamaño máximo non válido para o punto de código.</Error>
+
+      <!-- Error thrown when there is an invalid number of code points in a buffer (i.e too many). --> 
+      <Error Key="InvalidNumCodePtInBuffer" NativeErrorCode="50230" _locID="3.InvalidNumCodePtInBuffer">Número non válido de puntos de código nun búfer.</Error>
+
+      <!-- Error thrown when the position in a buffer is invalid (i.e buffer overrun). --> 
+      <Error Key="InvalidBuffPos" NativeErrorCode="50240" _locID="3.InvalidBuffPos">Posición do búfer non válida.</Error>
+
+      <!-- Error thrown when output string will not align properly with the output byte buffer. --> 
+      <Error Key="StrByteAlignErr" NativeErrorCode="50250" _locID="3.StrByteAlignErr">A cadea de saída non se aliña correctamente co búfer de bytes de saída.</Error>
+
+      <!-- Error thrown when the endianness of the encoding is invalid for the platform (i.e. big endian for Windows, or for Unix on a little endian machine). --> 
+      <Error Key="InvalidEncodingEndianForPlatform" NativeErrorCode="50260" _locID="3.InvalidEncodingEndianForPlatform">Codificación Endianness non válida para a plataforma.</Error>
+
+      <!-- Error thrown when trying to set a buffer that hasn't been fully used yet, or when setting it with an invalid buffer. --> 
+      <Error Key="SetBuffErr" NativeErrorCode="50270" _locID="3.SetBuffErr">Estase a configurar un búfer que non usou por completo ou estase a configuralo cun búfer non válido.</Error>
+
+      <!-- Error thrown when given NULL for a parameter that should not be NULL. --> 
+      <Error Key="InvalidNullParam" NativeErrorCode="50280" _locID="3.InvalidNullParam">O parámetro non pode ser nulo.</Error>
+
+      <!-- Error thrown when ICU gives an error when creating a Unicode converter object. --> 
+      <Error Key="ICUCreateUConverterErr" Params="1" NativeErrorCode="50290" _locID="3.ICUCreateUConverterErr">Erro ao crear un obxecto de convertedor Unicode ICU para a codificación "%1%".</Error>
+
+      <!-- Error thrown when ICU gives an error when converting a string. --> 
+      <Error Key="ICUConvErr" NativeErrorCode="50300" _locID="3.ICUConvErr">Erro ao converter a cadea con ICU.</Error>
+
+      <!-- Error thrown when ICU gives an unrecognized conversion error. --> 
+      <Error Key="ICUConvErrNotRecog" NativeErrorCode="50310" _locID="3.ICUConvErrNotRecog">Erro de conversión de ICU non recoñecido.</Error>
+
+      <!-- Error thrown when ICU gives a bad input error. --> 
+      <Error Key="ICUBadInputErr" Params="2" NativeErrorCode="50311" _locID="3.ICUBadInputErr">Erro ao converter unha entrada non válida coa codificación de orixe %1% mediante ICU. Os bytes rexeitados comezaban por: %2%.</Error>
+
+      <!-- Error thrown when ICU gives an error using a regex. --> 
+      <Error Key="ICURegexError" Params="1" NativeErrorCode="50315" _locID="3.ICURegexError">Erro ao usar a expresión regular: %1%.</Error>
+
+      <!-- Error thrown when an unsupported code unit size is specified when retrieving data. --> 
+      <Error Key="UnsupportedCodeUnitSize" Params="1" NativeErrorCode="50320" _locID="3.UnsupportedCodeUnitSize">Tamaño de unidade de código (%1%) non compatible coa recuperación de datos.</Error>
+
+      <!-- Product License Errors and Warnings -->
+
+      <!-- Error thrown when license file is not found. -->
+      <Error Key="LicFileNotFound" Params="1" NativeErrorCode="50325" _locID="3.LicFileNotFound">Non se atopou o ficheiro de licenza "%1%". Póñase en contacto co administrador.</Error>
+
+      <!-- Error thrown when license file is corrupt. -->
+      <Error Key="LicFileCorrupt" Params="1" NativeErrorCode="50330" _locID="3.LicFileCorrupt">O ficheiro de licenza "%1%" está danado. Póñase en contacto co administrador.</Error>
+
+      <!-- Error thrown when evaluation is expired. -->
+      <Error Key="TrialPeriodExp" Params="1" NativeErrorCode="50340" _locID="3.TrialPeriodExp">A licenza caducou o %1%. Póñase en contacto co administrador.</Error>
+      
+      <!-- Error thrown when evaluation has not yet begun. -->
+      <Error Key="TrialPeriodNotBegun" Params="1" NativeErrorCode="50341" _locID="3.TrialPeriodNotBegun">O período de avaliación aínda non comezou, comezará o %1%. Póñase en contacto co administrador.</Error>
+
+      <!-- Warning posted when evaluation will expire soon. -->
+      <Error Key="TrialPeriodExpSoon" Params="1" NativeErrorCode="50342" _locID="3.TrialPeriodExpSoon">O período de avaliación caducará o %1%. Póñase en contacto co administrador.</Error>
+
+      <!-- Error thrown when an INI file contains a line that cannot be parsed. -->
+      <Error Key="IniParseError" Params="2" NativeErrorCode="50350" _locID="3.IniParseError">Erro de análise de INI na liña %1% de %2%.</Error>
+
+      <!-- Error thrown when the license check fails. -->
+      <Error Key="LicenseValidationFailure" Params="1" NativeErrorCode="50351" _locID="3.LicenseValidationFailure">Erro de validación da licenza: %1%. Contacte co administrador.</Error>
+      
+      <!-- Authentication failed for integrated security. -->
+      <Error Key="IntegratedSecurityAuthFailed" NativeErrorCode="50360" Params="1" _locID="3.IntegratedSecurityAuthFailed">Erro da autenticación de seguranza integrada: %1%</Error>
+
+      <!-- Integrated security failed to acquire local credentials. -->
+      <Error Key="FailedToAcquireCredentials" NativeErrorCode="50361" Params="1" _locID="3.FailedToAcquireCredentials">A seguranza integrada non puido conseguir as credenciais locais: %1%</Error>
+
+      <!-- Error thrown on failure to get username for integrated security. -->
+      <Error Key="FailedToGetUsername" NativeErrorCode="50363" Params="1" _locID="3.FailedToGetUsername">Non se puido obter o nome de usuario: %1%</Error>
+
+      <!-- Error thrown if attempting to change properties of a security context already in progress. -->
+      <Error Key="SecurityContextInProgress" NativeErrorCode="50364" _locID="3.SecurityContextInProgress">Non se poden modificar as propiedades do contexto de seguranza porque xa está en curso.</Error>
+
+      <!-- Error thrown if there is a failure establishing thread impersonation -->
+      <Error Key="ThreadImpersonationFailed" NativeErrorCode="50365" Params="1" _locID="3.ThreadImpersonationFailed">Erro ao activar a representación do subproceso: %1%</Error>
+
+      <!-- Error thown when gssapi lib delay load fails. -->
+      <Error Key="GSSAPILoadFailed" NativeErrorCode="50366" Params="1" _locID="3.GSSAPILoadFailed">Non se puido cargar a biblioteca de seguranza: %1%</Error>
+      
+      <!-- Error thown when attempting to use the security API on an unsupported platform. -->
+      <Error Key="NoSecurityAPI" NativeErrorCode="50367" Params="0" _locID="3.NoSecurityAPI">API de seguranza non compatible con esta plataforma. </Error>
+      
+      <!-- Error thown when an invalid TDWExactNumericType is detected. -->
+      <Error Key="InvalidNumeric" NativeErrorCode="50368" Params="0" _locID="3.InvalidNumeric">Erro ao validar o obxecto de TDWExactNumericType.</Error>
+
+      <!-- Error thrown when OpenSSL fails to load. -->
+      <Error Key="LibLoadErr" Params="2" NativeErrorCode="50400" _locID="3.LibLoadErr">Non se puido cargar a biblioteca dinámica ou compartida "%1%": "%2%".</Error>
+      
+      <!-- Error thrown when OpenSSL fails to load. -->
+      <Error Key="LibFunctLoadErr" Params="2" NativeErrorCode="50401" _locID="3.LibFunctLoadErr">Non se puido cargar a función "%2%" da biblioteca dinámica ou compartida "%1%".</Error>
+      
+      <!-- Error thrown when OpenSSL fails to load. -->
+      <Error Key="SwapFileEncryptErr" Params="2" NativeErrorCode="50402" _locID="3.SwapFileEncryptErr">Erro interno ao cifrar ou descifrar o ficheiro de intercambio: chamada a "%1%", motivo "%2%".</Error>
+      
+      <!-- Error thrown when the total swap file disk space has reached the limit. -->
+      <Error Key="SwapLimitErr" NativeErrorCode="50403" _locID="3.SwapLimitErr">Alcanzouse o límite de espazo total no disco de ficheiros de intercambio.</Error>
+
+      <!-- Error and warnings with establishing connection to data source. -->
+      <!-- Error thrown when the connection string is not of valid form. -->
+      <Error Key="InvalidConnStr" NativeErrorCode="50404" _locID="3.InvalidConnStr">Cadea de conexión non válida.</Error>
+      
+      <!-- Error generated when an instance of Simba::Support::Promise is destroyed before it it used to set it's corresponding Future's value/exception. -->
+      <Error Key="FutureNotSetAtPromiseDestruction" NativeErrorCode="50410" _locID="3.FutureNotSetAtPromiseDestruction">Non se configurou o valor futuro ou erro antes de destruír o obxecto de compromiso principal.</Error>
+      
+      <!-- Error thrown when it's attempted to set a Future multiple times. -->
+      <Error Key="FutureAlreadySet" NativeErrorCode="50411" _locID="3.FutureAlreadySet">Tentouse configurar un valor ou erro futuro despois de que xa se configurara.</Error>
+      
+      <!-- Error thrown when Future::Get is called on an un-set future. -->
+      <Error Key="FutureNotSet" NativeErrorCode="50412" _locID="3.FutureNotSet">Tentouse configurar un valor ou erro futuro despois de que xa se configurara.</Error>
+      
+      <!-- Error generated when a BlockingQueueSource object is destroyed before it explicitly finishes the queue associated with it. -->
+      <Error Key="BlockingQueueNotFinished" NativeErrorCode="50420" _locID="3.BlockingQueueNotFinished">O obxecto BlockingQueueSource destruíuse antes de que finalizase explicitamente a súa fila.</Error>
+      
+      <!-- Error thrown when trying to push to/finish a BlockingQueue that was already finished. -->
+      <Error Key="BlockingQueueAlreadyFinished" NativeErrorCode="50421" _locID="3.BlockingQueueAlreadyFinished">Tentouse Push() ou Finish() unha BlockingQueue que xa finalizara.</Error>
+      
+      <!-- Error thrown when there's an error in FileSystemUtils::GetSubdirectories() -->
+      <Error Key="GetSubdirectoriesErr" Params="2" NativeErrorCode="50430" _locID="3.GetSubdirectoriesErr">Erro ao tentar obter os subdirectorios de "%1%": %2%</Error>
+      
+      <!-- Error thrown when there's a error in SqlTypeMetadata::CheckValidity() -->
+      <Error Key="CheckValidityFailed" Params="1" NativeErrorCode="50440" _locID="3.CheckValidityFailed">Erro ao comprobar a coherencia dos tipos: %1%</Error>
+	  
+      <!-- Error thrown when an ICU function fails -->
+      <Error Key="ICUError" Params="2" NativeErrorCode="50450" _locID="3.ICUError">A función ICU %1% xerou o erro %2%</Error>
+
+      <!-- Error thrown when casting fails -->
+      <Error Key="NumberCastError" Params="7" NativeErrorCode="50460" _locID="3.NumberCastError">Erro de conversión: valor de orixe: (%1%), tipo de orixe: (%2%), tipo de destino: (%3%). Erro de comprobación: (%4%). Función: (%5%), liña: (%6%), ficheiro: (%7%).</Error>
+      
+      <!-- Error thrown when there's an error in FileHandler::FindOldestExistingFile()-->
+      <Error Key="GetFileErr" Params="2" NativeErrorCode="50470" _locID="3.GetFileErr">Erro ao tentar obter o ficheiro de "%1%": %2% </Error>
+      
+    </Package>
+</Messages>

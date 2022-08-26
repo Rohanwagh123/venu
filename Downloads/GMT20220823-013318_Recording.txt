@@ -1,0 +1,97 @@
+00:03:12	Kiran Mhaske:	Kiran Mhaske
+00:03:21	Megha Bhangale:	Megha Bhangale
+00:03:22	Rohit Losarwar:	Rohit Losarwar
+00:03:26	Vivek Pawar:	Vivek Pawar
+00:03:26	Akshay ade:	Akshay Ade
+00:03:39	Ashwin Hanuman Betal:	Ashwin Betal
+00:03:50	Ajinkya Aglave:	Ajinkya Aglave
+00:03:58	Sushil Mokale:	Sushil Mokale
+00:04:08	Amruta Mahajan:	Amruta Mahajan
+00:04:08	Amar Biradar:	Amar Biradar
+00:04:19	prashant patil:	prashant patil
+00:04:30	Krushna Rajput:	Krushna Rajput
+00:04:47	Junaid Ahmed:	Junaid Ahmed
+00:04:50	shubham bhedurkar:	Shubham bhedurkar
+00:05:05	Manasi Pandit:	Manasi Pandit
+00:05:34	Pavan Karagir:	Pavan Karagir
+00:05:56	karan patil:	Karan Patil
+00:06:02	Abhijit Dafal:	Abhijit Dafal
+00:06:11	Swapnil Solanke:	swapnil solanke
+00:06:13	Rushikesh Dhangar:	Rushikesh Dhangar
+00:06:17	Sapna Vitthal kawate:	sapna kawate
+00:06:17	Monika Kulkarni:	monika kulkarni
+00:06:19	Akshay  Wagh:	Akshay Wagh
+00:06:28	Akshay Jadhao:	Akshay Jadhao
+00:06:45	Ganesh Lungade:	Ganesh Lungade
+00:06:47	Sayli Nikumbh:	Sayli Nikumbh
+00:06:51	Kalpesh Patil:	Kalpesh Patil
+00:06:52	Mayuresh Kulkarni:	Mayuresh Kulkarni
+00:06:58	Vishal Tak:	Vishal Tak
+00:07:00	Vishvajit Page:	Vishvajit Page
+00:07:12	Vrushali Bhople:	vrushali bhople
+00:07:46	Ganesh Jadhav:	GANESH JADHAV
+00:07:47	suraj maske:	suraj maske
+00:08:10	Jivan Tathe:	Jivan Tathe
+00:08:14	Ankush Chavan:	ankush chavan
+00:08:16	Suraj madhewad:	SURAJ MADHEWAD
+00:08:40	Akash Ugale:	AKASH UGALE
+00:08:56	Chaitanya S Harne:	Chaitanya S Harne
+00:09:09	diksha sahane:	Diksha sahane
+00:09:16	Shubham Shrikhande:	ShubhamShrikhande
+00:09:27	Ajay  wadile:	Ajay wadile
+00:09:31	rahul thorat:	Rahul Thorat
+00:09:35	Nidhi Agrawal:	Nidhi Agrawal
+00:09:48	deepesh singh:	Deepesh singh
+00:09:50	Jayraj Kakde:	jayraj kakde
+00:10:11	Abhijeet Patil:	Abhijeet patil
+00:10:26	Mohini Bhojane:	Mohini Bhojane
+00:10:29	Himanshu Salunkhe:	Himanshu Salunkhe
+00:10:34	Mohit Chobe:	Mohit Chobe
+00:10:42	Sujay Wagh:	sujay wagh
+00:10:44	Payal partude:	payal partude
+00:10:55	Kiran Raut:	kiran raut
+00:11:00	Jaykumar Pathak:	jaykumar pathak
+00:11:42	sreyobhilashi IT:	def daystoyrmndays(nums):    yrs = int(nums / 365)    mon = int((nums % 365) / 30)    days = int((nums % 365) % 30)    result = yrs, "years" , mon , "months" , days, "days"    st = ''.join(map(str, result))    return studffunc = udf(daystoyrmndays).withColumn("daystoyrmon", udffunc(col("dtdiff")))
+00:12:05	Deepak Lagas:	Deepak Lagas
+00:12:24	Suraj Jagtap:	Suraj Jagtap
+00:12:39	Pankaj Rathod:	pankaj rathod
+00:13:11	Shrikant sapkal:	shrikant sapkal
+00:13:33	Varsha Sagde:	Varsha Sagde
+00:13:40	Pramod Chavan:	Pramod Chavan
+00:13:44	Akshay Kere:	Akshay Kere
+00:14:49	sreyobhilashi IT:	jdbc:mysql://sravanthidb.c7nqndsntouw.us-east-1.rds.amazonaws.com:3306/sravanthidb
+00:14:59	sreyobhilashi IT:	myuser
+00:15:02	sreyobhilashi IT:	mypassword
+00:18:11	Sahil Parbat:	sahil parbat
+00:18:26	Supriya Salve:	Supriya salve
+00:18:27	Vidya Magar:	Vidya Magar
+00:18:34	Pradeep Kathar:	pradeep Kathar
+00:18:51	omkar phansalkar:	Omkar Phansalkar
+00:18:53	Asma Shaikh:	Asma Shaikh
+00:19:02	vinayak kathar:	Vinayak kathar
+00:20:32	Pooja Shinde:	pooja shinde
+00:20:48	Deepali  Jadhav:	Deepali jadhav
+00:20:51	Shubham gaikwad:	Shubham gaikwad
+00:21:17	Asif Baig:	Asif Baig
+00:21:39	Akshay Jagtap:	Akshay Jagtap
+00:22:47	sreyobhilashi IT:	host="jdbc:mysql://sravanthidb.c7nqndsntouw.us-east-1.rds.amazonaws.com:3306/sravanthidb"uname="myuser"pwd="mypassword"df=spark.read.format("jdbc").option("url",host)\    .option("dbtable","emp").option("user",uname).option("password",pwd)\    .option("driver","com.mysql.jdbc.Driver").load()df.show()
+00:31:07	Om Pande:	Omkar Pande
+00:31:22	Akash Suryabhan Sapkal:	Akash S Sapkal
+00:31:53	Saurabh G Patil:	Saurabh G Patil
+00:35:57	Pankaj Rathod:	yes sir
+00:36:21	Asif Baig:	from where copy URL
+00:36:49	Krushna Rajput:	rds database endpoint
+00:45:26	Shubham Daud:	from pyspark.sql.types import 
+?
+00:45:55	Sushil Mokale:	from pyspark.sql.types import *
+00:50:50	Chinmay Naik:	dateformat
+00:50:55	Rohan wagh:	MMM
+00:56:10	Santhosh Badam:	apply to_date
+01:22:39	Shubham Shrikhande:	Exception: Java gateway process exited before sending its port number
+01:22:55	Rahul Bugade:	sir share this code
+01:38:44	Pankaj Rathod:	clear sir
+01:44:41	sreyobhilashi IT:	[cred]host =jdbc:mysql://sravanthidb.c7nqndsntouw.us-east-1.rds.amazonaws.com:3306/sravanthidb?useSSL=falseuser=myuserpass=mypassword[input]data=C:\bigdata\datasets-20220727T095200Z-001\datasets\10000Records.csvopdata=C:\bigdata\datasets-20220727T095200Z-001\datasets\\opdata[pro]qry1=select * from tab where
+01:45:48	Chinmay Naik:	how to filter impure data? like jan 1 2012,01-feb-2022, 01-12-1999 ? do we have to use udf? if yes please show an example
+01:51:36	Pankaj Rathod:	for loop
+01:51:45	Pankaj Rathod:	we can use
+02:13:33	Pankaj Rathod:	plz share vdo asap
